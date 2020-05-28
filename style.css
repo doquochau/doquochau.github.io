@@ -8,10 +8,20 @@
 	font-family: 'Asap', sans-serif;
 /*	background: red;*/
 }
+input[type="text"] {
+      width: 500px;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: 5px;
+      outline:none;
+      padding: 10px 14px;
+	  margin-top: 45px;
+	margin-left:50px
+    }
 #mot{
 	width: 1920px;
 	height: 180px;
-	background: gray;
+/*	background: gray;*/
 }
 #mot #motmot #motmotmot img{
 	width: 30px;
@@ -29,48 +39,52 @@
 #motmot{
 	width: 1920px;
 	height: 50px;
-	background: white;
+/*	background: white;*/
 }
 
 #motmotmot{
 	width: 960px;
 	height: 50px;
-	background: #EB7476;
+/*	background: black;*/
 	float: left;
 }
 #motmothai{
 	width: 960px;
 	height: 50px;
-	background: #9E35C5;
-	float: right;
+/*	background: #9E35C5;*/
+	float: left;
 }
 #mot #motmot #motmothai p1{
 	float: left;
-	line-height: 50px;
+	line-height: 60px;
 	margin-left: 600px;
 	font-size: 17px;
 }
 #mot #motmot #motmothai p2{
 	float: left;
-	line-height: 50px;
 	margin-left: 30px;
+	line-height: 60px;
 	font-size: 17px;
 }
 #mothai{
 	width: 1920px;
 	height: 130px;
-	background: blue;
+/*	background: blue;*/
 }
 #mothaimot{
 	width: 240px;
 	height: 130px;
-	background: #EAEAF6;
+/*	background: #EAEAF6;*/
 	float: left;
+}
+#mot #mothai #mothaimot img{
+	margin-top: 50px;
+	margin-left: 20px;
 }
 #mothaihai{
 	width: 775px;
 	height: 130px;
-	background: #56B7C3;
+/*	background: #56B7C3;*/
 	float: left;
 }
 #mot #mothai #mothaihai ul li {
@@ -88,35 +102,76 @@
 #mothaiba{
 	width: 300px;
 	height: 130px;
-	background: #487C23;
+/*	background: #487C23;*/
 	float: left;
+}
+#mot #mothai #mothaiba ul li{
+    float: left;
+	list-style: none;
+	display: inline-block;
+	line-height: 130px;
+	}
+#mot #mothai #mothaiba a{
+	font-size: 30px;
+	margin: 15px;
+	line-height: 130px;
 }
 #mothaibon{
 	width: 605px;
 	height: 130px;
-	background: #5252BF;
+/*	background: #5252BF;*/
 	float: left;
 }
 #hai{
 	width: 1920px;
 	height: 650px;
-	background: black;
+/*	background: black;*/
 }
 #haimot{
 	width: 1920px;
 	height: 500px;
-	background: pink;
+/*	background: pink;*/
+}
+#hai #haimot img{
+	width: 1920px;
+	height: 500px;
 }
 #haihai{
 	width: 1920px;
 	height: 130px;
-	background: pink;
-	margin-top: 20px;
+/*	background: pink;*/
+	margin-top: 30px;
+}
+#hai #haihai ul li{
+	float: left;
+	list-style: none;
+	display: inline-block;
+	line-height: 130px;
+	margin-left: 80px;
+}
+#hai #haihai ul li a{
+   	text-decoration: none;
+	
 }
 #ba{
 	width: 1920px;
 	height: 250px;
-	background: red;
+	background: #1A1A1A;
 }
+#ba a1{
+	float:left;
+	margin-left: 700px;
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+}
+#ba a2{
+	float:left;
+	margin-left: 550px;
+	font-size: 20px;
+	color: white;
+	}
+
+
 /* CSS Document */
 
