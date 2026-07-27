@@ -1,5 +1,13 @@
 window.searchIndex = [
   {
+    "title": "Quần Baggy Cho Người Thấp: Chọn Form Nào Không Dìm Dáng?",
+    "url": "/blog/quan-baggy-cho-nguoi-thap.html",
+    "type": "Journal",
+    "description": "Quần baggy cho người thấp nên chọn cạp, đũng, ống và chiều dài nào? Dùng bảng lọc form, checklist size và ảnh thật để mua online không dìm dáng.",
+    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
+    "keywords": "quần baggy cho người thấp, người thấp mặc quần baggy, quần baggy nữ thấp, quần baggy cho nấm lùn, chọn size quần baggy, baggy cạp cao nữ, quần baggy không dìm dáng, mua quần baggy online Quần Baggy Cho Người Thấp: Chọn Form Nào Không Dìm Dáng? Petite Fit Board mua hàng chuyển đổi buyer guide"
+  },
+  {
     "title": "Quần Cargo Vải Dù Hay Kaki? Mua Loại Nào?",
     "url": "/blog/quan-cargo-vai-du-hay-kaki.html",
     "type": "Journal",
