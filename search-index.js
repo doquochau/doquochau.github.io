@@ -1,5 +1,13 @@
 window.searchIndex = [
   {
+    "title": "Áo Corset Nữ Mua Ở Đâu? Cách Chọn Không Sai Form",
+    "url": "/blog/ao-corset-nu-mua-o-dau.html",
+    "type": "Journal",
+    "description": "Áo corset nữ mua ở đâu và chọn shop thế nào? Kiểm tra gọng, cúp, dây buộc, chất vải, bảng size, ảnh thật và đổi trả trước khi đặt mua online.",
+    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+    "keywords": "áo corset nữ mua ở đâu, mua áo corset nữ, corset top nữ, áo corset shopee, corset nữ đẹp, chọn size corset, shop corset nữ, corset dark feminine Áo Corset Nữ Mua Ở Đâu? Cách Chọn Không Sai Form Corset Risk Desk mua hàng chuyển đổi buyer guide"
+  },
+  {
     "title": "Quần Baggy Cho Người Thấp: Chọn Form Nào Không Dìm Dáng?",
     "url": "/blog/quan-baggy-cho-nguoi-thap.html",
     "type": "Journal",
