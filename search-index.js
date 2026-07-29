@@ -1,4 +1,12 @@
 window.searchIndex = [
+{
+  "title": "Áo Khoác Bomber Nữ Mua Ở Đâu? Cách Chọn Form Đáng Tiền",
+  "url": "/blog/ao-khoac-bomber-nu-mua-o-dau.html",
+  "type": "Journal",
+  "description": "Áo khoác bomber nữ mua ở đâu và chọn form nào? Kiểm tra vai, bo rib, chất vải, lớp lót, khóa kéo, bảng size, ảnh thật và đổi trả trước khi đặt mua.",
+  "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
+  "keywords": "áo khoác bomber nữ mua ở đâu, mua áo bomber nữ, áo bomber nữ đẹp, bomber jacket nữ, áo khoác bomber local brand, áo bomber nữ Shopee, chọn size áo bomber, bomber streetwear nữ Áo Khoác Bomber Nữ Mua Ở Đâu? Cách Chọn Form Đáng Tiền Outerwear Inspection Bay mua hàng chuyển đổi buyer guide"
+},
   {
     "title": "Áo Corset Nữ Mua Ở Đâu? Cách Chọn Không Sai Form",
     "url": "/blog/ao-corset-nu-mua-o-dau.html",
