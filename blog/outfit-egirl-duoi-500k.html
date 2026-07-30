@@ -121,91 +121,89 @@ footer{box-sizing:border-box!important}footer a,footer .trust-links a{min-width:
  .decision-row,.wear-row,.spec-row,.blueprint-row,.context-row,.gate-row,.motion-step,.score-row,.fit-point,.code-strip,.ladder>div{grid-template-columns:minmax(0,1fr)!important;gap:8px!important}.decision-row>*,.wear-row>*,.spec-row>*,.blueprint-row>*,.context-row>*,.gate-row>*,.motion-step>*,.score-row>*,.fit-point>*,.code-strip>*,.ladder>div>*{grid-column:1!important;width:auto!important}.spec-row em,.spec-row b,.spec-row span{grid-column:1!important}.score-grid,.budget-grid,.signal-grid,.axis-grid,.traffic-grid,.fit-map,.decision-board,.spec-grid{grid-template-columns:minmax(0,1fr)!important}
 }
 @media(max-width:420px){.article-title{font-size:clamp(28px,9.4vw,38px)!important}.article-content{padding-left:14px!important;padding-right:14px!important}.btn{padding:0 9px!important}.internal-link-hub{padding:20px 16px!important}}
-</style><style id="apcl-h1-cover-text-order">/* APCL 2026-07-30: consistent article order — H1 → cover → text */
+</style><style id="apcl-final-layout-standard-20260730">
+/* APCL FINAL BLOG STANDARD — homepage-sized header + bounded cover — 2026-07-30 */
+header{
+  display:flex!important;align-items:center!important;justify-content:space-between!important;
+  gap:16px!important;padding:18px 32px!important;min-height:0!important;height:auto!important;
+  border-bottom:1px solid #222!important;position:sticky!important;top:0!important;
+  background:rgba(10,10,10,.95)!important;backdrop-filter:blur(8px)!important;
+  -webkit-backdrop-filter:blur(8px)!important;z-index:1000!important;box-sizing:border-box!important;
+}
+header .logo-wrap{
+  display:flex!important;align-items:center!important;gap:12px!important;text-decoration:none!important;
+  flex:0 0 auto!important;min-width:0!important;line-height:1!important;
+}
+header .logo-wrap img:first-child{
+  display:block!important;width:44px!important;height:44px!important;min-width:44px!important;
+  max-width:44px!important;object-fit:contain!important;flex:0 0 44px!important;
+}
+header .logo-wrap img:last-child{
+  display:block!important;width:auto!important;height:32px!important;max-width:none!important;
+  object-fit:contain!important;mix-blend-mode:screen!important;flex:0 0 auto!important;
+}
+header nav{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:8px!important;min-width:0!important}
+header .btn{
+  font-family:'Space Mono',monospace!important;font-size:11px!important;letter-spacing:.12em!important;
+  height:36px!important;min-height:36px!important;padding:0 16px!important;border:1px solid #333!important;
+  background:transparent!important;color:var(--white,#f0ece4)!important;cursor:pointer!important;
+  text-transform:uppercase!important;text-decoration:none!important;display:inline-flex!important;
+  align-items:center!important;justify-content:center!important;gap:6px!important;line-height:1!important;
+  white-space:nowrap!important;box-sizing:border-box!important;
+}
+header .btn:hover,header .btn:focus-visible{background:var(--white,#f0ece4)!important;color:var(--black,#0a0a0a)!important;border-color:var(--white,#f0ece4)!important}
+header .btn.btn-icon-only{width:30px!important;min-width:30px!important;padding:0!important}
+header .nav-icon{font-size:16px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;width:16px!important;height:16px!important;line-height:1!important}
+header .dropdown{position:relative!important;display:inline-flex!important;align-items:center!important}
+
+/* One reliable cover frame for every article. It is always H1 -> cover -> text. */
+main>.apcl-standard-cover{
+  width:min(calc(100% - 48px),820px)!important;max-width:820px!important;
+  margin:0 auto clamp(40px,6vw,68px)!important;padding:0!important;box-sizing:border-box!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  overflow:hidden!important;border:1px solid var(--border,#222)!important;
+  background:var(--grey,#0f0f0f)!important;float:none!important;clear:both!important;
+}
+main>.apcl-standard-cover .article-cover-inner{
+  width:100%!important;max-width:100%!important;margin:0!important;padding:0!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  overflow:hidden!important;border:0!important;background:transparent!important;
+}
+main>.apcl-standard-cover img.apcl-standard-cover-image,
+main>.apcl-standard-cover .blog-cover-image{
+  display:block!important;width:auto!important;max-width:100%!important;height:auto!important;
+  max-height:720px!important;min-width:0!important;min-height:0!important;aspect-ratio:auto!important;
+  object-fit:contain!important;object-position:center center!important;margin:0 auto!important;
+  filter:none!important;float:none!important;
+}
 .article-hero{padding-bottom:clamp(24px,4vw,44px)!important}
 .article-hero>.article-title{margin-bottom:0!important}
-main>.article-cover,main>.hero-img-wrap{
-  width:min(calc(100% - 48px),820px)!important;
-  max-width:820px!important;
-  margin:0 auto clamp(40px,6vw,72px)!important;
-  padding:0!important;
-  box-sizing:border-box!important;
-  overflow:hidden!important;
-}
-main>.article-cover .article-cover-inner,
-main>.hero-img-wrap{
-  width:100%!important;
-  max-width:none!important;
-  margin:0!important;
-  padding:0!important;
-  border:1px solid var(--border,#222)!important;
-  background:var(--grey,#141414)!important;
-  overflow:hidden!important;
-}
-main>.article-cover img,
-main>.hero-img-wrap img,
-main>.article-cover .blog-cover-image,
-main>.hero-img-wrap .blog-cover-image{
-  display:block!important;
-  width:100%!important;
-  max-width:100%!important;
-  height:auto!important;
-  max-height:none!important;
-  min-height:0!important;
-  aspect-ratio:auto!important;
-  object-fit:contain!important;
-  object-position:center center!important;
-  margin:0!important;
-}
-.article-content>.post-cover-lead{
-  display:block!important;
-  width:100%!important;
-  max-width:none!important;
-  margin:0 0 28px!important;
-  padding:0!important;
-  text-align:left!important;
-  line-height:1.9!important;
-}
-.article-content>.article-author.post-cover-lead{
-  color:var(--muted,#888)!important;
-  font-size:11px!important;
-  letter-spacing:.1em!important;
-  text-transform:uppercase!important;
-}
-.article-content>.article-subtitle.post-cover-lead,
-.article-content>.article-desc.post-cover-lead{
-  color:#d0d0d0!important;
-  font-size:clamp(14px,1.6vw,17px)!important;
-}
+
 @media(max-width:768px){
-  .article-hero{padding-bottom:22px!important}
-  main>.article-cover,main>.hero-img-wrap{
-    width:calc(100% - 24px)!important;
-    margin-bottom:32px!important;
+  header{padding:14px 16px!important;gap:8px!important}
+  header nav{gap:4px!important}
+  header .btn{height:30px!important;min-height:30px!important;padding:0 10px!important;font-size:9px!important;letter-spacing:.05em!important}
+  header .btn.btn-icon-only{width:30px!important;min-width:30px!important;padding:0!important}
+  header .logo-wrap{gap:12px!important}
+  header .logo-wrap img:first-child{width:36px!important;height:36px!important;min-width:36px!important;max-width:36px!important;flex-basis:36px!important}
+  header .logo-wrap img:last-child{height:22px!important;width:auto!important;max-width:none!important}
+  main>.apcl-standard-cover{
+    width:calc(100% - 24px)!important;max-width:820px!important;margin-bottom:32px!important;
+    min-height:0!important;
   }
-  main>.article-cover img,
-  main>.hero-img-wrap img{
-    width:100%!important;
-    height:auto!important;
-    max-height:none!important;
-    object-fit:contain!important;
+  main>.apcl-standard-cover img.apcl-standard-cover-image,
+  main>.apcl-standard-cover .blog-cover-image{
+    width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;
   }
-  .article-content>.post-cover-lead{margin-bottom:22px!important}
-}</style><style id="blog-header-logo-fix-20260730">
-header{min-height:60px!important;box-sizing:border-box!important}
-header .logo-wrap{display:inline-flex!important;align-items:center!important;gap:8px!important;flex:0 0 auto!important;min-width:0!important;line-height:1!important}
-header .logo-wrap img:first-child{display:block!important;width:32px!important;height:32px!important;min-width:32px!important;max-width:32px!important;object-fit:contain!important;flex:0 0 32px!important}
-header .logo-wrap img:last-child{display:block!important;width:auto!important;height:20px!important;max-width:70px!important;object-fit:contain!important;flex:0 0 auto!important}
-header nav{min-width:0!important}
-@media(max-width:768px){
-  header{min-height:54px!important;padding-top:10px!important;padding-bottom:10px!important}
-  header .logo-wrap{gap:6px!important}
-  header .logo-wrap img:first-child{width:28px!important;height:28px!important;min-width:28px!important;max-width:28px!important;flex-basis:28px!important}
-  header .logo-wrap img:last-child{height:17px!important;max-width:60px!important}
+}
+@media(max-width:420px){
+  header{padding-left:12px!important;padding-right:12px!important}
+  header .logo-wrap{gap:8px!important}
+  header .btn{padding:0 8px!important}
 }
 </style></head>
-<body><a class="skip-link" href="#main-content">Bỏ qua điều hướng</a><header><a class="logo-wrap" href="../index.html"><img alt="Apocalypse Closet Logo" decoding="async" loading="eager" src="../Logo-Apocalypse-Closet.webp" width="32" height="32"/><img alt="Apocalypse Closet" decoding="async" loading="eager" src="../wordmark.webp" width="70" height="20"/></a><nav aria-label="Điều hướng chính"><a class="btn" href="../blog.html">← Blog</a><div class="dropdown"><button class="btn" type="button">Style ↓</button><div class="dropdown-content"><a href="../style/dark-feminine.html">Dark Feminine</a><a href="../style/egirl.html">E-Girl / Alt Girl</a><a href="../style/goth.html">Goth / Gothic</a><a href="../style/baddie-streetwear.html">Baddie Streetwear</a><a href="../style/punk.html">Punk / Grunge</a></div></div><a aria-label="Mở Closet" class="btn btn-icon-only" href="../closet.html" id="nav-closet-btn"><span class="nav-icon" id="nav-closet-icon">♡</span><span class="text-hide">Closet</span></a></nav></header>
-<main id="main-content" tabindex="-1"><div class="article-hero"><div class="article-meta-top"><span>Apocalypse Closet</span><span class="dot"></span><span>Budget Stack</span><span class="dot"></span><span>26 Jul 2026</span></div><h1 class="article-title">Outfit E-Girl Dưới 500K: Chia Ngân Sách Sao?</h1></div><div class="article-cover"><div class="article-cover-inner"><img alt="Outfit E-Girl nữ tông tối với áo ôm, quần rộng và phụ kiện bạc" class="blog-cover-image" data-pin-media="https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp" decoding="async" fetchpriority="high" height="1536" loading="eager" sizes="(max-width: 768px) calc(100vw - 32px), 1024px" src="/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp" srcset="/images-mobile-hd/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp 480w, /images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp 1024w" width="1024"/></div></div>
+<body><a class="skip-link" href="#main-content">Bỏ qua điều hướng</a><header><a class="logo-wrap" href="../index.html"><img alt="Apocalypse Closet Logo" decoding="async" height="44" loading="eager" src="../Logo-Apocalypse-Closet.webp" style="height:44px;width:auto;object-fit:contain;" width="44"/><img alt="Apocalypse Closet" decoding="async" height="32" loading="eager" src="../wordmark-hd.webp" style="height:32px;width:auto;object-fit:contain;mix-blend-mode:screen;" width="70"/></a><nav aria-label="Điều hướng chính"><a class="btn" href="../blog.html">← Blog</a><div class="dropdown"><button class="btn" type="button">Style ↓</button><div class="dropdown-content"><a href="../style/dark-feminine.html">Dark Feminine</a><a href="../style/egirl.html">E-Girl / Alt Girl</a><a href="../style/goth.html">Goth / Gothic</a><a href="../style/baddie-streetwear.html">Baddie Streetwear</a><a href="../style/punk.html">Punk / Grunge</a></div></div><a aria-label="Mở Closet" class="btn btn-icon-only" href="../closet.html" id="nav-closet-btn"><span class="nav-icon" id="nav-closet-icon">♡</span><span class="text-hide">Closet</span></a></nav></header>
+<main id="main-content" tabindex="-1"><div class="article-hero"><div class="article-meta-top"><span>Apocalypse Closet</span><span class="dot"></span><span>Budget Stack</span><span class="dot"></span><span>26 Jul 2026</span></div><h1 class="article-title">Outfit E-Girl Dưới 500K: Chia Ngân Sách Sao?</h1></div><div class="article-cover apcl-standard-cover"><div class="article-cover-inner"><img alt="Outfit E-Girl nữ tông tối với áo ôm, quần rộng và phụ kiện bạc" class="blog-cover-image apcl-standard-cover-image" data-pin-media="https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp" decoding="async" fetchpriority="high" height="1536" loading="eager" sizes="(max-width: 768px) calc(100vw - 32px), 1024px" src="/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp" srcset="/images-mobile-hd/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp 480w, /images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp 1024w" width="1024"/></div></div>
 <article class="article-content buyer-guide" style="--buyer-accent:#ff7eb8"><div class="article-author post-cover-lead">By <span>Apocalypse Closet</span></div>
 <div class="answer-first"><small>Bài toán 500K</small><p>Một <strong>outfit E-Girl dưới 500K</strong> có khả năng mặc lại cao cần một món nền đang có sẵn, một món tạo silhouette và một món nhận diện. Không nên chia đều tiền cho năm món; hãy dồn ngân sách vào phần người nhìn thấy đầu tiên.</p></div>
 <h2>Bắt Đầu Từ Những Gì Đã Có Trong Tủ</h2>
