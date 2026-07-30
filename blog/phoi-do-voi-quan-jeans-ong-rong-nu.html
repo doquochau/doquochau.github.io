@@ -228,13 +228,25 @@ main>.hero-img-wrap .blog-cover-image{
     object-fit:contain!important;
   }
   .article-content>.post-cover-lead{margin-bottom:22px!important}
-}</style></head>
+}</style><style id="blog-header-logo-fix-20260730">
+header{min-height:60px!important;box-sizing:border-box!important}
+header .logo-wrap{display:inline-flex!important;align-items:center!important;gap:8px!important;flex:0 0 auto!important;min-width:0!important;line-height:1!important}
+header .logo-wrap img:first-child{display:block!important;width:32px!important;height:32px!important;min-width:32px!important;max-width:32px!important;object-fit:contain!important;flex:0 0 32px!important}
+header .logo-wrap img:last-child{display:block!important;width:auto!important;height:20px!important;max-width:70px!important;object-fit:contain!important;flex:0 0 auto!important}
+header nav{min-width:0!important}
+@media(max-width:768px){
+  header{min-height:54px!important;padding-top:10px!important;padding-bottom:10px!important}
+  header .logo-wrap{gap:6px!important}
+  header .logo-wrap img:first-child{width:28px!important;height:28px!important;min-width:28px!important;max-width:28px!important;flex-basis:28px!important}
+  header .logo-wrap img:last-child{height:17px!important;max-width:60px!important}
+}
+</style></head>
 <body>
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header>
 <a class="logo-wrap" href="../index.html">
-<img alt="Apocalypse Closet — Badgirl Aesthetic &amp; Dark Fashion" decoding="async" height="88" loading="eager" src="../Logo-Apocalypse-Closet.webp" style="height:44px;width:auto;object-fit:contain;" width="88"/>
-<img alt="Apocalypse Closet" decoding="async" height="32" loading="eager" src="../wordmark.webp" style="height:32px;width:auto;object-fit:contain;mix-blend-mode:screen;" width="70"/>
+<img alt="Apocalypse Closet — Badgirl Aesthetic &amp; Dark Fashion" decoding="async" loading="eager" src="../Logo-Apocalypse-Closet.webp" style="height:44px;width:auto;object-fit:contain;" width="32" height="32"/>
+<img alt="Apocalypse Closet" decoding="async" loading="eager" src="../wordmark.webp" width="70" height="20"/>
 </a>
 <nav aria-label="Điều hướng chính">
 <a class="btn" href="../blog.html">← BLOG</a>
