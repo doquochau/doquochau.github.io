@@ -1,5 +1,53 @@
 window.searchIndex = [
 {
+  "title": "Balletcore Là Gì? Đọc Chuyển Động, Tulle Và Ballet Flats",
+  "url": "/blog/balletcore-la-gi.html",
+  "type": "Journal",
+  "description": "Balletcore là gì? Giải mã chuyển động, chất liệu mềm, ballet flats, wrap top và cách phân biệt Balletcore với Coquette hay Sporty Chic.",
+  "image": "/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp",
+  "keywords": "balletcore là gì, phong cách balletcore, balletcore nữ, ballet flats, váy tulle, wrap top, leg warmers, ballet aesthetic Movement Notes aesthetic fashion"
+},
+{
+  "title": "Office Siren Là Gì? Khi Trang Phục Công Sở Trở Nên Sắc Lạnh",
+  "url": "/blog/office-siren-la-gi.html",
+  "type": "Journal",
+  "description": "Office Siren là gì? Giải mã blazer ôm, chân váy bút chì, kính Bayonetta và ranh giới giữa thẩm mỹ công sở với trang phục phù hợp môi trường làm việc.",
+  "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
+  "keywords": "office siren là gì, phong cách office siren, office siren outfit, corpcore, bayonetta glasses, thời trang công sở nữ, dark feminine công sở Power Dressing File aesthetic fashion"
+},
+{
+  "title": "Clean Girl Aesthetic Là Gì? Tối Giản Nhưng Không Vô Hình",
+  "url": "/blog/clean-girl-aesthetic-la-gi.html",
+  "type": "Journal",
+  "description": "Clean Girl Aesthetic là gì? Phân tích bảng màu, form, chất liệu và lý do tối giản khác với mặc nhạt, đồng thời so sánh với Quiet Luxury và Old Money.",
+  "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+  "keywords": "clean girl aesthetic là gì, phong cách clean girl, clean girl outfit, minimal style nữ, quiet luxury, capsule wardrobe, clean girl fashion Visual Noise Audit aesthetic fashion"
+},
+{
+  "title": "Cottagecore Là Gì? Giải Mã Vải Mộc, Hoa Nhỏ Và Nhịp Sống Chậm",
+  "url": "/blog/cottagecore-la-gi.html",
+  "type": "Journal",
+  "description": "Cottagecore là gì? Giải mã thẩm mỹ đồng quê qua chất liệu, hoa văn, silhouette và cách phân biệt Cottagecore với Coquette, Whimsigoth hay Dark Academia.",
+  "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+  "keywords": "cottagecore là gì, phong cách cottagecore, cottagecore outfit, váy hoa nhí, aesthetic đồng quê, dark cottagecore, cottagecore nữ Texture Field Guide aesthetic fashion"
+},
+{
+  "title": "Blokecore Là Gì? Khi Áo Bóng Đá Bước Vào Streetwear",
+  "url": "/blog/blokecore-la-gi.html",
+  "type": "Journal",
+  "description": "Blokecore là gì? Giải mã áo bóng đá, track jacket, quần baggy, sneaker và cách văn hóa sân cỏ đi vào thời trang đường phố mà không thành hóa trang cổ động viên.",
+  "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
+  "keywords": "blokecore là gì, phong cách blokecore, blokecore nữ, áo bóng đá streetwear, football jersey outfit, sporty streetwear, blokette, terrace fashion Jersey Culture Map aesthetic fashion"
+},
+{
+  "title": "Gorpcore Là Gì? Khi Đồ Outdoor Bước Vào Thành Phố",
+  "url": "/blog/gorpcore-la-gi.html",
+  "type": "Journal",
+  "description": "Gorpcore là gì? Giải mã cách trang phục outdoor đi vào streetwear, từ shell, fleece, quần kỹ thuật đến giày trail và cách mặc hợp khí hậu Việt Nam.",
+  "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp",
+  "keywords": "gorpcore là gì, phong cách gorpcore, gorpcore nữ, outdoor streetwear, urban outdoor, đồ outdoor mặc phố, gorpcore và techwear, gorpcore outfit nữ Gorpcore Là Gì? Khi Đồ Outdoor Bước Vào Thành Phố Terrain Map urban outdoor outdoor streetwear informational guide"
+},
+{
   "title": "Áo Khoác Bomber Nữ Mua Ở Đâu? Cách Chọn Form Đáng Tiền",
   "url": "/blog/ao-khoac-bomber-nu-mua-o-dau.html",
   "type": "Journal",
