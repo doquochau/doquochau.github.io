@@ -56,31 +56,31 @@
   ═══════════════════════════════════════════ -->
   <url>
     <loc>https://apocalypsecloset.com/style/dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/goth.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1075,4 +1075,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- TOPIC HUBS -->
+  <url><loc>https://apocalypsecloset.com/blog/egirl.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apocalypsecloset.com/blog/goth.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apocalypsecloset.com/blog/dark-feminine.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apocalypsecloset.com/blog/baddie-streetwear.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apocalypsecloset.com/blog/punk-grunge.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apocalypsecloset.com/blog/mua-sam-alt-fashion.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apocalypsecloset.com/blog/aesthetic-dictionary.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
 </urlset>

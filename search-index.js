@@ -1,5 +1,61 @@
 window.searchIndex = [
 {
+  "title": "E-Girl / Alt Girl: Hướng Dẫn, Outfit Và Dark Y2K",
+  "url": "/blog/egirl.html",
+  "type": "Topic Hub",
+  "description": "Cụm nội dung E-Girl và Alt Girl: định nghĩa, Dark Y2K, Scene, tóc, makeup, cách phối đồ và các outfit dễ áp dụng.",
+  "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+  "keywords": "E-Girl / Alt Girl topical map hướng dẫn outfit"
+},
+{
+  "title": "Goth / Gothic: Hướng Dẫn Phong Cách Và Outfit",
+  "url": "/blog/goth.html",
+  "type": "Topic Hub",
+  "description": "Cụm nội dung Goth/Gothic: Goth aesthetic, Romantic Goth, Pastel Goth, Cyber Goth, Mall Goth, Whimsigoth và cách xây outfit.",
+  "image": "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
+  "keywords": "Goth / Gothic topical map hướng dẫn outfit"
+},
+{
+  "title": "Dark Feminine: Hướng Dẫn Phong Cách Và Outfit",
+  "url": "/blog/dark-feminine.html",
+  "type": "Topic Hub",
+  "description": "Cụm nội dung Dark Feminine: định nghĩa, công thức phối đồ, corset, váy, da, Office Siren và các outfit theo hoàn cảnh.",
+  "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
+  "keywords": "Dark Feminine topical map hướng dẫn outfit"
+},
+{
+  "title": "Baddie Streetwear: Hướng Dẫn Phối Đồ Và Outfit",
+  "url": "/blog/baddie-streetwear.html",
+  "type": "Topic Hub",
+  "description": "Cụm nội dung Baddie Streetwear: Badgirl, streetwear, cargo, baggy, outfit đi cafe, đi chơi đêm và cách phối form rộng.",
+  "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
+  "keywords": "Baddie Streetwear topical map hướng dẫn outfit"
+},
+{
+  "title": "Punk / Grunge: Hướng Dẫn Phong Cách Và Outfit",
+  "url": "/blog/punk-grunge.html",
+  "type": "Topic Hub",
+  "description": "Cụm nội dung Punk và Grunge: khác biệt giữa hai phong cách, Soft Grunge, Fairy Grunge, layering, makeup và outfit nữ.",
+  "image": "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
+  "keywords": "Punk / Grunge topical map hướng dẫn outfit"
+},
+{
+  "title": "Mua Sắm Alt Fashion: Size, Ngân Sách Và Chọn Shop",
+  "url": "/blog/mua-sam-alt-fashion.html",
+  "type": "Topic Hub",
+  "description": "Cụm hướng dẫn mua sắm Alt Fashion: chọn size, kiểm tra shop, so sánh chất liệu, lên ngân sách và bảo quản trang phục.",
+  "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
+  "keywords": "Mua Sắm Alt Fashion topical map hướng dẫn outfit"
+},
+{
+  "title": "Aesthetic Dictionary: Từ Điển Phong Cách Thời Trang",
+  "url": "/blog/aesthetic-dictionary.html",
+  "type": "Topic Hub",
+  "description": "Từ điển các aesthetic và khái niệm thời trang, kèm so sánh để kết nối mỗi xu hướng với Dark Fashion, Alt Fashion và Badgirl.",
+  "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
+  "keywords": "Aesthetic Dictionary topical map hướng dẫn outfit"
+},
+{
   "title": "Fairy Grunge Là Gì? Khi Chất Mộng Mơ Gặp Grunge",
   "url": "/blog/fairy-grunge-la-gi.html",
   "type": "Journal",
