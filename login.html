@@ -3,29 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Closet Lưu Outfit Yêu Thích | Apocalypse Closet</title><link rel="icon" type="image/webp" sizes="88x88" href="/Logo-Apocalypse-Closet.webp">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://apocalypsecloset.com/login.html">
+  <title>Login — Apocalypse Closet</title><link rel="icon" href="/favicon.ico" sizes="any">
     <meta property="og:site_name" content="Apocalypse Closet" />
-<meta name="description" content="Trang My Closet giúp bạn lưu và xem lại các outfit yêu thích trên Apocalypse Closet, từ badgirl aesthetic đến goth, e-girl và punk.">
-<meta name="robots" content="noindex, follow">
+<meta content="Đăng nhập Apocalypse Closet để quản lý tài khoản và lưu lại những outfit dark aesthetic, badgirl, goth, e-girl hoặc punk bạn yêu thích." name="description"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="dns-prefetch" href="https://lh3.googleusercontent.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"></noscript>
-  
 
   <style>
     :root {
       --black:  #080808;
       --white:  #f0ece4;
       --red:    #c0392b;
-      --dim:    #111;
+      --dim:    #1a1a1a;
       --border: #2a2a2a;
       --muted: #888;
-      --card:   #0f0f0f;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
@@ -33,271 +30,200 @@
       color: var(--white);
       font-family: 'Space Mono', monospace;
       min-height: 100vh;
-    }
-
-    /* ── NAVBAR ──────────────────────────────────────────── */
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      padding: 0 32px;
-      height: 60px;
-      background: rgba(8,8,8,0.92);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .nav-logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      text-decoration: none;
-    }
-    .nav-logo img { height: 32px; width: auto; object-fit: contain; }
-    .nav-logo img.wordmark { mix-blend-mode: screen; }
-
-    .nav-right {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-    .nav-user {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 10px;
-      letter-spacing: 0.1em;
-      color: var(--muted);
-    }
-    .nav-user img {
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      border: 1px solid var(--border);
-      object-fit: cover;
-    }
-    .btn-signout {
-      background: none;
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-family: 'Space Mono', monospace;
-      font-size: 9px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      padding: 6px 12px;
-      cursor: pointer;
-      transition: border-color 0.2s, color 0.2s;
-    }
-    .btn-signout:hover { border-color: var(--white); color: var(--white); }
-
-    /* ── HEADER ──────────────────────────────────────────── */
-    .page-header {
-      padding: 52px 32px 32px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-
-    .page-header h1 {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(42px, 7vw, 80px);
-      letter-spacing: 0.04em;
-      line-height: 1;
-    }
-    .page-header h1 span { color: var(--red); }
-
-    .outfit-count {
-      font-size: 10px;
-      letter-spacing: 0.18em;
-      color: var(--muted);
-      text-transform: uppercase;
-      padding-bottom: 8px;
-    }
-
-    /* ── GRID ────────────────────────────────────────────── */
-    .grid-wrap {
-      padding: 40px 32px 80px;
-    }
-
-    .outfit-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 2px;
-    }
-
-    /* ── OUTFIT CARD ─────────────────────────────────────── */
-    .outfit-card {
-      position: relative;
-      background: var(--card);
+      justify-content: center;
       overflow: hidden;
-      cursor: pointer;
-      aspect-ratio: 3/4;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none; z-index: 0;
+    }
+    body::after {
+      content: '';
+      position: fixed; top: -120px; right: -120px;
+      width: 380px; height: 380px;
+      background: radial-gradient(circle, rgba(192,57,43,0.18) 0%, transparent 70%);
+      pointer-events: none; z-index: 0;
     }
 
-    .outfit-card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94);
+    .back {
+      position: fixed; top: 24px; left: 28px;
+      color: var(--muted); text-decoration: none;
+      font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+      transition: color 0.2s; z-index: 10;
     }
-    .outfit-card:hover img { transform: scale(1.04); }
+    .back:hover { color: var(--white); }
 
-    /* Overlay */
-    .outfit-card .overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 50%);
-      opacity: 0;
-      transition: opacity 0.3s;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      padding: 20px 16px 16px;
-    }
-    .outfit-card:hover .overlay { opacity: 1; }
-
-    .overlay-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 22px;
-      letter-spacing: 0.06em;
-      margin-bottom: 4px;
-    }
-    .overlay-cat {
-      font-size: 9px;
-      letter-spacing: 0.2em;
-      color: var(--muted);
-      text-transform: uppercase;
-    }
-
-    /* Remove button */
-    .btn-remove {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      width: 32px;
-      height: 32px;
-      background: rgba(0,0,0,0.75);
-      border: 1px solid rgba(255,255,255,0.12);
-      color: var(--white);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transition: opacity 0.2s, background 0.2s;
-      font-size: 14px;
-      z-index: 2;
-    }
-    .outfit-card:hover .btn-remove { opacity: 1; }
-    .btn-remove:hover { background: var(--red); border-color: var(--red); }
-
-    /* Saved date badge */
-    .saved-badge {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-size: 8px;
-      letter-spacing: 0.12em;
-      color: var(--muted);
-      background: rgba(0,0,0,0.7);
-      padding: 3px 7px;
-      text-transform: uppercase;
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-    .outfit-card:hover .saved-badge { opacity: 1; }
-
-    /* ── EMPTY STATE ─────────────────────────────────────── */
-    .empty-state {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 100px 32px;
-      text-align: center;
-    }
-    .empty-state.visible { display: flex; }
-
-    .empty-icon {
-      font-size: 48px;
-      margin-bottom: 24px;
-      opacity: 0.2;
-    }
-    .empty-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 36px;
-      letter-spacing: 0.06em;
-      color: var(--muted);
-      margin-bottom: 10px;
-    }
-    .empty-sub {
-      font-size: 10px;
-      letter-spacing: 0.14em;
-      color: var(--muted);
-      text-transform: uppercase;
-      margin-bottom: 32px;
-      line-height: 1.8;
-    }
-    .btn-browse {
-      display: inline-block;
-      padding: 13px 32px;
-      background: var(--red);
-      color: var(--white);
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 18px;
-      letter-spacing: 0.14em;
-      text-decoration: none;
-      transition: opacity 0.2s;
-    }
-    .btn-browse:hover { opacity: 0.85; }
-
-
-    .closet-guides { margin: 0 32px 64px; padding: 28px; border: 1px solid var(--border); background: var(--card); }
-    .closet-guides h2 { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: .08em; margin-bottom: 10px; }
-    .closet-guides p { color: var(--muted); font-size: 10px; line-height: 1.8; margin-bottom: 18px; text-transform: uppercase; letter-spacing: .08em; }
-    .closet-guide-links { display: flex; flex-wrap: wrap; gap: 8px; }
-    .closet-guide-links a { color: var(--white); border: 1px solid var(--border); padding: 9px 12px; font-size: 9px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; }
-    .closet-guide-links a:hover { border-color: var(--red); }
-
-    /* ── TOAST ───────────────────────────────────────────── */
-    .toast {
-      position: fixed;
-      bottom: 32px;
-      left: 50%;
-      transform: translateX(-50%) translateY(20px);
-      background: var(--dim);
+    .card {
+      position: relative; z-index: 1;
+      width: min(420px, 92vw);
+      padding: 48px 40px 44px;
       border: 1px solid var(--border);
-      color: var(--white);
-      font-size: 10px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      padding: 12px 24px;
-      opacity: 0;
-      transition: opacity 0.3s, transform 0.3s;
-      pointer-events: none;
-      white-space: nowrap;
-      z-index: 999;
+      background: rgba(12,12,12,0.85);
+      backdrop-filter: blur(12px);
+      animation: fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) both;
     }
-    .toast.show {
-      opacity: 1;
-      transform: translateX(-50%) translateY(0);
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .card::before, .card::after {
+      content: ''; position: absolute;
+      width: 14px; height: 14px;
+      border-color: var(--red); border-style: solid;
+    }
+    .card::before { top: -1px; left: -1px; border-width: 2px 0 0 2px; }
+    .card::after  { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; }
+
+    .logo-wrap {
+      display: flex; align-items: center; justify-content: center;
+      gap: 10px; margin-bottom: 32px;
     }
 
-    /* ── MOBILE ──────────────────────────────────────────── */
-    @media (max-width: 600px) {
-      nav { padding: 0 16px; }
-      .page-header { padding: 32px 16px 24px; }
-      .grid-wrap { padding: 24px 16px 60px; }
-      .outfit-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
-      .nav-user span { display: none; }
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 48px; letter-spacing: 0.04em; line-height: 1;
+      margin-bottom: 6px; color: var(--white); text-align: center;
     }
+    .sub {
+      font-size: 10px; letter-spacing: 0.2em; color: var(--muted);
+      text-transform: uppercase; margin-bottom: 32px; text-align: center;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex; gap: 0; margin-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab-btn {
+      flex: 1; background: none; border: none;
+      color: var(--muted); font-family: 'Space Mono', monospace;
+      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      padding: 10px 0; cursor: pointer; transition: color 0.2s;
+      border-bottom: 2px solid transparent; margin-bottom: -1px;
+    }
+    .tab-btn.active { color: var(--white); border-bottom-color: var(--red); }
+
+    /* Social buttons */
+    .btn-social {
+      width: 100%; display: flex; align-items: center; justify-content: center;
+      gap: 12px; padding: 13px 20px; margin-bottom: 10px;
+      background: var(--dim); border: 1px solid var(--border);
+      color: var(--white); font-family: 'Space Mono', monospace;
+      font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+      cursor: pointer; transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-social:hover { border-color: var(--white); background: #1f1f1f; }
+    .btn-social svg { flex-shrink: 0; }
+
+    /* Divider */
+    .divider {
+      display: flex; align-items: center; gap: 12px;
+      margin: 20px 0; color: var(--muted);
+      font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+
+    /* Form fields */
+    .field { margin-bottom: 16px; }
+    .field label {
+      display: block; font-size: 9px; letter-spacing: 0.2em;
+      color: var(--muted); text-transform: uppercase; margin-bottom: 8px;
+    }
+    .field input {
+      width: 100%; background: var(--dim); border: 1px solid var(--border);
+      color: var(--white); font-family: 'Space Mono', monospace;
+      font-size: 12px; padding: 12px 14px; outline: none;
+      transition: border-color 0.2s;
+    }
+    .field input:focus { border-color: var(--red); }
+    .field input::placeholder { color: var(--muted); }
+
+    /* Submit button */
+    .btn-submit {
+      width: 100%; padding: 14px;
+      background: var(--red); color: var(--white);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px; letter-spacing: 0.16em;
+      border: none; cursor: pointer;
+      transition: opacity 0.2s; margin-top: 8px;
+    }
+    .btn-submit:hover { opacity: 0.85; }
+    .btn-submit:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* Error / success msg */
+    .msg {
+      font-size: 10px; letter-spacing: 0.1em; text-align: center;
+      padding: 10px; margin-top: 12px; display: none;
+    }
+    .msg.error { color: #e74c3c; border: 1px solid #e74c3c22; background: #e74c3c11; }
+    .msg.success { color: #2ecc71; border: 1px solid #2ecc7122; background: #2ecc7111; }
+
+    /* Forgot password */
+    .forgot {
+      text-align: right; margin-top: -8px; margin-bottom: 16px;
+    }
+    .forgot button {
+      font-size: 9px; letter-spacing: 0.1em; color: var(--muted);
+      text-decoration: none; text-transform: uppercase;
+      background: none; border: 0; padding: 0; cursor: pointer;
+      font-family: inherit;
+    }
+    .forgot button:hover { color: var(--red); }
+
+    .note {
+      margin-top: 28px; font-size: 9px; color: var(--muted);
+      letter-spacing: 0.1em; text-align: center; line-height: 1.8;
+    }
+    .note a { color: var(--red); text-decoration: none; }
+    .note a:hover { text-decoration: underline; }
+
+    /* Logged-in state */
+    #user-box { display: none; text-align: center; }
+    #user-box img {
+      width: 64px; height: 64px; border-radius: 50%;
+      border: 2px solid var(--red); margin-bottom: 14px; object-fit: cover;
+    }
+    .user-name {
+      font-family: 'Space Mono', monospace; font-size: 18px;
+      letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px;
+    }
+    .user-email {
+      font-size: 10px; color: var(--muted);
+      letter-spacing: 0.12em; margin-bottom: 24px;
+    }
+    .btn-enter {
+      display: block; width: 100%; padding: 14px;
+      background: var(--red); color: var(--white);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px; letter-spacing: 0.16em;
+      border: none; cursor: pointer; transition: opacity 0.2s;
+      text-decoration: none; text-align: center;
+    }
+    .btn-enter:hover { opacity: 0.85; }
+    .btn-signout {
+      margin-top: 12px; background: none; border: none;
+      color: var(--muted); font-family: 'Space Mono', monospace;
+      font-size: 10px; letter-spacing: 0.12em; cursor: pointer;
+      width: 100%; text-align: center; text-transform: uppercase;
+    }
+    .btn-signout:hover { color: var(--white); }
+
+    /* Loading spinner */
+    .spinner {
+      display: inline-block; width: 14px; height: 14px;
+      border: 2px solid rgba(255,255,255,0.2);
+      border-top-color: var(--white); border-radius: 50%;
+      animation: spin 0.7s linear infinite; vertical-align: middle;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
   </style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-452MPHT894"></script>
   <script>
@@ -306,217 +232,265 @@
     gtag('js', new Date());
     gtag('config', 'G-452MPHT894');
   </script>
-<link rel="canonical" href="https://apocalypsecloset.com/closet.html">
+<meta property="og:description" content="Đăng nhập Apocalypse Closet để quản lý tài khoản và lưu lại những outfit dark aesthetic, badgirl, goth, e-girl hoặc punk bạn yêu thích.">
+<meta name="twitter:description" content="Đăng nhập Apocalypse Closet để quản lý tài khoản và lưu lại những outfit dark aesthetic, badgirl, goth, e-girl hoặc punk bạn yêu thích.">
 <style id="critical-site-accessibility">.skip-link{position:absolute;left:12px;top:-100px;z-index:10000;background:#f0ece4;color:#0a0a0a;padding:10px 14px;border:2px solid #c0392b;font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;transition:top .15s ease}.skip-link:focus{top:12px;outline:2px solid #f0ece4;outline-offset:2px}.seo-faq{max-width:720px;margin:48px auto 0;padding:32px 0;border-top:1px solid #292929}.seo-faq h2{font-family:'Oswald',sans-serif;font-size:26px;line-height:1.2;text-transform:uppercase;letter-spacing:.04em;margin:0 0 24px;color:#f0ece4}.seo-faq details{border-bottom:1px solid #242424;padding:0}.seo-faq summary{cursor:pointer;padding:18px 36px 18px 0;font-weight:700;line-height:1.55;position:relative;list-style:none}.seo-faq summary::-webkit-details-marker{display:none}.seo-faq summary::after{content:'+';position:absolute;right:4px;top:16px;color:#e05444;font-size:20px}.seo-faq details[open] summary::after{content:'−'}.seo-faq details p{margin:0;padding:0 0 20px;line-height:1.8;color:#c8c4bc}.trust-links{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px}.trust-links a{color:#a0a0a0;text-decoration:underline}.trust-links a:hover,.trust-links a:focus-visible{color:#f0ece4}.icon-only[aria-label],.btn-icon-only[aria-label]{position:relative}@media(max-width:768px){footer{padding-left:16px;padding-right:16px;line-height:1.5}.seo-faq{margin-top:36px;padding-top:24px}.seo-faq h2{font-size:22px}.seo-faq summary{font-size:13px}}footer a,footer .trust-links a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:48px!important;min-height:48px!important;padding:12px 14px!important;margin:4px!important;box-sizing:border-box!important;line-height:1.25!important;vertical-align:middle!important;-webkit-tap-highlight-color:transparent}footer .trust-links{display:inline-flex!important;flex-wrap:wrap!important;justify-content:center!important;align-items:center!important;gap:8px!important}@media(max-width:768px){footer{padding-left:16px!important;padding-right:16px!important;line-height:1.5!important}footer a,footer .trust-links a{margin:4px!important}}</style></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
 
-  <!-- ── NAVBAR ── -->
-  <nav aria-label="Điều hướng chính">
-<a href="https://apocalypsecloset.com/" class="nav-logo">
-      <img alt="Apocalypse Closet logo" decoding="async" fetchpriority="high" height="44" loading="eager" src="Logo-Apocalypse-Closet.webp" width="44"/>
-      <img alt="Apocalypse Closet" class="wordmark" decoding="async" height="32" loading="eager" src="wordmark.webp" width="70"/>
-    </a>
-    <div class="nav-right">
-      <div class="nav-user">
-        <img alt="avatar" decoding="async" height="32" id="nav-avatar" loading="eager" src="" width="32"/>
-        <span id="nav-name"></span>
+  <a href="/" class="back">← Back</a>
+
+  <div class="card">
+
+    <div class="logo-wrap">
+      <img alt="Apocalypse Closet logo" decoding="async" fetchpriority="high" height="52" loading="eager" src="Logo-Apocalypse-Closet.webp" style="height:52px;width:auto;object-fit:contain;" width="52"/>
+      <img alt="Apocalypse Closet" decoding="async" height="36" loading="eager" src="wordmark.webp" style="height:36px;width:auto;object-fit:contain;mix-blend-mode:screen;" width="79"/>
+    </div>
+
+    <!-- ── LOGIN STATE ── -->
+    <div id="login-box">
+      <h1>WELCOME<br>BACK</h1>
+      <p class="sub">Sign in to access your closet</p>
+
+      <!-- Google -->
+      <button class="btn-social" id="btn-google">
+        <svg width="18" height="18" viewBox="0 0 48 48">
+          <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
+          <path fill="#FF3D00" d="m6.306 14.691 6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z"/>
+          <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
+          <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002 6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
+        </svg>
+        CONTINUE WITH GOOGLE
+      </button>
+
+      <div class="divider">hoặc</div>
+
+      <!-- Tabs: Đăng nhập / Đăng ký -->
+      <div class="tabs">
+        <button class="tab-btn active" id="tab-login" onclick="switchTab('login')">Đăng nhập</button>
+        <button class="tab-btn" id="tab-register" onclick="switchTab('register')">Đăng ký</button>
       </div>
+
+      <!-- Form đăng nhập -->
+      <div id="form-login">
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="login-email" placeholder="your@email.com" autocomplete="email" />
+        </div>
+        <div class="field">
+          <label>Mật khẩu</label>
+          <input type="password" id="login-password" placeholder="••••••••" autocomplete="current-password" />
+        </div>
+        <div class="forgot"><button type="button" onclick="forgotPassword()">Quên mật khẩu?</button></div>
+        <button class="btn-submit" id="btn-login" onclick="loginEmail()">ĐĂNG NHẬP</button>
+      </div>
+
+      <!-- Form đăng ký -->
+      <div id="form-register" style="display:none;">
+        <div class="field">
+          <label>Tên hiển thị</label>
+          <input type="text" id="reg-name" placeholder="Badgirl" autocomplete="name" />
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="reg-email" placeholder="your@email.com" autocomplete="email" />
+        </div>
+        <div class="field">
+          <label>Mật khẩu</label>
+          <input type="password" id="reg-password" placeholder="Tối thiểu 6 ký tự" autocomplete="new-password" />
+        </div>
+        <button class="btn-submit" id="btn-register" onclick="registerEmail()">TẠO TÀI KHOẢN</button>
+      </div>
+
+      <div class="msg" id="msg"></div>
+
+      <p class="note">
+        Bằng cách đăng nhập, bạn đồng ý với<br>
+        <a href="/privacy.html#terms-of-service">Terms of Service</a> &amp; <a href="/privacy.html">Privacy Policy</a>
+      </p>
+    </div>
+
+    <!-- ── LOGGED IN STATE ── -->
+    <div id="user-box">
+      <img alt="avatar" decoding="async" height="40" id="user-avatar" loading="eager" src="" width="40"/>
+      <div class="user-name" id="user-name"></div>
+      <div class="user-email" id="user-email"></div>
+      <a href="closet.html" class="btn-enter">ENTER MY CLOSET →</a>
       <button class="btn-signout" onclick="signOut()">Sign out</button>
     </div>
-  </nav>
 
-  <!-- ── PAGE HEADER ── -->
-  <div class="page-header">
-    <h1>MY<br><span>CLOSET</span></h1>
-    <div class="outfit-count" id="outfit-count">0 OUTFITS SAVED</div>
   </div>
 
-  <!-- ── GRID ── -->
-  <div class="grid-wrap">
-    <div class="outfit-grid" id="outfit-grid"></div>
-
-    <!-- Empty state -->
-    <div class="empty-state" id="empty-state">
-      <div class="empty-icon">🖤</div>
-      <div class="empty-title">Your closet is empty</div>
-      <div class="empty-sub">Chưa có outfit nào được lưu.<br>Vào trang chủ và bấm ♡ để lưu.</div>
-<a href="https://apocalypsecloset.com/" class="btn-browse">BROWSE OUTFITS →</a>
-    </div>
-  </div>
-
-  <!-- Toast -->
-  <div class="toast" id="toast"></div>
-
-  <script src="/outfits.js?v=20260730-products260-v1"></script>
-  <script>
-    // Bridge: expose slug lookup for module scripts
-    window.__getSlug = function(id) {
-      if (typeof outfits === 'undefined') return null;
-      var o = outfits.find(function(x) { return x.id === id; });
-      return o ? o.slug : null;
-    };
-  </script>
+  <!-- Firebase SDK -->
   <script type="module">
-    import { initializeApp }            from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getAuth, onAuthStateChanged, signOut as fbSignOut }
-                                        from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getFirestore, collection, getDocs, doc, deleteDoc }
-                                        from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import {
+      getAuth,
+      signInWithPopup,
+      GoogleAuthProvider,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+      sendPasswordResetEmail,
+      updateProfile,
+      onAuthStateChanged,
+      signOut as fbSignOut
+    } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
     const firebaseConfig = {
-      apiKey:            "AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco",
-      authDomain:        "apocalypse-closet.firebaseapp.com",
-      projectId:         "apocalypse-closet",
-      storageBucket:     "apocalypse-closet.firebasestorage.app",
+      apiKey: "AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco",
+      authDomain: "apocalypse-closet.firebaseapp.com",
+      projectId: "apocalypse-closet",
+      storageBucket: "apocalypse-closet.firebasestorage.app",
       messagingSenderId: "493697340280",
-      appId:             "1:493697340280:web:9db33f9844c77d95232e8d"
+      appId: "1:493697340280:web:9db33f9844c77d95232e8d",
+      measurementId: "G-G2DW7R3BBW"
     };
 
     const app  = initializeApp(firebaseConfig);
     const auth = getAuth(app);
-    const db   = getFirestore(app);
 
-    // ── Format ngày lưu ──────────────────────────────────────────
-    function fmtDate(ts) {
-      return new Date(ts).toLocaleDateString('vi-VN', { day:'2-digit', month:'2-digit' });
+    // ── Hiện user đã login ────────────────────────────────────────
+    function showUserBox(user) {
+      document.getElementById('login-box').style.display = 'none';
+      document.getElementById('user-box').style.display  = 'block';
+      document.getElementById('user-avatar').src         = user.photoURL || 'Logo-Apocalypse-Closet.webp';
+      document.getElementById('user-name').textContent   = user.displayName || 'Badgirl';
+      document.getElementById('user-email').textContent  = user.email;
+      // Lưu vào localStorage để các trang khác dùng
+      localStorage.setItem('ac_user', JSON.stringify({
+        name:    user.displayName || 'Badgirl',
+        email:   user.email,
+        picture: user.photoURL || '',
+        sub:     user.uid
+      }));
     }
 
-    // ── Toast notification ────────────────────────────────────────
-    function showToast(msg) {
-      const t = document.getElementById('toast');
-      t.textContent = msg;
-      t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 2200);
+    // ── Theo dõi trạng thái auth ──────────────────────────────────
+    onAuthStateChanged(auth, user => {
+      if (user) showUserBox(user);
+    });
+
+    // ── Hiện thông báo ────────────────────────────────────────────
+    function showMsg(text, type = 'error') {
+      const el = document.getElementById('msg');
+      el.textContent = text;
+      el.className = 'msg ' + type;
+      el.style.display = 'block';
     }
 
-    // ── Module-level cache of Firestore closet data ─────────────
-    let closetOutfits = [];
-
-    // Tên ngắn dùng riêng cho card: luôn đồng nhất với homepage.
-    // Dữ liệu cũ trong Firestore vẫn giữ title dài cho alt/SEO, nhưng không in lên ảnh.
-    function getLookLabel(outfit) {
-      const sources = [outfit?.id, outfit?.slug, outfit?.tag, outfit?.title]
-        .filter(Boolean).map(String);
-      for (const source of sources) {
-        const match = source.match(/look[\s#_-]*(\d+)/i) || source.match(/#\s*(\d+)/);
-        if (match) return `LOOK #${String(Number(match[1])).padStart(2, '0')}`;
-      }
-      return 'SAVED OUTFIT';
+    function setLoading(btnId, loading) {
+      const btn = document.getElementById(btnId);
+      if (loading) { btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>'; }
+      else { btn.disabled = false; }
     }
 
-    // ── Mở outfit detail ──────────────────────────────────────────
-    window.openOutfit = (id) => {
-      // Ưu tiên slug từ Firestore (data mới), fallback sang outfits.js (data cũ)
-      const fromFirestore = closetOutfits.find(x => x.id === id);
-      const slug = fromFirestore?.slug || window.__getSlug?.(id);
-      if (slug) {
-        window.location.href = `/outfits/${slug}.html`;
-      }
-    };
-
-    // ── Xoá outfit khỏi Firestore ─────────────────────────────────
-    window.removeOutfit = async (uid, outfitId) => {
+    // ── Google Login ──────────────────────────────────────────────
+    window.loginGoogle = async function() {
+      const btn = document.getElementById('btn-google');
+      btn.disabled = true;
       try {
-        await deleteDoc(doc(db, 'users', uid, 'closet', outfitId));
-        // Xoá card khỏi DOM ngay, không cần fetch lại
-        const card = document.getElementById(`card-${outfitId}`);
-        if (card) card.remove();
-        // Cập nhật count
-        const grid  = document.getElementById('outfit-grid');
-        const count = grid.querySelectorAll('.outfit-card').length;
-        document.getElementById('outfit-count').textContent =
-          `${count} OUTFIT${count !== 1 ? 'S' : ''} SAVED`;
-        if (count === 0) document.getElementById('empty-state').classList.add('visible');
-        showToast('Đã xoá khỏi closet');
+        const provider = new GoogleAuthProvider();
+        await signInWithPopup(auth, provider);
+        // onAuthStateChanged sẽ tự xử lý
       } catch (e) {
-        showToast('Lỗi khi xoá. Thử lại nhé!');
+        showMsg('Đăng nhập Google thất bại. Thử lại nhé!');
+        btn.disabled = false;
       }
     };
 
-    // ── Render grid từ Firestore ──────────────────────────────────
-    async function renderGrid(uid) {
-      const grid  = document.getElementById('outfit-grid');
-      const empty = document.getElementById('empty-state');
-      const count = document.getElementById('outfit-count');
+    document.getElementById('btn-google').addEventListener('click', window.loginGoogle);
 
-      // Loading skeleton
-      grid.innerHTML = `
-        <div class="outfit-card" style="background:#111;animation:none;"></div>
-        <div class="outfit-card" style="background:#111;animation:none;"></div>
-        <div class="outfit-card" style="background:#111;animation:none;"></div>
-        <div class="outfit-card" style="background:#111;animation:none;"></div>
-      `;
-
-      const snap = await getDocs(collection(db, 'users', uid, 'closet'));
-      closetOutfits = [];
-      snap.forEach(d => closetOutfits.push(d.data()));
-      const outfits = closetOutfits;
-
-      count.textContent = `${outfits.length} OUTFIT${outfits.length !== 1 ? 'S' : ''} SAVED`;
-
-      if (outfits.length === 0) {
-        grid.innerHTML = '';
-        empty.classList.add('visible');
-        return;
+    // ── Email Login ───────────────────────────────────────────────
+    window.loginEmail = async function() {
+      const email = document.getElementById('login-email').value.trim();
+      const pass  = document.getElementById('login-password').value;
+      if (!email || !pass) { showMsg('Vui lòng nhập đầy đủ email và mật khẩu.'); return; }
+      setLoading('btn-login', true);
+      try {
+        await signInWithEmailAndPassword(auth, email, pass);
+      } catch (e) {
+        const map = {
+          'auth/user-not-found':  'Email chưa đăng ký.',
+          'auth/wrong-password':  'Mật khẩu không đúng.',
+          'auth/invalid-email':   'Email không hợp lệ.',
+          'auth/too-many-requests': 'Quá nhiều lần thử. Thử lại sau.',
+        };
+        showMsg(map[e.code] || 'Đăng nhập thất bại. Thử lại nhé!');
+        document.getElementById('btn-login').disabled = false;
+        document.getElementById('btn-login').textContent = 'ĐĂNG NHẬP';
       }
-      empty.classList.remove('visible');
+    };
 
-      const sorted = [...outfits].sort((a, b) => b.savedAt - a.savedAt);
+    // ── Email Register ────────────────────────────────────────────
+    window.registerEmail = async function() {
+      const name  = document.getElementById('reg-name').value.trim();
+      const email = document.getElementById('reg-email').value.trim();
+      const pass  = document.getElementById('reg-password').value;
+      if (!name || !email || !pass) { showMsg('Vui lòng điền đầy đủ thông tin.'); return; }
+      if (pass.length < 6) { showMsg('Mật khẩu phải có ít nhất 6 ký tự.'); return; }
+      setLoading('btn-register', true);
+      try {
+        const cred = await createUserWithEmailAndPassword(auth, email, pass);
+        await updateProfile(cred.user, { displayName: name });
+        showMsg('Tạo tài khoản thành công! 🖤', 'success');
+        setTimeout(() => showUserBox(cred.user), 1000);
+      } catch (e) {
+        const map = {
+          'auth/email-already-in-use': 'Email này đã được đăng ký rồi.',
+          'auth/invalid-email':        'Email không hợp lệ.',
+          'auth/weak-password':        'Mật khẩu quá yếu (ít nhất 6 ký tự).',
+        };
+        showMsg(map[e.code] || 'Đăng ký thất bại. Thử lại nhé!');
+        document.getElementById('btn-register').disabled = false;
+        document.getElementById('btn-register').textContent = 'TẠO TÀI KHOẢN';
+      }
+    };
 
-      grid.innerHTML = sorted.map(o => `
-        <div class="outfit-card" id="card-${o.id}" onclick="openOutfit('${o.id}')">
-          <img src="${o.image}" alt="${o.title || getLookLabel(o)}" loading="lazy" />
-          <div class="overlay">
-            <div class="overlay-title">${getLookLabel(o)}</div>
-            <div class="overlay-cat">${o.category || 'OUTFIT'}</div>
-          </div>
-          <div class="saved-badge">Saved ${fmtDate(o.savedAt)}</div>
-          <button class="btn-remove"
-            onclick="event.stopPropagation(); removeOutfit('${uid}','${o.id}')"
-            title="Xoá">✕</button>
-        </div>
-      `).join('');
-    }
+    // ── Quên mật khẩu ────────────────────────────────────────────
+    window.forgotPassword = async function() {
+      const email = document.getElementById('login-email').value.trim();
+      if (!email) { showMsg('Nhập email vào trước rồi bấm Quên mật khẩu nhé.'); return; }
+      try {
+        await sendPasswordResetEmail(auth, email);
+        showMsg('Đã gửi link đặt lại mật khẩu vào email!', 'success');
+      } catch (e) {
+        showMsg('Email không tồn tại hoặc không hợp lệ.');
+      }
+    };
 
-    // ── Sign out ───────────────────────────────────────────────────
-    window.signOut = async () => {
+    // ── Sign out ──────────────────────────────────────────────────
+    window.signOut = async function() {
       await fbSignOut(auth);
       localStorage.removeItem('ac_user');
-      window.location.href = 'login.html';
+      document.getElementById('user-box').style.display  = 'none';
+      document.getElementById('login-box').style.display = 'block';
     };
 
-    // ── Auth guard + init ──────────────────────────────────────────
-    onAuthStateChanged(auth, user => {
-      if (!user) {
-        window.location.href = 'login.html';
-        return;
+    // ── Switch Tab ────────────────────────────────────────────────
+    window.switchTab = function(tab) {
+      document.getElementById('msg').style.display = 'none';
+      if (tab === 'login') {
+        document.getElementById('form-login').style.display    = 'block';
+        document.getElementById('form-register').style.display = 'none';
+        document.getElementById('tab-login').classList.add('active');
+        document.getElementById('tab-register').classList.remove('active');
+      } else {
+        document.getElementById('form-login').style.display    = 'none';
+        document.getElementById('form-register').style.display = 'block';
+        document.getElementById('tab-login').classList.remove('active');
+        document.getElementById('tab-register').classList.add('active');
       }
-      // Điền navbar
-      document.getElementById('nav-avatar').src        = user.photoURL || '';
-      document.getElementById('nav-name').textContent  = user.displayName || '';
-      // Cập nhật localStorage để các trang khác vẫn nhận được uid
-      localStorage.setItem('ac_user', JSON.stringify({
-        name: user.displayName || '', email: user.email,
-        picture: user.photoURL || '', sub: user.uid
-      }));
-      renderGrid(user.uid);
+    };
+
+    // Enter key submit
+    document.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const isLogin = document.getElementById('form-login').style.display !== 'none';
+      if (isLogin) window.loginEmail();
+      else window.registerEmail();
     });
   </script>
 
-  <section class="closet-guides" data-internal-links="2026-07-13" aria-labelledby="closet-guide-title">
-    <h2 id="closet-guide-title">BUILD A CLOSET THAT CONNECTS</h2>
-    <p>Đọc hướng dẫn trước khi lưu thêm item để closet có thể phối chéo và dùng lâu hơn.</p>
-    <div class="closet-guide-links">
-      <a href="blog/xay-tu-do-dark-aesthetic.html">Xây tủ đồ dark aesthetic</a>
-      <a href="blog/cach-chon-size-do-alt-fashion-online.html">Chọn size online</a>
-      <a href="blog/phoi-do-alt-fashion-cho-nguoi-moi.html">Alt Fashion cho người mới</a>
-      <a href="blog/capsule-wardrobe-la-gi.html">Capsule wardrobe</a>
-      <a href="blog/ootd-la-gi.html">Hiểu về OOTD</a>
-    </div>
-  </section>
-  <footer>© 2026 APOCALYPSE CLOSET &nbsp;·&nbsp; <a href="privacy.html" style="color:#a0a0a0;text-decoration:underline;" onmouseover="this.style.color='#f0ece4'" onmouseout="this.style.color='#a0a0a0'">Privacy Policy</a> &nbsp;·&nbsp; <span class="trust-links"><a href="about.html">Giới thiệu</a><a href="author.html">Tác giả</a><a href="editorial-policy.html">Biên tập</a><a href="contact.html">Liên hệ</a></span></footer>
-<script src="/assets/js/analytics-enhancements.min.js" defer></script>
 </body>
 </html>
