@@ -1,5 +1,45 @@
 window.searchIndex = [
 {
+  "title": "Fairy Grunge Là Gì? Khi Chất Mộng Mơ Gặp Grunge",
+  "url": "/blog/fairy-grunge-la-gi.html",
+  "type": "Journal",
+  "description": "Fairy Grunge là gì? Giải mã sự kết hợp giữa chất liệu mềm, màu đất, lớp váy bất đối xứng và tinh thần Grunge để mặc đẹp mà không thành costume.",
+  "image": "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
+  "keywords": "fairy grunge là gì, phong cách fairy grunge, fairy grunge outfit, grunge nữ, aesthetic màu đất, váy layering, alt fashion nữ Hybrid Aesthetic Map aesthetic fashion"
+},
+{
+  "title": "Scene Style Là Gì? Màu Nổi, Tóc Layer Và Năng Lượng Myspace",
+  "url": "/blog/scene-style-la-gi.html",
+  "type": "Journal",
+  "description": "Scene Style là gì? Tìm hiểu tóc layer, màu neon, graphic tee, skinny jeans, phụ kiện vui nhộn và ranh giới giữa Scene, Emo, E-Girl hay Y2K.",
+  "image": "/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp",
+  "keywords": "scene style là gì, scene fashion, scene girl, phong cách scene, scene và emo, scene outfit nữ, myspace aesthetic, alt fashion Subculture Decoder aesthetic fashion"
+},
+{
+  "title": "Romantic Goth Là Gì? Ren, Nhung Và Vẻ Đẹp U Tối",
+  "url": "/blog/romantic-goth-la-gi.html",
+  "type": "Journal",
+  "description": "Romantic Goth là gì? Giải mã ren, nhung, tay phồng, corset, trang sức cổ điển và cách phối vẻ đẹp u tối lãng mạn mà không thành trang phục sân khấu.",
+  "image": "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
+  "keywords": "romantic goth là gì, romantic goth outfit, phong cách goth lãng mạn, goth nữ, váy goth, ren đen, nhung đen, gothic fashion Goth Family Notes aesthetic fashion"
+},
+{
+  "title": "Downtown Girl Là Gì? Tủ Đồ Thành Thị Có Chất Riêng",
+  "url": "/blog/downtown-girl-la-gi.html",
+  "type": "Journal",
+  "description": "Downtown Girl là gì? Phân tích áo khoác da, denim, knit, váy ngắn, boots và cách xây outfit thành thị tự nhiên, có cá tính nhưng không quá cố gắng.",
+  "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
+  "keywords": "downtown girl là gì, downtown girl aesthetic, downtown girl outfit, phong cách thành thị nữ, áo khoác da nữ, street style nữ, city girl outfit City Wardrobe Study aesthetic fashion"
+},
+{
+  "title": "Model Off-Duty Là Gì? Công Thức Ít Món Nhưng Có Lực",
+  "url": "/blog/model-off-duty-la-gi.html",
+  "type": "Journal",
+  "description": "Model Off-Duty là gì? Học cách dùng tank top, blazer, jeans, kính và giày có cấu trúc để tạo outfit ít món, tỷ lệ đẹp và không phụ thuộc đồ đắt tiền.",
+  "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
+  "keywords": "model off duty là gì, model off duty outfit, phong cách người mẫu, outfit tối giản nữ, blazer jeans nữ, street style tối giản, capsule wardrobe Silhouette Practice aesthetic fashion"
+},
+{
   "title": "Balletcore Là Gì? Đọc Chuyển Động, Tulle Và Ballet Flats",
   "url": "/blog/balletcore-la-gi.html",
   "type": "Journal",
