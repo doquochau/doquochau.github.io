@@ -1,5 +1,13 @@
 window.searchIndex = [
 {
+  "title": "Phối Đồ Nữ Cá Tính: E-Girl, Baddie, Goth & Grunge",
+  "url": "/phoi-do-nu-ca-tinh.html",
+  "type": "Pillar",
+  "description": "Hướng dẫn phối đồ nữ cá tính với 40 outfit hoàn chỉnh theo E-Girl, Baddie, Goth, Dark Feminine và Grunge.",
+  "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+  "keywords": "phối đồ nữ cá tính cách phối đồ nữ cá tính outfit nữ cá tính mix đồ nữ cá tính phối đồ nữ cool ngầu style nữ ngầu e-girl baddie goth dark feminine grunge"
+},
+{
   "title": "E-Girl / Alt Girl: Hướng Dẫn, Outfit Và Dark Y2K",
   "url": "/blog/egirl.html",
   "type": "Topic Hub",
