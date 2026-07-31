@@ -1,51 +1,331 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- ═══════════════════════════════════════════
-       CORE PAGES
-  ═══════════════════════════════════════════ -->
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://apocalypsecloset.com/</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/balletcore-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/office-siren-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/clean-girl-aesthetic-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/cottagecore-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/blokecore-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/og/blog-og.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/athleisure-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-jogger-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/techwear-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/sporty-chic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/preppy-style-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-parachute-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/business-casual-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quiet-luxury-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/smart-casual-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/old-money-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/acubi-style-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-baggy-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-cargo-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/unisex-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/form-oversize-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/ootd-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/outfit-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/capsule-wardrobe-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/aesthetic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/streetwear-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/local-brand-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chon-size-do-alt-fashion-online.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/mac-do-den-mua-he-co-nong-khong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/coquette-la-gi-dark-coquette.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/indie-sleaze-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/witch-aesthetic-whimsigoth-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-academia-la-gi-phoi-do-badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/pastel-goth-cyber-goth-mall-goth-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/grunge-la-gi-khac-gi-punk.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/y2k-la-gi-phong-cach-y2k-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chup-anh-ootd-dep-bang-dien-thoai.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-giat-do-den-khong-phai-mau.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-bao-quan-do-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-crop-top-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/nhuom-toc-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-grunge-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/xay-tu-do-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-corset-top-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-thun-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-short-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-layering-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-vay-ngan-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-khoac-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-boots-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/outfit-di-choi-dem-badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phu-kien-alt-fashion-thiet-yeu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-cho-nguoi-gay-alt-fashion.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/punk-makeup-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-feminine-outfit-phoi-do.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-alt-fashion-cho-nguoi-moi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-jeans-ong-rong-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/badgirl-outfit-di-cafe.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/the-art-of-burning-out.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-feminine-is-not-a-trend.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phong-cach-egirl-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/soft-grunge-aesthetic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/goth-aesthetic-huong-dan-day-du.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/y2k-dark-aesthetic-khac-gi-y2k-thuong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-phoi-do-den-khong-nham-chan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/alt-fashion-la-gi-va-tai-sao-no-quan-trong.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -56,46 +336,64 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <!-- ═══════════════════════════════════════════
-       STYLE PAGES
-  ═══════════════════════════════════════════ -->
   <url>
     <loc>https://apocalypsecloset.com/style/dark-feminine.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/egirl.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/goth.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/baddie-streetwear.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/style/punk.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- ═══════════════════════════════════════════
-       BLOG POSTS — ordered mới nhất trước
-  ═══════════════════════════════════════════ -->
   <url>
     <loc>https://apocalypsecloset.com/blog/techwear-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/techwear-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -106,6 +404,18 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/sporty-chic-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -114,6 +424,15 @@
     <loc>https://apocalypsecloset.com/blog/preppy-style-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/preppy-style-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -124,6 +443,18 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-parachute-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -132,6 +463,18 @@
     <loc>https://apocalypsecloset.com/blog/business-casual-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/business-casual-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -142,6 +485,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/quiet-luxury-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -150,6 +502,15 @@
     <loc>https://apocalypsecloset.com/blog/smart-casual-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/smart-casual-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -160,6 +521,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/old-money-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -168,6 +538,18 @@
     <loc>https://apocalypsecloset.com/blog/acubi-style-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/acubi-style-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -178,6 +560,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-baggy-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -186,6 +577,15 @@
     <loc>https://apocalypsecloset.com/blog/quan-cargo-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-cargo-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -196,6 +596,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/unisex-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -204,6 +613,15 @@
     <loc>https://apocalypsecloset.com/blog/form-oversize-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/form-oversize-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -214,6 +632,18 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/ootd-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -222,6 +652,15 @@
     <loc>https://apocalypsecloset.com/blog/outfit-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/outfit-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -232,6 +671,18 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/capsule-wardrobe-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -240,6 +691,18 @@
     <loc>https://apocalypsecloset.com/blog/aesthetic-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/aesthetic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -250,6 +713,21 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/streetwear-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -258,6 +736,15 @@
     <loc>https://apocalypsecloset.com/blog/local-brand-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/local-brand-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -268,6 +755,18 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chon-size-do-alt-fashion-online.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -276,6 +775,15 @@
     <loc>https://apocalypsecloset.com/blog/mac-do-den-mua-he-co-nong-khong.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/mac-do-den-mua-he-co-nong-khong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -286,6 +794,21 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/coquette-la-gi-dark-coquette.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -294,6 +817,21 @@
     <loc>https://apocalypsecloset.com/blog/indie-sleaze-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/indie-sleaze-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -304,6 +842,21 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/witch-aesthetic-whimsigoth-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -312,6 +865,18 @@
     <loc>https://apocalypsecloset.com/blog/dark-academia-la-gi-phoi-do-badgirl.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-academia-la-gi-phoi-do-badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -322,6 +887,21 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/pastel-goth-cyber-goth-mall-goth-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -330,6 +910,15 @@
     <loc>https://apocalypsecloset.com/blog/grunge-la-gi-khac-gi-punk.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/grunge-la-gi-khac-gi-punk.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -340,6 +929,21 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/y2k-la-gi-phong-cach-y2k-nu.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -348,6 +952,15 @@
     <loc>https://apocalypsecloset.com/blog/cach-chup-anh-ootd-dep-bang-dien-thoai.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chup-anh-ootd-dep-bang-dien-thoai.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -358,6 +971,18 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-giat-do-den-khong-phai-mau.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -366,6 +991,15 @@
     <loc>https://apocalypsecloset.com/blog/cach-bao-quan-do-da-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-bao-quan-do-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -376,6 +1010,21 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-crop-top-nu.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -384,6 +1033,21 @@
     <loc>https://apocalypsecloset.com/blog/phoi-do-voi-quan-da-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -394,6 +1058,24 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/nhuom-toc-dark-aesthetic.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -402,6 +1084,24 @@
     <loc>https://apocalypsecloset.com/blog/phoi-do-grunge-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-grunge-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -412,6 +1112,24 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/xay-tu-do-dark-aesthetic.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -420,6 +1138,24 @@
     <loc>https://apocalypsecloset.com/blog/phoi-do-voi-corset-top-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-corset-top-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -430,6 +1166,24 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-thun-nu.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -438,6 +1192,18 @@
     <loc>https://apocalypsecloset.com/blog/phoi-do-voi-quan-short-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-short-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -448,6 +1214,24 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-layering-nu.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -456,6 +1240,24 @@
     <loc>https://apocalypsecloset.com/blog/phoi-do-voi-vay-ngan-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-vay-ngan-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -466,6 +1268,24 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-khoac-da-nu.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -474,6 +1294,24 @@
     <loc>https://apocalypsecloset.com/blog/phoi-do-voi-boots-da-nu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-boots-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -484,6 +1322,24 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/outfit-di-choi-dem-badgirl.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -492,6 +1348,12 @@
     <loc>https://apocalypsecloset.com/blog/phu-kien-alt-fashion-thiet-yeu.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phu-kien-alt-fashion-thiet-yeu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -502,6 +1364,12 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-cho-nguoi-gay-alt-fashion.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -510,6 +1378,12 @@
     <loc>https://apocalypsecloset.com/blog/dark-feminine-outfit-phoi-do.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-feminine-outfit-phoi-do.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -520,6 +1394,9 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-alt-fashion-cho-nguoi-moi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -528,6 +1405,9 @@
     <loc>https://apocalypsecloset.com/blog/punk-makeup-dark-aesthetic.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/punk-makeup-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -538,6 +1418,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-jeans-ong-rong-nu.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -546,6 +1435,15 @@
     <loc>https://apocalypsecloset.com/blog/badgirl-outfit-di-cafe.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/badgirl-outfit-di-cafe.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -556,6 +1454,9 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-phoi-do-den-khong-nham-chan.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -564,6 +1465,9 @@
     <loc>https://apocalypsecloset.com/blog/alt-fashion-la-gi-va-tai-sao-no-quan-trong.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/alt-fashion-la-gi-va-tai-sao-no-quan-trong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -574,6 +1478,9 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/y2k-dark-aesthetic-khac-gi-y2k-thuong.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -582,6 +1489,9 @@
     <loc>https://apocalypsecloset.com/blog/goth-aesthetic-huong-dan-day-du.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/goth-aesthetic-huong-dan-day-du.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -592,6 +1502,9 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/soft-grunge-aesthetic-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -600,6 +1513,9 @@
     <loc>https://apocalypsecloset.com/blog/phong-cach-egirl-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/phong-cach-egirl-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -610,6 +1526,12 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/badgirl.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -618,6 +1540,9 @@
     <loc>https://apocalypsecloset.com/blog/dark-feminine-is-not-a-trend.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-feminine-is-not-a-trend.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -628,250 +1553,730 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/the-art-of-burning-out.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <!-- ═══════════════════════════════════════════
-       OUTFIT PAGES — look 01–40
-  ═══════════════════════════════════════════ -->
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-01-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-02-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-03-punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-04-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-05-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-06-punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-07-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-08-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-09-goth.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-10-punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-11-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-12-punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-13-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-14-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-15-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-16-goth.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-17-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-18-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-19-punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-20-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-21-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-22-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-23-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-24-goth.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-25-goth.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-26-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-27-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-28-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-29-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-30-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-31-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-32-goth.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-33-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-34-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-35-egirl.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-36-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-37-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-38-punk.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-39-baddie-streetwear.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/outfits/look-40-dark-feminine.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-top.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-bottom.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-shoes-accessories.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -879,6 +2284,18 @@
     <loc>https://apocalypsecloset.com/blog/quan-jogger-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-jogger-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -889,6 +2306,12 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/blog-covers/athleisure-la-gi.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -897,6 +2320,12 @@
     <loc>https://apocalypsecloset.com/blog/quan-cargo-nu-mua-o-dau.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -907,6 +2336,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -915,6 +2353,12 @@
     <loc>https://apocalypsecloset.com/blog/boots-de-cao-nu-duoi-500k.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -925,6 +2369,12 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -933,6 +2383,12 @@
     <loc>https://apocalypsecloset.com/blog/do-goth-nu-mua-o-dau.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -943,6 +2399,15 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -951,6 +2416,12 @@
     <loc>https://apocalypsecloset.com/blog/set-baddie-duoi-700k.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -961,6 +2432,12 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -969,6 +2446,12 @@
     <loc>https://apocalypsecloset.com/blog/combat-boots-hay-platform-boots.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -979,6 +2462,12 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -987,6 +2476,12 @@
     <loc>https://apocalypsecloset.com/blog/quan-baggy-cho-nguoi-thap.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -997,15 +2492,29 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- TRUST PAGES -->
   <url>
     <loc>https://apocalypsecloset.com/blog/ao-khoac-bomber-nu-mua-o-dau.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -1015,6 +2524,12 @@
     <loc>https://apocalypsecloset.com/blog/gorpcore-la-gi.html</loc>
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
     </image:image>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -1028,13 +2543,13 @@
   </url>
   <url>
     <loc>https://apocalypsecloset.com/author.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/editorial-policy.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -1044,50 +2559,568 @@
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
-
   <url>
     <loc>https://apocalypsecloset.com/blog/fairy-grunge-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/scene-style-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/romantic-goth-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/downtown-girl-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://apocalypsecloset.com/blog/model-off-duty-la-gi.html</loc>
-    <image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc></image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- TOPIC HUBS -->
-  <url><loc>https://apocalypsecloset.com/blog/egirl.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://apocalypsecloset.com/blog/goth.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://apocalypsecloset.com/blog/dark-feminine.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://apocalypsecloset.com/blog/baddie-streetwear.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://apocalypsecloset.com/blog/punk-grunge.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://apocalypsecloset.com/blog/mua-sam-alt-fashion.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://apocalypsecloset.com/blog/aesthetic-dictionary.html</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <!-- PILLAR: PHOI DO NU CA TINH -->
-  <url><loc>https://apocalypsecloset.com/phoi-do-nu-ca-tinh.html</loc><image:image><image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc></image:image><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/egirl.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phong-cach-egirl-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/y2k-dark-aesthetic-khac-gi-y2k-thuong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/y2k-la-gi-phong-cach-y2k-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/indie-sleaze-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/acubi-style-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/nhuom-toc-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/goth.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/goth-aesthetic-huong-dan-day-du.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/pastel-goth-cyber-goth-mall-goth-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/witch-aesthetic-whimsigoth-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/dark-feminine.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-feminine-is-not-a-trend.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-feminine-outfit-phoi-do.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/dark-academia-la-gi-phoi-do-badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/coquette-la-gi-dark-coquette.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-corset-top-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-vay-ngan-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-khoac-da-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/baddie-streetwear.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/badgirl-outfit-di-cafe.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/outfit-di-choi-dem-badgirl.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/streetwear-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-baggy-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-cargo-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-jogger-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quan-parachute-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-crop-top-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-jeans-ong-rong-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-short-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/form-oversize-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/punk-grunge.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/grunge-la-gi-khac-gi-punk.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/soft-grunge-aesthetic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-grunge-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/punk-makeup-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-layering-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-thun-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/mua-sam-alt-fashion.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-bao-quan-do-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chon-size-do-alt-fashion-online.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-giat-do-den-khong-phai-mau.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/local-brand-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/mac-do-den-mua-he-co-nong-khong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/aesthetic-dictionary.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/aesthetic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/alt-fashion-la-gi-va-tai-sao-no-quan-trong.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/athleisure-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/business-casual-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chup-anh-ootd-dep-bang-dien-thoai.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-phoi-do-den-khong-nham-chan.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/capsule-wardrobe-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/old-money-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/ootd-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/outfit-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-alt-fashion-cho-nguoi-moi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-cho-nguoi-gay-alt-fashion.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-boots-da-nu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phu-kien-alt-fashion-thiet-yeu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/preppy-style-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/quiet-luxury-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/smart-casual-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/sporty-chic-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/techwear-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/the-art-of-burning-out.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/unisex-la-gi.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/xay-tu-do-dark-aesthetic.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/phoi-do-nu-ca-tinh.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp</image:loc>
+    </image:image>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
