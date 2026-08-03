@@ -231,6 +231,14 @@
       text-align: center;
     }
     .empty-state.visible { display: flex; }
+    .closet-load-error {
+      column-span: all; width: 100%; padding: 72px 24px;
+      border: 1px solid #292929; text-align: center; color: #aaa;
+      font-size: 11px; line-height: 1.8; letter-spacing: .06em;
+    }
+    .closet-load-error strong { display:block; color:var(--white); font-family:'Bebas Neue',sans-serif; font-size:30px; letter-spacing:.06em; margin-bottom:8px; }
+    .btn-retry { margin-top:20px; min-height:48px; padding:12px 20px; border:1px solid var(--red); background:transparent; color:var(--white); font:700 10px 'Space Mono',monospace; letter-spacing:.14em; text-transform:uppercase; cursor:pointer; }
+    .btn-retry:hover,.btn-retry:focus-visible { background:var(--red); }
 
     .empty-icon {
       font-size: 48px;
@@ -333,7 +341,7 @@
     </a>
     <div class="nav-right">
       <div class="nav-user">
-        <img alt="avatar" decoding="async" height="32" id="nav-avatar" loading="eager" src="" width="32"/>
+        <img alt="avatar" decoding="async" height="32" id="nav-avatar" loading="eager" src="/Logo-Apocalypse-Closet.webp" width="32"/>
         <span id="nav-name"></span>
       </div>
       <button class="btn-signout" onclick="signOut()">Sign out</button>
@@ -462,35 +470,50 @@
         <div class="outfit-card" style="background:#111;animation:none;height:320px;"></div>
       `;
 
-      const snap = await getDocs(collection(db, 'users', uid, 'closet'));
-      closetOutfits = [];
-      snap.forEach(d => closetOutfits.push(d.data()));
-      const outfits = closetOutfits;
+      try {
+        const snap = await getDocs(collection(db, 'users', uid, 'closet'));
+        closetOutfits = [];
+        snap.forEach(d => closetOutfits.push(d.data()));
+        const outfits = closetOutfits;
 
-      count.textContent = `${outfits.length} OUTFIT${outfits.length !== 1 ? 'S' : ''} SAVED`;
+        count.textContent = `${outfits.length} OUTFIT${outfits.length !== 1 ? 'S' : ''} SAVED`;
 
-      if (outfits.length === 0) {
-        grid.innerHTML = '';
-        empty.classList.add('visible');
-        return;
-      }
-      empty.classList.remove('visible');
+        if (outfits.length === 0) {
+          grid.innerHTML = '';
+          empty.classList.add('visible');
+          return;
+        }
+        empty.classList.remove('visible');
 
-      const sorted = [...outfits].sort((a, b) => b.savedAt - a.savedAt);
+        const sorted = [...outfits].sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
 
-      grid.innerHTML = sorted.map(o => `
-        <div class="outfit-card" id="card-${o.id}" onclick="openOutfit('${o.id}')">
-          <img src="${o.image}" alt="${o.title || getLookLabel(o)}" loading="lazy" decoding="async" ${o.imageWidth && o.imageHeight ? `width="${o.imageWidth}" height="${o.imageHeight}"` : ''} />
-          <div class="overlay">
-            <div class="overlay-title">${getLookLabel(o)}</div>
-            <div class="overlay-cat">${o.category || 'OUTFIT'}</div>
+        grid.innerHTML = sorted.map(o => `
+          <div class="outfit-card" id="card-${o.id}" onclick="openOutfit('${o.id}')">
+            <img src="${o.image}" alt="${o.title || getLookLabel(o)}" loading="lazy" decoding="async" ${o.imageWidth && o.imageHeight ? `width="${o.imageWidth}" height="${o.imageHeight}"` : ''} />
+            <div class="overlay">
+              <div class="overlay-title">${getLookLabel(o)}</div>
+              <div class="overlay-cat">${o.category || 'OUTFIT'}</div>
+            </div>
+            <div class="saved-badge">Saved ${fmtDate(o.savedAt)}</div>
+            <button class="btn-remove"
+              onclick="event.stopPropagation(); removeOutfit('${uid}','${o.id}')"
+              title="Xoá">✕</button>
           </div>
-          <div class="saved-badge">Saved ${fmtDate(o.savedAt)}</div>
-          <button class="btn-remove"
-            onclick="event.stopPropagation(); removeOutfit('${uid}','${o.id}')"
-            title="Xoá">✕</button>
-        </div>
-      `).join('');
+        `).join('');
+      } catch (error) {
+        console.error('Không thể tải Closet từ Firestore:', error);
+        closetOutfits = [];
+        empty.classList.remove('visible');
+        count.textContent = 'CLOSET TẠM THỜI CHƯA TẢI ĐƯỢC';
+        grid.innerHTML = `
+          <div class="closet-load-error" role="alert">
+            <strong>Không tải được Closet</strong>
+            Kết nối Firebase đang gặp sự cố hoặc mạng bị gián đoạn.<br>Outfit đã lưu của bạn không bị xoá.
+            <button class="btn-retry" type="button" id="retry-closet">Thử tải lại</button>
+          </div>`;
+        document.getElementById('retry-closet')?.addEventListener('click', () => renderGrid(uid));
+        showToast('Không thể tải Closet. Hãy thử lại.');
+      }
     }
 
     // ── Sign out ───────────────────────────────────────────────────
@@ -507,7 +530,7 @@
         return;
       }
       // Điền navbar
-      document.getElementById('nav-avatar').src        = user.photoURL || '';
+      document.getElementById('nav-avatar').src        = user.photoURL || '/Logo-Apocalypse-Closet.webp';
       document.getElementById('nav-name').textContent  = user.displayName || '';
       // Cập nhật localStorage để các trang khác vẫn nhận được uid
       localStorage.setItem('ac_user', JSON.stringify({

@@ -649,7 +649,7 @@
       <a class="outfit-card-link" href="/outfits/look-01-egirl.html" aria-label="Xem chi tiết LOOK #01: E-Girl Badgirl Look #01">
         <picture>
           <source media="(max-width: 768px)" type="image/webp" srcset="/images-mobile/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp?v=20260803-card-sharp-v3 240w, /images-mobile-hd/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp?v=20260803-card-sharp-v3 480w" sizes="calc((100vw - 6px) / 2)">
-          <img src="/images-grid/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp" alt="Badgirl outfit LOOK #01 — E-Girl Badgirl Look #01 (E-Girl)" loading="eager" decoding="async" width="768" height="1024">
+          <img src="/images-grid/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp" alt="Badgirl outfit LOOK #01 — E-Girl Badgirl Look #01 (E-Girl)" loading="eager" fetchpriority="high" decoding="async" width="768" height="1024">
         </picture>
         <div class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><div class="outfit-num">LOOK #01</div></div>
       </a>
@@ -659,7 +659,7 @@
       <a class="outfit-card-link" href="/outfits/look-02-baddie-streetwear.html" aria-label="Xem chi tiết LOOK #02: Baddie Streetwear Badgirl Look #02">
         <picture>
           <source media="(max-width: 768px)" type="image/webp" srcset="/images-mobile/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp?v=20260803-card-sharp-v3 240w, /images-mobile-hd/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp?v=20260803-card-sharp-v3 480w" sizes="calc((100vw - 6px) / 2)">
-          <img src="/images-grid/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp" alt="Badgirl outfit LOOK #02 — Baddie Streetwear Badgirl Look #02 (Baddie Streetwear)" loading="eager" decoding="async" width="768" height="1024">
+          <img src="/images-grid/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp" alt="Badgirl outfit LOOK #02 — Baddie Streetwear Badgirl Look #02 (Baddie Streetwear)" loading="eager" fetchpriority="high" decoding="async" width="768" height="1024">
         </picture>
         <div class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><div class="outfit-num">LOOK #02</div></div>
       </a>
@@ -669,7 +669,7 @@
       <a class="outfit-card-link" href="/outfits/look-03-punk.html" aria-label="Xem chi tiết LOOK #03: Punk Badgirl Look #03">
         <picture>
           <source media="(max-width: 768px)" type="image/webp" srcset="/images-mobile/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp?v=20260803-card-sharp-v3 240w, /images-mobile-hd/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp?v=20260803-card-sharp-v3 480w" sizes="calc((100vw - 6px) / 2)">
-          <img src="/images-grid/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp" alt="Badgirl outfit LOOK #03 — Punk Badgirl Look #03 (Punk)" loading="eager" decoding="async" width="768" height="1024">
+          <img src="/images-grid/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp" alt="Badgirl outfit LOOK #03 — Punk Badgirl Look #03 (Punk)" loading="lazy" decoding="async" width="768" height="1024">
         </picture>
         <div class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><div class="outfit-num">LOOK #03</div></div>
       </a>
@@ -679,7 +679,7 @@
       <a class="outfit-card-link" href="/outfits/look-04-dark-feminine.html" aria-label="Xem chi tiết LOOK #04: Dark Feminine Badgirl Look #04">
         <picture>
           <source media="(max-width: 768px)" type="image/webp" srcset="/images-mobile/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp?v=20260803-card-sharp-v3 240w, /images-mobile-hd/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp?v=20260803-card-sharp-v3 480w" sizes="calc((100vw - 6px) / 2)">
-          <img src="/images-grid/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp" alt="Badgirl outfit LOOK #04 — Dark Feminine Badgirl Look #04 (Dark Feminine)" loading="eager" decoding="async" width="768" height="1024">
+          <img src="/images-grid/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp" alt="Badgirl outfit LOOK #04 — Dark Feminine Badgirl Look #04 (Dark Feminine)" loading="lazy" decoding="async" width="768" height="1024">
         </picture>
         <div class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><div class="outfit-num">LOOK #04</div></div>
       </a>
@@ -1007,7 +1007,7 @@
         img.width = 768;
         img.height = 1024;
       }
-      if (i === 0) img.setAttribute('fetchpriority', 'high');
+      if (i < 2) img.setAttribute('fetchpriority', 'high');
       picture.appendChild(img);
 
       const overlay = document.createElement('div');
