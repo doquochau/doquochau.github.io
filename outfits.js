@@ -5650,7 +5650,7 @@ const outfits = [
     .related-card img {
       object-fit: contain !important;
       object-position: center center !important;
-      background: #111 !important;
+      background: transparent !important;
     }
     .outfit-card:hover img,
     .related-card:hover img {

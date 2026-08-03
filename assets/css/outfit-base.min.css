@@ -38,3 +38,10 @@ footer a,footer .trust-links a{display:inline-flex!important;align-items:center!
   .mobile-shop-cta{position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:1200;display:flex;align-items:center;justify-content:space-between;min-height:54px;padding:0 18px;border:1px solid #e05444;background:#e05444;color:#0a0a0a;font-family:'Space Mono','Courier New',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;text-decoration:none;text-transform:uppercase;box-shadow:0 12px 34px rgba(0,0,0,.55)}
   .mobile-shop-cta:focus-visible{outline:2px solid var(--white);outline-offset:3px}
 }
+
+/* AC_NATURAL_RATIO_20260803_V1 */
+.slider-wrapper{aspect-ratio:var(--outfit-ratio,3/4)!important;background:#0f0f0f!important}
+.slider-track img{object-fit:contain!important;object-position:center center!important;background:transparent!important}
+.seo-static img{aspect-ratio:auto!important;height:auto!important;object-fit:contain!important;object-position:center center!important;background:transparent!important}
+.related-card img{object-fit:contain!important;object-position:center center!important}
+@media(max-width:768px){.slider-wrapper{max-width:min(100%,420px)}}
