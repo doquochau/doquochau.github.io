@@ -1,0 +1,14 @@
+{
+  "files": {
+    "outfit_html": 136,
+    "closet": 1,
+    "css": 1
+  },
+  "fixes": [
+    "Look 41-136 no longer save as look-40; every page derives its own id/slug from URL.",
+    "All 136 save buttons use guarded Firestore writes and store slug/url/image dimensions.",
+    "Outfit slider follows each image natural ratio and uses object-fit contain, avoiding crop and grey side bars.",
+    "Closet uses natural-ratio masonry cards, so mixed 3:4, 2:3 and 9:16 images do not show grey bars."
+  ],
+  "important": "Previously corrupted look-40 records in Firestore cannot be inferred automatically. Remove the wrong old card once, then save the correct outfit again."
+}
