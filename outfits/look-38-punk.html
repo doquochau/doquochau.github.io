@@ -148,8 +148,8 @@
     const PAGE_IMG_ALT   = "Look 38 punk outfit với áo, quần, giày và phụ kiện badgirl street style";
     const PAGE_LCP_SRCSET = "/images-mobile-hd/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp 480w, /images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp 1086w";
     const PAGE_LCP_SIZES  = "(max-width: 768px) 100vw, 420px";
-    const PAGE_LCP_WIDTH  = "420";
-    const PAGE_LCP_HEIGHT = "560";
+    const PAGE_LCP_WIDTH  = "1086";
+    const PAGE_LCP_HEIGHT = "1448";
     const UI_TITLE     = "OUTFIT DETAILS #38 – Punk";
     const UI_DESC      = "Nhấn vào từng mục để xem chi tiết sản phẩm.";
     const UI_ITEMS     = [
@@ -168,6 +168,20 @@
     const staticEl   = document.getElementById('seo-static');
     let currentSlide = 0;
 
+    function updateSliderRatio(idx) {
+      const wrapper = document.querySelector('.slider-wrapper');
+      const imgs = document.querySelectorAll('#slider-track img');
+      const img = imgs[idx];
+      if (!wrapper || !img) return;
+      const applyRatio = () => {
+        const w = img.naturalWidth || Number(img.getAttribute('width')) || 3;
+        const h = img.naturalHeight || Number(img.getAttribute('height')) || 4;
+        if (w > 0 && h > 0) wrapper.style.aspectRatio = w + ' / ' + h;
+      };
+      if (img.complete && img.naturalWidth) applyRatio();
+      else img.addEventListener('load', applyRatio, { once: true });
+    }
+
     function moveSlide(dir) {
       const track = document.getElementById('slider-track');
       const dots  = document.querySelectorAll('.dot');
@@ -175,6 +189,7 @@
       currentSlide = (currentSlide + dir + total) % total;
       track.style.transform = `translateX(-${currentSlide * 100}%)`;
       dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+      updateSliderRatio(currentSlide);
     }
 
     function goToSlide(idx) {
@@ -183,6 +198,7 @@
       currentSlide = idx;
       track.style.transform = `translateX(-${currentSlide * 100}%)`;
       dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+      updateSliderRatio(currentSlide);
     }
 
     if (outfit && outfit.detail) {
@@ -265,6 +281,7 @@
       /* FIX DOUBLE H1: xoá hẳn static node khỏi DOM, không để lại H1 thứ 2 */
       if (staticEl) staticEl.remove();
       mainEl.classList.add('ready');
+      requestAnimationFrame(() => updateSliderRatio(0));
 
       /* Related outfits */
       const related = outfitsData
@@ -322,14 +339,27 @@
           const auth = getAuth(app);
           const db   = getFirestore(app);
           const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
-          const _outfit = outfitsData.find(o => o.id === "look-38") || null;
+          const pageSlug = window.location.pathname.split('/').pop().replace(/[.]html$/i, '');
+          const numberMatch = pageSlug.match(/^look-([0-9]+)/i);
+          const pageId = numberMatch ? 'look-' + String(numberMatch[1]).padStart(2, '0') : '';
+          const _outfit = outfitsData.find(o => o.id === pageId || o.slug === pageSlug) || null;
 
           onAuthStateChanged(auth, async user => {
             const btn = document.getElementById('btn-save');
-            if (!btn || !_outfit) return;
+            if (!btn) return;
+
+            if (!_outfit) {
+              btn.disabled = true;
+              btn.innerHTML = '&#9888; UNAVAILABLE';
+              console.error('Không tìm thấy dữ liệu outfit cho', pageSlug, pageId);
+              return;
+            }
 
             if (!user) {
-              btn.onclick = () => { window.location.href = '../login.html'; };
+              btn.onclick = () => {
+                sessionStorage.setItem('ac_return_after_login', window.location.href);
+                window.location.href = '../login.html';
+              };
               return;
             }
 
@@ -338,29 +368,56 @@
               picture: user.photoURL || '', sub: user.uid
             }));
 
-            const ref  = doc(db, 'users', user.uid, 'closet', _outfit.id);
-            const snap = await getDoc(ref);
-            let isSaved = snap.exists();
-            btn.innerHTML = isSaved ? '&#9829; SAVED' : '&#9825; SAVE';
-            if (isSaved) btn.classList.add('saved');
+            const ref = doc(db, 'users', user.uid, 'closet', _outfit.id);
+            let isSaved = false;
+            try {
+              const snap = await getDoc(ref);
+              isSaved = snap.exists();
+            } catch (error) {
+              console.error('Không kiểm tra được trạng thái SAVE:', error);
+            }
+
+            const paintButton = () => {
+              btn.innerHTML = isSaved ? '&#9829; SAVED' : '&#9825; SAVE';
+              btn.classList.toggle('saved', isSaved);
+            };
+            paintButton();
 
             btn.onclick = async () => {
-              if (isSaved) {
-                await deleteDoc(ref);
-                isSaved = false;
-                btn.innerHTML = '&#9825; SAVE';
-                btn.classList.remove('saved');
-              } else {
-                await setDoc(ref, {
-                  id:       _outfit.id,
-                  title:    "Look #38 Punk: Statement Punk",
-                  image:    _outfit.img,
-                  category: _outfit.category,
-                  savedAt:  Date.now()
-                });
-                isSaved = true;
-                btn.innerHTML = '&#9829; SAVED';
-                btn.classList.add('saved');
+              if (btn.dataset.busy === '1') return;
+              btn.dataset.busy = '1';
+              btn.disabled = true;
+              const previousText = btn.innerHTML;
+              btn.textContent = isSaved ? 'REMOVING...' : 'SAVING...';
+
+              try {
+                if (isSaved) {
+                  await deleteDoc(ref);
+                  isSaved = false;
+                } else {
+                  const hero = document.querySelector('.slider-track img');
+                  const heading = document.querySelector('.outfit-title');
+                  await setDoc(ref, {
+                    id: _outfit.id,
+                    slug: _outfit.slug || pageSlug,
+                    url: window.location.pathname,
+                    title: heading ? heading.textContent.trim() : (_outfit.title || pageSlug),
+                    image: _outfit.img,
+                    imageWidth: hero && hero.naturalWidth ? hero.naturalWidth : 0,
+                    imageHeight: hero && hero.naturalHeight ? hero.naturalHeight : 0,
+                    category: _outfit.category,
+                    savedAt: Date.now()
+                  });
+                  isSaved = true;
+                }
+                paintButton();
+              } catch (error) {
+                console.error('Lỗi cập nhật closet:', error);
+                btn.innerHTML = previousText;
+                window.alert('Chưa lưu được outfit. Vui lòng kiểm tra mạng rồi thử lại.');
+              } finally {
+                btn.disabled = false;
+                btn.dataset.busy = '0';
               }
             };
           });
