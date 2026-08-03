@@ -1,0 +1,13 @@
+{
+  "purpose": "Fix oversized outfit-card images on mobile homepage",
+  "files_to_upload": [
+    "index.html",
+    "images-mobile/badgirl-outfits/ (136 WebP + 136 AVIF)"
+  ],
+  "mobile_width_px": 240,
+  "source_images": 136,
+  "desktop_and_detail_images_changed": false,
+  "total_webp_bytes": 2343340,
+  "total_avif_bytes": 1739289,
+  "version": "20260803-card240-v1"
+}
