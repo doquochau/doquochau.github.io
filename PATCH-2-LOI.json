@@ -1,0 +1,22 @@
+{
+  "patched_files": [
+    "phoi-do-nu-ca-tinh.html",
+    "blog.html"
+  ],
+  "changes": {
+    "phoi-do-nu-ca-tinh.html": {
+      "E-Girl": "29 LOOKS",
+      "Baddie Streetwear": "36 LOOKS",
+      "Dark Feminine": "19 LOOKS",
+      "Goth": "18 LOOKS",
+      "Punk/Grunge": "34 LOOKS"
+    },
+    "blog.html": "Sorted 88 post cards newest to oldest by visible publication date."
+  },
+  "sitemap_check": {
+    "source": "existing full fixed source sitemap.xml",
+    "url_count": 244,
+    "image_entry_count": 852,
+    "image_namespace": true
+  }
+}
