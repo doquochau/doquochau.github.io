@@ -978,8 +978,8 @@
       img.decoding = isPriority ? 'sync' : 'async';
       const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
       const isNewPortrait = lookNumber >= 41;
-      img.width = isNewPortrait ? 1080 : 768;
-      img.height = isNewPortrait ? 1920 : 1024;
+      img.width = isNewPortrait ? 720 : 768;
+      img.height = isNewPortrait ? 1280 : 1024;
       img.onload  = () => card.classList.remove('shimmer');
       img.onerror = () => card.classList.remove('shimmer');
 
