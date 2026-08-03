@@ -5637,19 +5637,24 @@ const outfits = [
 
 ];
 
-/* 2026-08-03: Preserve full 9:16 outfit images inside legacy 3:4 cards. */
-(function applyApocalypseNoCropFix() {
-  if (typeof document === 'undefined' || document.getElementById('apocalypse-no-crop-fix')) return;
+/* AC_NO_CROP_20260803_V3: preserve complete 9:16 outfit images in legacy 3:4 UI frames. */
+(function applyApocalypseNoCropFixV3() {
+  if (typeof document === 'undefined' || document.getElementById('apocalypse-no-crop-fix-v3')) return;
   const style = document.createElement('style');
-  style.id = 'apocalypse-no-crop-fix';
+  style.id = 'apocalypse-no-crop-fix-v3';
   style.textContent = `
     .outfit-card img,
+    .thumb img,
     .slider-track img,
     .seo-static img,
     .related-card img {
       object-fit: contain !important;
       object-position: center center !important;
       background: #111 !important;
+    }
+    .outfit-card:hover img,
+    .related-card:hover img {
+      transform: none !important;
     }
   `;
   document.head.appendChild(style);
