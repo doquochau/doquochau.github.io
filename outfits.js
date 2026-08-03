@@ -5636,3 +5636,21 @@ const outfits = [
   // },
 
 ];
+
+/* 2026-08-03: Preserve full 9:16 outfit images inside legacy 3:4 cards. */
+(function applyApocalypseNoCropFix() {
+  if (typeof document === 'undefined' || document.getElementById('apocalypse-no-crop-fix')) return;
+  const style = document.createElement('style');
+  style.id = 'apocalypse-no-crop-fix';
+  style.textContent = `
+    .outfit-card img,
+    .slider-track img,
+    .seo-static img,
+    .related-card img {
+      object-fit: contain !important;
+      object-position: center center !important;
+      background: #111 !important;
+    }
+  `;
+  document.head.appendChild(style);
+})();
