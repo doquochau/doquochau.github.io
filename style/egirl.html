@@ -459,11 +459,19 @@
         card.style.animationDelay = (i * 0.03) + 's';
         card.onclick = () => window.location.href = `/outfits/${outfit.slug}.html`;
         const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
+        const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
+        const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
+        const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
+        const isNewPortrait = lookNumber >= 41;
+        const v = (url) => `${url}?v=20260803-perf100b`;
+        const avif = (url) => url.replace(/\.webp(\?.*)?$/i, '.avif$1');
+        const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
+        const imageMarkup = isNewPortrait
+          ? `<picture><source type="image/avif" srcset="${avif(v(mobileUrl))} 280w, ${avif(v(mobileHdUrl))} 560w, ${avif(v(gridUrl))} 720w" sizes="${responsiveSizes}"><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} E-Girl / Alt Girl outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
+          : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} E-Girl / Alt Girl outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
         const isSaved = ids.has(outfit.id);
         card.innerHTML = `
-          <img src="${outfit.img}" srcset="${mobileUrl} 600w, ${outfit.img} 1086w"
-            sizes="(max-width:768px) 50vw, 700px" alt="${outfit.tag} E-Girl / Alt Girl outfit — Apocalypse Closet"
-            loading="${i < 4 ? 'eager' : 'lazy'}" decoding="async">
+          ${imageMarkup}
           <div class="outfit-overlay">
             <span class="outfit-tag">XEM OUTFIT</span>
             <div class="outfit-num">${outfit.tag}</div>
