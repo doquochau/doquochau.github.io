@@ -64,6 +64,22 @@ window.searchIndex = [
   "keywords": "Aesthetic Dictionary topical map hướng dẫn outfit"
 },
 {
+  "title": "Mob Wife Aesthetic Là Gì? Quyền Lực, Da Và Trang Sức Vàng",
+  "url": "/blog/mob-wife-aesthetic-la-gi.html",
+  "type": "Journal",
+  "description": "Mob Wife Aesthetic là gì? Phân tích áo khoác có độ nặng, đồ da, họa tiết động vật, trang sức vàng và cách tạo vẻ quyền lực mà không thành costume.",
+  "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp",
+  "keywords": "mob wife aesthetic là gì, mob wife outfit, phong cách mob wife, dark feminine, áo khoác da nữ, họa tiết da báo, trang sức vàng, power dressing nữ Power Glamour Audit aesthetic fashion"
+},
+{
+  "title": "Nu Metal Aesthetic Là Gì? Baggy, Jersey Và Năng Lượng Đầu 2000s",
+  "url": "/blog/nu-metal-aesthetic-la-gi.html",
+  "type": "Journal",
+  "description": "Nu Metal Aesthetic là gì? Giải mã quần baggy, jersey, graphic tee, cargo, phụ kiện kim loại và cách mặc tinh thần đầu 2000s mà không thành costume.",
+  "image": "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
+  "keywords": "nu metal aesthetic là gì, nu metal fashion, nu metal outfit nữ, phong cách đầu 2000s, quần baggy, áo jersey, cargo nữ, alternative fashion Subculture Wardrobe Map aesthetic fashion"
+},
+{
   "title": "Fairy Grunge Là Gì? Khi Chất Mộng Mơ Gặp Grunge",
   "url": "/blog/fairy-grunge-la-gi.html",
   "type": "Journal",
