@@ -5666,6 +5666,11 @@ const outfits = [
    browser never paints a temporary 4-card layout before the real 32-card feed. */
 (function applyApocalypseStableMasonryV2() {
   if (typeof document === 'undefined' || window.__acStableMasonryV2) return;
+
+  const normalizedPath = (window.location.pathname || '/').replace(/\/+$/, '') || '/';
+  const isHomepage = normalizedPath === '/' || normalizedPath === '/index.html';
+  if (!isHomepage) return;
+
   window.__acStableMasonryV2 = true;
 
   function boot() {
@@ -5869,4 +5874,99 @@ const outfits = [
 
   if (document.readyState === 'loading') boot();
   else boot();
+})();
+
+
+/* AC_STYLE_LAYOUT_STABILITY_20260804_V1
+   The five /style/ pages keep their own Pinterest layout. This patch only
+   reserves each image's true ratio before the file finishes loading; it does
+   not rebuild or rebalance the page after every image load. */
+(function applyStylePageLayoutStabilityV1() {
+  if (typeof document === 'undefined' || window.__acStyleLayoutStabilityV1) return;
+
+  const normalizedPath = (window.location.pathname || '').replace(/\/+$/, '');
+  const isStylePage = /^\/style\/(dark-feminine|egirl|goth|baddie-streetwear|punk)\.html$/.test(normalizedPath);
+  if (!isStylePage) return;
+
+  window.__acStyleLayoutStabilityV1 = true;
+
+  const style = document.createElement('style');
+  style.id = 'ac-style-layout-stability-20260804-v1';
+  style.textContent = `
+    .outfit-card.shimmer {
+      contain: paint !important;
+      opacity: 1 !important;
+      transform: none !important;
+      will-change: auto !important;
+    }
+    .outfit-card,
+    .outfit-card:not(.shimmer) {
+      animation: none !important;
+      transform: none !important;
+      will-change: auto !important;
+    }
+    .outfit-card-link,
+    .outfit-card picture {
+      display: block !important;
+      width: 100% !important;
+    }
+    .outfit-card img {
+      display: block !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+      object-position: center center !important;
+      background: transparent !important;
+    }
+  `;
+  document.head.appendChild(style);
+
+  function getLookNumber(card) {
+    return Number(String(card?.dataset?.outfitId || '').replace(/\D/g, '')) || 0;
+  }
+
+  function reserveCard(card) {
+    if (!card || card.dataset.acRatioReserved === '1') return;
+    const img = card.querySelector('img');
+    if (!img) return;
+
+    let width = Number(img.getAttribute('width'));
+    let height = Number(img.getAttribute('height'));
+    if (!(width > 0 && height > 0)) {
+      const lookNumber = getLookNumber(card);
+      width = lookNumber >= 41 ? 720 : 768;
+      height = lookNumber >= 41 ? 1280 : 1024;
+      img.width = width;
+      img.height = height;
+    }
+
+    const ratio = `${width} / ${height}`;
+    const link = card.querySelector('.outfit-card-link');
+    const picture = card.querySelector('picture');
+    if (link) link.style.aspectRatio = ratio;
+    if (picture) picture.style.aspectRatio = ratio;
+    img.style.aspectRatio = ratio;
+    card.dataset.acRatioReserved = '1';
+  }
+
+  function reserveAll(root = document) {
+    root.querySelectorAll?.('.outfit-card').forEach(reserveCard);
+  }
+
+  reserveAll();
+  const observer = new MutationObserver(records => {
+    records.forEach(record => {
+      record.addedNodes.forEach(node => {
+        if (node.nodeType !== Node.ELEMENT_NODE) return;
+        if (node.matches?.('.outfit-card')) reserveCard(node);
+        reserveAll(node);
+      });
+    });
+  });
+  observer.observe(document.documentElement, { childList: true, subtree: true });
+
+  window.addEventListener('load', () => {
+    reserveAll();
+    window.setTimeout(() => observer.disconnect(), 2000);
+  }, { once: true });
 })();
