@@ -398,6 +398,7 @@
                 if (isSaved) {
                   await deleteDoc(ref);
                   isSaved = false;
+                  if (window.acTrack) window.acTrack('remove_saved_outfit', { outfit_id: _outfit.id, source_page: 'outfit_detail' });
                 } else {
                   const hero = document.querySelector('.slider-track img');
                   const heading = document.querySelector('.outfit-title');
@@ -413,6 +414,7 @@
                     savedAt: Date.now()
                   });
                   isSaved = true;
+                  if (window.acTrack) window.acTrack('save_saved_outfit', { outfit_id: _outfit.id, source_page: 'outfit_detail' });
                 }
                 paintButton();
               } catch (error) {

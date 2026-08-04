@@ -314,7 +314,7 @@
 
     <!-- ── LOGGED IN STATE ── -->
     <div id="user-box">
-      <img alt="avatar" decoding="async" height="40" id="user-avatar" loading="eager" src="" width="40"/>
+      <img alt="avatar" decoding="async" height="40" id="user-avatar" loading="eager" src="/Logo-Apocalypse-Closet.webp" width="40"/>
       <div class="user-name" id="user-name"></div>
       <div class="user-email" id="user-email"></div>
       <a href="closet.html" class="btn-enter">ENTER MY CLOSET →</a>
@@ -367,9 +367,45 @@
       }));
     }
 
+    let authActionPending = false;
+    let returnHandled = false;
+
+    function getReturnUrl() {
+      const saved = sessionStorage.getItem('ac_return_after_login');
+      if (!saved) return null;
+      try {
+        const target = new URL(saved, window.location.origin);
+        if (target.origin !== window.location.origin || /\/login\.html$/i.test(target.pathname)) return null;
+        return target.href;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function redirectAfterLogin() {
+      if (returnHandled) return false;
+      const target = getReturnUrl();
+      if (!target) return false;
+      returnHandled = true;
+      sessionStorage.removeItem('ac_return_after_login');
+      window.location.replace(target);
+      return true;
+    }
+
+    function trackLoginSuccess(method) {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'login_success', { method: method });
+      }
+    }
+
     // ── Theo dõi trạng thái auth ──────────────────────────────────
     onAuthStateChanged(auth, user => {
-      if (user) showUserBox(user);
+      if (!user) return;
+      showUserBox(user);
+      // Trường hợp người dùng đã đăng nhập sẵn nhưng vừa được chuyển từ nút SAVE.
+      if (!authActionPending && getReturnUrl()) {
+        window.setTimeout(redirectAfterLogin, 50);
+      }
     });
 
     // ── Hiện thông báo ────────────────────────────────────────────
@@ -391,10 +427,15 @@
       const btn = document.getElementById('btn-google');
       btn.disabled = true;
       try {
+        authActionPending = true;
         const provider = new GoogleAuthProvider();
-        await signInWithPopup(auth, provider);
-        // onAuthStateChanged sẽ tự xử lý
+        const credential = await signInWithPopup(auth, provider);
+        showUserBox(credential.user);
+        trackLoginSuccess('google');
+        authActionPending = false;
+        redirectAfterLogin();
       } catch (e) {
+        authActionPending = false;
         showMsg('Đăng nhập Google thất bại. Thử lại nhé!');
         btn.disabled = false;
       }
@@ -409,8 +450,14 @@
       if (!email || !pass) { showMsg('Vui lòng nhập đầy đủ email và mật khẩu.'); return; }
       setLoading('btn-login', true);
       try {
-        await signInWithEmailAndPassword(auth, email, pass);
+        authActionPending = true;
+        const credential = await signInWithEmailAndPassword(auth, email, pass);
+        showUserBox(credential.user);
+        trackLoginSuccess('email');
+        authActionPending = false;
+        redirectAfterLogin();
       } catch (e) {
+        authActionPending = false;
         const map = {
           'auth/user-not-found':  'Email chưa đăng ký.',
           'auth/wrong-password':  'Mật khẩu không đúng.',
@@ -432,11 +479,16 @@
       if (pass.length < 6) { showMsg('Mật khẩu phải có ít nhất 6 ký tự.'); return; }
       setLoading('btn-register', true);
       try {
+        authActionPending = true;
         const cred = await createUserWithEmailAndPassword(auth, email, pass);
         await updateProfile(cred.user, { displayName: name });
+        showUserBox(cred.user);
+        trackLoginSuccess('email_register');
         showMsg('Tạo tài khoản thành công! 🖤', 'success');
-        setTimeout(() => showUserBox(cred.user), 1000);
+        authActionPending = false;
+        if (!redirectAfterLogin()) setTimeout(() => showUserBox(cred.user), 1000);
       } catch (e) {
+        authActionPending = false;
         const map = {
           'auth/email-already-in-use': 'Email này đã được đăng ký rồi.',
           'auth/invalid-email':        'Email không hợp lệ.',

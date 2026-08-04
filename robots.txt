@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /login.html
 
 Sitemap: https://apocalypsecloset.com/sitemap.xml
