@@ -5660,24 +5660,30 @@ const outfits = [
   document.head.appendChild(style);
 })();
 
-/* AC_LAYOUT_STABILITY_20260804_V1
-   Keep the Pinterest-style natural ratios while preventing cards from jumping
-   as 3:4 and 9:16 images load. This runs before the homepage initial render
-   because outfits.js is a deferred dependency of index.html. */
-(function applyApocalypseStableMasonryV1() {
-  if (typeof document === 'undefined' || window.__acStableMasonryV1) return;
-  window.__acStableMasonryV1 = true;
+/* AC_LAYOUT_STABILITY_20260804_V2
+   Homepage only: render the Pinterest feed once. The four server-rendered
+   starter cards are removed from index.html by the companion patch so the
+   browser never paints a temporary 4-card layout before the real 32-card feed. */
+(function applyApocalypseStableMasonryV2() {
+  if (typeof document === 'undefined' || window.__acStableMasonryV2) return;
+  window.__acStableMasonryV2 = true;
 
   function boot() {
     const grid = document.getElementById('outfit-grid');
-    if (!grid || grid.dataset.acStableMasonry === '1') return;
-    grid.dataset.acStableMasonry = '1';
-    grid.classList.add('ac-stable-masonry');
+    if (!grid || grid.dataset.acStableMasonry === '2') return;
+    grid.dataset.acStableMasonry = '2';
+    grid.classList.add('ac-stable-masonry', 'ac-grid-preparing');
+    grid.setAttribute('aria-busy', 'true');
 
     const style = document.createElement('style');
-    style.id = 'ac-layout-stability-20260804-v1';
+    style.id = 'ac-layout-stability-20260804-v2';
     style.textContent = `
-      /* Independent columns do not rebalance when another image finishes loading. */
+      /* Do not show a temporary or half-built grid. Card DOM is created first,
+         then the complete grid is revealed on the next animation frame. */
+      #outfit-grid.ac-grid-preparing {
+        visibility: hidden !important;
+        min-height: 100vh !important;
+      }
       #outfit-grid.ac-stable-masonry {
         column-count: initial !important;
         column-gap: 0 !important;
@@ -5701,21 +5707,23 @@ const outfits = [
         break-inside: avoid !important;
         -webkit-column-break-inside: avoid !important;
       }
-      /* contain: strict includes size containment and collapses the card while loading. */
       #outfit-grid.ac-stable-masonry .outfit-card.shimmer {
         contain: paint !important;
+        opacity: 1 !important;
+        transform: none !important;
+        will-change: auto !important;
       }
-      /* Stop the old staggered translateY animation from looking like layout movement. */
       #outfit-grid.ac-stable-masonry .outfit-card:not(.shimmer) {
         animation: none !important;
         opacity: 1 !important;
         transform: none !important;
         will-change: auto !important;
       }
-      #outfit-grid.ac-stable-masonry .outfit-card picture,
-      #outfit-grid.ac-stable-masonry .outfit-card-link {
+      #outfit-grid.ac-stable-masonry .outfit-card-link,
+      #outfit-grid.ac-stable-masonry .outfit-card picture {
         display: block !important;
         width: 100% !important;
+        height: 100% !important;
       }
       #outfit-grid.ac-stable-masonry .outfit-card img {
         display: block !important;
@@ -5723,6 +5731,7 @@ const outfits = [
         height: 100% !important;
         object-fit: contain !important;
         object-position: center center !important;
+        background: transparent !important;
       }
       @media (max-width: 768px) {
         #outfit-grid.ac-stable-masonry {
@@ -5732,7 +5741,7 @@ const outfits = [
       @media (prefers-reduced-motion: reduce) {
         #outfit-grid.ac-stable-masonry .outfit-card {
           animation: none !important;
-          opacity: 1 !important;
+          transition: none !important;
         }
       }
     `;
@@ -5742,12 +5751,24 @@ const outfits = [
     const nativeReplaceChildren = Element.prototype.replaceChildren;
     let renderedCards = [];
     let renderedColumnCount = window.innerWidth <= 768 ? 2 : 4;
+    let revealToken = 0;
+
+    /* Safety fallback: even if an old index.html still contains starter cards,
+       remove them before the actual feed is generated. The index patch prevents
+       them from being requested or painted in the first place. */
+    nativeReplaceChildren.call(grid);
 
     function getLookNumber(card) {
       return Number(String(card?.dataset?.outfitId || '').replace(/\D/g, '')) || 0;
     }
 
     function getDimensions(card) {
+      const img = card?.querySelector?.('img');
+      const attrWidth = Number(img?.getAttribute('width'));
+      const attrHeight = Number(img?.getAttribute('height'));
+      if (attrWidth > 0 && attrHeight > 0) {
+        return { width: attrWidth, height: attrHeight };
+      }
       const lookNumber = getLookNumber(card);
       return lookNumber >= 41
         ? { width: 720, height: 1280 }
@@ -5770,6 +5791,16 @@ const outfits = [
         img.style.aspectRatio = `${width} / ${height}`;
       }
       return height / width;
+    }
+
+    function revealCompleteGrid() {
+      const token = ++revealToken;
+      requestAnimationFrame(() => {
+        if (token !== revealToken) return;
+        grid.classList.remove('ac-grid-preparing');
+        grid.style.minHeight = '';
+        grid.setAttribute('aria-busy', 'false');
+      });
     }
 
     function makeStableColumns(cards, requestedColumnCount) {
@@ -5797,7 +5828,7 @@ const outfits = [
       renderedCards = cards;
       renderedColumnCount = columnCount;
       nativeReplaceChildren.call(grid, ...columns);
-      grid.setAttribute('aria-busy', 'false');
+      revealCompleteGrid();
     }
 
     function collectIncomingCards(node) {
@@ -5807,12 +5838,6 @@ const outfits = [
       }
       return node.classList?.contains('outfit-card') ? [node] : [];
     }
-
-    /* Reserve the four server-rendered cards immediately. Empty placeholders are
-       deliberately ignored; the exact selected batch is laid out atomically below. */
-    Array.from(grid.children)
-      .filter(el => el.classList?.contains('outfit-card') && !el.classList.contains('outfit-card--placeholder'))
-      .forEach((card, index) => reserveCardSpace(card, index));
 
     grid.appendChild = function stableGridAppend(node) {
       const incoming = collectIncomingCards(node)
