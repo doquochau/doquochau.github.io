@@ -1,0 +1,19 @@
+{
+  "patch": "SEO, Privacy, GSC ProfilePage and resilience fixes",
+  "date": "2026-08-03",
+  "changed_files": [
+    "privacy.html",
+    "login.html",
+    "closet.html",
+    "blog/phoi-do-alt-fashion-cho-nguoi-moi.html",
+    "blog/capsule-wardrobe-la-gi.html",
+    "index.html",
+    "author.html",
+    "sitemap.xml"
+  ],
+  "notes": [
+    "outfits.js was checked: Look #05 contains only one img: G(5, 1) line, so no change was necessary.",
+    "author.html dateModified now uses full ISO 8601 date-time with +07:00 timezone.",
+    "sitemap image entries were preserved; only lastmod values for changed indexable pages were updated."
+  ]
+}

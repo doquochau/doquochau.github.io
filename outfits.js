@@ -5659,3 +5659,189 @@ const outfits = [
   `;
   document.head.appendChild(style);
 })();
+
+/* AC_LAYOUT_STABILITY_20260804_V1
+   Keep the Pinterest-style natural ratios while preventing cards from jumping
+   as 3:4 and 9:16 images load. This runs before the homepage initial render
+   because outfits.js is a deferred dependency of index.html. */
+(function applyApocalypseStableMasonryV1() {
+  if (typeof document === 'undefined' || window.__acStableMasonryV1) return;
+  window.__acStableMasonryV1 = true;
+
+  function boot() {
+    const grid = document.getElementById('outfit-grid');
+    if (!grid || grid.dataset.acStableMasonry === '1') return;
+    grid.dataset.acStableMasonry = '1';
+    grid.classList.add('ac-stable-masonry');
+
+    const style = document.createElement('style');
+    style.id = 'ac-layout-stability-20260804-v1';
+    style.textContent = `
+      /* Independent columns do not rebalance when another image finishes loading. */
+      #outfit-grid.ac-stable-masonry {
+        column-count: initial !important;
+        column-gap: 0 !important;
+        display: grid !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+        align-items: start !important;
+        gap: 2px !important;
+        padding: 0 2px 2px !important;
+      }
+      #outfit-grid.ac-stable-masonry > .ac-masonry-column {
+        display: flex !important;
+        min-width: 0 !important;
+        flex-direction: column !important;
+        gap: 2px !important;
+      }
+      #outfit-grid.ac-stable-masonry .outfit-card {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        vertical-align: top !important;
+        break-inside: avoid !important;
+        -webkit-column-break-inside: avoid !important;
+      }
+      /* contain: strict includes size containment and collapses the card while loading. */
+      #outfit-grid.ac-stable-masonry .outfit-card.shimmer {
+        contain: paint !important;
+      }
+      /* Stop the old staggered translateY animation from looking like layout movement. */
+      #outfit-grid.ac-stable-masonry .outfit-card:not(.shimmer) {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+        will-change: auto !important;
+      }
+      #outfit-grid.ac-stable-masonry .outfit-card picture,
+      #outfit-grid.ac-stable-masonry .outfit-card-link {
+        display: block !important;
+        width: 100% !important;
+      }
+      #outfit-grid.ac-stable-masonry .outfit-card img {
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+        object-position: center center !important;
+      }
+      @media (max-width: 768px) {
+        #outfit-grid.ac-stable-masonry {
+          grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #outfit-grid.ac-stable-masonry .outfit-card {
+          animation: none !important;
+          opacity: 1 !important;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+
+    const nativeAppendChild = Node.prototype.appendChild;
+    const nativeReplaceChildren = Element.prototype.replaceChildren;
+    let renderedCards = [];
+    let renderedColumnCount = window.innerWidth <= 768 ? 2 : 4;
+
+    function getLookNumber(card) {
+      return Number(String(card?.dataset?.outfitId || '').replace(/\D/g, '')) || 0;
+    }
+
+    function getDimensions(card) {
+      const lookNumber = getLookNumber(card);
+      return lookNumber >= 41
+        ? { width: 720, height: 1280 }
+        : { width: 768, height: 1024 };
+    }
+
+    function reserveCardSpace(card, order) {
+      const { width, height } = getDimensions(card);
+      card.dataset.acOrder = String(order);
+      card.style.aspectRatio = `${width} / ${height}`;
+
+      const link = card.querySelector('.outfit-card-link');
+      const picture = card.querySelector('picture');
+      const img = card.querySelector('img');
+      if (link) link.style.aspectRatio = `${width} / ${height}`;
+      if (picture) picture.style.aspectRatio = `${width} / ${height}`;
+      if (img) {
+        img.width = width;
+        img.height = height;
+        img.style.aspectRatio = `${width} / ${height}`;
+      }
+      return height / width;
+    }
+
+    function makeStableColumns(cards, requestedColumnCount) {
+      const columnCount = requestedColumnCount || (window.innerWidth <= 768 ? 2 : 4);
+      const columns = Array.from({ length: columnCount }, () => {
+        const column = document.createElement('div');
+        column.className = 'ac-masonry-column';
+        return column;
+      });
+      const estimatedHeights = Array(columnCount).fill(0);
+
+      cards.forEach((card, index) => {
+        const ratioHeight = reserveCardSpace(card, index);
+        let targetColumn;
+        if (index < columnCount) {
+          targetColumn = index;
+        } else {
+          const shortest = Math.min(...estimatedHeights);
+          targetColumn = estimatedHeights.indexOf(shortest);
+        }
+        nativeAppendChild.call(columns[targetColumn], card);
+        estimatedHeights[targetColumn] += ratioHeight + 0.01;
+      });
+
+      renderedCards = cards;
+      renderedColumnCount = columnCount;
+      nativeReplaceChildren.call(grid, ...columns);
+      grid.setAttribute('aria-busy', 'false');
+    }
+
+    function collectIncomingCards(node) {
+      if (!node) return [];
+      if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+        return Array.from(node.children).filter(el => el.classList?.contains('outfit-card'));
+      }
+      return node.classList?.contains('outfit-card') ? [node] : [];
+    }
+
+    /* Reserve the four server-rendered cards immediately. Empty placeholders are
+       deliberately ignored; the exact selected batch is laid out atomically below. */
+    Array.from(grid.children)
+      .filter(el => el.classList?.contains('outfit-card') && !el.classList.contains('outfit-card--placeholder'))
+      .forEach((card, index) => reserveCardSpace(card, index));
+
+    grid.appendChild = function stableGridAppend(node) {
+      const incoming = collectIncomingCards(node)
+        .filter(card => !card.classList.contains('outfit-card--placeholder'));
+
+      if (incoming.length) {
+        const existing = Array.from(grid.querySelectorAll('.outfit-card'))
+          .filter(card => !card.classList.contains('outfit-card--placeholder'));
+        const combined = existing.concat(incoming.filter(card => !existing.includes(card)));
+        makeStableColumns(combined);
+        return node;
+      }
+      return nativeAppendChild.call(grid, node);
+    };
+
+    let resizeTimer = 0;
+    window.addEventListener('resize', function stableMasonryResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(() => {
+        const nextColumnCount = window.innerWidth <= 768 ? 2 : 4;
+        if (nextColumnCount === renderedColumnCount || !renderedCards.length) return;
+        const ordered = [...renderedCards].sort(
+          (a, b) => Number(a.dataset.acOrder || 0) - Number(b.dataset.acOrder || 0)
+        );
+        makeStableColumns(ordered, nextColumnCount);
+      }, 120);
+    }, { passive: true });
+  }
+
+  if (document.readyState === 'loading') boot();
+  else boot();
+})();
