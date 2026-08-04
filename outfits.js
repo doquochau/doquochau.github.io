@@ -1,1008 +1,3476 @@
 // ═══════════════════════════════════════════════════════════════════
-//  APOCALYPSE CLOSET — DATA FILE (SINGLE SOURCE OF TRUTH)
-//
-//  Chỉ cần sửa file này khi thêm/xoá/chỉnh sửa outfit.
-//  Mọi trang (index, style, outfit-detail) đều đọc từ đây.
-//
-//  CATEGORY hợp lệ:
-//    "Dark Feminine" | "E-Girl" | "Goth" | "Baddie Streetwear" | "Punk" | "Grunge"
-//
-//  SLUG: dùng cho URL tĩnh /outfits/{slug}.html
-//    Format: look-{XX}-{category-kebab}
+// APOCALYPSE CLOSET — OUTFIT DATA (SINGLE SOURCE OF TRUTH)
+// Taxonomy v2: 5 primary styles + secondary styles + practical filters.
+// URLs and image filenames are intentionally preserved for SEO stability.
 // ═══════════════════════════════════════════════════════════════════
 
-const BASE = "/images/badgirl-outfits";
-const STYLE_BY_LOOK = { 1: "e-girl", 2: "baddie-streetwear", 3: "punk", 4: "dark-feminine", 5: "e-girl", 6: "punk", 7: "baddie-streetwear", 8: "e-girl", 9: "goth", 10: "punk", 11: "e-girl", 12: "punk", 13: "e-girl", 14: "baddie-streetwear", 15: "dark-feminine", 16: "goth", 17: "baddie-streetwear", 18: "dark-feminine", 19: "punk", 20: "baddie-streetwear", 21: "baddie-streetwear", 22: "dark-feminine", 23: "baddie-streetwear", 24: "goth", 25: "goth", 26: "baddie-streetwear", 27: "baddie-streetwear", 28: "baddie-streetwear", 29: "dark-feminine", 30: "dark-feminine", 31: "e-girl", 32: "goth", 33: "e-girl", 34: "baddie-streetwear", 35: "e-girl", 36: "dark-feminine", 37: "baddie-streetwear", 38: "punk", 39: "baddie-streetwear", 40: "dark-feminine" };
-const IMG_PART_BY_INDEX = { 1: "full-outfit", 2: "top", 3: "bottom", 4: "shoes-accessories" };
-const G = (look, idx) => `${BASE}/badgirl-${STYLE_BY_LOOK[look]}-look-${String(look).padStart(2, '0')}-${IMG_PART_BY_INDEX[idx]}.webp`;
-
 const outfits = [
-
-  // ── E-GIRL ────────────────────────────────────────────────────
   {
-    id: "look-01",
-    slug: "look-01-egirl",
-    img: G(1, 1),
-    tag: "LOOK #01",
-    title: "E-Girl Badgirl Look #01",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #1",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(1,1), G(1,2), G(1,3), G(1,4) ],
-      items: [
-        { name: "ÁO", type: "Camisole trắng", link: "https://s.shopee.vn/5LAne0KB98" },
-        { name: "QUẦN", type: "Quần dây rút đen", link: "https://s.shopee.vn/5VUDqJJXoB" },
-        { name: "GIÀY", type: "Sneaker chunky trắng", link: "https://s.shopee.vn/6L3KpqGN7M" },
-        { name: "KÍNH", type: "Kính râm đen", link: "https://s.shopee.vn/6VMl29FjmP" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/2BDlse33fZ" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đinh tán", link: "https://s.shopee.vn/2LXC4x2QKc" }
-      
+    "id": "look-01",
+    "slug": "look-01-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+    "tag": "LOOK #01",
+    "title": "Baddie Streetwear Outfit Nữ Look #01",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #1",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-01-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-01-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-01-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Camisole trắng",
+          "link": "https://s.shopee.vn/5LAne0KB98"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Quần dây rút đen",
+          "link": "https://s.shopee.vn/5VUDqJJXoB"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker chunky trắng",
+          "link": "https://s.shopee.vn/6L3KpqGN7M"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính râm đen",
+          "link": "https://s.shopee.vn/6VMl29FjmP"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/2BDlse33fZ"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đinh tán",
+          "link": "https://s.shopee.vn/2LXC4x2QKc"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine",
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Punk / Grunge",
+      "Camisole trắng",
+      "Quần dây rút đen",
+      "Sneaker chunky trắng",
+      "Đi học",
+      "Đi cafe",
+      "Đen",
+      "Tôn eo",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────
   {
-    id: "look-02",
-    slug: "look-02-baddie-streetwear",
-    img: G(2, 1),
-    tag: "LOOK #02",
-    title: "Baddie Streetwear Badgirl Look #02",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #2",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(2,1), G(2,2), G(2,3), G(2,4) ],
-      items: [
-        { name: "ÁO", type: "Sweatshirt đen oversize", link: "https://s.shopee.vn/60QUREHdnK" },
-        { name: "QUẦN", type: "Cargo rằn ri", link: "https://s.shopee.vn/6AjudXH0SN" },
-        { name: "GIÀY", type: "Clog trắng chunky", link: "https://s.shopee.vn/70J1d4DplY" },
-        { name: "KÍNH", type: "Kính gọng đen", link: "https://s.shopee.vn/7AcRpNDCQb" },
-        { name: "TÚI", type: "Túi đeo vai đen", link: "https://s.shopee.vn/6fgBESF6RW" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền mặt bạc", link: "https://s.shopee.vn/2VqcHG1mzf" }
-      
+    "id": "look-02",
+    "slug": "look-02-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp",
+    "tag": "LOOK #02",
+    "title": "Baddie Streetwear Outfit Nữ Look #02",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #2",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Sweatshirt đen oversize",
+          "link": "https://s.shopee.vn/60QUREHdnK"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo rằn ri",
+          "link": "https://s.shopee.vn/6AjudXH0SN"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Clog trắng chunky",
+          "link": "https://s.shopee.vn/70J1d4DplY"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính gọng đen",
+          "link": "https://s.shopee.vn/7AcRpNDCQb"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai đen",
+          "link": "https://s.shopee.vn/6fgBESF6RW"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền mặt bạc",
+          "link": "https://s.shopee.vn/2VqcHG1mzf"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Sweatshirt đen oversize",
+      "Cargo rằn ri",
+      "Clog trắng chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đen",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── PUNK ──────────────────────────────────────────────────────
   {
-    id: "look-03",
-    slug: "look-03-punk",
-    img: G(3, 1),
-    tag: "LOOK #03",
-    title: "Punk Badgirl Look #03",
-    category: "Punk",
-    detail: {
-      title: "OUTFIT DETAILS #3",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(3,1), G(3,2), G(3,3), G(3,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tee graphic trắng", link: "https://s.shopee.vn/6pzbQlET6Z?lp=aff" },
-        { name: "QUẦN", type: "Cargo đen ống rộng", link: "https://s.shopee.vn/7fYiQIBIPk" },
-        { name: "GIÀY", type: "Combat boots đen", link: "https://s.shopee.vn/7ps8cbAf4n" },
-        { name: "ARM WARMER", type: "Arm warmer kẻ sọc", link: "https://s.shopee.vn/19HIfBJ4C" },
-        { name: "DÂY ĐAI", type: "Dây đai eo đen", link: "https://s.shopee.vn/BShUyAfjF" },
-        { name: "DÂY CHUYỀN", type: "Choker xích bạc", link: "https://s.shopee.vn/Lm7hHA2OI" }
-      
+    "id": "look-03",
+    "slug": "look-03-punk",
+    "img": "/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp",
+    "tag": "LOOK #03",
+    "title": "Punk / Grunge Outfit Nữ Look #03",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #3",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-03-top.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-03-bottom.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-03-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tee graphic trắng",
+          "link": "https://s.shopee.vn/6pzbQlET6Z?lp=aff"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo đen ống rộng",
+          "link": "https://s.shopee.vn/7fYiQIBIPk"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Combat boots đen",
+          "link": "https://s.shopee.vn/7ps8cbAf4n"
+        },
+        {
+          "name": "ARM WARMER",
+          "type": "Arm warmer kẻ sọc",
+          "link": "https://s.shopee.vn/19HIfBJ4C"
+        },
+        {
+          "name": "DÂY ĐAI",
+          "type": "Dây đai eo đen",
+          "link": "https://s.shopee.vn/BShUyAfjF"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Choker xích bạc",
+          "link": "https://s.shopee.vn/Lm7hHA2OI"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl",
+      "Goth"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Goth",
+      "Punk",
+      "Crop tee graphic trắng",
+      "Cargo đen ống rộng",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-04",
-    slug: "look-04-dark-feminine",
-    img: G(4, 1),
-    tag: "LOOK #04",
-    title: "Dark Feminine Badgirl Look #04",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #4",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(4,1), G(4,2), G(4,3), G(4,4) ],
-      items: [
-        { name: "ÁO", type: "Áo trễ vai nâu", link: "https://s.shopee.vn/7Kvs1gCZ5i" },
-        { name: "QUẦN", type: "Jeans rách tua rua", link: "https://s.shopee.vn/7VFIDzBvkl" },
-        { name: "GIÀY", type: "Platform đen chunky", link: "https://s.shopee.vn/8KoPDW8l3w" },
-        { name: "DÂY XÍCH", type: "Xích quần ánh vàng", link: "https://s.shopee.vn/W5Xta9P3L" },
-        { name: "THẮT LƯNG", type: "Thắt lưng khóa vuông", link: "https://s.shopee.vn/gOy5t8liO" }
-      
+    "id": "look-04",
+    "slug": "look-04-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp",
+    "tag": "LOOK #04",
+    "title": "Dark Feminine Outfit Nữ Look #04",
+    "category": "Dark Feminine",
+    "detail": {
+      "title": "OUTFIT DETAILS #4",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-04-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-04-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-04-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Áo trễ vai nâu",
+          "link": "https://s.shopee.vn/7Kvs1gCZ5i"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans rách tua rua",
+          "link": "https://s.shopee.vn/7VFIDzBvkl"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform đen chunky",
+          "link": "https://s.shopee.vn/8KoPDW8l3w"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần ánh vàng",
+          "link": "https://s.shopee.vn/W5Xta9P3L"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng khóa vuông",
+          "link": "https://s.shopee.vn/gOy5t8liO"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo trễ vai nâu",
+      "Jeans rách tua rua",
+      "Platform đen chunky",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── E-GIRL ────────────────────────────────────────────────────
   {
-    id: "look-05",
-    slug: "look-05-egirl",
-    img: G(5, 1),
-    tag: "LOOK #05",
-    title: "E-Girl Badgirl Look #05",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #5",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(5,1), G(5,2), G(5,3), G(5,4) ],
-      items: [
-        { name: "ÁO", type: "Graphic tee đen", link: "https://s.shopee.vn/8V7pPp87iz" },
-        { name: "QUẦN", type: "Jeans rách xám", link: "https://s.shopee.vn/80BYouA1ju" },
-        { name: "GIÀY", type: "Sneaker cổ cao đen", link: "https://s.shopee.vn/8AUz1D9OOx" },
-        { name: "KÍNH", type: "Kính chữ nhật đen", link: "https://s.shopee.vn/90460k6Di8" },
-        { name: "DÂY CHUYỀN", type: "Xích bạc layer", link: "https://s.shopee.vn/qiOIC88NR" }
-      
+    "id": "look-05",
+    "slug": "look-05-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp",
+    "tag": "LOOK #05",
+    "title": "Punk / Grunge Outfit Nữ Look #05",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #5",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-05-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-05-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-05-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Graphic tee đen",
+          "link": "https://s.shopee.vn/8V7pPp87iz"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans rách xám",
+          "link": "https://s.shopee.vn/80BYouA1ju"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker cổ cao đen",
+          "link": "https://s.shopee.vn/8AUz1D9OOx"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính chữ nhật đen",
+          "link": "https://s.shopee.vn/90460k6Di8"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Xích bạc layer",
+          "link": "https://s.shopee.vn/qiOIC88NR"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear",
+      "E-Girl"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Cân đối"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "E-Girl",
+      "Grunge",
+      "Graphic tee đen",
+      "Jeans rách xám",
+      "Sneaker cổ cao đen",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Cân đối",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── PUNK ──────────────────────────────────────────────────────
   {
-    id: "look-06",
-    slug: "look-06-punk",
-    img: G(6, 1),
-    tag: "LOOK #06",
-    title: "Punk Badgirl Look #06",
-    category: "Punk",
-    detail: {
-      title: "OUTFIT DETAILS #6",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(6,1), G(6,2), G(6,3), G(6,4) ],
-      items: [
-        { name: "ÁO", type: "Graphic tee đỏ", link: "https://s.shopee.vn/9ANWD35aNB" },
-        { name: "QUẦN", type: "Short đen cạp cao", link: "https://s.shopee.vn/8fRFc87UO6" },
-        { name: "GIÀY", type: "Combat boots platform", link: "https://s.shopee.vn/8pkfoR6r39" },
-        { name: "QUẦN TẤT", type: "Quần tất rách đen", link: "https://s.shopee.vn/111oUV7V2U" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đinh tán", link: "https://s.shopee.vn/1BLEgo6rhX" },
-        { name: "DÂY XÍCH", type: "Xích quần bạc", link: "https://s.shopee.vn/40fQ40w4x6" },
-        { name: "TÚI", type: "Túi đeo vai đen", link: "https://s.shopee.vn/9fJmny3gMK" }
-      
+    "id": "look-06",
+    "slug": "look-06-punk",
+    "img": "/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp",
+    "tag": "LOOK #06",
+    "title": "Punk / Grunge Outfit Nữ Look #06",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #6",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-06-top.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-06-bottom.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-06-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Graphic tee đỏ",
+          "link": "https://s.shopee.vn/9ANWD35aNB"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Short đen cạp cao",
+          "link": "https://s.shopee.vn/8fRFc87UO6"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Combat boots platform",
+          "link": "https://s.shopee.vn/8pkfoR6r39"
+        },
+        {
+          "name": "QUẦN TẤT",
+          "type": "Quần tất rách đen",
+          "link": "https://s.shopee.vn/111oUV7V2U"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đinh tán",
+          "link": "https://s.shopee.vn/1BLEgo6rhX"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần bạc",
+          "link": "https://s.shopee.vn/40fQ40w4x6"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai đen",
+          "link": "https://s.shopee.vn/9fJmny3gMK"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Short",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Punk",
+      "Graphic tee đỏ",
+      "Short đen cạp cao",
+      "Combat boots platform",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Hack chân dài",
+      "Short",
+      "Boots / Platform"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────
   {
-    id: "look-07",
-    slug: "look-07-baddie-streetwear",
-    img: G(7, 1),
-    tag: "LOOK #07",
-    title: "Baddie Streetwear Badgirl Look #07",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #7",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(7,1), G(7,2), G(7,3), G(7,4) ],
-      items: [
-        { name: "ÁO", type: "Tube top đen", link: "https://s.shopee.vn/9pdD0H331N" },
-        { name: "QUẦN", type: "Parachute đen", link: "https://s.shopee.vn/9KgwPM4x2I" },
-        { name: "GIÀY", type: "Boot mũi nhọn đen", link: "https://s.shopee.vn/9V0Mbf4JhL" },
-        { name: "MŨ", type: "Bucket hat họa tiết", link: "https://s.shopee.vn/AKZTbC190W" },
-        { name: "ÁO KHOÁC", type: "Puffer đen oversize", link: "https://s.shopee.vn/4AyqGJvRc9" },
-        { name: "KÍNH", type: "Kính râm đen", link: "https://s.shopee.vn/AUstnV0VfZ" },
-        { name: "TÚI", type: "Túi xách đen", link: "https://s.shopee.vn/9zwdCa2PgU" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền layer bạc", link: "https://s.shopee.vn/4LIGScuoHC" }
-      
-      
+    "id": "look-07",
+    "slug": "look-07-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp",
+    "tag": "LOOK #07",
+    "title": "Baddie Streetwear Outfit Nữ Look #07",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #7",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Tube top đen",
+          "link": "https://s.shopee.vn/9pdD0H331N"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Parachute đen",
+          "link": "https://s.shopee.vn/9KgwPM4x2I"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Boot mũi nhọn đen",
+          "link": "https://s.shopee.vn/9V0Mbf4JhL"
+        },
+        {
+          "name": "MŨ",
+          "type": "Bucket hat họa tiết",
+          "link": "https://s.shopee.vn/AKZTbC190W"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Puffer đen oversize",
+          "link": "https://s.shopee.vn/4AyqGJvRc9"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính râm đen",
+          "link": "https://s.shopee.vn/AUstnV0VfZ"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xách đen",
+          "link": "https://s.shopee.vn/9zwdCa2PgU"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền layer bạc",
+          "link": "https://s.shopee.vn/4LIGScuoHC"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Tube top đen",
+      "Parachute đen",
+      "Boot mũi nhọn đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── E-GIRL ────────────────────────────────────────────────────
   {
-    id: "look-08",
-    slug: "look-08-egirl",
-    img: G(8, 1),
-    tag: "LOOK #08",
-    title: "E-Girl Badgirl Look #08",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #8",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(8,1), G(8,2), G(8,3), G(8,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tee đỏ", link: "https://s.shopee.vn/AAG3Ot1mLX" },
-        { name: "QUẦN", type: "Jeans cargo xanh", link: "https://s.shopee.vn/Lm7godDIe" },
-        { name: "GIÀY", type: "Sneaker trắng", link: "https://s.shopee.vn/W5Xt7cZxh" },
-        { name: "MŨ", type: "Mũ newsboy đỏ đen", link: "https://s.shopee.vn/19HICeTyc" },
-        { name: "VÁY LAYER", type: "Váy layer đỏ đen", link: "https://s.shopee.vn/4VbgevuAwF" },
-        { name: "THẮT LƯNG", type: "Thắt lưng lỗ bạc", link: "https://s.shopee.vn/4fv6rEtXbI" },
-        { name: "TÚI", type: "Túi mini đen", link: "https://s.shopee.vn/BShUVdqdf" },
-        { name: "DÂY CHUYỀN", type: "Choker đen bạc", link: "https://s.shopee.vn/4qEX3XsuGL" }
-      
+    "id": "look-08",
+    "slug": "look-08-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp",
+    "tag": "LOOK #08",
+    "title": "E-Girl Outfit Nữ Look #08",
+    "category": "E-Girl",
+    "detail": {
+      "title": "OUTFIT DETAILS #8",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-08-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-08-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-08-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tee đỏ",
+          "link": "https://s.shopee.vn/AAG3Ot1mLX"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans cargo xanh",
+          "link": "https://s.shopee.vn/Lm7godDIe"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker trắng",
+          "link": "https://s.shopee.vn/W5Xt7cZxh"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ newsboy đỏ đen",
+          "link": "https://s.shopee.vn/19HICeTyc"
+        },
+        {
+          "name": "VÁY LAYER",
+          "type": "Váy layer đỏ đen",
+          "link": "https://s.shopee.vn/4VbgevuAwF"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng lỗ bạc",
+          "link": "https://s.shopee.vn/4fv6rEtXbI"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi mini đen",
+          "link": "https://s.shopee.vn/BShUVdqdf"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Choker đen bạc",
+          "link": "https://s.shopee.vn/4qEX3XsuGL"
+        }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Baddie Streetwear",
+      "Crop tee đỏ",
+      "Jeans cargo xanh",
+      "Sneaker trắng",
+      "Đi học",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── GOTH ──────────────────────────────────────────────────────
   {
-    id: "look-09",
-    slug: "look-09-goth",
-    img: G(9, 1),
-    tag: "LOOK #09",
-    title: "Goth Badgirl Look #09",
-    category: "Goth",
-    detail: {
-      title: "OUTFIT DETAILS #9",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(9,1), G(9,2), G(9,3), G(9,4) ],
-      items: [
-        { name: "ÁO", type: "Áo thun đen", link: "https://s.shopee.vn/111oU2afwq" },
-        { name: "QUẦN", type: "Cargo rằn ri xanh", link: "https://s.shopee.vn/1BLEgLa2bt" },
-        { name: "GIÀY", type: "Sneaker đen trắng", link: "https://s.shopee.vn/gOy5Qbwco" },
-        { name: "TÚI", type: "Túi xách đen", link: "https://s.shopee.vn/qiOHjbJHr" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/50XxFqsGvO" }
-      
+    "id": "look-09",
+    "slug": "look-09-goth",
+    "img": "/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp",
+    "tag": "LOOK #09",
+    "title": "Punk / Grunge Outfit Nữ Look #09",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #9",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-09-top.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-09-bottom.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-09-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Áo thun đen",
+          "link": "https://s.shopee.vn/111oU2afwq"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo rằn ri xanh",
+          "link": "https://s.shopee.vn/1BLEgLa2bt"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen trắng",
+          "link": "https://s.shopee.vn/gOy5Qbwco"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xách đen",
+          "link": "https://s.shopee.vn/qiOHjbJHr"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/50XxFqsGvO"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear",
+      "Goth"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Goth",
+      "Grunge",
+      "Áo thun đen",
+      "Cargo rằn ri xanh",
+      "Sneaker đen trắng",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── PUNK ──────────────────────────────────────────────────────
   {
-    id: "look-10",
-    slug: "look-10-punk",
-    img: G(10, 1),
-    tag: "LOOK #10",
-    title: "Punk Badgirl Look #10",
-    category: "Punk",
-    detail: {
-      title: "OUTFIT DETAILS #10",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(10,1), G(10,2), G(10,3), G(10,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top cổ lọ", link: "https://s.shopee.vn/1gHVHGY8b2" },
-        { name: "QUẦN", type: "Jeans rách đen", link: "https://s.shopee.vn/1qavTZXVG5" },
-        { name: "GIÀY", type: "Platform boots đen", link: "https://s.shopee.vn/1LeeseZPH0" },
-        { name: "ÁO KHOÁC", type: "Biker jacket đen", link: "https://s.shopee.vn/5ArNS9rdaR" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền mặt bạc", link: "https://s.shopee.vn/2gA2TZ19ey" },
-        { name: "TAI NGHE", type: "Tai nghe chụp tai", link: "https://s.shopee.vn/2qTSfs0WK1" }
-      
+    "id": "look-10",
+    "slug": "look-10-punk",
+    "img": "/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp",
+    "tag": "LOOK #10",
+    "title": "Punk / Grunge Outfit Nữ Look #10",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #10",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-10-top.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-10-bottom.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-10-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top cổ lọ",
+          "link": "https://s.shopee.vn/1gHVHGY8b2"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans rách đen",
+          "link": "https://s.shopee.vn/1qavTZXVG5"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform boots đen",
+          "link": "https://s.shopee.vn/1LeeseZPH0"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Biker jacket đen",
+          "link": "https://s.shopee.vn/5ArNS9rdaR"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền mặt bạc",
+          "link": "https://s.shopee.vn/2gA2TZ19ey"
+        },
+        {
+          "name": "TAI NGHE",
+          "type": "Tai nghe chụp tai",
+          "link": "https://s.shopee.vn/2qTSfs0WK1"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Punk",
+      "Crop top cổ lọ",
+      "Jeans rách đen",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── E-GIRL ────────────────────────────────────────────────────
   {
-    id: "look-11",
-    slug: "look-11-egirl",
-    img: G(11, 1),
-    tag: "LOOK #11",
-    title: "E-Girl Badgirl Look #11",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #11",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(11,1), G(11,2), G(11,3), G(11,4) ],
-      items: [
-        { name: "ÁO", type: "Camisole satin trắng", link: "https://s.shopee.vn/1Vy54xYlw3" },
-        { name: "QUẦN", type: "Short đen", link: "https://s.shopee.vn/2LXC4UVbFE" },
-        { name: "GIÀY", type: "Sneaker chunky trắng", link: "https://s.shopee.vn/2VqcGnUxuH" },
-        { name: "ÁO KHOÁC", type: "Biker jacket đen", link: "https://s.shopee.vn/30mssAzsz4" },
-        { name: "TẤT", type: "Tất cổ cao trắng", link: "https://s.shopee.vn/20uLfsWrvC" },
-        { name: "KÍNH", type: "Kính trắng oval", link: "https://s.shopee.vn/2BDlsBWEaF" },
-        { name: "DÂY CHUYỀN", type: "Xích bạc chunky", link: "https://s.shopee.vn/3B6J4TzFe7" },
-        { name: "TÚI", type: "Túi xích đen", link: "https://s.shopee.vn/30msriT3tQ" },
-        { name: "TAI NGHE", type: "Tai nghe bạc đen", link: "https://s.shopee.vn/3LPjGmycJA" }
-      
+    "id": "look-11",
+    "slug": "look-11-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp",
+    "tag": "LOOK #11",
+    "title": "Baddie Streetwear Outfit Nữ Look #11",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #11",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-11-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-11-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-11-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Camisole satin trắng",
+          "link": "https://s.shopee.vn/1Vy54xYlw3"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Short đen",
+          "link": "https://s.shopee.vn/2LXC4UVbFE"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker chunky trắng",
+          "link": "https://s.shopee.vn/2VqcGnUxuH"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Biker jacket đen",
+          "link": "https://s.shopee.vn/30mssAzsz4"
+        },
+        {
+          "name": "TẤT",
+          "type": "Tất cổ cao trắng",
+          "link": "https://s.shopee.vn/20uLfsWrvC"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính trắng oval",
+          "link": "https://s.shopee.vn/2BDlsBWEaF"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Xích bạc chunky",
+          "link": "https://s.shopee.vn/3B6J4TzFe7"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xích đen",
+          "link": "https://s.shopee.vn/30msriT3tQ"
+        },
+        {
+          "name": "TAI NGHE",
+          "type": "Tai nghe bạc đen",
+          "link": "https://s.shopee.vn/3LPjGmycJA"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine",
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Short",
+      "footwear": "Sneaker",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Punk / Grunge",
+      "Camisole satin trắng",
+      "Short đen",
+      "Sneaker chunky trắng",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Short",
+      "Sneaker"
+    ]
   },
-
-  // ── PUNK ──────────────────────────────────────────────────────
   {
-    id: "look-12",
-    slug: "look-12-punk",
-    img: G(12, 1),
-    tag: "LOOK #12",
-    title: "Punk Badgirl Look #12",
-    category: "Punk",
-    detail: {
-      title: "OUTFIT DETAILS #12",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(12,1), G(12,2), G(12,3), G(12,4) ],
-      items: [
-        { name: "ÁO", type: "Halter top đen", link: "https://s.shopee.vn/3B6J41SQYT" },
-        { name: "QUẦN", type: "Bermuda denim đen", link: "https://s.shopee.vn/2gA2T6UKZO" },
-        { name: "GIÀY", type: "Platform boots đen trắng", link: "https://s.shopee.vn/2qTSfPThER" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/3Vj9T5xyyD" },
-        { name: "LEG WARMER", type: "Leg warmer trắng", link: "https://s.shopee.vn/3g2ZfOxLdG" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đinh tán", link: "https://s.shopee.vn/3qLzrhwiIJ" },
-        { name: "TÚI", type: "Túi đeo vai đen", link: "https://s.shopee.vn/3g2ZewQWXc" },
-        { name: "TAI NGHE", type: "Tai nghe đỏ đen", link: "https://s.shopee.vn/6fgBEulvXs" }
-      
+    "id": "look-12",
+    "slug": "look-12-punk",
+    "img": "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
+    "tag": "LOOK #12",
+    "title": "E-Girl Outfit Nữ Look #12",
+    "category": "E-Girl",
+    "detail": {
+      "title": "OUTFIT DETAILS #12",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-12-top.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-12-bottom.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-12-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Halter top đen",
+          "link": "https://s.shopee.vn/3B6J41SQYT"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Bermuda denim đen",
+          "link": "https://s.shopee.vn/2gA2T6UKZO"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform boots đen trắng",
+          "link": "https://s.shopee.vn/2qTSfPThER"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/3Vj9T5xyyD"
+        },
+        {
+          "name": "LEG WARMER",
+          "type": "Leg warmer trắng",
+          "link": "https://s.shopee.vn/3g2ZfOxLdG"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đinh tán",
+          "link": "https://s.shopee.vn/3qLzrhwiIJ"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai đen",
+          "link": "https://s.shopee.vn/3g2ZewQWXc"
+        },
+        {
+          "name": "TAI NGHE",
+          "type": "Tai nghe đỏ đen",
+          "link": "https://s.shopee.vn/6fgBEulvXs"
+        }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Short",
+      "footwear": "Boots / Platform",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Halter top đen",
+      "Bermuda denim đen",
+      "Platform boots đen trắng",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Short",
+      "Boots / Platform"
+    ]
   },
-
-  // ── E-GIRL ────────────────────────────────────────────────────
   {
-    id: "look-13",
-    slug: "look-13-egirl",
-    img: G(13, 1),
-    tag: "LOOK #13",
-    title: "E-Girl Badgirl Look #13",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #13",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(13,1), G(13,2), G(13,3), G(13,4) ],
-      items: [
-        { name: "ÁO", type: "Camisole đen", link: "https://s.shopee.vn/3qLzrFPtCf" },
-        { name: "QUẦN", type: "Short đen", link: "https://s.shopee.vn/3LPjGKRnDa" },
-        { name: "GIÀY", type: "Boot cao gối đen", link: "https://s.shopee.vn/3Vj9SdR9sd" },
-        { name: "KÍNH", type: "Kính râm đen", link: "https://s.shopee.vn/4LIGSANzBo" },
-        { name: "LEG WARMER", type: "Leg warmer trắng", link: "https://s.shopee.vn/6pzbRDlICv" },
-        { name: "DÂY CHUYỀN", type: "Vòng cổ khoen bạc", link: "https://s.shopee.vn/70J1dWkery" },
-        { name: "TAI NGHE", type: "Tai nghe bạc", link: "https://s.shopee.vn/7AcRppk1X1" },
-        { name: "TÚI", type: "Túi tote trắng", link: "https://s.shopee.vn/4VbgeTNLqr" }
-      
+    "id": "look-13",
+    "slug": "look-13-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp",
+    "tag": "LOOK #13",
+    "title": "E-Girl Outfit Nữ Look #13",
+    "category": "E-Girl",
+    "detail": {
+      "title": "OUTFIT DETAILS #13",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-13-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-13-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-13-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Camisole đen",
+          "link": "https://s.shopee.vn/3qLzrFPtCf"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Short đen",
+          "link": "https://s.shopee.vn/3LPjGKRnDa"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Boot cao gối đen",
+          "link": "https://s.shopee.vn/3Vj9SdR9sd"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính râm đen",
+          "link": "https://s.shopee.vn/4LIGSANzBo"
+        },
+        {
+          "name": "LEG WARMER",
+          "type": "Leg warmer trắng",
+          "link": "https://s.shopee.vn/6pzbRDlICv"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Vòng cổ khoen bạc",
+          "link": "https://s.shopee.vn/70J1dWkery"
+        },
+        {
+          "name": "TAI NGHE",
+          "type": "Tai nghe bạc",
+          "link": "https://s.shopee.vn/7AcRppk1X1"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi tote trắng",
+          "link": "https://s.shopee.vn/4VbgeTNLqr"
+        }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Short",
+      "footwear": "Boots / Platform",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Camisole đen",
+      "Short đen",
+      "Boot cao gối đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Short",
+      "Boots / Platform"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────
   {
-    id: "look-14",
-    slug: "look-14-baddie-streetwear",
-    img: G(14, 1),
-    tag: "LOOK #14",
-    title: "Baddie Streetwear Badgirl Look #14",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #14",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(14,1), G(14,2), G(14,3), G(14,4) ],
-      items: [
-        { name: "ÁO", type: "Tank top Brazil", link: "https://s.shopee.vn/40fQ3YPFrm" },
-        { name: "QUẦN", type: "Jeans baggy rách", link: "https://s.shopee.vn/4AyqFrOcWp" },
-        { name: "GIÀY", type: "Sneaker xanh vàng", link: "https://s.shopee.vn/50XxFOLRq0" },
-        { name: "KHĂN", type: "Bandana xanh lá", link: "https://s.shopee.vn/5ArNRhKoV3" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/7Kvs28jOC4" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đen", link: "https://s.shopee.vn/7VFIERikr7" }
-      
+    "id": "look-14",
+    "slug": "look-14-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp",
+    "tag": "LOOK #14",
+    "title": "Baddie Streetwear Outfit Nữ Look #14",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #14",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Tank top Brazil",
+          "link": "https://s.shopee.vn/40fQ3YPFrm"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy rách",
+          "link": "https://s.shopee.vn/4AyqFrOcWp"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker xanh vàng",
+          "link": "https://s.shopee.vn/50XxFOLRq0"
+        },
+        {
+          "name": "KHĂN",
+          "type": "Bandana xanh lá",
+          "link": "https://s.shopee.vn/5ArNRhKoV3"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/7Kvs28jOC4"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đen",
+          "link": "https://s.shopee.vn/7VFIERikr7"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Punk / Grunge",
+      "Tank top Brazil",
+      "Jeans baggy rách",
+      "Sneaker xanh vàng",
+      "Đi học",
+      "Đi cafe",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-15",
-    slug: "look-15-dark-feminine",
-    img: G(15, 1),
-    tag: "LOOK #15",
-    title: "Dark Feminine Badgirl Look #15",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #15",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(15,1), G(15,2), G(15,3), G(15,4) ],
-      items: [
-        { name: "ÁO", type: "Camisole đen", link: "https://s.shopee.vn/4fv6qmMiVy" },
-        { name: "QUẦN", type: "Cargo graffiti trắng", link: "https://s.shopee.vn/4qEX35M5B1" },
-        { name: "GIÀY", type: "Platform đen trắng", link: "https://s.shopee.vn/5q74EvIH9E" },
-        { name: "MŨ", type: "Mũ lưỡi trai đen", link: "https://s.shopee.vn/5fne2cIuUD" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền layer bạc", link: "https://s.shopee.vn/7fYiQki7WA" },
-        { name: "TÚI", type: "Túi mini đen", link: "https://s.shopee.vn/5VUDqJJXpC" },
-        { name: "VÒNG TAY", type: "Vòng tay bạc", link: "https://s.shopee.vn/7ps8d3hUBD" }
-      
+    "id": "look-15",
+    "slug": "look-15-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp",
+    "tag": "LOOK #15",
+    "title": "Baddie Streetwear Outfit Nữ Look #15",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #15",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-15-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-15-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-15-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Camisole đen",
+          "link": "https://s.shopee.vn/4fv6qmMiVy"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo graffiti trắng",
+          "link": "https://s.shopee.vn/4qEX35M5B1"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform đen trắng",
+          "link": "https://s.shopee.vn/5q74EvIH9E"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ lưỡi trai đen",
+          "link": "https://s.shopee.vn/5fne2cIuUD"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền layer bạc",
+          "link": "https://s.shopee.vn/7fYiQki7WA"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi mini đen",
+          "link": "https://s.shopee.vn/5VUDqJJXpC"
+        },
+        {
+          "name": "VÒNG TAY",
+          "type": "Vòng tay bạc",
+          "link": "https://s.shopee.vn/7ps8d3hUBD"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Camisole đen",
+      "Cargo graffiti trắng",
+      "Platform đen trắng",
+      "Đi cafe",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── GOTH ──────────────────────────────────────────────────────
   {
-    id: "look-16",
-    slug: "look-16-goth",
-    img: G(16, 1),
-    tag: "LOOK #16",
-    title: "Goth Badgirl Look #16",
-    category: "Goth",
-    detail: {
-      title: "OUTFIT DETAILS #16",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(16,1), G(16,2), G(16,3), G(16,4) ],
-      items: [
-        { name: "ÁO", type: "Halter top đen", link: "https://s.shopee.vn/5fne2cIly5" },
-        { name: "QUẦN", type: "Cargo đen nhiều túi", link: "https://s.shopee.vn/5VUDqJJPJ4" },
-        { name: "GIÀY", type: "Sneaker chunky đen", link: "https://s.shopee.vn/5LAne0K2e3" },
-        { name: "MŨ", type: "Beanie lỗ bạc", link: "https://s.shopee.vn/6VMl29FbHI" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền layer bạc", link: "https://s.shopee.vn/5LAneSr0Fk" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đinh tán", link: "https://s.shopee.vn/5VUDqlqMun" },
-        { name: "VÒNG TAY", type: "Wrist cuff đen", link: "https://s.shopee.vn/5fne34pjZq" }
-      
+    "id": "look-16",
+    "slug": "look-16-goth",
+    "img": "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
+    "tag": "LOOK #16",
+    "title": "Punk / Grunge Outfit Nữ Look #16",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #16",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-16-top.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-16-bottom.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-16-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Halter top đen",
+          "link": "https://s.shopee.vn/5fne2cIly5"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo đen nhiều túi",
+          "link": "https://s.shopee.vn/5VUDqJJPJ4"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker chunky đen",
+          "link": "https://s.shopee.vn/5LAne0K2e3"
+        },
+        {
+          "name": "MŨ",
+          "type": "Beanie lỗ bạc",
+          "link": "https://s.shopee.vn/6VMl29FbHI"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền layer bạc",
+          "link": "https://s.shopee.vn/5LAneSr0Fk"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đinh tán",
+          "link": "https://s.shopee.vn/5VUDqlqMun"
+        },
+        {
+          "name": "VÒNG TAY",
+          "type": "Wrist cuff đen",
+          "link": "https://s.shopee.vn/5fne34pjZq"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear",
+      "Goth"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Goth",
+      "Grunge",
+      "Halter top đen",
+      "Cargo đen nhiều túi",
+      "Sneaker chunky đen",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────
   {
-    id: "look-17",
-    slug: "look-17-baddie-streetwear",
-    img: G(17, 1),
-    tag: "LOOK #17",
-    title: "Baddie Streetwear Badgirl Look #17",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #17",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(17,1), G(17,2), G(17,3), G(17,4) ],
-      items: [
-        { name: "ÁO", type: "Graphic tee đen", link: "https://s.shopee.vn/6L3KpqGEcH" },
-        { name: "QUẦN", type: "Jeans baggy xanh", link: "https://s.shopee.vn/6AjudXGrxG" },
-        { name: "GIÀY", type: "Sneaker đen", link: "https://s.shopee.vn/60QUREHVIF" },
-        { name: "MŨ", type: "Mũ caro nâu", link: "https://s.shopee.vn/4VbgeTNDKy" },
-        { name: "TÚI", type: "Túi đeo chéo đen", link: "https://s.shopee.vn/4LIGSANqfx" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền mặt bạc", link: "https://s.shopee.vn/5q74FNp6Et" },
-        { name: "THẮT LƯNG", type: "Thắt lưng da nâu", link: "https://s.shopee.vn/60QURgoStw" }
-      
+    "id": "look-17",
+    "slug": "look-17-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
+    "tag": "LOOK #17",
+    "title": "Baddie Streetwear Outfit Nữ Look #17",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #17",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Graphic tee đen",
+          "link": "https://s.shopee.vn/6L3KpqGEcH"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy xanh",
+          "link": "https://s.shopee.vn/6AjudXGrxG"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen",
+          "link": "https://s.shopee.vn/60QUREHVIF"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ caro nâu",
+          "link": "https://s.shopee.vn/4VbgeTNDKy"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo chéo đen",
+          "link": "https://s.shopee.vn/4LIGSANqfx"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền mặt bạc",
+          "link": "https://s.shopee.vn/5q74FNp6Et"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng da nâu",
+          "link": "https://s.shopee.vn/60QURgoStw"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Punk / Grunge",
+      "E-Girl",
+      "Graphic tee đen",
+      "Jeans baggy xanh",
+      "Sneaker đen",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-18",
-    slug: "look-18-dark-feminine",
-    img: G(18, 1),
-    tag: "LOOK #18",
-    title: "Dark Feminine Badgirl Look #18",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #18",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(18,1), G(18,2), G(18,3), G(18,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top đen", link: "https://s.shopee.vn/4AyqFrOU0w" },
-        { name: "QUẦN", type: "Jeans rách đen", link: "https://s.shopee.vn/40fQ3YP7Lv" },
-        { name: "GIÀY", type: "Sneaker trắng", link: "https://s.shopee.vn/5ArNRhKfzA" },
-        { name: "ÁO KHOÁC", type: "Biker jacket đen", link: "https://s.shopee.vn/6AjudznpYz" },
-        { name: "KÍNH", type: "Kính râm đen", link: "https://s.shopee.vn/50XxFOLJK9" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đinh tán", link: "https://s.shopee.vn/6L3KqInCE2" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/6VMl2bmYt5" }
-      
+    "id": "look-18",
+    "slug": "look-18-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp",
+    "tag": "LOOK #18",
+    "title": "Punk / Grunge Outfit Nữ Look #18",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #18",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-18-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-18-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-18-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top đen",
+          "link": "https://s.shopee.vn/4AyqFrOU0w"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans rách đen",
+          "link": "https://s.shopee.vn/40fQ3YP7Lv"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker trắng",
+          "link": "https://s.shopee.vn/5ArNRhKfzA"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Biker jacket đen",
+          "link": "https://s.shopee.vn/6AjudznpYz"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính râm đen",
+          "link": "https://s.shopee.vn/50XxFOLJK9"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đinh tán",
+          "link": "https://s.shopee.vn/6L3KqInCE2"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/6VMl2bmYt5"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear",
+      "Dark Feminine"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Punk",
+      "Crop top đen",
+      "Jeans rách đen",
+      "Sneaker trắng",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── PUNK ──────────────────────────────────────────────────────
   {
-    id: "look-19",
-    slug: "look-19-punk",
-    img: G(19, 1),
-    tag: "LOOK #19",
-    title: "Punk Badgirl Look #19",
-    category: "Punk",
-    detail: {
-      title: "OUTFIT DETAILS #19",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(19,1), G(19,2), G(19,3), G(19,4) ],
-      items: [
-        { name: "ÁO", type: "Bandeau đen", link: "https://s.shopee.vn/4qEX35Lwf8" },
-        { name: "QUẦN", type: "Cargo rách phối lưới", link: "https://s.shopee.vn/4fv6qmMa07" },
-        { name: "GIÀY", type: "Combat boots trắng", link: "https://s.shopee.vn/3B6J41SI2q" },
-        { name: "ÁO KHOÁC", type: "Biker jacket trắng", link: "https://s.shopee.vn/9KgwPobm8e" },
-        { name: "DÂY XÍCH", type: "Xích quần layer bạc", link: "https://s.shopee.vn/9V0Mc7b8nh" },
-        { name: "CHOKER", type: "Choker xích bạc", link: "https://s.shopee.vn/30msriSvNp" }
-      
+    "id": "look-19",
+    "slug": "look-19-punk",
+    "img": "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
+    "tag": "LOOK #19",
+    "title": "Punk / Grunge Outfit Nữ Look #19",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #19",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-19-top.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-19-bottom.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-19-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Bandeau đen",
+          "link": "https://s.shopee.vn/4qEX35Lwf8"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo rách phối lưới",
+          "link": "https://s.shopee.vn/4fv6qmMa07"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Combat boots trắng",
+          "link": "https://s.shopee.vn/3B6J41SI2q"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Biker jacket trắng",
+          "link": "https://s.shopee.vn/9KgwPobm8e"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần layer bạc",
+          "link": "https://s.shopee.vn/9V0Mc7b8nh"
+        },
+        {
+          "name": "CHOKER",
+          "type": "Choker xích bạc",
+          "link": "https://s.shopee.vn/30msriSvNp"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Goth",
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Goth",
+      "Baddie Streetwear",
+      "Punk",
+      "Bandeau đen",
+      "Cargo rách phối lưới",
+      "Combat boots trắng",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────
   {
-    id: "look-20",
-    slug: "look-20-baddie-streetwear",
-    img: G(20, 1),
-    tag: "LOOK #20",
-    title: "Baddie Streetwear Badgirl Look #20",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #20",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(20,1), G(20,2), G(20,3), G(20,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tee trắng", link: "https://s.shopee.vn/2qTSfPTYio" },
-        { name: "QUẦN", type: "Jogger xám", link: "https://s.shopee.vn/2gA2T6UC3n" },
-        { name: "GIÀY", type: "Sneaker trắng", link: "https://s.shopee.vn/3qLzrFPkh2" },
-        { name: "ARM WARMER", type: "Arm warmer đen", link: "https://s.shopee.vn/9fJmoQaVSk" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/9pdD0jZs7n" },
-        { name: "TÚI", type: "Túi đeo vai đen", link: "https://s.shopee.vn/3g2ZewQO21" }
-      
+    "id": "look-20",
+    "slug": "look-20-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp",
+    "tag": "LOOK #20",
+    "title": "Baddie Streetwear Outfit Nữ Look #20",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #20",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tee trắng",
+          "link": "https://s.shopee.vn/2qTSfPTYio"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jogger xám",
+          "link": "https://s.shopee.vn/2gA2T6UC3n"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker trắng",
+          "link": "https://s.shopee.vn/3qLzrFPkh2"
+        },
+        {
+          "name": "ARM WARMER",
+          "type": "Arm warmer đen",
+          "link": "https://s.shopee.vn/9fJmoQaVSk"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/9pdD0jZs7n"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai đen",
+          "link": "https://s.shopee.vn/3g2ZewQO21"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "E-Girl",
+      "Crop tee trắng",
+      "Jogger xám",
+      "Sneaker trắng",
+      "Đi học",
+      "Đi cafe",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-21",
-    slug: "look-21-baddie-streetwear",
-    img: G(21, 1),
-    tag: "LOOK #21",
-    title: "Baddie Streetwear Badgirl Look #21",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #21",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(21,1), G(21,2), G(21,3), G(21,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top đen", link: "https://s.shopee.vn/3Vj9SdR1N0" },
-        { name: "QUẦN", type: "Jeans đen ống rộng", link: "https://s.shopee.vn/3LPjGKRehz" },
-        { name: "GIÀY", type: "Platform màu tan", link: "https://s.shopee.vn/1qavTZXMki" },
-        { name: "ÁO KHOÁC", type: "Puffer trắng oversize", link: "https://s.shopee.vn/9zwdD2ZEmq" },
-        { name: "MŨ", type: "Mũ lưỡi trai đen", link: "https://s.shopee.vn/1gHVHGY05h" },
-        { name: "KÍNH", type: "Kính râm đen", link: "https://s.shopee.vn/1Vy54xYdQg" },
-        { name: "TÚI", type: "Túi charm đen", link: "https://s.shopee.vn/1LeeseZGlf" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/AAG3PLYbRt" }
-      
+    "id": "look-21",
+    "slug": "look-21-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
+    "tag": "LOOK #21",
+    "title": "Baddie Streetwear Outfit Nữ Look #21",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #21",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top đen",
+          "link": "https://s.shopee.vn/3Vj9SdR1N0"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans đen ống rộng",
+          "link": "https://s.shopee.vn/3LPjGKRehz"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform màu tan",
+          "link": "https://s.shopee.vn/1qavTZXMki"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Puffer trắng oversize",
+          "link": "https://s.shopee.vn/9zwdD2ZEmq"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ lưỡi trai đen",
+          "link": "https://s.shopee.vn/1gHVHGY05h"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính râm đen",
+          "link": "https://s.shopee.vn/1Vy54xYdQg"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi charm đen",
+          "link": "https://s.shopee.vn/1LeeseZGlf"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/AAG3PLYbRt"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Crop top đen",
+      "Jeans đen ống rộng",
+      "Platform màu tan",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-22",
-    slug: "look-22-dark-feminine",
-    img: G(22, 1),
-    tag: "LOOK #22",
-    title: "Dark Feminine Badgirl Look #22",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #22",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(22,1), G(22,2), G(22,3), G(22,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top lệch vai", link: "https://s.shopee.vn/2VqcGnUpOu" },
-        { name: "QUẦN", type: "Jeans phối ren đen", link: "https://s.shopee.vn/2LXC4UVSjt" },
-        { name: "GIÀY", type: "Mary Jane đen", link: "https://s.shopee.vn/2BDlsBW64s" },
-        { name: "MŨ", type: "Mũ lưỡi trai đen", link: "https://s.shopee.vn/20uLfsWjPr" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/AKZTbeXy6w" }
-      
+    "id": "look-22",
+    "slug": "look-22-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
+    "tag": "LOOK #22",
+    "title": "Dark Feminine Outfit Nữ Look #22",
+    "category": "Dark Feminine",
+    "detail": {
+      "title": "OUTFIT DETAILS #22",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-22-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-22-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-22-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top lệch vai",
+          "link": "https://s.shopee.vn/2VqcGnUpOu"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans phối ren đen",
+          "link": "https://s.shopee.vn/2LXC4UVSjt"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Mary Jane đen",
+          "link": "https://s.shopee.vn/2BDlsBW64s"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ lưỡi trai đen",
+          "link": "https://s.shopee.vn/20uLfsWjPr"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/AKZTbeXy6w"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Goth",
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Giày khác",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Goth",
+      "Baddie Streetwear",
+      "Crop top lệch vai",
+      "Jeans phối ren đen",
+      "Mary Jane đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Quần",
+      "Giày khác"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-23",
-    slug: "look-23-baddie-streetwear",
-    img: G(23, 1),
-    tag: "LOOK #23",
-    title: "Baddie Streetwear Badgirl Look #23",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #23",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(23,1), G(23,2), G(23,3), G(23,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tee trắng đỏ", link: "https://s.shopee.vn/W5Xt7cRSa" },
-        { name: "QUẦN", type: "Track pants trắng đỏ", link: "https://s.shopee.vn/Lm7god4nZ" },
-        { name: "GIÀY", type: "Sneaker trắng", link: "https://s.shopee.vn/BShUVdi8Y" },
-        { name: "VÒNG TAY", type: "Vòng tay bạc", link: "https://s.shopee.vn/AUstnxXKlz" }
-      
+    "id": "look-23",
+    "slug": "look-23-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp",
+    "tag": "LOOK #23",
+    "title": "Baddie Streetwear Outfit Nữ Look #23",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #23",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tee trắng đỏ",
+          "link": "https://s.shopee.vn/W5Xt7cRSa"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Track pants trắng đỏ",
+          "link": "https://s.shopee.vn/Lm7god4nZ"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker trắng",
+          "link": "https://s.shopee.vn/BShUVdi8Y"
+        },
+        {
+          "name": "VÒNG TAY",
+          "type": "Vòng tay bạc",
+          "link": "https://s.shopee.vn/AUstnxXKlz"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Crop tee trắng đỏ",
+      "Track pants trắng đỏ",
+      "Sneaker trắng",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── GOTH ─────────────────────────────────────────────
   {
-    id: "look-24",
-    slug: "look-24-goth",
-    img: G(24, 1),
-    tag: "LOOK #24",
-    title: "Goth Badgirl Look #24",
-    category: "Goth",
-    detail: {
-      title: "OUTFIT DETAILS #24",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(24,1), G(24,2), G(24,3), G(24,4) ],
-      items: [
-        { name: "ÁO", type: "Graphic tee đen", link: "https://s.shopee.vn/19HICeLTX" },
-        { name: "QUẦN", type: "Short đen", link: "https://s.shopee.vn/1BLEgLZu6m" },
-        { name: "GIÀY", type: "Combat boots cao cổ", link: "https://s.shopee.vn/111oU2aXRl" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền layer bạc", link: "https://s.shopee.vn/80BYpMgqqW" }
-      
+    "id": "look-24",
+    "slug": "look-24-goth",
+    "img": "/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp",
+    "tag": "LOOK #24",
+    "title": "Punk / Grunge Outfit Nữ Look #24",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #24",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-24-top.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-24-bottom.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-24-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Graphic tee đen",
+          "link": "https://s.shopee.vn/19HICeLTX"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Short đen",
+          "link": "https://s.shopee.vn/1BLEgLZu6m"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Combat boots cao cổ",
+          "link": "https://s.shopee.vn/111oU2aXRl"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền layer bạc",
+          "link": "https://s.shopee.vn/80BYpMgqqW"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl",
+      "Goth"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Short",
+      "footwear": "Boots / Platform",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Goth",
+      "Grunge",
+      "Graphic tee đen",
+      "Short đen",
+      "Combat boots cao cổ",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Short",
+      "Boots / Platform"
+    ]
   },
-
-  // ── GOTH ─────────────────────────────────────────────
   {
-    id: "look-25",
-    slug: "look-25-goth",
-    img: G(25, 1),
-    tag: "LOOK #25",
-    title: "Goth Badgirl Look #25",
-    category: "Goth",
-    detail: {
-      title: "OUTFIT DETAILS #25",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(25,1), G(25,2), G(25,3), G(25,4) ],
-      items: [
-        { name: "ÁO", type: "Áo lưới graphic đen", link: "https://s.shopee.vn/qiOHjbAmk" },
-        { name: "QUẦN", type: "Cargo navy ống rộng", link: "https://s.shopee.vn/gOy5Qbo7j" },
-        { name: "GIÀY", type: "Sneaker đen trắng", link: "https://s.shopee.vn/9KgwPM4oXQ" },
-        { name: "MŨ", type: "Beanie khoen bạc", link: "https://s.shopee.vn/9V0Mbf4BCT" },
-        { name: "ARM WARMER", type: "Arm warmer đen", link: "https://s.shopee.vn/8AUz1fgDVZ" },
-        { name: "DÂY XÍCH", type: "Xích quần đen bạc", link: "https://s.shopee.vn/8KoPDyfaAc" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền layer bạc", link: "https://s.shopee.vn/8V7pQHewpf" },
-        { name: "TÚI", type: "Túi đeo vai đen", link: "https://s.shopee.vn/9fJmny3XrW" }
-      
+    "id": "look-25",
+    "slug": "look-25-goth",
+    "img": "/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp",
+    "tag": "LOOK #25",
+    "title": "Punk / Grunge Outfit Nữ Look #25",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #25",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-25-top.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-25-bottom.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-25-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Áo lưới graphic đen",
+          "link": "https://s.shopee.vn/qiOHjbAmk"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo navy ống rộng",
+          "link": "https://s.shopee.vn/gOy5Qbo7j"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen trắng",
+          "link": "https://s.shopee.vn/9KgwPM4oXQ"
+        },
+        {
+          "name": "MŨ",
+          "type": "Beanie khoen bạc",
+          "link": "https://s.shopee.vn/9V0Mbf4BCT"
+        },
+        {
+          "name": "ARM WARMER",
+          "type": "Arm warmer đen",
+          "link": "https://s.shopee.vn/8AUz1fgDVZ"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần đen bạc",
+          "link": "https://s.shopee.vn/8KoPDyfaAc"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền layer bạc",
+          "link": "https://s.shopee.vn/8V7pQHewpf"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai đen",
+          "link": "https://s.shopee.vn/9fJmny3XrW"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl",
+      "Goth"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Goth",
+      "Grunge",
+      "Áo lưới graphic đen",
+      "Cargo navy ống rộng",
+      "Sneaker đen trắng",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-26",
-    slug: "look-26-baddie-streetwear",
-    img: G(26, 1),
-    tag: "LOOK #26",
-    title: "Baddie Streetwear Badgirl Look #26",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #26",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(26,1), G(26,2), G(26,3), G(26,4) ],
-      items: [
-        { name: "ÁO", type: "Áo trễ vai xám", link: "https://s.shopee.vn/9pdD0H2uWZ" },
-        { name: "QUẦN", type: "Cargo jeans xám", link: "https://s.shopee.vn/9zwdCa2HBc" },
-        { name: "GIÀY", type: "Boot màu tan", link: "https://s.shopee.vn/AAG3Ot1dqf" },
-        { name: "ÁO SƠ MI", type: "Sơ mi caro buộc eo", link: "https://s.shopee.vn/8fRFcaeJUi" },
-        { name: "TÚI", type: "Túi đeo vai nâu", link: "https://s.shopee.vn/AKZTbC10Vi" },
-        { name: "DÂY XÍCH", type: "Xích quần bạc", link: "https://s.shopee.vn/8pkfotdg9l" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/90461Cd2oo" }
-      
+    "id": "look-26",
+    "slug": "look-26-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp",
+    "tag": "LOOK #26",
+    "title": "Punk / Grunge Outfit Nữ Look #26",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #26",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Áo trễ vai xám",
+          "link": "https://s.shopee.vn/9pdD0H2uWZ"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Cargo jeans xám",
+          "link": "https://s.shopee.vn/9zwdCa2HBc"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Boot màu tan",
+          "link": "https://s.shopee.vn/AAG3Ot1dqf"
+        },
+        {
+          "name": "ÁO SƠ MI",
+          "type": "Sơ mi caro buộc eo",
+          "link": "https://s.shopee.vn/8fRFcaeJUi"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai nâu",
+          "link": "https://s.shopee.vn/AKZTbC10Vi"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần bạc",
+          "link": "https://s.shopee.vn/8pkfotdg9l"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/90461Cd2oo"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl",
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Baddie Streetwear",
+      "Grunge",
+      "Áo trễ vai xám",
+      "Cargo jeans xám",
+      "Boot màu tan",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-27",
-    slug: "look-27-baddie-streetwear",
-    img: G(27, 1),
-    tag: "LOOK #27",
-    title: "Baddie Streetwear Badgirl Look #27",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #27",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(27,1), G(27,2), G(27,3), G(27,4) ],
-      items: [
-        { name: "ÁO", type: "Graphic tee nâu", link: "https://s.shopee.vn/AUstnV0NAl" },
-        { name: "QUẦN", type: "Jeans baggy xám", link: "https://s.shopee.vn/80BYou9tFI" },
-        { name: "GIÀY", type: "Sneaker trắng", link: "https://s.shopee.vn/8AUz1D9FuL" },
-        { name: "MŨ", type: "Beanie trắng", link: "https://s.shopee.vn/8KoPDW8cZO" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/9ANWDVcPTr" },
-        { name: "TÚI", type: "Túi đeo vai đen", link: "https://s.shopee.vn/8V7pPp7zER" }
-      
+    "id": "look-27",
+    "slug": "look-27-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
+    "tag": "LOOK #27",
+    "title": "Punk / Grunge Outfit Nữ Look #27",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #27",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Graphic tee nâu",
+          "link": "https://s.shopee.vn/AUstnV0NAl"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy xám",
+          "link": "https://s.shopee.vn/80BYou9tFI"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker trắng",
+          "link": "https://s.shopee.vn/8AUz1D9FuL"
+        },
+        {
+          "name": "MŨ",
+          "type": "Beanie trắng",
+          "link": "https://s.shopee.vn/8KoPDW8cZO"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/9ANWDVcPTr"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai đen",
+          "link": "https://s.shopee.vn/8V7pPp7zER"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Grunge",
+      "Graphic tee nâu",
+      "Jeans baggy xám",
+      "Sneaker trắng",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-28",
-    slug: "look-28-baddie-streetwear",
-    img: G(28, 1),
-    tag: "LOOK #28",
-    title: "Baddie Streetwear Badgirl Look #28",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #28",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(28,1), G(28,2), G(28,3), G(28,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tee trắng", link: "https://s.shopee.vn/8fRFc87LtU" },
-        { name: "QUẦN", type: "Parachute beige", link: "https://s.shopee.vn/8pkfoR6iYX" },
-        { name: "GIÀY", type: "Sneaker đen trắng", link: "https://s.shopee.vn/90460k65Da" },
-        { name: "MŨ", type: "Mũ trapper nâu", link: "https://s.shopee.vn/9ANWD35Rsd" },
-        { name: "THẮT LƯNG", type: "Thắt lưng trắng", link: "https://s.shopee.vn/1Vy55Q5b2O" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/1Leet76ENN" },
-        { name: "TÚI", type: "Túi xách bạc", link: "https://s.shopee.vn/6fgBESExxA" }
-      
+    "id": "look-28",
+    "slug": "look-28-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp",
+    "tag": "LOOK #28",
+    "title": "Baddie Streetwear Outfit Nữ Look #28",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #28",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tee trắng",
+          "link": "https://s.shopee.vn/8fRFc87LtU"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Parachute beige",
+          "link": "https://s.shopee.vn/8pkfoR6iYX"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen trắng",
+          "link": "https://s.shopee.vn/90460k65Da"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ trapper nâu",
+          "link": "https://s.shopee.vn/9ANWD35Rsd"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng trắng",
+          "link": "https://s.shopee.vn/1Vy55Q5b2O"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/1Leet76ENN"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xách bạc",
+          "link": "https://s.shopee.vn/6fgBESExxA"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Crop tee trắng",
+      "Parachute beige",
+      "Sneaker đen trắng",
+      "Đi học",
+      "Đi cafe",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-29",
-    slug: "look-29-dark-feminine",
-    img: G(29, 1),
-    tag: "LOOK #29",
-    title: "Dark Feminine Badgirl Look #29",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #29",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(29,1), G(29,2), G(29,3), G(29,4) ],
-      items: [
-        { name: "ÁO", type: "Camisole da báo", link: "https://s.shopee.vn/6pzbQlEKcD" },
-        { name: "QUẦN", type: "Jeans wash nâu", link: "https://s.shopee.vn/70J1d4DhHG" },
-        { name: "GIÀY", type: "Giày da báo", link: "https://s.shopee.vn/7AcRpND3wJ" },
-        { name: "TÚI", type: "Túi xách đen", link: "https://s.shopee.vn/7Kvs1gCQbM" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/1qavU24KMU" },
-        { name: "THẮT LƯNG", type: "Thắt lưng da nâu", link: "https://s.shopee.vn/1gHVHj4xhT" }
-      
+    "id": "look-29",
+    "slug": "look-29-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
+    "tag": "LOOK #29",
+    "title": "Dark Feminine Outfit Nữ Look #29",
+    "category": "Dark Feminine",
+    "detail": {
+      "title": "OUTFIT DETAILS #29",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-29-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-29-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-29-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Camisole da báo",
+          "link": "https://s.shopee.vn/6pzbQlEKcD"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans wash nâu",
+          "link": "https://s.shopee.vn/70J1d4DhHG"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Giày da báo",
+          "link": "https://s.shopee.vn/7AcRpND3wJ"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xách đen",
+          "link": "https://s.shopee.vn/7Kvs1gCQbM"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/1qavU24KMU"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng da nâu",
+          "link": "https://s.shopee.vn/1gHVHj4xhT"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Giày khác",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Camisole da báo",
+      "Jeans wash nâu",
+      "Giày da báo",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Quần",
+      "Giày khác"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-30",
-    slug: "look-30-dark-feminine",
-    img: G(30, 1),
-    tag: "LOOK #30",
-    title: "Dark Feminine Badgirl Look #30",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #30",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(30,1), G(30,2), G(30,3), G(30,4) ],
-      items: [
-        { name: "ÁO", type: "Corset nâu", link: "https://s.shopee.vn/7VFIDzBnGP" },
-        { name: "QUẦN", type: "Jeans cargo xám", link: "https://s.shopee.vn/7fYiQIB9vS" },
-        { name: "GIÀY", type: "Sneaker nâu", link: "https://s.shopee.vn/7ps8cbAWaV" },
-        { name: "ÁO KHOÁC", type: "Bolero len kem", link: "https://s.shopee.vn/2BDlse33ga" },
-        { name: "ÁO SƠ MI", type: "Sơ mi caro buộc eo", link: "https://s.shopee.vn/20uLgL3h1Z" },
-        { name: "TÚI", type: "Túi đeo vai nâu", link: "https://s.shopee.vn/5LAne0K2f2" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/2VqcHG1n0g" }
-      
+    "id": "look-30",
+    "slug": "look-30-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+    "tag": "LOOK #30",
+    "title": "Dark Feminine Outfit Nữ Look #30",
+    "category": "Dark Feminine",
+    "detail": {
+      "title": "OUTFIT DETAILS #30",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-30-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-30-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-30-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Corset nâu",
+          "link": "https://s.shopee.vn/7VFIDzBnGP"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans cargo xám",
+          "link": "https://s.shopee.vn/7fYiQIB9vS"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker nâu",
+          "link": "https://s.shopee.vn/7ps8cbAWaV"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Bolero len kem",
+          "link": "https://s.shopee.vn/2BDlse33ga"
+        },
+        {
+          "name": "ÁO SƠ MI",
+          "type": "Sơ mi caro buộc eo",
+          "link": "https://s.shopee.vn/20uLgL3h1Z"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai nâu",
+          "link": "https://s.shopee.vn/5LAne0K2f2"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/2VqcHG1n0g"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Corset nâu",
+      "Jeans cargo xám",
+      "Sneaker nâu",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── E-GIRL ─────────────────────────────────────────────
   {
-    id: "look-31",
-    slug: "look-31-egirl",
-    img: G(31, 1),
-    tag: "LOOK #31",
-    title: "E-Girl Badgirl Look #31",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #31",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(31,1), G(31,2), G(31,3), G(31,4) ],
-      items: [
-        { name: "ÁO", type: "Áo thun đen", link: "https://s.shopee.vn/5VUDqJJPK5" },
-        { name: "QUẦN", type: "Jeans baggy xanh", link: "https://s.shopee.vn/5fne2cIlz8" },
-        { name: "GIÀY", type: "Clog trắng", link: "https://s.shopee.vn/5q74EvI8eB" },
-        { name: "TÚI", type: "Túi tote trắng", link: "https://s.shopee.vn/60QUREHVJE" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/2LXC4x2QLf" },
-        { name: "THẮT LƯNG", type: "Thắt lưng trắng", link: "https://s.shopee.vn/BShUyAfkG" }
-      
+    "id": "look-31",
+    "slug": "look-31-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp",
+    "tag": "LOOK #31",
+    "title": "Baddie Streetwear Outfit Nữ Look #31",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #31",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-31-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-31-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-31-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Áo thun đen",
+          "link": "https://s.shopee.vn/5VUDqJJPK5"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy xanh",
+          "link": "https://s.shopee.vn/5fne2cIlz8"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Clog trắng",
+          "link": "https://s.shopee.vn/5q74EvI8eB"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi tote trắng",
+          "link": "https://s.shopee.vn/60QUREHVJE"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/2LXC4x2QLf"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng trắng",
+          "link": "https://s.shopee.vn/BShUyAfkG"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "E-Girl",
+      "Áo thun đen",
+      "Jeans baggy xanh",
+      "Clog trắng",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── GOTH ─────────────────────────────────────────────
   {
-    id: "look-32",
-    slug: "look-32-goth",
-    img: G(32, 1),
-    tag: "LOOK #32",
-    title: "Goth Badgirl Look #32",
-    category: "Goth",
-    detail: {
-      title: "OUTFIT DETAILS #32",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(32,1), G(32,2), G(32,3), G(32,4) ],
-      items: [
-        { name: "ÁO", type: "Tank top đen", link: "https://s.shopee.vn/9KgwPM9HYA" },
-        { name: "QUẦN", type: "Quần ống rộng đen", link: "https://s.shopee.vn/9V0Mbf8eDD" },
-        { name: "GIÀY", type: "Sneaker đen trắng", link: "https://s.shopee.vn/AKZTbC5TWO" },
-        { name: "THẮT LƯNG", type: "Western belt đen trắng", link: "https://s.shopee.vn/19HIfBJ5F" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/W5Xta9P4M" }
-      
+    "id": "look-32",
+    "slug": "look-32-goth",
+    "img": "/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp",
+    "tag": "LOOK #32",
+    "title": "Baddie Streetwear Outfit Nữ Look #32",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #32",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-32-top.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-32-bottom.webp",
+        "/images/badgirl-outfits/badgirl-goth-look-32-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Tank top đen",
+          "link": "https://s.shopee.vn/9KgwPM9HYA"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Quần ống rộng đen",
+          "link": "https://s.shopee.vn/9V0Mbf8eDD"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen trắng",
+          "link": "https://s.shopee.vn/AKZTbC5TWO"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Western belt đen trắng",
+          "link": "https://s.shopee.vn/19HIfBJ5F"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/W5Xta9P4M"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Goth"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Goth",
+      "Tank top đen",
+      "Quần ống rộng đen",
+      "Sneaker đen trắng",
+      "Đi học",
+      "Đi cafe",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── E-GIRL ─────────────────────────────────────────────
   {
-    id: "look-33",
-    slug: "look-33-egirl",
-    img: G(33, 1),
-    tag: "LOOK #33",
-    title: "E-Girl Badgirl Look #33",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #33",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(33,1), G(33,2), G(33,3), G(33,4) ],
-      items: [
-        { name: "ÁO", type: "Corset đen đỏ", link: "https://s.shopee.vn/AUstnV4qBR" },
-        { name: "QUẦN", type: "Jeans baggy xanh nhạt", link: "https://s.shopee.vn/9zwdCa6kCM" },
-        { name: "GIÀY", type: "Platform đỏ", link: "https://s.shopee.vn/AAG3Ot66rP" },
-        { name: "MŨ", type: "Beret đỏ", link: "https://s.shopee.vn/8KoPDWD5a4" },
-        { name: "KÍNH", type: "Kính gọng đen", link: "https://s.shopee.vn/8V7pPpCSF7" },
-        { name: "TÚI", type: "Túi corset đỏ", link: "https://s.shopee.vn/80BYouEMG2" },
-        { name: "CÀ VẠT", type: "Cà vạt sọc đỏ", link: "https://s.shopee.vn/Lm7hHA2PL" },
-        { name: "DÂY XÍCH", type: "Xích quần bạc", link: "https://s.shopee.vn/qiOIC88OS" }
-      
+    "id": "look-33",
+    "slug": "look-33-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp",
+    "tag": "LOOK #33",
+    "title": "E-Girl Outfit Nữ Look #33",
+    "category": "E-Girl",
+    "detail": {
+      "title": "OUTFIT DETAILS #33",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-33-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-33-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-33-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Corset đen đỏ",
+          "link": "https://s.shopee.vn/AUstnV4qBR"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy xanh nhạt",
+          "link": "https://s.shopee.vn/9zwdCa6kCM"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform đỏ",
+          "link": "https://s.shopee.vn/AAG3Ot66rP"
+        },
+        {
+          "name": "MŨ",
+          "type": "Beret đỏ",
+          "link": "https://s.shopee.vn/8KoPDWD5a4"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính gọng đen",
+          "link": "https://s.shopee.vn/8V7pPpCSF7"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi corset đỏ",
+          "link": "https://s.shopee.vn/80BYouEMG2"
+        },
+        {
+          "name": "CÀ VẠT",
+          "type": "Cà vạt sọc đỏ",
+          "link": "https://s.shopee.vn/Lm7hHA2PL"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần bạc",
+          "link": "https://s.shopee.vn/qiOIC88OS"
+        }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Corset đen đỏ",
+      "Jeans baggy xanh nhạt",
+      "Platform đỏ",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-34",
-    slug: "look-34-baddie-streetwear",
-    img: G(34, 1),
-    tag: "LOOK #34",
-    title: "Baddie Streetwear Badgirl Look #34",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #34",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(34,1), G(34,2), G(34,3), G(34,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tee đen", link: "https://s.shopee.vn/8AUz1DDiv5" },
-        { name: "QUẦN", type: "Jogger xám", link: "https://s.shopee.vn/90460kAYEG" },
-        { name: "GIÀY", type: "Platform màu beige", link: "https://s.shopee.vn/9ANWD39utJ" },
-        { name: "MŨ", type: "Mũ lưỡi trai đen", link: "https://s.shopee.vn/8fRFc8BouE" },
-        { name: "KHĂN", type: "Khăn choàng graphic", link: "https://s.shopee.vn/8pkfoRBBZH" },
-        { name: "DÂY XÍCH", type: "Xích quần bạc", link: "https://s.shopee.vn/gOy5t8ljR" },
-        { name: "TÚI", type: "Túi xách đen", link: "https://s.shopee.vn/70J1d4IAHw" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/1BLEgo6riY" }
-      
+    "id": "look-34",
+    "slug": "look-34-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp",
+    "tag": "LOOK #34",
+    "title": "Baddie Streetwear Outfit Nữ Look #34",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #34",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tee đen",
+          "link": "https://s.shopee.vn/8AUz1DDiv5"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jogger xám",
+          "link": "https://s.shopee.vn/90460kAYEG"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform màu beige",
+          "link": "https://s.shopee.vn/9ANWD39utJ"
+        },
+        {
+          "name": "MŨ",
+          "type": "Mũ lưỡi trai đen",
+          "link": "https://s.shopee.vn/8fRFc8BouE"
+        },
+        {
+          "name": "KHĂN",
+          "type": "Khăn choàng graphic",
+          "link": "https://s.shopee.vn/8pkfoRBBZH"
+        },
+        {
+          "name": "DÂY XÍCH",
+          "type": "Xích quần bạc",
+          "link": "https://s.shopee.vn/gOy5t8ljR"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xách đen",
+          "link": "https://s.shopee.vn/70J1d4IAHw"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/1BLEgo6riY"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Punk / Grunge",
+      "Crop tee đen",
+      "Jogger xám",
+      "Platform màu beige",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── E-GIRL ─────────────────────────────────────────────
   {
-    id: "look-35",
-    slug: "look-35-egirl",
-    img: G(35, 1),
-    tag: "LOOK #35",
-    title: "E-Girl Badgirl Look #35",
-    category: "E-Girl",
-    detail: {
-      title: "OUTFIT DETAILS #35",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(35,1), G(35,2), G(35,3), G(35,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top trễ vai", link: "https://s.shopee.vn/7AcRpNHWwz" },
-        { name: "QUẦN", type: "Jeans đen ống rộng", link: "https://s.shopee.vn/6fgBESJQxu" },
-        { name: "GIÀY", type: "Sneaker đỏ", link: "https://s.shopee.vn/6pzbQlIncx" },
-        { name: "TÚI", type: "Túi tote đen", link: "https://s.shopee.vn/7fYiQIFcw8" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/111oUV7V3X" }
-      
+    "id": "look-35",
+    "slug": "look-35-egirl",
+    "img": "/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp",
+    "tag": "LOOK #35",
+    "title": "Baddie Streetwear Outfit Nữ Look #35",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #35",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-35-top.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-35-bottom.webp",
+        "/images/badgirl-outfits/badgirl-e-girl-look-35-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top trễ vai",
+          "link": "https://s.shopee.vn/7AcRpNHWwz"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans đen ống rộng",
+          "link": "https://s.shopee.vn/6fgBESJQxu"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đỏ",
+          "link": "https://s.shopee.vn/6pzbQlIncx"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi tote đen",
+          "link": "https://s.shopee.vn/7fYiQIFcw8"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/111oUV7V3X"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine",
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "E-Girl",
+      "Crop top trễ vai",
+      "Jeans đen ống rộng",
+      "Sneaker đỏ",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-36",
-    slug: "look-36-dark-feminine",
-    img: G(36, 1),
-    tag: "LOOK #36",
-    title: "Dark Feminine Badgirl Look #36",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #36",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(36,1), G(36,2), G(36,3), G(36,4) ],
-      items: [
-        { name: "ÁO", type: "Áo trễ vai đen", link: "https://s.shopee.vn/7ps8cbEzbB" },
-        { name: "QUẦN", type: "Jeans baggy xanh", link: "https://s.shopee.vn/7Kvs1gGtc6" },
-        { name: "GIÀY", type: "Sneaker đen trắng", link: "https://s.shopee.vn/7VFIDzGGH9" },
-        { name: "THẮT LƯNG", type: "Western belt nâu", link: "https://s.shopee.vn/4AyqGJvRdA" },
-        { name: "TÚI", type: "Túi đeo vai nâu", link: "https://s.shopee.vn/5fne2cNEzo" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/40fQ40w4y9" },
-        { name: "MÓC KHÓA", type: "Charm lông nâu", link: "https://s.shopee.vn/4VbgevuAxG" }
-      
+    "id": "look-36",
+    "slug": "look-36-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp",
+    "tag": "LOOK #36",
+    "title": "Baddie Streetwear Outfit Nữ Look #36",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #36",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-36-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-36-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-36-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Áo trễ vai đen",
+          "link": "https://s.shopee.vn/7ps8cbEzbB"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy xanh",
+          "link": "https://s.shopee.vn/7Kvs1gGtc6"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen trắng",
+          "link": "https://s.shopee.vn/7VFIDzGGH9"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Western belt nâu",
+          "link": "https://s.shopee.vn/4AyqGJvRdA"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi đeo vai nâu",
+          "link": "https://s.shopee.vn/5fne2cNEzo"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/40fQ40w4y9"
+        },
+        {
+          "name": "MÓC KHÓA",
+          "type": "Charm lông nâu",
+          "link": "https://s.shopee.vn/4VbgevuAxG"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo trễ vai đen",
+      "Jeans baggy xanh",
+      "Sneaker đen trắng",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-37",
-    slug: "look-37-baddie-streetwear",
-    img: G(37, 1),
-    tag: "LOOK #37",
-    title: "Baddie Streetwear Badgirl Look #37",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #37",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(37,1), G(37,2), G(37,3), G(37,4) ],
-      items: [
-        { name: "ÁO", type: "Crop tank đen", link: "https://s.shopee.vn/5q74EvMber" },
-        { name: "QUẦN", type: "Quần tây đen", link: "https://s.shopee.vn/5LAne0OVfm" },
-        { name: "GIÀY", type: "Sneaker đỏ", link: "https://s.shopee.vn/5VUDqJNsKp" },
-        { name: "ÁO KHOÁC", type: "Biker jacket đen", link: "https://s.shopee.vn/4LIGScuoIF" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đỏ", link: "https://s.shopee.vn/4qEX3XsuHM" },
-        { name: "TÚI", type: "Túi xích đỏ", link: "https://s.shopee.vn/6L3KpqKhe0" },
-        { name: "KÍNH", type: "Kính râm đen", link: "https://s.shopee.vn/6VMl29K4J3" },
-        { name: "TAI NGHE", type: "Tai nghe chụp tai", link: "https://s.shopee.vn/4fv6rEtXcL" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền bạc", link: "https://s.shopee.vn/5ArNS9rdbS" }
-      
+    "id": "look-37",
+    "slug": "look-37-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp",
+    "tag": "LOOK #37",
+    "title": "Baddie Streetwear Outfit Nữ Look #37",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #37",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop tank đen",
+          "link": "https://s.shopee.vn/5q74EvMber"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Quần tây đen",
+          "link": "https://s.shopee.vn/5LAne0OVfm"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đỏ",
+          "link": "https://s.shopee.vn/5VUDqJNsKp"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Biker jacket đen",
+          "link": "https://s.shopee.vn/4LIGScuoIF"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đỏ",
+          "link": "https://s.shopee.vn/4qEX3XsuHM"
+        },
+        {
+          "name": "TÚI",
+          "type": "Túi xích đỏ",
+          "link": "https://s.shopee.vn/6L3KpqKhe0"
+        },
+        {
+          "name": "KÍNH",
+          "type": "Kính râm đen",
+          "link": "https://s.shopee.vn/6VMl29K4J3"
+        },
+        {
+          "name": "TAI NGHE",
+          "type": "Tai nghe chụp tai",
+          "link": "https://s.shopee.vn/4fv6rEtXcL"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền bạc",
+          "link": "https://s.shopee.vn/5ArNS9rdbS"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Nhiều layer"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Punk / Grunge",
+      "Crop tank đen",
+      "Quần tây đen",
+      "Sneaker đỏ",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── PUNK ─────────────────────────────────────────────
   {
-    id: "look-38",
-    slug: "look-38-punk",
-    img: G(38, 1),
-    tag: "LOOK #38",
-    title: "Punk Badgirl Look #38",
-    category: "Punk",
-    detail: {
-      title: "OUTFIT DETAILS #38",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(38,1), G(38,2), G(38,3), G(38,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top cổ lọ", link: "https://s.shopee.vn/60QURELyJy" },
-        { name: "QUẦN", type: "Jeans rách đen", link: "https://s.shopee.vn/6AjudXLKz1" },
-        { name: "GIÀY", type: "Platform boots đen", link: "https://s.shopee.vn/4LIGSASJhg" },
-        { name: "ÁO KHOÁC", type: "Biker jacket đen", link: "https://s.shopee.vn/50XxFqsGwR" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đen", link: "https://s.shopee.vn/2qTSfs0WL2" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền mặt bạc", link: "https://s.shopee.vn/2gA2TZ19g1" },
-        { name: "TAI NGHE", type: "Tai nghe chụp tai", link: "https://s.shopee.vn/3B6J4TzFf8" }
-      
+    "id": "look-38",
+    "slug": "look-38-punk",
+    "img": "/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp",
+    "tag": "LOOK #38",
+    "title": "Punk / Grunge Outfit Nữ Look #38",
+    "category": "Punk / Grunge",
+    "detail": {
+      "title": "OUTFIT DETAILS #38",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-38-top.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-38-bottom.webp",
+        "/images/badgirl-outfits/badgirl-punk-look-38-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top cổ lọ",
+          "link": "https://s.shopee.vn/60QURELyJy"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans rách đen",
+          "link": "https://s.shopee.vn/6AjudXLKz1"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Platform boots đen",
+          "link": "https://s.shopee.vn/4LIGSASJhg"
+        },
+        {
+          "name": "ÁO KHOÁC",
+          "type": "Biker jacket đen",
+          "link": "https://s.shopee.vn/50XxFqsGwR"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đen",
+          "link": "https://s.shopee.vn/2qTSfs0WL2"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền mặt bạc",
+          "link": "https://s.shopee.vn/2gA2TZ19g1"
+        },
+        {
+          "name": "TAI NGHE",
+          "type": "Tai nghe chụp tai",
+          "link": "https://s.shopee.vn/3B6J4TzFf8"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Punk",
+      "Crop top cổ lọ",
+      "Jeans rách đen",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
-  // ── BADDIE STREETWEAR ─────────────────────────────────────────────
   {
-    id: "look-39",
-    slug: "look-39-baddie-streetwear",
-    img: G(39, 1),
-    tag: "LOOK #39",
-    title: "Baddie Streetwear Badgirl Look #39",
-    category: "Baddie Streetwear",
-    detail: {
-      title: "OUTFIT DETAILS #39",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(39,1), G(39,2), G(39,3), G(39,4) ],
-      items: [
-        { name: "ÁO", type: "Tank top đen", link: "https://s.shopee.vn/4VbgeTRgMj" },
-        { name: "QUẦN", type: "Quần ống rộng đen", link: "https://s.shopee.vn/40fQ3YTaNe" },
-        { name: "GIÀY", type: "Sneaker đen trắng", link: "https://s.shopee.vn/4AyqFrSx2h" },
-        { name: "THẮT LƯNG", type: "Western belt đen trắng", link: "https://s.shopee.vn/30mssAzt07" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/3Vj9T5xyzE" }
-      
+    "id": "look-39",
+    "slug": "look-39-baddie-streetwear",
+    "img": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp",
+    "tag": "LOOK #39",
+    "title": "Baddie Streetwear Outfit Nữ Look #39",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #39",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-top.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-bottom.webp",
+        "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Tank top đen",
+          "link": "https://s.shopee.vn/4VbgeTRgMj"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Quần ống rộng đen",
+          "link": "https://s.shopee.vn/40fQ3YTaNe"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker đen trắng",
+          "link": "https://s.shopee.vn/4AyqFrSx2h"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Western belt đen trắng",
+          "link": "https://s.shopee.vn/30mssAzt07"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/3Vj9T5xyzE"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Tank top đen",
+      "Quần ống rộng đen",
+      "Sneaker đen trắng",
+      "Đi học",
+      "Đi cafe",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-  // ── DARK FEMININE ─────────────────────────────────────────────
   {
-    id: "look-40",
-    slug: "look-40-dark-feminine",
-    img: G(40, 1),
-    tag: "LOOK #40",
-    title: "Dark Feminine Badgirl Look #40",
-    category: "Dark Feminine",
-    detail: {
-      title: "OUTFIT DETAILS #40",
-      desc: "Nhấn vào từng mục để xem chi tiết sản phẩm.",
-      imgs: [ G(40,1), G(40,2), G(40,3), G(40,4) ],
-      items: [
-        { name: "ÁO", type: "Crop top cutout trắng", link: "https://s.shopee.vn/50XxFOPmLs" },
-        { name: "QUẦN", type: "Jeans baggy xanh", link: "https://s.shopee.vn/5ArNRhP90v" },
-        { name: "GIÀY", type: "Sneaker trắng", link: "https://s.shopee.vn/4fv6qmR31q" },
-        { name: "THẮT LƯNG", type: "Thắt lưng đen", link: "https://s.shopee.vn/3LPjGmycKD" },
-        { name: "DÂY CHUYỀN", type: "Dây chuyền thánh giá", link: "https://s.shopee.vn/3qLzrhwiJK" }
-      
+    "id": "look-40",
+    "slug": "look-40-dark-feminine",
+    "img": "/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp",
+    "tag": "LOOK #40",
+    "title": "Baddie Streetwear Outfit Nữ Look #40",
+    "category": "Baddie Streetwear",
+    "detail": {
+      "title": "OUTFIT DETAILS #40",
+      "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
+      "imgs": [
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-40-top.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-40-bottom.webp",
+        "/images/badgirl-outfits/badgirl-dark-feminine-look-40-shoes-accessories.webp"
+      ],
+      "items": [
+        {
+          "name": "ÁO",
+          "type": "Crop top cutout trắng",
+          "link": "https://s.shopee.vn/50XxFOPmLs"
+        },
+        {
+          "name": "QUẦN",
+          "type": "Jeans baggy xanh",
+          "link": "https://s.shopee.vn/5ArNRhP90v"
+        },
+        {
+          "name": "GIÀY",
+          "type": "Sneaker trắng",
+          "link": "https://s.shopee.vn/4fv6qmR31q"
+        },
+        {
+          "name": "THẮT LƯNG",
+          "type": "Thắt lưng đen",
+          "link": "https://s.shopee.vn/3LPjGmycKD"
+        },
+        {
+          "name": "DÂY CHUYỀN",
+          "type": "Dây chuyền thánh giá",
+          "link": "https://s.shopee.vn/3qLzrhwiJK"
+        }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Tối giản"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Crop top cutout trắng",
+      "Jeans baggy xanh",
+      "Sneaker trắng",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
-
-
-  // ── OUTFIT 41–136 (ẢNH MỚI 2026-08-03) ─────────────────────────
   {
     "id": "look-41",
     "slug": "look-41-egirl",
@@ -1048,9 +3516,40 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo graphic trắng",
+      "Chân váy xếp ly đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-42",
     "slug": "look-42-egirl",
@@ -1096,9 +3595,37 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo kẻ sọc đen",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-43",
     "slug": "look-43-egirl",
@@ -1144,9 +3671,42 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo crop graphic đen",
+      "Chân váy caro",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-44",
     "slug": "look-44-goth",
@@ -1168,7 +3728,7 @@ const outfits = [
         },
         {
           "name": "QUẦN",
-          "type": "Quần short xich",
+          "type": "Quần short xích",
           "link": "https://s.shopee.vn/1BLEgLZu6m"
         },
         {
@@ -1192,16 +3752,45 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Short",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo lưới đen",
+      "Quần short xích",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Short",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-45",
     "slug": "look-45-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-do-den-chan-vay-den-045.webp",
     "tag": "LOOK #45",
-    "title": "Grunge Outfit Nữ Look #45",
-    "category": "Grunge",
+    "title": "E-Girl Outfit Nữ Look #45",
+    "category": "E-Girl",
     "detail": {
       "title": "OUTFIT DETAILS #45 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1240,9 +3829,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo kẻ sọc đỏ đen",
+      "Chân váy đen",
+      "Combat boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-46",
     "slug": "look-46-goth",
@@ -1288,9 +3908,42 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "E-Girl",
+      "Áo corset đen",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-47",
     "slug": "look-47-goth",
@@ -1336,16 +3989,53 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Dark Feminine",
+      "Áo lưới corset đen",
+      "Quần cargo xám",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-48",
     "slug": "look-48-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-den-quan-cargo-xam-048.webp",
     "tag": "LOOK #48",
-    "title": "Grunge Outfit Nữ Look #48",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #48",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #48 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1384,9 +4074,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo graphic đen",
+      "Quần cargo xám",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-49",
     "slug": "look-49-goth",
@@ -1432,16 +4153,51 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Dark Feminine",
+      "Áo graphic trễ vai",
+      "Chân váy đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-50",
     "slug": "look-50-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-graphic-xam-quan-cargo-den-050.webp",
     "tag": "LOOK #50",
-    "title": "Grunge Outfit Nữ Look #50",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #50",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #50 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1480,9 +4236,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo lưới graphic xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-51",
     "slug": "look-51-egirl",
@@ -1528,9 +4315,37 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Trắng / Sáng",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo jersey trắng",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Trắng / Sáng",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-52",
     "slug": "look-52-goth",
@@ -1576,9 +4391,40 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "E-Girl",
+      "Áo dây đan đen",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-53",
     "slug": "look-53-dark-feminine",
@@ -1595,7 +4441,7 @@ const outfits = [
       "items": [
         {
           "name": "ÁO",
-          "type": "Áo crop khoet nguc",
+          "type": "Áo crop khoét ngực",
           "link": "https://s.shopee.vn/7Kvs1gCZ5i"
         },
         {
@@ -1624,16 +4470,44 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo crop khoét ngực",
+      "Chân váy đen",
+      "Boot đen mũi nhọn",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-54",
     "slug": "look-54-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-chan-vay-mini-054.webp",
     "tag": "LOOK #54",
-    "title": "Grunge Outfit Nữ Look #54",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #54",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #54 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1672,9 +4546,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Punk",
+      "Áo thun graphic đen",
+      "Chân váy mini",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-55",
     "slug": "look-55-egirl",
@@ -1720,16 +4625,46 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo crop đen tay be",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-56",
     "slug": "look-56-goth",
     "img": "/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-xep-ly-056.webp",
     "tag": "LOOK #56",
-    "title": "Goth Outfit Nữ Look #56",
-    "category": "Goth",
+    "title": "Punk / Grunge Outfit Nữ Look #56",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #56 – Goth",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1768,16 +4703,51 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl",
+      "Goth"
+    ],
+    "subStyle": "Grunge",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Goth",
+      "Grunge",
+      "Áo graphic trễ vai",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-57",
     "slug": "look-57-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-057.webp",
     "tag": "LOOK #57",
-    "title": "Grunge Outfit Nữ Look #57",
-    "category": "Grunge",
+    "title": "Goth Outfit Nữ Look #57",
+    "category": "Goth",
     "detail": {
       "title": "OUTFIT DETAILS #57 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1816,9 +4786,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo crop graphic xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-58",
     "slug": "look-58-baddie-streetwear",
@@ -1864,9 +4867,35 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo jersey số 17",
+      "Quần cargo đen",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đen",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-59",
     "slug": "look-59-goth",
@@ -1912,16 +4941,49 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "E-Girl",
+      "Áo corset xám",
+      "Chân váy xếp ly đen",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-60",
     "slug": "look-60-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-hong-quan-cargo-den-060.webp",
     "tag": "LOOK #60",
-    "title": "Grunge Outfit Nữ Look #60",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #60",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #60 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -1960,9 +5022,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo crop graphic hồng",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-61",
     "slug": "look-61-egirl",
@@ -2008,9 +5103,37 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo jersey số 09",
+      "Chân váy đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-62",
     "slug": "look-62-egirl",
@@ -2056,9 +5179,39 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo polo crop trắng",
+      "Chân váy xám",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-63",
     "slug": "look-63-baddie-streetwear",
@@ -2104,16 +5257,44 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo crop cổ cao đen",
+      "Quần cargo",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-64",
     "slug": "look-64-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-khoac-the-thao-quan-cargo-den-064.webp",
     "tag": "LOOK #64",
-    "title": "Grunge Outfit Nữ Look #64",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #64",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #64 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2152,9 +5333,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo khoác thể thao",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-65",
     "slug": "look-65-goth",
@@ -2200,16 +5412,45 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo lưới dây đan",
+      "Chân váy mini đen",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-66",
     "slug": "look-66-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-nau-quan-cargo-den-066.webp",
     "tag": "LOOK #66",
-    "title": "Grunge Outfit Nữ Look #66",
-    "category": "Grunge",
+    "title": "Goth Outfit Nữ Look #66",
+    "category": "Goth",
     "detail": {
       "title": "OUTFIT DETAILS #66 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2248,9 +5489,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo lưới nâu",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-67",
     "slug": "look-67-baddie-streetwear",
@@ -2296,9 +5568,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo trễ vai trắng",
+      "Quần cargo xám",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-68",
     "slug": "look-68-goth",
@@ -2344,16 +5649,49 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo lưới đen",
+      "Quần cargo đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-69",
     "slug": "look-69-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-quan-cargo-xam-069.webp",
     "tag": "LOOK #69",
-    "title": "Grunge Outfit Nữ Look #69",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #69",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #69 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2392,9 +5730,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo thun graphic đen",
+      "Quần cargo xám",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-70",
     "slug": "look-70-goth",
@@ -2440,9 +5809,46 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Dark Feminine",
+      "Áo corset khóa cài",
+      "Quần cargo xám",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-71",
     "slug": "look-71-egirl",
@@ -2488,9 +5894,46 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Áo crop trắng graphic mắt",
+      "Quần cargo đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-72",
     "slug": "look-72-dark-feminine",
@@ -2536,9 +5979,40 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo ren buộc dây đen",
+      "Quần cargo xám",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-73",
     "slug": "look-73-goth",
@@ -2584,16 +6058,49 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo yếm graphic đen",
+      "Quần cargo tím",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-74",
     "slug": "look-74-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-tre-vai-graphic-den-chan-vay-denim-074.webp",
     "tag": "LOOK #74",
-    "title": "Grunge Outfit Nữ Look #74",
-    "category": "Grunge",
+    "title": "Dark Feminine Outfit Nữ Look #74",
+    "category": "Dark Feminine",
     "detail": {
       "title": "OUTFIT DETAILS #74 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2632,9 +6139,37 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo trễ vai graphic đen",
+      "Chân váy denim",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-75",
     "slug": "look-75-baddie-streetwear",
@@ -2680,9 +6215,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "E-Girl",
+      "Áo hồng ôm dáng",
+      "Chân váy cargo đen",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Váy",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-76",
     "slug": "look-76-baddie-streetwear",
@@ -2728,9 +6296,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "E-Girl",
+      "Áo crop số 23",
+      "Chân váy cargo xám",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Váy",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-77",
     "slug": "look-77-dark-feminine",
@@ -2776,16 +6377,46 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo corset đen",
+      "Quần jean ống rộng",
+      "Boot đen mũi nhọn",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-78",
     "slug": "look-78-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-do-ruou-quan-cargo-den-078.webp",
     "tag": "LOOK #78",
-    "title": "Grunge Outfit Nữ Look #78",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #78",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #78 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2824,16 +6455,49 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo crop đỏ rượu",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-79",
     "slug": "look-79-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-xam-quan-cargo-ong-rong-079.webp",
     "tag": "LOOK #79",
-    "title": "Grunge Outfit Nữ Look #79",
-    "category": "Grunge",
+    "title": "Goth Outfit Nữ Look #79",
+    "category": "Goth",
     "detail": {
       "title": "OUTFIT DETAILS #79 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2872,16 +6536,49 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo lưới xám",
+      "Quần cargo ống rộng",
+      "Combat boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-80",
     "slug": "look-80-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-quan-cargo-den-080.webp",
     "tag": "LOOK #80",
-    "title": "Grunge Outfit Nữ Look #80",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #80",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #80 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -2920,9 +6617,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo graphic xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-81",
     "slug": "look-81-dark-feminine",
@@ -2968,9 +6696,42 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo yếm corset nâu",
+      "Quần cargo đen",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-82",
     "slug": "look-82-baddie-streetwear",
@@ -3016,9 +6777,38 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "E-Girl",
+      "Áo vest khóa kéo đen",
+      "Chân váy denim",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-83",
     "slug": "look-83-dark-feminine",
@@ -3064,9 +6854,39 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo corset olive",
+      "Chân váy denim",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-84",
     "slug": "look-84-baddie-streetwear",
@@ -3112,16 +6932,44 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo crop khóa kéo đen",
+      "Quần cargo xám",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-85",
     "slug": "look-85-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-085.webp",
     "tag": "LOOK #85",
-    "title": "Grunge Outfit Nữ Look #85",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #85",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #85 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3160,9 +7008,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Punk",
+      "Áo graphic xám",
+      "Chân váy denim",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-86",
     "slug": "look-86-baddie-streetwear",
@@ -3208,9 +7087,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo trễ vai kem",
+      "Quần cargo đen",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-87",
     "slug": "look-87-egirl",
@@ -3256,9 +7168,40 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo graphic xám",
+      "Chân váy xếp ly đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-88",
     "slug": "look-88-egirl",
@@ -3304,16 +7247,46 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo crop trắng",
+      "Chân váy denim đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-89",
     "slug": "look-89-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-den-quan-cargo-xam-089.webp",
     "tag": "LOOK #89",
-    "title": "Grunge Outfit Nữ Look #89",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #89",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #89 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3352,9 +7325,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo crop trễ vai đen",
+      "Quần cargo xám",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-90",
     "slug": "look-90-egirl",
@@ -3400,9 +7406,40 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo thun graphic đen",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-91",
     "slug": "look-91-egirl",
@@ -3448,16 +7485,46 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo corset caro xám",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-92",
     "slug": "look-92-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-tank-graphic-den-quan-cargo-xam-092.webp",
     "tag": "LOOK #92",
-    "title": "Grunge Outfit Nữ Look #92",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #92",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #92 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3496,9 +7563,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo tank graphic đen",
+      "Quần cargo xám",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-93",
     "slug": "look-93-egirl",
@@ -3544,16 +7644,49 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo crop graphic đen",
+      "Chân váy denim",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-94",
     "slug": "look-94-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-xam-quan-cargo-den-094.webp",
     "tag": "LOOK #94",
-    "title": "Grunge Outfit Nữ Look #94",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #94",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #94 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3592,9 +7725,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo thun graphic xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-95",
     "slug": "look-95-egirl",
@@ -3640,16 +7804,51 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Baddie Streetwear",
+      "Áo crop bướm trắng",
+      "Quần cargo xám",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-96",
     "slug": "look-96-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-quan-cargo-den-096.webp",
     "tag": "LOOK #96",
-    "title": "Grunge Outfit Nữ Look #96",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #96",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #96 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3688,16 +7887,49 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo graphic trễ vai",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-97",
     "slug": "look-97-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-den-quan-jean-rach-xam-097.webp",
     "tag": "LOOK #97",
-    "title": "Grunge Outfit Nữ Look #97",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #97",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #97 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3736,9 +7968,37 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Punk",
+      "Áo crop graphic đen",
+      "Quần jean rách xám",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-98",
     "slug": "look-98-egirl",
@@ -3784,16 +8044,47 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo thun graphic đen",
+      "Chân váy mini",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-99",
     "slug": "look-99-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-tank-chaos-den-quan-cargo-den-099.webp",
     "tag": "LOOK #99",
-    "title": "Grunge Outfit Nữ Look #99",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #99",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #99 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3832,16 +8123,49 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo tank chaos đen",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-100",
     "slug": "look-100-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-100.webp",
     "tag": "LOOK #100",
-    "title": "Grunge Outfit Nữ Look #100",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #100",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #100 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -3880,9 +8204,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo crop graphic xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-101",
     "slug": "look-101-egirl",
@@ -3928,9 +8285,44 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge",
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Áo graphic đen tay kẻ sọc",
+      "Quần cargo xám",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-102",
     "slug": "look-102-egirl",
@@ -3976,9 +8368,39 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo crop ngôi sao đen",
+      "Chân váy denim",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-103",
     "slug": "look-103-egirl",
@@ -4024,9 +8446,40 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo graphic đen",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-104",
     "slug": "look-104-egirl",
@@ -4072,16 +8525,46 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Áo crop trễ vai đen",
+      "Chân váy xếp ly xám",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-105",
     "slug": "look-105-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-den-quan-cargo-den-105.webp",
     "tag": "LOOK #105",
-    "title": "Grunge Outfit Nữ Look #105",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #105",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #105 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -4120,9 +8603,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo kẻ sọc đen",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-106",
     "slug": "look-106-egirl",
@@ -4168,16 +8682,49 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo crop graphic đen",
+      "Chân váy xếp ly",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-107",
     "slug": "look-107-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-buom-xam-quan-cargo-den-107.webp",
     "tag": "LOOK #107",
-    "title": "Grunge Outfit Nữ Look #107",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #107",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #107 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -4216,9 +8763,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo crop bướm xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-108",
     "slug": "look-108-dark-feminine",
@@ -4264,16 +8844,46 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo crop lệch vai be",
+      "Chân váy nâu",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-109",
     "slug": "look-109-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-109.webp",
     "tag": "LOOK #109",
-    "title": "Grunge Outfit Nữ Look #109",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #109",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #109 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -4312,16 +8922,47 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "E-Girl"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "E-Girl",
+      "Punk",
+      "Áo graphic xám",
+      "Chân váy denim",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-110",
     "slug": "look-110-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-xam-quan-jean-ong-rong-110.webp",
     "tag": "LOOK #110",
-    "title": "Grunge Outfit Nữ Look #110",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #110",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #110 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -4360,9 +9001,41 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Punk",
+      "Áo crop trễ vai xám",
+      "Quần jean ống rộng",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-111",
     "slug": "look-111-egirl",
@@ -4408,9 +9081,40 @@ const outfits = [
           "link": "https://s.shopee.vn/19HIfBJ4C"
         }
       ]
-    }
+    },
+    "primaryStyle": "E-Girl",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "E-Girl",
+      "Punk / Grunge",
+      "Áo graphic hồng",
+      "Chân váy caro đen",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-112",
     "slug": "look-112-goth",
@@ -4456,16 +9160,45 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo ren đen",
+      "Chân váy bất đối xứng",
+      "Platform boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-113",
     "slug": "look-113-baddie-streetwear",
     "img": "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-nau-chan-vay-kaki-113.webp",
     "tag": "LOOK #113",
-    "title": "Baddie Streetwear Outfit Nữ Look #113",
-    "category": "Baddie Streetwear",
+    "title": "Dark Feminine Outfit Nữ Look #113",
+    "category": "Dark Feminine",
     "detail": {
       "title": "OUTFIT DETAILS #113 – Baddie Streetwear",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -4504,9 +9237,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo corset nâu",
+      "Chân váy kaki",
+      "Sneaker chunky",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-114",
     "slug": "look-114-baddie-streetwear",
@@ -4552,9 +9318,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo corset xanh xám",
+      "Quần cargo sáng",
+      "Sneaker chunky",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-115",
     "slug": "look-115-baddie-streetwear",
@@ -4600,9 +9399,39 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo tank kem",
+      "Quần cargo đỏ rượu",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-116",
     "slug": "look-116-baddie-streetwear",
@@ -4648,9 +9477,37 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo ngôi sao xanh",
+      "Quần cargo vàng",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-117",
     "slug": "look-117-baddie-streetwear",
@@ -4696,9 +9553,41 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo crop thể thao",
+      "Quần ống rộng xanh",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-118",
     "slug": "look-118-baddie-streetwear",
@@ -4744,9 +9633,37 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo tay dài tím",
+      "Quần cargo trắng",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-119",
     "slug": "look-119-baddie-streetwear",
@@ -4792,9 +9709,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo trễ vai trắng",
+      "Quần jean xanh",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Tôn eo",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-120",
     "slug": "look-120-dark-feminine",
@@ -4840,9 +9790,42 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo crop xám",
+      "Quần cargo đen",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-121",
     "slug": "look-121-baddie-streetwear",
@@ -4888,9 +9871,37 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo crop đen",
+      "Quần cargo xám",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-122",
     "slug": "look-122-baddie-streetwear",
@@ -4936,9 +9947,39 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo cổ vuông xám",
+      "Quần ống rộng trắng",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-123",
     "slug": "look-123-baddie-streetwear",
@@ -4960,7 +10001,7 @@ const outfits = [
         },
         {
           "name": "QUẦN",
-          "type": "Quần jean rong",
+          "type": "Quần jean rộng",
           "link": "https://s.shopee.vn/40fQ3YTaNe"
         },
         {
@@ -4984,16 +10025,47 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo crop lệch vai đen",
+      "Quần jean rộng",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Đen",
+      "Tôn eo",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-124",
     "slug": "look-124-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-trang-quan-cargo-den-124.webp",
     "tag": "LOOK #124",
-    "title": "Grunge Outfit Nữ Look #124",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #124",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #124 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -5032,9 +10104,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo graphic trễ vai trắng",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-125",
     "slug": "look-125-baddie-streetwear",
@@ -5080,16 +10185,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo hai dây trắng áo khoác xám",
+      "Quần cargo",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Xám / Bạc",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-126",
     "slug": "look-126-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-tre-vai-xam-quan-cargo-den-126.webp",
     "tag": "LOOK #126",
-    "title": "Grunge Outfit Nữ Look #126",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #126",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #126 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -5128,9 +10259,42 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo thun trễ vai xám",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-127",
     "slug": "look-127-baddie-streetwear",
@@ -5176,9 +10340,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Đi chơi tối"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo quây xám",
+      "Quần cargo olive",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-128",
     "slug": "look-128-baddie-streetwear",
@@ -5224,9 +10421,37 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Cân đối"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo hai dây trắng",
+      "Quần jean xanh",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Cân đối",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-129",
     "slug": "look-129-dark-feminine",
@@ -5272,16 +10497,49 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo trễ vai nâu",
+      "Quần cargo kaki",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-130",
     "slug": "look-130-grunge",
     "img": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-kem-quan-cargo-den-130.webp",
     "tag": "LOOK #130",
-    "title": "Grunge Outfit Nữ Look #130",
-    "category": "Grunge",
+    "title": "Punk / Grunge Outfit Nữ Look #130",
+    "category": "Punk / Grunge",
     "detail": {
       "title": "OUTFIT DETAILS #130 – Grunge",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
@@ -5320,9 +10578,40 @@ const outfits = [
           "link": "https://s.shopee.vn/1BLEgo6rhX"
         }
       ]
-    }
+    },
+    "primaryStyle": "Punk / Grunge",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "subStyle": "Punk",
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Punk / Grunge",
+      "Baddie Streetwear",
+      "Punk",
+      "Áo graphic kem",
+      "Quần cargo đen",
+      "Combat boots đen",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Nâu / Be",
+      "Che hông / đùi",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-131",
     "slug": "look-131-goth",
@@ -5368,9 +10657,42 @@ const outfits = [
           "link": "https://s.shopee.vn/5VUDqlqMun"
         }
       ]
-    }
+    },
+    "primaryStyle": "Goth",
+    "secondaryStyles": [
+      "Punk / Grunge"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đen",
+      "fit": [
+        "Che hông / đùi",
+        "Hack chân dài"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Goth",
+      "Punk / Grunge",
+      "Áo lưới đen",
+      "Quần cargo trắng",
+      "Platform boots đen",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đen",
+      "Che hông / đùi",
+      "Hack chân dài",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-132",
     "slug": "look-132-baddie-streetwear",
@@ -5416,9 +10738,37 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi học",
+        "Đi cafe"
+      ],
+      "color": "Nâu / Be",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Áo tank đen áo khoác thể thao",
+      "Quần cargo",
+      "Sneaker chunky",
+      "Đi học",
+      "Đi cafe",
+      "Nâu / Be",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-133",
     "slug": "look-133-baddie-streetwear",
@@ -5464,9 +10814,42 @@ const outfits = [
           "link": "https://s.shopee.vn/2VqcHG1mzf"
         }
       ]
-    }
+    },
+    "primaryStyle": "Baddie Streetwear",
+    "secondaryStyles": [
+      "Dark Feminine"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Đỏ / Hồng",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi"
+      ],
+      "bottom": "Quần",
+      "footwear": "Sneaker",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Baddie Streetwear",
+      "Dark Feminine",
+      "Áo corset trắng",
+      "Quần cargo hồng",
+      "Sneaker chunky",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Đỏ / Hồng",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Quần",
+      "Sneaker"
+    ]
   },
-
   {
     "id": "look-134",
     "slug": "look-134-dark-feminine",
@@ -5512,9 +10895,39 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Hack chân dài"
+      ],
+      "bottom": "Váy",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo trễ vai xám",
+      "Chân váy denim đen",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Hack chân dài",
+      "Váy",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-135",
     "slug": "look-135-dark-feminine",
@@ -5536,7 +10949,7 @@ const outfits = [
         },
         {
           "name": "QUẦN",
-          "type": "Quần paráchute đen",
+          "type": "Quần parachute đen",
           "link": "https://s.shopee.vn/5VUDqJJXoB"
         },
         {
@@ -5560,9 +10973,44 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [
+      "Baddie Streetwear"
+    ],
+    "filters": {
+      "occasions": [
+        "Đi cafe",
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Xám / Bạc",
+      "fit": [
+        "Tôn eo",
+        "Che hông / đùi",
+        "Thoải mái"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Baddie Streetwear",
+      "Áo trễ vai xám",
+      "Quần parachute đen",
+      "Boot đen mũi nhọn",
+      "Đi cafe",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Xám / Bạc",
+      "Tôn eo",
+      "Che hông / đùi",
+      "Thoải mái",
+      "Quần",
+      "Boots / Platform"
+    ]
   },
-
   {
     "id": "look-136",
     "slug": "look-136-dark-feminine",
@@ -5608,34 +11056,38 @@ const outfits = [
           "link": "https://s.shopee.vn/3LPjGmycKD"
         }
       ]
-    }
-  },
-
-  // ════════════════════════════════════════════════════════════════
-  //  ↓ THÊM OUTFIT MỚI Ở ĐÂY — copy block này, xoá dấu // rồi điền
-  // ════════════════════════════════════════════════════════════════
-  //
-  // {
-  //   id: "look-21",
-  //   slug: "look-21-dark-feminine",       // ← thêm dòng này
-  //   img: G(21, 1),
-  //   tag: "LOOK #21",
-  //   title: "Look 21",
-  //   category: "Dark Feminine",
-  //   detail: {
-  //     title: "OUTFIT DETAILS #21",
-  //     desc: "Mô tả ngắn về look này.",
-  //     imgs: [ G(21,1), G(21,2), G(21,3), G(21,4) ],
-  //     items: [
-  //       { name: "ÁO",       type: "Top Item",    link: "LINK_SHOPEE" },
-  //       { name: "QUẦN",     type: "Bottom Item", link: "LINK_SHOPEE" },
-  //       { name: "GIÀY",     type: "Footwear",    link: "LINK_SHOPEE" },
-  //       { name: "PHỤ KIỆN", type: "Accessories", link: "LINK_SHOPEE" },
-  //     ]
-  //   }
-  // },
-
+    },
+    "primaryStyle": "Dark Feminine",
+    "secondaryStyles": [],
+    "filters": {
+      "occasions": [
+        "Đi chơi tối",
+        "Chụp ảnh"
+      ],
+      "color": "Màu nổi",
+      "fit": [
+        "Tôn eo"
+      ],
+      "bottom": "Quần",
+      "footwear": "Boots / Platform",
+      "complexity": "Cân bằng"
+    },
+    "searchKeywords": [
+      "Dark Feminine",
+      "Áo trễ vai xám",
+      "Quần jean xanh",
+      "Boot đen mũi nhọn",
+      "Đi chơi tối",
+      "Chụp ảnh",
+      "Màu nổi",
+      "Tôn eo",
+      "Quần",
+      "Boots / Platform"
+    ]
+  }
 ];
+
+if (typeof window !== 'undefined') window.outfits = outfits;
 
 /* AC_NO_CROP_20260803_V3: preserve complete 9:16 outfit images in legacy 3:4 UI frames. */
 (function applyApocalypseNoCropFixV3() {

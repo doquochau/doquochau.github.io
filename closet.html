@@ -370,7 +370,7 @@
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
-  <script src="/outfits.js?v=20260803-outfits-136-v1"></script>
+  <script src="/outfits.js?v=20260804-taxonomy-filter-v1"></script>
   <script>
     // Bridge: expose slug lookup for module scripts
     window.__getSlug = function(id) {
@@ -476,7 +476,11 @@
         const snap = await getDocs(collection(db, 'users', uid, 'closet'));
         closetOutfits = [];
         snap.forEach(d => closetOutfits.push(d.data()));
-        const outfits = closetOutfits;
+        const canonicalById = new Map((window.outfits || []).map(o => [o.id, o]));
+        const outfits = closetOutfits.map(saved => {
+          const canonical = canonicalById.get(saved.id);
+          return canonical ? { ...saved, title: canonical.title, image: canonical.img, category: canonical.primaryStyle || canonical.category, secondaryStyles: canonical.secondaryStyles || [], slug: canonical.slug, url: `/outfits/${canonical.slug}.html` } : saved;
+        });
 
         count.textContent = `${outfits.length} OUTFIT${outfits.length !== 1 ? 'S' : ''} SAVED`;
 
