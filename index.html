@@ -629,12 +629,7 @@
   }
 
   /* Bỏ hai dòng đếm Look và thu gọn khoảng trống trước lưới ảnh. */
-  .section-header,
-  .section-count,
-  #counter,
-  #outfit-filter-root .ac-filter-count {
-    display: none !important;
-  }
+  .section-header, .section-count, #counter, #outfit-filter-root .ac-filter-count { display: none !important; }
 
   #outfit-filter-root.ac-filter-root {
     margin: 16px 32px 10px !important;
@@ -1000,9 +995,8 @@
       img.onerror = () => card.classList.remove('shimmer');
 
       // Dùng trực tiếp ảnh gốc như trang chi tiết Look.
-      // Không dùng images-grid/images-mobile vì các bản đó đang bị nhạt màu.
       const picture = document.createElement('picture');
-      img.src = `${outfit.img}?v=20260805-original-color-v2`;
+      img.src = outfit.img;
       picture.appendChild(img);
 
       const overlay = document.createElement('div');
