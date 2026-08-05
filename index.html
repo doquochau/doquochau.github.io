@@ -819,7 +819,7 @@
 <source src="https://res.cloudinary.com/dazjcjufd/video/upload/v1779505038/apocalypse_hu44u2.mp3" type="audio/mpeg"/>
 </audio>
 </div>
-<script defer="" fetchpriority="low" src="outfits.js?v=20260805-original-color-v2"></script>
+<script defer="" fetchpriority="low" src="outfits.js?v=20260805-natural-ratio-v4"></script>
 <script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
 <script defer="" type="module">
     let _fbCache = null;
@@ -988,9 +988,13 @@
       img.setAttribute('loading', isPriority ? 'eager' : 'lazy');
       img.decoding = isPriority ? 'sync' : 'async';
       const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
-      const isNewPortrait = lookNumber >= 41;
-      img.width = isNewPortrait ? 720 : 768;
-      img.height = isNewPortrait ? 1280 : 1024;
+      const exactOldImageDimensions = {"look-17":{"width":1086,"height":1449},"look-22":{"width":1024,"height":1536},"look-24":{"width":1024,"height":1536},"look-25":{"width":1024,"height":1536},"look-26":{"width":1024,"height":1536},"look-27":{"width":1024,"height":1536},"look-28":{"width":848,"height":1131},"look-29":{"width":1023,"height":1537},"look-30":{"width":1024,"height":1536},"look-31":{"width":1024,"height":1536},"look-32":{"width":1023,"height":1537},"look-33":{"width":1024,"height":1536},"look-36":{"width":1024,"height":1536},"look-39":{"width":1023,"height":1537}};
+      const exactDimensions = exactOldImageDimensions[outfit.id]
+        || (lookNumber >= 41
+          ? { width: 1080, height: 1920 }
+          : { width: 1086, height: 1448 });
+      img.width = exactDimensions.width;
+      img.height = exactDimensions.height;
       img.onload  = () => card.classList.remove('shimmer');
       img.onerror = () => card.classList.remove('shimmer');
 
@@ -1264,6 +1268,67 @@
   } else {
     start();
   }
+})();
+</script>
+
+
+<script id="homepage-remove-forced-ratio-bars">
+(function () {
+  function installFinalRatioFix() {
+    var old = document.getElementById('ac-homepage-final-natural-ratio');
+    if (old) old.remove();
+
+    var style = document.createElement('style');
+    style.id = 'ac-homepage-final-natural-ratio';
+    style.textContent = `
+      #outfit-grid.ac-stable-masonry .outfit-card,
+      #outfit-grid.ac-stable-masonry .outfit-card-link,
+      #outfit-grid.ac-stable-masonry .outfit-card picture,
+      #outfit-grid.ac-stable-masonry .outfit-card img {
+        aspect-ratio: auto !important;
+      }
+
+      #outfit-grid.ac-stable-masonry .outfit-card-link,
+      #outfit-grid.ac-stable-masonry .outfit-card picture,
+      #outfit-grid.ac-stable-masonry .outfit-card img {
+        height: auto !important;
+      }
+
+      #outfit-grid.ac-stable-masonry .outfit-card img {
+        width: 100% !important;
+        object-fit: initial !important;
+        object-position: initial !important;
+        display: block !important;
+      }
+
+      #outfit-grid.ac-stable-masonry {
+        gap: 2px !important;
+      }
+
+      #outfit-grid.ac-stable-masonry > .ac-masonry-column {
+        gap: 2px !important;
+      }
+    `;
+    document.head.appendChild(style);
+
+    document.querySelectorAll('#outfit-grid .outfit-card').forEach(function (card) {
+      card.style.removeProperty('aspect-ratio');
+      var link = card.querySelector('.outfit-card-link');
+      var picture = card.querySelector('picture');
+      var img = card.querySelector('img');
+      if (link) link.style.removeProperty('aspect-ratio');
+      if (picture) picture.style.removeProperty('aspect-ratio');
+      if (img) img.style.removeProperty('aspect-ratio');
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', installFinalRatioFix, { once: true });
+  } else {
+    installFinalRatioFix();
+  }
+
+  window.addEventListener('load', installFinalRatioFix, { once: true });
 })();
 </script>
 
