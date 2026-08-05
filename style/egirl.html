@@ -358,7 +358,39 @@
   .outfit-grid{columns:2;}
 }
 </style>
-<link href="/assets/css/outfit-filter.min.css?v=20260805-style-auth-home-v1" rel="stylesheet"/></head>
+<link href="/assets/css/outfit-filter.min.css?v=20260805-style-static-v3" rel="stylesheet"/>
+<style id="ac-style-card-visible-menu-layer-fix-v2">
+/* Card đã dựng phải luôn hiển thị; không phụ thuộc animation fadeIn. */
+header{z-index:10050!important;}
+.dropdown-content{z-index:10060!important;}
+.outfit-card{
+  opacity:1!important;
+  animation:none!important;
+  visibility:visible!important;
+  background:#0a0a0a!important;
+}
+.outfit-card picture,.outfit-card img{
+  opacity:1!important;
+  visibility:visible!important;
+}
+.outfit-card img{
+  filter:none!important;
+  background:#0a0a0a!important;
+}
+@media(max-width:768px){
+  header{z-index:10050!important;}
+  .dropdown-content{z-index:10060!important;}
+}
+</style>
+
+<style id="ac-static-style-grid-v3">
+/* Ảnh được dựng sẵn trong HTML: không phụ thuộc JavaScript để xuất hiện. */
+.outfit-card-main{display:block;position:relative;color:inherit;text-decoration:none;}
+.outfit-card.ac-card-hidden{display:none!important;}
+.outfit-card img{opacity:1!important;visibility:visible!important;filter:none!important;}
+.outfit-card{opacity:1!important;visibility:visible!important;animation:none!important;}
+</style>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
@@ -452,7 +484,190 @@
 <span class="section-label">// E-Girl Looks</span>
 <span class="section-count" id="counter"></span>
 </div>
-<div class="outfit-grid" id="outfit-grid"></div>
+<div class="outfit-grid" id="outfit-grid">
+<article class="outfit-card" data-outfit-id="look-08" data-outfit-url="../outfits/look-08-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-08-egirl.html" aria-label="Mở LOOK #08 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp" width="1086" height="1448" alt="LOOK #08 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="eager" decoding="async" fetchpriority="high"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #08</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-08" aria-label="Lưu LOOK #08">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-12" data-outfit-url="../outfits/look-12-punk.html">
+  <a class="outfit-card-main" href="../outfits/look-12-punk.html" aria-label="Mở LOOK #12 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp" width="1086" height="1448" alt="LOOK #12 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #12</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-12" aria-label="Lưu LOOK #12">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-13" data-outfit-url="../outfits/look-13-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-13-egirl.html" aria-label="Mở LOOK #13 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp" width="1086" height="1448" alt="LOOK #13 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #13</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-13" aria-label="Lưu LOOK #13">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-33" data-outfit-url="../outfits/look-33-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-33-egirl.html" aria-label="Mở LOOK #33 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp" width="1024" height="1536" alt="LOOK #33 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #33</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-33" aria-label="Lưu LOOK #33">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-41" data-outfit-url="../outfits/look-41-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-41-egirl.html" aria-label="Mở LOOK #41 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-trang-chan-vay-xep-ly-den-041.webp" width="1080" height="1920" alt="LOOK #41 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #41</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-41" aria-label="Lưu LOOK #41">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-42" data-outfit-url="../outfits/look-42-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-42-egirl.html" aria-label="Mở LOOK #42 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-ke-soc-den-chan-vay-xep-ly-042.webp" width="1080" height="1920" alt="LOOK #42 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #42</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-42" aria-label="Lưu LOOK #42">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-43" data-outfit-url="../outfits/look-43-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-43-egirl.html" aria-label="Mở LOOK #43 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-caro-043.webp" width="1080" height="1920" alt="LOOK #43 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #43</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-43" aria-label="Lưu LOOK #43">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-45" data-outfit-url="../outfits/look-45-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-45-grunge.html" aria-label="Mở LOOK #45 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-do-den-chan-vay-den-045.webp" width="1080" height="1920" alt="LOOK #45 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #45</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-45" aria-label="Lưu LOOK #45">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-51" data-outfit-url="../outfits/look-51-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-51-egirl.html" aria-label="Mở LOOK #51 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-jersey-trang-chan-vay-xep-ly-051.webp" width="1080" height="1920" alt="LOOK #51 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #51</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-51" aria-label="Lưu LOOK #51">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-55" data-outfit-url="../outfits/look-55-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-55-egirl.html" aria-label="Mở LOOK #55 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-den-tay-be-chan-vay-xep-ly-055.webp" width="1080" height="1920" alt="LOOK #55 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #55</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-55" aria-label="Lưu LOOK #55">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-61" data-outfit-url="../outfits/look-61-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-61-egirl.html" aria-label="Mở LOOK #61 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-jersey-so-09-chan-vay-den-061.webp" width="1080" height="1920" alt="LOOK #61 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #61</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-61" aria-label="Lưu LOOK #61">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-62" data-outfit-url="../outfits/look-62-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-62-egirl.html" aria-label="Mở LOOK #62 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-polo-crop-trang-chan-vay-xam-062.webp" width="1080" height="1920" alt="LOOK #62 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #62</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-62" aria-label="Lưu LOOK #62">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-71" data-outfit-url="../outfits/look-71-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-71-egirl.html" aria-label="Mở LOOK #71 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-trang-graphic-mat-quan-cargo-den-071.webp" width="1080" height="1920" alt="LOOK #71 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #71</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-71" aria-label="Lưu LOOK #71">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-87" data-outfit-url="../outfits/look-87-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-87-egirl.html" aria-label="Mở LOOK #87 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-xam-chan-vay-xep-ly-den-087.webp" width="1080" height="1920" alt="LOOK #87 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #87</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-87" aria-label="Lưu LOOK #87">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-88" data-outfit-url="../outfits/look-88-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-88-egirl.html" aria-label="Mở LOOK #88 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-trang-chan-vay-denim-den-088.webp" width="1080" height="1920" alt="LOOK #88 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #88</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-88" aria-label="Lưu LOOK #88">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-90" data-outfit-url="../outfits/look-90-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-90-egirl.html" aria-label="Mở LOOK #90 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-thun-graphic-den-chan-vay-xep-ly-090.webp" width="1080" height="1920" alt="LOOK #90 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #90</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-90" aria-label="Lưu LOOK #90">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-91" data-outfit-url="../outfits/look-91-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-91-egirl.html" aria-label="Mở LOOK #91 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-corset-caro-xam-chan-vay-xep-ly-091.webp" width="1080" height="1920" alt="LOOK #91 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #91</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-91" aria-label="Lưu LOOK #91">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-93" data-outfit-url="../outfits/look-93-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-93-egirl.html" aria-label="Mở LOOK #93 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-denim-093.webp" width="1080" height="1920" alt="LOOK #93 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #93</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-93" aria-label="Lưu LOOK #93">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-95" data-outfit-url="../outfits/look-95-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-95-egirl.html" aria-label="Mở LOOK #95 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-buom-trang-quan-cargo-xam-095.webp" width="1080" height="1920" alt="LOOK #95 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #95</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-95" aria-label="Lưu LOOK #95">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-98" data-outfit-url="../outfits/look-98-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-98-egirl.html" aria-label="Mở LOOK #98 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-thun-graphic-den-chan-vay-mini-098.webp" width="1080" height="1920" alt="LOOK #98 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #98</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-98" aria-label="Lưu LOOK #98">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-101" data-outfit-url="../outfits/look-101-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-101-egirl.html" aria-label="Mở LOOK #101 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-den-tay-ke-soc-quan-cargo-xam-101.webp" width="1080" height="1920" alt="LOOK #101 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #101</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-101" aria-label="Lưu LOOK #101">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-102" data-outfit-url="../outfits/look-102-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-102-egirl.html" aria-label="Mở LOOK #102 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-ngoi-sao-den-chan-vay-denim-102.webp" width="1080" height="1920" alt="LOOK #102 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #102</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-102" aria-label="Lưu LOOK #102">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-103" data-outfit-url="../outfits/look-103-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-103-egirl.html" aria-label="Mở LOOK #103 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-den-chan-vay-xep-ly-103.webp" width="1080" height="1920" alt="LOOK #103 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #103</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-103" aria-label="Lưu LOOK #103">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-104" data-outfit-url="../outfits/look-104-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-104-egirl.html" aria-label="Mở LOOK #104 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-tre-vai-den-chan-vay-xep-ly-xam-104.webp" width="1080" height="1920" alt="LOOK #104 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #104</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-104" aria-label="Lưu LOOK #104">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-106" data-outfit-url="../outfits/look-106-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-106-egirl.html" aria-label="Mở LOOK #106 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-xep-ly-106.webp" width="1080" height="1920" alt="LOOK #106 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #106</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-106" aria-label="Lưu LOOK #106">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-111" data-outfit-url="../outfits/look-111-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-111-egirl.html" aria-label="Mở LOOK #111 E-Girl / Alt Girl outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-hong-chan-vay-caro-den-111.webp" width="1080" height="1920" alt="LOOK #111 E-Girl / Alt Girl outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #111</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-111" aria-label="Lưu LOOK #111">&#9825;</button>
+</article>
+</div>
 <section aria-labelledby="seo-egirl-title" class="seo-style-content">
 <h2 id="seo-egirl-title">Điểm nhận diện của bộ sưu tập outfit E-Girl</h2>
 <p>Bộ sưu tập outfit E-Girl này ưu tiên bảng màu đen, đỏ, trắng và xám bạc; các Look dùng áo lưới, crop top, váy caro, jeans ống rộng, arm warmer, dây chuyền bạc hoặc boots platform.</p>
@@ -471,152 +686,119 @@
 </section>
 <section aria-labelledby="topic-hub-egirl" class="seo-style-content"><h2 id="topic-hub-egirl">Hướng dẫn đầy đủ về E-Girl / Alt Girl</h2><p>Trang này tập trung vào bộ sưu tập Look. Phần định nghĩa, cách phối, item, ngân sách và các nhánh liên quan được tổ chức tại trang chủ đề riêng.</p><div class="seo-style-links"><a href="../blog/egirl.html">Mở cụm E-Girl / Alt Girl</a><a href="../phoi-do-nu-ca-tinh.html#egirl">Phối đồ nữ cá tính theo E-Girl / Alt Girl</a></div></section>
 <footer>© 2026 APOCALYPSE CLOSET  ·  <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>  ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
-<script src="../outfits.js?v=20260805-style-auth-home-v1"></script>
+<script src="../outfits.js?v=20260805-style-static-v3"></script>
 <script>
-    const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
-    const filtered = outfitsData.filter(o => (o.primaryStyle || o.category) === "E-Girl");
-    let displayed = filtered;
-    const counterEl = document.getElementById('counter');
-    if (counterEl) counterEl.textContent = filtered.length + ' LOOKS';
-    const grid = document.getElementById('outfit-grid');
-    let savedIds = new Set();
-    try {
-      // Preload saved IDs from localStorage as a fallback before Firebase loads
-      const raw = localStorage.getItem('ac_saved_ids');
-      if (raw) savedIds = new Set(JSON.parse(raw));
-    } catch(e) {}
+(function(){
+  'use strict';
+  const STYLE_NAME = "E-Girl";
+  const allOutfits = Array.isArray(window.outfits) ? window.outfits : [];
+  const styleOutfits = allOutfits.filter(o => (o.primaryStyle || o.category) === STYLE_NAME);
+  const byId = new Map(styleOutfits.map(o => [o.id, o]));
+  const cards = Array.from(document.querySelectorAll('#outfit-grid .outfit-card[data-outfit-id]'));
+  const counterEl = document.getElementById('counter');
+  let savedIds = new Set();
 
-    function renderCards(ids) {
-      if (!grid) return;
-      grid.innerHTML = '';
-      if (!displayed.length) { grid.innerHTML = '<p class="ac-filter-empty">Không có outfit khớp tất cả bộ lọc. Hãy bỏ bớt một lựa chọn.</p>'; return; }
-      displayed.forEach((outfit, i) => {
-        const card = document.createElement('div');
-        card.className = 'outfit-card';
-        card.style.animationDelay = (i * 0.03) + 's';
-        card.onclick = () => window.location.href = `/outfits/${outfit.slug}.html`;
-        const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
-        const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
-        const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
-        const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
-        const isNewPortrait = lookNumber >= 41;
-        const v = (url) => `${url}?v=20260803-perf100b`;
-        const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
-        const imageMarkup = isNewPortrait
-          ? `<picture><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} E-Girl / Alt Girl outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
-          : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} E-Girl / Alt Girl outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
-        const isSaved = ids.has(outfit.id);
-        card.innerHTML = `
-          ${imageMarkup}
-          <div class="outfit-overlay">
-            <span class="outfit-tag">XEM OUTFIT</span>
-            <div class="outfit-num">${outfit.tag}</div>
-          </div>
-          <button class="btn-save-card${isSaved ? ' saved' : ''}" data-outfit-id="${outfit.id}">${isSaved ? '&#9829;' : '&#9825;'}</button>`;
+  try {
+    const raw = localStorage.getItem('ac_saved_ids');
+    const parsed = raw ? JSON.parse(raw) : [];
+    if (Array.isArray(parsed)) savedIds = new Set(parsed);
+  } catch (_) {}
 
-        card.querySelector('.btn-save-card').addEventListener('click', async (e) => {
-          e.stopPropagation();
-          const btn = e.currentTarget;
-          btn.style.opacity = '0.4';
-          const { db, doc, setDoc, deleteDoc, currentUid } = await loadFirebase();
-          btn.style.opacity = '';
-          if (!currentUid) {
-            sessionStorage.setItem('ac_return_after_login', window.location.href);
-            try { localStorage.setItem('ac_return_after_login', window.location.href); } catch (e) {}
-            window.location.href = '../login.html';
-            return;
-          }
-          const ref = doc(db, 'users', currentUid, 'closet', outfit.id);
-          if (savedIds.has(outfit.id)) {
-            await deleteDoc(ref);
-            savedIds.delete(outfit.id);
-            btn.innerHTML = '&#9825;';
-            btn.classList.remove('saved');
-          } else {
-            await setDoc(ref, { id: outfit.id, title: outfit.title, image: outfit.img, category: outfit.primaryStyle || outfit.category, secondaryStyles: outfit.secondaryStyles || [], slug: outfit.slug, url: `/outfits/${outfit.slug}.html`, imageWidth: Number(card.querySelector('img')?.getAttribute('width')) || (lookNumber >= 41 ? 560 : 768), imageHeight: Number(card.querySelector('img')?.getAttribute('height')) || (lookNumber >= 41 ? 996 : 1024), savedAt: Date.now() });
-            savedIds.add(outfit.id);
-            btn.innerHTML = '&#9829;';
-            btn.classList.add('saved');
-          }
-        });
+  function updateSavedButtons(){
+    cards.forEach(card => {
+      const id = card.dataset.outfitId;
+      const btn = card.querySelector('.btn-save-card');
+      if (!btn) return;
+      const saved = savedIds.has(id);
+      btn.classList.toggle('saved', saved);
+      btn.innerHTML = saved ? '&#9829;' : '&#9825;';
+      btn.setAttribute('aria-pressed', String(saved));
+    });
+  }
 
-        grid.appendChild(card);
+  function showMatched(matched){
+    const ids = new Set((matched || styleOutfits).map(o => o.id));
+    let visible = 0;
+    cards.forEach(card => {
+      const show = ids.has(card.dataset.outfitId);
+      card.classList.toggle('ac-card-hidden', !show);
+      if (show) visible++;
+    });
+    if (counterEl) counterEl.textContent = visible + ' LOOKS';
+  }
+
+  updateSavedButtons();
+  showMatched(styleOutfits);
+  window.acApplyStyleOutfitFilters = function(_state, matched){ showMatched(matched); };
+
+  let fbPromise = null;
+  function loadFirebase(){
+    if (fbPromise) return fbPromise;
+    fbPromise = Promise.all([
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js'),
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js'),
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js')
+    ]).then(async ([appMod, authMod, storeMod]) => {
+      const app = appMod.getApps().length ? appMod.getApp() : appMod.initializeApp({apiKey:'AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco',authDomain:'apocalypse-closet.firebaseapp.com',projectId:'apocalypse-closet',storageBucket:'apocalypse-closet.firebasestorage.app',messagingSenderId:'493697340280',appId:'1:493697340280:web:9db33f9844c77d95232e8d'});
+      const auth = authMod.getAuth(app);
+      const db = storeMod.getFirestore(app);
+      try { await authMod.setPersistence(auth, authMod.browserLocalPersistence); }
+      catch (_) { try { await authMod.setPersistence(auth, authMod.browserSessionPersistence); } catch (_) {} }
+      const user = await new Promise(resolve => {
+        const stop = authMod.onAuthStateChanged(auth, current => { stop(); resolve(current || null); });
       });
-    }
-
-    renderCards(savedIds);
-
-    // Firebase lazy-load to get real saved IDs
-    let _fbCache = null;
-    let _currentUid = null;
-    function loadFirebase() {
-      if (_fbCache) return _fbCache;
-      _fbCache = Promise.all([
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"),
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"),
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"),
-      ]).then(async ([{ initializeApp }, { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence }, { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }]) => {
-        const app = initializeApp({ apiKey:"AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco", authDomain:"apocalypse-closet.firebaseapp.com", projectId:"apocalypse-closet", storageBucket:"apocalypse-closet.firebasestorage.app", messagingSenderId:"493697340280", appId:"1:493697340280:web:9db33f9844c77d95232e8d" });
-        const auth = getAuth(app);
-        const db = getFirestore(app);
-
-        // AC_AUTH_PERSISTENCE_20260805
-        try {
-          await setPersistence(auth, browserLocalPersistence);
-        } catch (localError) {
-          console.warn('Local auth persistence unavailable; using session.', localError);
-          try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
-            console.warn('Session auth persistence unavailable.', sessionError);
-          }
-        }
-        await new Promise(resolve => {
-          const unsub = onAuthStateChanged(auth, async user => {
-            unsub();
-            if (user) {
-              _currentUid = user.uid;
-              const snap = await getDocs(collection(db, 'users', user.uid, 'closet'));
-              savedIds = new Set();
-              snap.forEach(d => savedIds.add(d.id));
-              try { localStorage.setItem('ac_saved_ids', JSON.stringify([...savedIds])); } catch(e) {}
-              // Re-render with accurate data
-              renderCards(savedIds);
-            }
-            resolve();
-          });
-        });
-        return { db, doc, setDoc, deleteDoc, currentUid: _currentUid };
-      });
-      return _fbCache;
-    }
-
-    // Load Firebase after page is interactive
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(() => loadFirebase(), { timeout: 2000 });
-    } else {
-      setTimeout(() => loadFirebase(), 500);
-    }
-
-    try {
-      const user = JSON.parse(localStorage.getItem('ac_user'));
       if (user) {
-        const btn = document.getElementById('nav-closet-btn');
-        btn.href = '../closet.html';
-        document.getElementById('nav-closet-icon').innerHTML = '♥';
-        btn.style.color = '#c0392b';
-        btn.style.borderColor = '#c0392b';
+        const snap = await storeMod.getDocs(storeMod.collection(db,'users',user.uid,'closet'));
+        savedIds = new Set();
+        snap.forEach(d => savedIds.add(d.id));
+        try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
+        updateSavedButtons();
       }
-    } catch(e) {}
-  </script>
+      return {auth,db,user,storeMod};
+    }).catch(err => { console.error('Firebase load failed', err); return {user:null}; });
+    return fbPromise;
+  }
 
-  <script>
-  window.acApplyStyleOutfitFilters = function(_state, matched){
-    const ids = new Set((matched || []).map(o => o.id));
-    displayed = filtered.filter(o => ids.has(o.id));
-    if (counterEl) counterEl.textContent = displayed.length + ' LOOKS';
-    renderCards(savedIds);
-  };
-  </script>
-  <script src="/assets/js/outfit-filter.min.js?v=20260805-style-auth-home-v1" defer></script>
+  cards.forEach(card => {
+    const btn = card.querySelector('.btn-save-card');
+    if (!btn) return;
+    btn.addEventListener('click', async event => {
+      event.preventDefault();
+      event.stopPropagation();
+      const id = card.dataset.outfitId;
+      const outfit = byId.get(id);
+      if (!outfit) return;
+      btn.disabled = true;
+      const fb = await loadFirebase();
+      btn.disabled = false;
+      if (!fb.user) {
+        try { sessionStorage.setItem('ac_return_after_login', location.href); localStorage.setItem('ac_return_after_login', location.href); } catch (_) {}
+        location.href = '../login.html';
+        return;
+      }
+      const ref = fb.storeMod.doc(fb.db,'users',fb.user.uid,'closet',id);
+      if (savedIds.has(id)) {
+        await fb.storeMod.deleteDoc(ref);
+        savedIds.delete(id);
+      } else {
+        const img = card.querySelector('img');
+        await fb.storeMod.setDoc(ref,{
+          id:outfit.id,title:outfit.title,image:outfit.img,category:outfit.primaryStyle||outfit.category,
+          secondaryStyles:outfit.secondaryStyles||[],slug:outfit.slug,url:'/outfits/'+outfit.slug+'.html',
+          imageWidth:Number(img?.getAttribute('width'))||1080,imageHeight:Number(img?.getAttribute('height'))||1920,savedAt:Date.now()
+        });
+        savedIds.add(id);
+      }
+      try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
+      updateSavedButtons();
+    });
+  });
+
+  if ('requestIdleCallback' in window) requestIdleCallback(loadFirebase,{timeout:2500});
+  else setTimeout(loadFirebase,800);
+})();
+</script>
+<script src="/assets/js/outfit-filter.min.js?v=20260805-style-static-v3" defer></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
 </body>
 </html>

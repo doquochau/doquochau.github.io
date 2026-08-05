@@ -367,7 +367,39 @@
   .outfit-grid{columns:2;}
 }
 </style>
-<link href="/assets/css/outfit-filter.min.css?v=20260805-style-auth-home-v1" rel="stylesheet"/></head>
+<link href="/assets/css/outfit-filter.min.css?v=20260805-style-static-v3" rel="stylesheet"/>
+<style id="ac-style-card-visible-menu-layer-fix-v2">
+/* Card đã dựng phải luôn hiển thị; không phụ thuộc animation fadeIn. */
+header{z-index:10050!important;}
+.dropdown-content{z-index:10060!important;}
+.outfit-card{
+  opacity:1!important;
+  animation:none!important;
+  visibility:visible!important;
+  background:#0a0a0a!important;
+}
+.outfit-card picture,.outfit-card img{
+  opacity:1!important;
+  visibility:visible!important;
+}
+.outfit-card img{
+  filter:none!important;
+  background:#0a0a0a!important;
+}
+@media(max-width:768px){
+  header{z-index:10050!important;}
+  .dropdown-content{z-index:10060!important;}
+}
+</style>
+
+<style id="ac-static-style-grid-v3">
+/* Ảnh được dựng sẵn trong HTML: không phụ thuộc JavaScript để xuất hiện. */
+.outfit-card-main{display:block;position:relative;color:inherit;text-decoration:none;}
+.outfit-card.ac-card-hidden{display:none!important;}
+.outfit-card img{opacity:1!important;visibility:visible!important;filter:none!important;}
+.outfit-card{opacity:1!important;visibility:visible!important;animation:none!important;}
+</style>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
@@ -489,7 +521,295 @@
 <span class="section-count" id="counter"></span>
 </div>
 </div>
-<div class="outfit-grid" id="outfit-grid"></div>
+<div class="outfit-grid" id="outfit-grid">
+<article class="outfit-card" data-outfit-id="look-01" data-outfit-url="../outfits/look-01-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-01-egirl.html" aria-label="Mở LOOK #01 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp" width="1086" height="1448" alt="LOOK #01 Baddie Streetwear outfit — Apocalypse Closet" loading="eager" decoding="async" fetchpriority="high"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #01</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-01" aria-label="Lưu LOOK #01">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-02" data-outfit-url="../outfits/look-02-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-02-baddie-streetwear.html" aria-label="Mở LOOK #02 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp" width="1086" height="1448" alt="LOOK #02 Baddie Streetwear outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #02</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-02" aria-label="Lưu LOOK #02">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-07" data-outfit-url="../outfits/look-07-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-07-baddie-streetwear.html" aria-label="Mở LOOK #07 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp" width="1086" height="1448" alt="LOOK #07 Baddie Streetwear outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #07</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-07" aria-label="Lưu LOOK #07">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-11" data-outfit-url="../outfits/look-11-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-11-egirl.html" aria-label="Mở LOOK #11 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp" width="1086" height="1448" alt="LOOK #11 Baddie Streetwear outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #11</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-11" aria-label="Lưu LOOK #11">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-14" data-outfit-url="../outfits/look-14-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-14-baddie-streetwear.html" aria-label="Mở LOOK #14 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp" width="1086" height="1448" alt="LOOK #14 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #14</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-14" aria-label="Lưu LOOK #14">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-15" data-outfit-url="../outfits/look-15-dark-feminine.html">
+  <a class="outfit-card-main" href="../outfits/look-15-dark-feminine.html" aria-label="Mở LOOK #15 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp" width="1086" height="1448" alt="LOOK #15 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #15</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-15" aria-label="Lưu LOOK #15">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-17" data-outfit-url="../outfits/look-17-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-17-baddie-streetwear.html" aria-label="Mở LOOK #17 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp" width="1086" height="1449" alt="LOOK #17 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #17</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-17" aria-label="Lưu LOOK #17">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-20" data-outfit-url="../outfits/look-20-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-20-baddie-streetwear.html" aria-label="Mở LOOK #20 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp" width="1086" height="1448" alt="LOOK #20 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #20</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-20" aria-label="Lưu LOOK #20">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-21" data-outfit-url="../outfits/look-21-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-21-baddie-streetwear.html" aria-label="Mở LOOK #21 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp" width="1086" height="1448" alt="LOOK #21 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #21</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-21" aria-label="Lưu LOOK #21">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-23" data-outfit-url="../outfits/look-23-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-23-baddie-streetwear.html" aria-label="Mở LOOK #23 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp" width="1086" height="1448" alt="LOOK #23 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #23</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-23" aria-label="Lưu LOOK #23">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-28" data-outfit-url="../outfits/look-28-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-28-baddie-streetwear.html" aria-label="Mở LOOK #28 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp" width="848" height="1131" alt="LOOK #28 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #28</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-28" aria-label="Lưu LOOK #28">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-31" data-outfit-url="../outfits/look-31-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-31-egirl.html" aria-label="Mở LOOK #31 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp" width="1024" height="1536" alt="LOOK #31 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #31</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-31" aria-label="Lưu LOOK #31">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-32" data-outfit-url="../outfits/look-32-goth.html">
+  <a class="outfit-card-main" href="../outfits/look-32-goth.html" aria-label="Mở LOOK #32 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp" width="1023" height="1537" alt="LOOK #32 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #32</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-32" aria-label="Lưu LOOK #32">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-34" data-outfit-url="../outfits/look-34-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-34-baddie-streetwear.html" aria-label="Mở LOOK #34 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp" width="1086" height="1448" alt="LOOK #34 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #34</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-34" aria-label="Lưu LOOK #34">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-35" data-outfit-url="../outfits/look-35-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-35-egirl.html" aria-label="Mở LOOK #35 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp" width="1086" height="1448" alt="LOOK #35 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #35</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-35" aria-label="Lưu LOOK #35">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-36" data-outfit-url="../outfits/look-36-dark-feminine.html">
+  <a class="outfit-card-main" href="../outfits/look-36-dark-feminine.html" aria-label="Mở LOOK #36 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp" width="1024" height="1536" alt="LOOK #36 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #36</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-36" aria-label="Lưu LOOK #36">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-37" data-outfit-url="../outfits/look-37-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-37-baddie-streetwear.html" aria-label="Mở LOOK #37 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp" width="1086" height="1448" alt="LOOK #37 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #37</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-37" aria-label="Lưu LOOK #37">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-39" data-outfit-url="../outfits/look-39-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-39-baddie-streetwear.html" aria-label="Mở LOOK #39 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp" width="1023" height="1537" alt="LOOK #39 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #39</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-39" aria-label="Lưu LOOK #39">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-40" data-outfit-url="../outfits/look-40-dark-feminine.html">
+  <a class="outfit-card-main" href="../outfits/look-40-dark-feminine.html" aria-label="Mở LOOK #40 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp" width="1086" height="1448" alt="LOOK #40 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #40</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-40" aria-label="Lưu LOOK #40">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-58" data-outfit-url="../outfits/look-58-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-58-baddie-streetwear.html" aria-label="Mở LOOK #58 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-jersey-so-17-quan-cargo-den-058.webp" width="1080" height="1920" alt="LOOK #58 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #58</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-58" aria-label="Lưu LOOK #58">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-63" data-outfit-url="../outfits/look-63-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-63-baddie-streetwear.html" aria-label="Mở LOOK #63 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-crop-co-cao-den-quan-cargo-063.webp" width="1080" height="1920" alt="LOOK #63 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #63</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-63" aria-label="Lưu LOOK #63">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-67" data-outfit-url="../outfits/look-67-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-67-baddie-streetwear.html" aria-label="Mở LOOK #67 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-trang-quan-cargo-xam-067.webp" width="1080" height="1920" alt="LOOK #67 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #67</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-67" aria-label="Lưu LOOK #67">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-75" data-outfit-url="../outfits/look-75-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-75-baddie-streetwear.html" aria-label="Mở LOOK #75 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-hong-om-dang-chan-vay-cargo-den-075.webp" width="1080" height="1920" alt="LOOK #75 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #75</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-75" aria-label="Lưu LOOK #75">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-76" data-outfit-url="../outfits/look-76-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-76-baddie-streetwear.html" aria-label="Mở LOOK #76 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-crop-so-23-chan-vay-cargo-xam-076.webp" width="1080" height="1920" alt="LOOK #76 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #76</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-76" aria-label="Lưu LOOK #76">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-82" data-outfit-url="../outfits/look-82-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-82-baddie-streetwear.html" aria-label="Mở LOOK #82 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-vest-khoa-keo-den-chan-vay-denim-082.webp" width="1080" height="1920" alt="LOOK #82 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #82</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-82" aria-label="Lưu LOOK #82">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-84" data-outfit-url="../outfits/look-84-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-84-baddie-streetwear.html" aria-label="Mở LOOK #84 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-crop-khoa-keo-den-quan-cargo-xam-084.webp" width="1080" height="1920" alt="LOOK #84 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #84</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-84" aria-label="Lưu LOOK #84">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-86" data-outfit-url="../outfits/look-86-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-86-baddie-streetwear.html" aria-label="Mở LOOK #86 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-kem-quan-cargo-den-086.webp" width="1080" height="1920" alt="LOOK #86 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #86</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-86" aria-label="Lưu LOOK #86">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-114" data-outfit-url="../outfits/look-114-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-114-baddie-streetwear.html" aria-label="Mở LOOK #114 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-corset-xanh-xam-quan-cargo-sang-114.webp" width="1080" height="1920" alt="LOOK #114 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #114</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-114" aria-label="Lưu LOOK #114">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-115" data-outfit-url="../outfits/look-115-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-115-baddie-streetwear.html" aria-label="Mở LOOK #115 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-tank-kem-quan-cargo-do-ruou-115.webp" width="1080" height="1920" alt="LOOK #115 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #115</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-115" aria-label="Lưu LOOK #115">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-116" data-outfit-url="../outfits/look-116-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-116-baddie-streetwear.html" aria-label="Mở LOOK #116 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-ngoi-sao-xanh-quan-cargo-vang-116.webp" width="1080" height="1920" alt="LOOK #116 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #116</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-116" aria-label="Lưu LOOK #116">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-117" data-outfit-url="../outfits/look-117-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-117-baddie-streetwear.html" aria-label="Mở LOOK #117 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-crop-the-thao-quan-ong-rong-xanh-117.webp" width="1080" height="1920" alt="LOOK #117 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #117</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-117" aria-label="Lưu LOOK #117">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-118" data-outfit-url="../outfits/look-118-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-118-baddie-streetwear.html" aria-label="Mở LOOK #118 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-tay-dai-tim-quan-cargo-trang-118.webp" width="1080" height="1920" alt="LOOK #118 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #118</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-118" aria-label="Lưu LOOK #118">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-119" data-outfit-url="../outfits/look-119-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-119-baddie-streetwear.html" aria-label="Mở LOOK #119 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-trang-quan-jean-xanh-119.webp" width="1080" height="1920" alt="LOOK #119 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #119</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-119" aria-label="Lưu LOOK #119">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-121" data-outfit-url="../outfits/look-121-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-121-baddie-streetwear.html" aria-label="Mở LOOK #121 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-crop-den-quan-cargo-xam-121.webp" width="1080" height="1920" alt="LOOK #121 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #121</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-121" aria-label="Lưu LOOK #121">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-122" data-outfit-url="../outfits/look-122-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-122-baddie-streetwear.html" aria-label="Mở LOOK #122 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-co-vuong-xam-quan-ong-rong-trang-122.webp" width="1080" height="1920" alt="LOOK #122 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #122</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-122" aria-label="Lưu LOOK #122">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-123" data-outfit-url="../outfits/look-123-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-123-baddie-streetwear.html" aria-label="Mở LOOK #123 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-crop-lech-vai-den-quan-jean-rong-123.webp" width="1080" height="1920" alt="LOOK #123 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #123</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-123" aria-label="Lưu LOOK #123">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-125" data-outfit-url="../outfits/look-125-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-125-baddie-streetwear.html" aria-label="Mở LOOK #125 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-hai-day-trang-ao-khoac-xam-quan-cargo-125.webp" width="1080" height="1920" alt="LOOK #125 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #125</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-125" aria-label="Lưu LOOK #125">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-127" data-outfit-url="../outfits/look-127-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-127-baddie-streetwear.html" aria-label="Mở LOOK #127 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-quay-xam-quan-cargo-olive-127.webp" width="1080" height="1920" alt="LOOK #127 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #127</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-127" aria-label="Lưu LOOK #127">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-128" data-outfit-url="../outfits/look-128-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-128-baddie-streetwear.html" aria-label="Mở LOOK #128 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-hai-day-trang-quan-jean-xanh-128.webp" width="1080" height="1920" alt="LOOK #128 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #128</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-128" aria-label="Lưu LOOK #128">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-132" data-outfit-url="../outfits/look-132-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-132-baddie-streetwear.html" aria-label="Mở LOOK #132 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-tank-den-ao-khoac-the-thao-quan-cargo-132.webp" width="1080" height="1920" alt="LOOK #132 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #132</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-132" aria-label="Lưu LOOK #132">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-133" data-outfit-url="../outfits/look-133-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-133-baddie-streetwear.html" aria-label="Mở LOOK #133 Baddie Streetwear outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-baddie-ao-corset-trang-quan-cargo-hong-133.webp" width="1080" height="1920" alt="LOOK #133 Baddie Streetwear outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #133</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-133" aria-label="Lưu LOOK #133">&#9825;</button>
+</article>
+</div>
 <section aria-labelledby="seo-baddie-streetwear-title" class="seo-style-content">
 <h2 id="seo-baddie-streetwear-title">Điểm nhận diện của bộ sưu tập outfit Baddie Streetwear</h2>
 <p>Bộ sưu tập outfit Baddie Streetwear này ưu tiên form đồ rõ, dáng đứng mạnh và phụ kiện nổi. Các Look kết hợp tinh thần street style, hip-hop, Y2K và badgirl aesthetic để dễ chọn theo hoàn cảnh.</p>
@@ -508,152 +828,119 @@
 </section>
 <section aria-labelledby="topic-hub-baddie-streetwear" class="seo-style-content"><h2 id="topic-hub-baddie-streetwear">Hướng dẫn đầy đủ về Baddie Streetwear</h2><p>Trang này tập trung vào bộ sưu tập Look. Phần định nghĩa, cách phối, item, ngân sách và các nhánh liên quan được tổ chức tại trang chủ đề riêng.</p><div class="seo-style-links"><a href="../blog/baddie-streetwear.html">Mở cụm Baddie Streetwear</a><a href="../phoi-do-nu-ca-tinh.html#baddie-streetwear">Phối đồ nữ cá tính theo Baddie Streetwear</a></div></section>
 <footer>© 2026 APOCALYPSE CLOSET  ·  <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>  ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
-<script src="../outfits.js?v=20260805-style-auth-home-v1"></script>
+<script src="../outfits.js?v=20260805-style-static-v3"></script>
 <script>
-    const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
-    const filtered = outfitsData.filter(o => (o.primaryStyle || o.category) === "Baddie Streetwear");
-    let displayed = filtered;
-    const counterEl = document.getElementById('counter');
-    if (counterEl) counterEl.textContent = filtered.length + ' LOOKS';
-    const grid = document.getElementById('outfit-grid');
-    let savedIds = new Set();
-    try {
-      // Preload saved IDs from localStorage as a fallback before Firebase loads
-      const raw = localStorage.getItem('ac_saved_ids');
-      if (raw) savedIds = new Set(JSON.parse(raw));
-    } catch(e) {}
+(function(){
+  'use strict';
+  const STYLE_NAME = "Baddie Streetwear";
+  const allOutfits = Array.isArray(window.outfits) ? window.outfits : [];
+  const styleOutfits = allOutfits.filter(o => (o.primaryStyle || o.category) === STYLE_NAME);
+  const byId = new Map(styleOutfits.map(o => [o.id, o]));
+  const cards = Array.from(document.querySelectorAll('#outfit-grid .outfit-card[data-outfit-id]'));
+  const counterEl = document.getElementById('counter');
+  let savedIds = new Set();
 
-    function renderCards(ids) {
-      if (!grid) return;
-      grid.innerHTML = '';
-      if (!displayed.length) { grid.innerHTML = '<p class="ac-filter-empty">Không có outfit khớp tất cả bộ lọc. Hãy bỏ bớt một lựa chọn.</p>'; return; }
-      displayed.forEach((outfit, i) => {
-        const card = document.createElement('div');
-        card.className = 'outfit-card';
-        card.style.animationDelay = (i * 0.03) + 's';
-        card.onclick = () => window.location.href = `/outfits/${outfit.slug}.html`;
-        const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
-        const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
-        const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
-        const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
-        const isNewPortrait = lookNumber >= 41;
-        const v = (url) => `${url}?v=20260803-perf100b`;
-        const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
-        const imageMarkup = isNewPortrait
-          ? `<picture><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} Baddie Streetwear outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
-          : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} Baddie Streetwear outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
-        const isSaved = ids.has(outfit.id);
-        card.innerHTML = `
-          ${imageMarkup}
-          <div class="outfit-overlay">
-            <span class="outfit-tag">XEM OUTFIT</span>
-            <div class="outfit-num">${outfit.tag}</div>
-          </div>
-          <button class="btn-save-card${isSaved ? ' saved' : ''}" data-outfit-id="${outfit.id}">${isSaved ? '&#9829;' : '&#9825;'}</button>`;
+  try {
+    const raw = localStorage.getItem('ac_saved_ids');
+    const parsed = raw ? JSON.parse(raw) : [];
+    if (Array.isArray(parsed)) savedIds = new Set(parsed);
+  } catch (_) {}
 
-        card.querySelector('.btn-save-card').addEventListener('click', async (e) => {
-          e.stopPropagation();
-          const btn = e.currentTarget;
-          btn.style.opacity = '0.4';
-          const { db, doc, setDoc, deleteDoc, currentUid } = await loadFirebase();
-          btn.style.opacity = '';
-          if (!currentUid) {
-            sessionStorage.setItem('ac_return_after_login', window.location.href);
-            try { localStorage.setItem('ac_return_after_login', window.location.href); } catch (e) {}
-            window.location.href = '../login.html';
-            return;
-          }
-          const ref = doc(db, 'users', currentUid, 'closet', outfit.id);
-          if (savedIds.has(outfit.id)) {
-            await deleteDoc(ref);
-            savedIds.delete(outfit.id);
-            btn.innerHTML = '&#9825;';
-            btn.classList.remove('saved');
-          } else {
-            await setDoc(ref, { id: outfit.id, title: outfit.title, image: outfit.img, category: outfit.primaryStyle || outfit.category, secondaryStyles: outfit.secondaryStyles || [], slug: outfit.slug, url: `/outfits/${outfit.slug}.html`, imageWidth: Number(card.querySelector('img')?.getAttribute('width')) || (lookNumber >= 41 ? 560 : 768), imageHeight: Number(card.querySelector('img')?.getAttribute('height')) || (lookNumber >= 41 ? 996 : 1024), savedAt: Date.now() });
-            savedIds.add(outfit.id);
-            btn.innerHTML = '&#9829;';
-            btn.classList.add('saved');
-          }
-        });
+  function updateSavedButtons(){
+    cards.forEach(card => {
+      const id = card.dataset.outfitId;
+      const btn = card.querySelector('.btn-save-card');
+      if (!btn) return;
+      const saved = savedIds.has(id);
+      btn.classList.toggle('saved', saved);
+      btn.innerHTML = saved ? '&#9829;' : '&#9825;';
+      btn.setAttribute('aria-pressed', String(saved));
+    });
+  }
 
-        grid.appendChild(card);
+  function showMatched(matched){
+    const ids = new Set((matched || styleOutfits).map(o => o.id));
+    let visible = 0;
+    cards.forEach(card => {
+      const show = ids.has(card.dataset.outfitId);
+      card.classList.toggle('ac-card-hidden', !show);
+      if (show) visible++;
+    });
+    if (counterEl) counterEl.textContent = visible + ' LOOKS';
+  }
+
+  updateSavedButtons();
+  showMatched(styleOutfits);
+  window.acApplyStyleOutfitFilters = function(_state, matched){ showMatched(matched); };
+
+  let fbPromise = null;
+  function loadFirebase(){
+    if (fbPromise) return fbPromise;
+    fbPromise = Promise.all([
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js'),
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js'),
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js')
+    ]).then(async ([appMod, authMod, storeMod]) => {
+      const app = appMod.getApps().length ? appMod.getApp() : appMod.initializeApp({apiKey:'AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco',authDomain:'apocalypse-closet.firebaseapp.com',projectId:'apocalypse-closet',storageBucket:'apocalypse-closet.firebasestorage.app',messagingSenderId:'493697340280',appId:'1:493697340280:web:9db33f9844c77d95232e8d'});
+      const auth = authMod.getAuth(app);
+      const db = storeMod.getFirestore(app);
+      try { await authMod.setPersistence(auth, authMod.browserLocalPersistence); }
+      catch (_) { try { await authMod.setPersistence(auth, authMod.browserSessionPersistence); } catch (_) {} }
+      const user = await new Promise(resolve => {
+        const stop = authMod.onAuthStateChanged(auth, current => { stop(); resolve(current || null); });
       });
-    }
-
-    renderCards(savedIds);
-
-    // Firebase lazy-load to get real saved IDs
-    let _fbCache = null;
-    let _currentUid = null;
-    function loadFirebase() {
-      if (_fbCache) return _fbCache;
-      _fbCache = Promise.all([
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"),
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"),
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"),
-      ]).then(async ([{ initializeApp }, { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence }, { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }]) => {
-        const app = initializeApp({ apiKey:"AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco", authDomain:"apocalypse-closet.firebaseapp.com", projectId:"apocalypse-closet", storageBucket:"apocalypse-closet.firebasestorage.app", messagingSenderId:"493697340280", appId:"1:493697340280:web:9db33f9844c77d95232e8d" });
-        const auth = getAuth(app);
-        const db = getFirestore(app);
-
-        // AC_AUTH_PERSISTENCE_20260805
-        try {
-          await setPersistence(auth, browserLocalPersistence);
-        } catch (localError) {
-          console.warn('Local auth persistence unavailable; using session.', localError);
-          try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
-            console.warn('Session auth persistence unavailable.', sessionError);
-          }
-        }
-        await new Promise(resolve => {
-          const unsub = onAuthStateChanged(auth, async user => {
-            unsub();
-            if (user) {
-              _currentUid = user.uid;
-              const snap = await getDocs(collection(db, 'users', user.uid, 'closet'));
-              savedIds = new Set();
-              snap.forEach(d => savedIds.add(d.id));
-              try { localStorage.setItem('ac_saved_ids', JSON.stringify([...savedIds])); } catch(e) {}
-              // Re-render with accurate data
-              renderCards(savedIds);
-            }
-            resolve();
-          });
-        });
-        return { db, doc, setDoc, deleteDoc, currentUid: _currentUid };
-      });
-      return _fbCache;
-    }
-
-    // Load Firebase after page is interactive
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(() => loadFirebase(), { timeout: 2000 });
-    } else {
-      setTimeout(() => loadFirebase(), 500);
-    }
-
-    try {
-      const user = JSON.parse(localStorage.getItem('ac_user'));
       if (user) {
-        const btn = document.getElementById('nav-closet-btn');
-        btn.href = '../closet.html';
-        document.getElementById('nav-closet-icon').innerHTML = '♥';
-        btn.style.color = '#c0392b';
-        btn.style.borderColor = '#c0392b';
+        const snap = await storeMod.getDocs(storeMod.collection(db,'users',user.uid,'closet'));
+        savedIds = new Set();
+        snap.forEach(d => savedIds.add(d.id));
+        try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
+        updateSavedButtons();
       }
-    } catch(e) {}
-  </script>
+      return {auth,db,user,storeMod};
+    }).catch(err => { console.error('Firebase load failed', err); return {user:null}; });
+    return fbPromise;
+  }
 
-  <script>
-  window.acApplyStyleOutfitFilters = function(_state, matched){
-    const ids = new Set((matched || []).map(o => o.id));
-    displayed = filtered.filter(o => ids.has(o.id));
-    if (counterEl) counterEl.textContent = displayed.length + ' LOOKS';
-    renderCards(savedIds);
-  };
-  </script>
-  <script src="/assets/js/outfit-filter.min.js?v=20260805-style-auth-home-v1" defer></script>
+  cards.forEach(card => {
+    const btn = card.querySelector('.btn-save-card');
+    if (!btn) return;
+    btn.addEventListener('click', async event => {
+      event.preventDefault();
+      event.stopPropagation();
+      const id = card.dataset.outfitId;
+      const outfit = byId.get(id);
+      if (!outfit) return;
+      btn.disabled = true;
+      const fb = await loadFirebase();
+      btn.disabled = false;
+      if (!fb.user) {
+        try { sessionStorage.setItem('ac_return_after_login', location.href); localStorage.setItem('ac_return_after_login', location.href); } catch (_) {}
+        location.href = '../login.html';
+        return;
+      }
+      const ref = fb.storeMod.doc(fb.db,'users',fb.user.uid,'closet',id);
+      if (savedIds.has(id)) {
+        await fb.storeMod.deleteDoc(ref);
+        savedIds.delete(id);
+      } else {
+        const img = card.querySelector('img');
+        await fb.storeMod.setDoc(ref,{
+          id:outfit.id,title:outfit.title,image:outfit.img,category:outfit.primaryStyle||outfit.category,
+          secondaryStyles:outfit.secondaryStyles||[],slug:outfit.slug,url:'/outfits/'+outfit.slug+'.html',
+          imageWidth:Number(img?.getAttribute('width'))||1080,imageHeight:Number(img?.getAttribute('height'))||1920,savedAt:Date.now()
+        });
+        savedIds.add(id);
+      }
+      try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
+      updateSavedButtons();
+    });
+  });
+
+  if ('requestIdleCallback' in window) requestIdleCallback(loadFirebase,{timeout:2500});
+  else setTimeout(loadFirebase,800);
+})();
+</script>
+<script src="/assets/js/outfit-filter.min.js?v=20260805-style-static-v3" defer></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
 </body>
 </html>

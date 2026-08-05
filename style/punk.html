@@ -372,7 +372,39 @@
   .outfit-grid{columns:2;}
 }
 </style>
-<link href="/assets/css/outfit-filter.min.css?v=20260805-style-auth-home-v1" rel="stylesheet"/></head>
+<link href="/assets/css/outfit-filter.min.css?v=20260805-style-static-v3" rel="stylesheet"/>
+<style id="ac-style-card-visible-menu-layer-fix-v2">
+/* Card đã dựng phải luôn hiển thị; không phụ thuộc animation fadeIn. */
+header{z-index:10050!important;}
+.dropdown-content{z-index:10060!important;}
+.outfit-card{
+  opacity:1!important;
+  animation:none!important;
+  visibility:visible!important;
+  background:#0a0a0a!important;
+}
+.outfit-card picture,.outfit-card img{
+  opacity:1!important;
+  visibility:visible!important;
+}
+.outfit-card img{
+  filter:none!important;
+  background:#0a0a0a!important;
+}
+@media(max-width:768px){
+  header{z-index:10050!important;}
+  .dropdown-content{z-index:10060!important;}
+}
+</style>
+
+<style id="ac-static-style-grid-v3">
+/* Ảnh được dựng sẵn trong HTML: không phụ thuộc JavaScript để xuất hiện. */
+.outfit-card-main{display:block;position:relative;color:inherit;text-decoration:none;}
+.outfit-card.ac-card-hidden{display:none!important;}
+.outfit-card img{opacity:1!important;visibility:visible!important;filter:none!important;}
+.outfit-card{opacity:1!important;visibility:visible!important;animation:none!important;}
+</style>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
@@ -497,7 +529,267 @@
 <span class="section-count" id="counter"></span>
 </div>
 </div>
-<div class="outfit-grid" id="outfit-grid"></div>
+<div class="outfit-grid" id="outfit-grid">
+<article class="outfit-card" data-outfit-id="look-03" data-outfit-url="../outfits/look-03-punk.html">
+  <a class="outfit-card-main" href="../outfits/look-03-punk.html" aria-label="Mở LOOK #03 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp" width="1086" height="1448" alt="LOOK #03 Punk / Grunge outfit — Apocalypse Closet" loading="eager" decoding="async" fetchpriority="high"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #03</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-03" aria-label="Lưu LOOK #03">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-05" data-outfit-url="../outfits/look-05-egirl.html">
+  <a class="outfit-card-main" href="../outfits/look-05-egirl.html" aria-label="Mở LOOK #05 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp" width="1086" height="1448" alt="LOOK #05 Punk / Grunge outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #05</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-05" aria-label="Lưu LOOK #05">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-06" data-outfit-url="../outfits/look-06-punk.html">
+  <a class="outfit-card-main" href="../outfits/look-06-punk.html" aria-label="Mở LOOK #06 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp" width="1086" height="1448" alt="LOOK #06 Punk / Grunge outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #06</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-06" aria-label="Lưu LOOK #06">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-09" data-outfit-url="../outfits/look-09-goth.html">
+  <a class="outfit-card-main" href="../outfits/look-09-goth.html" aria-label="Mở LOOK #09 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp" width="1086" height="1448" alt="LOOK #09 Punk / Grunge outfit — Apocalypse Closet" loading="eager" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #09</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-09" aria-label="Lưu LOOK #09">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-10" data-outfit-url="../outfits/look-10-punk.html">
+  <a class="outfit-card-main" href="../outfits/look-10-punk.html" aria-label="Mở LOOK #10 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp" width="1086" height="1448" alt="LOOK #10 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #10</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-10" aria-label="Lưu LOOK #10">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-16" data-outfit-url="../outfits/look-16-goth.html">
+  <a class="outfit-card-main" href="../outfits/look-16-goth.html" aria-label="Mở LOOK #16 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp" width="1086" height="1448" alt="LOOK #16 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #16</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-16" aria-label="Lưu LOOK #16">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-18" data-outfit-url="../outfits/look-18-dark-feminine.html">
+  <a class="outfit-card-main" href="../outfits/look-18-dark-feminine.html" aria-label="Mở LOOK #18 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp" width="1086" height="1448" alt="LOOK #18 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #18</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-18" aria-label="Lưu LOOK #18">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-19" data-outfit-url="../outfits/look-19-punk.html">
+  <a class="outfit-card-main" href="../outfits/look-19-punk.html" aria-label="Mở LOOK #19 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp" width="1086" height="1448" alt="LOOK #19 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #19</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-19" aria-label="Lưu LOOK #19">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-24" data-outfit-url="../outfits/look-24-goth.html">
+  <a class="outfit-card-main" href="../outfits/look-24-goth.html" aria-label="Mở LOOK #24 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp" width="1024" height="1536" alt="LOOK #24 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #24</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-24" aria-label="Lưu LOOK #24">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-25" data-outfit-url="../outfits/look-25-goth.html">
+  <a class="outfit-card-main" href="../outfits/look-25-goth.html" aria-label="Mở LOOK #25 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp" width="1024" height="1536" alt="LOOK #25 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #25</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-25" aria-label="Lưu LOOK #25">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-26" data-outfit-url="../outfits/look-26-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-26-baddie-streetwear.html" aria-label="Mở LOOK #26 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp" width="1024" height="1536" alt="LOOK #26 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #26</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-26" aria-label="Lưu LOOK #26">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-27" data-outfit-url="../outfits/look-27-baddie-streetwear.html">
+  <a class="outfit-card-main" href="../outfits/look-27-baddie-streetwear.html" aria-label="Mở LOOK #27 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp" width="1024" height="1536" alt="LOOK #27 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #27</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-27" aria-label="Lưu LOOK #27">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-38" data-outfit-url="../outfits/look-38-punk.html">
+  <a class="outfit-card-main" href="../outfits/look-38-punk.html" aria-label="Mở LOOK #38 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp" width="1086" height="1448" alt="LOOK #38 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #38</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-38" aria-label="Lưu LOOK #38">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-48" data-outfit-url="../outfits/look-48-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-48-grunge.html" aria-label="Mở LOOK #48 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-den-quan-cargo-xam-048.webp" width="1080" height="1920" alt="LOOK #48 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #48</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-48" aria-label="Lưu LOOK #48">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-50" data-outfit-url="../outfits/look-50-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-50-grunge.html" aria-label="Mở LOOK #50 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-graphic-xam-quan-cargo-den-050.webp" width="1080" height="1920" alt="LOOK #50 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #50</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-50" aria-label="Lưu LOOK #50">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-54" data-outfit-url="../outfits/look-54-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-54-grunge.html" aria-label="Mở LOOK #54 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-chan-vay-mini-054.webp" width="1080" height="1920" alt="LOOK #54 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #54</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-54" aria-label="Lưu LOOK #54">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-56" data-outfit-url="../outfits/look-56-goth.html">
+  <a class="outfit-card-main" href="../outfits/look-56-goth.html" aria-label="Mở LOOK #56 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-xep-ly-056.webp" width="1080" height="1920" alt="LOOK #56 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #56</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-56" aria-label="Lưu LOOK #56">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-60" data-outfit-url="../outfits/look-60-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-60-grunge.html" aria-label="Mở LOOK #60 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-hong-quan-cargo-den-060.webp" width="1080" height="1920" alt="LOOK #60 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #60</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-60" aria-label="Lưu LOOK #60">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-64" data-outfit-url="../outfits/look-64-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-64-grunge.html" aria-label="Mở LOOK #64 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-khoac-the-thao-quan-cargo-den-064.webp" width="1080" height="1920" alt="LOOK #64 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #64</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-64" aria-label="Lưu LOOK #64">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-69" data-outfit-url="../outfits/look-69-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-69-grunge.html" aria-label="Mở LOOK #69 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-quan-cargo-xam-069.webp" width="1080" height="1920" alt="LOOK #69 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #69</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-69" aria-label="Lưu LOOK #69">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-78" data-outfit-url="../outfits/look-78-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-78-grunge.html" aria-label="Mở LOOK #78 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-do-ruou-quan-cargo-den-078.webp" width="1080" height="1920" alt="LOOK #78 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #78</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-78" aria-label="Lưu LOOK #78">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-80" data-outfit-url="../outfits/look-80-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-80-grunge.html" aria-label="Mở LOOK #80 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-quan-cargo-den-080.webp" width="1080" height="1920" alt="LOOK #80 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #80</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-80" aria-label="Lưu LOOK #80">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-85" data-outfit-url="../outfits/look-85-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-85-grunge.html" aria-label="Mở LOOK #85 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-085.webp" width="1080" height="1920" alt="LOOK #85 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #85</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-85" aria-label="Lưu LOOK #85">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-89" data-outfit-url="../outfits/look-89-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-89-grunge.html" aria-label="Mở LOOK #89 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-den-quan-cargo-xam-089.webp" width="1080" height="1920" alt="LOOK #89 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #89</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-89" aria-label="Lưu LOOK #89">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-92" data-outfit-url="../outfits/look-92-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-92-grunge.html" aria-label="Mở LOOK #92 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-tank-graphic-den-quan-cargo-xam-092.webp" width="1080" height="1920" alt="LOOK #92 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #92</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-92" aria-label="Lưu LOOK #92">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-94" data-outfit-url="../outfits/look-94-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-94-grunge.html" aria-label="Mở LOOK #94 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-xam-quan-cargo-den-094.webp" width="1080" height="1920" alt="LOOK #94 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #94</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-94" aria-label="Lưu LOOK #94">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-96" data-outfit-url="../outfits/look-96-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-96-grunge.html" aria-label="Mở LOOK #96 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-quan-cargo-den-096.webp" width="1080" height="1920" alt="LOOK #96 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #96</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-96" aria-label="Lưu LOOK #96">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-97" data-outfit-url="../outfits/look-97-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-97-grunge.html" aria-label="Mở LOOK #97 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-den-quan-jean-rach-xam-097.webp" width="1080" height="1920" alt="LOOK #97 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #97</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-97" aria-label="Lưu LOOK #97">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-99" data-outfit-url="../outfits/look-99-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-99-grunge.html" aria-label="Mở LOOK #99 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-tank-chaos-den-quan-cargo-den-099.webp" width="1080" height="1920" alt="LOOK #99 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #99</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-99" aria-label="Lưu LOOK #99">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-100" data-outfit-url="../outfits/look-100-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-100-grunge.html" aria-label="Mở LOOK #100 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-100.webp" width="1080" height="1920" alt="LOOK #100 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #100</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-100" aria-label="Lưu LOOK #100">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-105" data-outfit-url="../outfits/look-105-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-105-grunge.html" aria-label="Mở LOOK #105 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-den-quan-cargo-den-105.webp" width="1080" height="1920" alt="LOOK #105 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #105</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-105" aria-label="Lưu LOOK #105">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-107" data-outfit-url="../outfits/look-107-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-107-grunge.html" aria-label="Mở LOOK #107 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-buom-xam-quan-cargo-den-107.webp" width="1080" height="1920" alt="LOOK #107 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #107</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-107" aria-label="Lưu LOOK #107">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-109" data-outfit-url="../outfits/look-109-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-109-grunge.html" aria-label="Mở LOOK #109 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-109.webp" width="1080" height="1920" alt="LOOK #109 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #109</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-109" aria-label="Lưu LOOK #109">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-110" data-outfit-url="../outfits/look-110-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-110-grunge.html" aria-label="Mở LOOK #110 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-xam-quan-jean-ong-rong-110.webp" width="1080" height="1920" alt="LOOK #110 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #110</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-110" aria-label="Lưu LOOK #110">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-124" data-outfit-url="../outfits/look-124-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-124-grunge.html" aria-label="Mở LOOK #124 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-trang-quan-cargo-den-124.webp" width="1080" height="1920" alt="LOOK #124 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #124</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-124" aria-label="Lưu LOOK #124">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-126" data-outfit-url="../outfits/look-126-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-126-grunge.html" aria-label="Mở LOOK #126 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-thun-tre-vai-xam-quan-cargo-den-126.webp" width="1080" height="1920" alt="LOOK #126 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #126</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-126" aria-label="Lưu LOOK #126">&#9825;</button>
+</article>
+<article class="outfit-card" data-outfit-id="look-130" data-outfit-url="../outfits/look-130-grunge.html">
+  <a class="outfit-card-main" href="../outfits/look-130-grunge.html" aria-label="Mở LOOK #130 Punk / Grunge outfit — Apocalypse Closet">
+    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-kem-quan-cargo-den-130.webp" width="1080" height="1920" alt="LOOK #130 Punk / Grunge outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
+    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #130</span></span>
+  </a>
+  <button class="btn-save-card" type="button" data-outfit-id="look-130" aria-label="Lưu LOOK #130">&#9825;</button>
+</article>
+</div>
 <section aria-labelledby="seo-punk-title" class="seo-style-content">
 <h2 id="seo-punk-title">Điểm nhận diện của bộ sưu tập outfit Punk / Grunge</h2>
 <p>Bộ sưu tập outfit Punk / Grunge này dùng các chi tiết thô, mạnh như áo rách, band tee, váy caro, chain belt, đinh tán, quần cargo, boots platform và sneaker nặng form.</p>
@@ -516,152 +808,119 @@
 </section>
 <section aria-labelledby="topic-hub-punk-grunge" class="seo-style-content"><h2 id="topic-hub-punk-grunge">Hướng dẫn đầy đủ về Punk / Grunge</h2><p>Trang này tập trung vào bộ sưu tập Look. Phần định nghĩa, cách phối, item, ngân sách và các nhánh liên quan được tổ chức tại trang chủ đề riêng.</p><div class="seo-style-links"><a href="../blog/punk-grunge.html">Mở cụm Punk / Grunge</a><a href="../phoi-do-nu-ca-tinh.html#punk-grunge">Phối đồ nữ cá tính theo Punk / Grunge</a></div></section>
 <footer>© 2026 APOCALYPSE CLOSET  ·  <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>  ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
-<script src="../outfits.js?v=20260805-style-auth-home-v1"></script>
+<script src="../outfits.js?v=20260805-style-static-v3"></script>
 <script>
-    const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
-    const filtered = outfitsData.filter(o => (o.primaryStyle || o.category) === 'Punk / Grunge');
-    let displayed = filtered;
-    const counterEl = document.getElementById('counter');
-    if (counterEl) counterEl.textContent = filtered.length + ' LOOKS';
-    const grid = document.getElementById('outfit-grid');
-    let savedIds = new Set();
-    try {
-      // Preload saved IDs from localStorage as a fallback before Firebase loads
-      const raw = localStorage.getItem('ac_saved_ids');
-      if (raw) savedIds = new Set(JSON.parse(raw));
-    } catch(e) {}
+(function(){
+  'use strict';
+  const STYLE_NAME = "Punk / Grunge";
+  const allOutfits = Array.isArray(window.outfits) ? window.outfits : [];
+  const styleOutfits = allOutfits.filter(o => (o.primaryStyle || o.category) === STYLE_NAME);
+  const byId = new Map(styleOutfits.map(o => [o.id, o]));
+  const cards = Array.from(document.querySelectorAll('#outfit-grid .outfit-card[data-outfit-id]'));
+  const counterEl = document.getElementById('counter');
+  let savedIds = new Set();
 
-    function renderCards(ids) {
-      if (!grid) return;
-      grid.innerHTML = '';
-      if (!displayed.length) { grid.innerHTML = '<p class="ac-filter-empty">Không có outfit khớp tất cả bộ lọc. Hãy bỏ bớt một lựa chọn.</p>'; return; }
-      displayed.forEach((outfit, i) => {
-        const card = document.createElement('div');
-        card.className = 'outfit-card';
-        card.style.animationDelay = (i * 0.03) + 's';
-        card.onclick = () => window.location.href = `/outfits/${outfit.slug}.html`;
-        const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
-        const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
-        const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
-        const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
-        const isNewPortrait = lookNumber >= 41;
-        const v = (url) => `${url}?v=20260803-perf100b`;
-        const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
-        const imageMarkup = isNewPortrait
-          ? `<picture><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} Punk / Grunge outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
-          : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} Punk / Grunge outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
-        const isSaved = ids.has(outfit.id);
-        card.innerHTML = `
-          ${imageMarkup}
-          <div class="outfit-overlay">
-            <span class="outfit-tag">XEM OUTFIT</span>
-            <div class="outfit-num">${outfit.tag}</div>
-          </div>
-          <button class="btn-save-card${isSaved ? ' saved' : ''}" data-outfit-id="${outfit.id}">${isSaved ? '&#9829;' : '&#9825;'}</button>`;
+  try {
+    const raw = localStorage.getItem('ac_saved_ids');
+    const parsed = raw ? JSON.parse(raw) : [];
+    if (Array.isArray(parsed)) savedIds = new Set(parsed);
+  } catch (_) {}
 
-        card.querySelector('.btn-save-card').addEventListener('click', async (e) => {
-          e.stopPropagation();
-          const btn = e.currentTarget;
-          btn.style.opacity = '0.4';
-          const { db, doc, setDoc, deleteDoc, currentUid } = await loadFirebase();
-          btn.style.opacity = '';
-          if (!currentUid) {
-            sessionStorage.setItem('ac_return_after_login', window.location.href);
-            try { localStorage.setItem('ac_return_after_login', window.location.href); } catch (e) {}
-            window.location.href = '../login.html';
-            return;
-          }
-          const ref = doc(db, 'users', currentUid, 'closet', outfit.id);
-          if (savedIds.has(outfit.id)) {
-            await deleteDoc(ref);
-            savedIds.delete(outfit.id);
-            btn.innerHTML = '&#9825;';
-            btn.classList.remove('saved');
-          } else {
-            await setDoc(ref, { id: outfit.id, title: outfit.title, image: outfit.img, category: outfit.primaryStyle || outfit.category, secondaryStyles: outfit.secondaryStyles || [], slug: outfit.slug, url: `/outfits/${outfit.slug}.html`, imageWidth: Number(card.querySelector('img')?.getAttribute('width')) || (lookNumber >= 41 ? 560 : 768), imageHeight: Number(card.querySelector('img')?.getAttribute('height')) || (lookNumber >= 41 ? 996 : 1024), savedAt: Date.now() });
-            savedIds.add(outfit.id);
-            btn.innerHTML = '&#9829;';
-            btn.classList.add('saved');
-          }
-        });
+  function updateSavedButtons(){
+    cards.forEach(card => {
+      const id = card.dataset.outfitId;
+      const btn = card.querySelector('.btn-save-card');
+      if (!btn) return;
+      const saved = savedIds.has(id);
+      btn.classList.toggle('saved', saved);
+      btn.innerHTML = saved ? '&#9829;' : '&#9825;';
+      btn.setAttribute('aria-pressed', String(saved));
+    });
+  }
 
-        grid.appendChild(card);
+  function showMatched(matched){
+    const ids = new Set((matched || styleOutfits).map(o => o.id));
+    let visible = 0;
+    cards.forEach(card => {
+      const show = ids.has(card.dataset.outfitId);
+      card.classList.toggle('ac-card-hidden', !show);
+      if (show) visible++;
+    });
+    if (counterEl) counterEl.textContent = visible + ' LOOKS';
+  }
+
+  updateSavedButtons();
+  showMatched(styleOutfits);
+  window.acApplyStyleOutfitFilters = function(_state, matched){ showMatched(matched); };
+
+  let fbPromise = null;
+  function loadFirebase(){
+    if (fbPromise) return fbPromise;
+    fbPromise = Promise.all([
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js'),
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js'),
+      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js')
+    ]).then(async ([appMod, authMod, storeMod]) => {
+      const app = appMod.getApps().length ? appMod.getApp() : appMod.initializeApp({apiKey:'AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco',authDomain:'apocalypse-closet.firebaseapp.com',projectId:'apocalypse-closet',storageBucket:'apocalypse-closet.firebasestorage.app',messagingSenderId:'493697340280',appId:'1:493697340280:web:9db33f9844c77d95232e8d'});
+      const auth = authMod.getAuth(app);
+      const db = storeMod.getFirestore(app);
+      try { await authMod.setPersistence(auth, authMod.browserLocalPersistence); }
+      catch (_) { try { await authMod.setPersistence(auth, authMod.browserSessionPersistence); } catch (_) {} }
+      const user = await new Promise(resolve => {
+        const stop = authMod.onAuthStateChanged(auth, current => { stop(); resolve(current || null); });
       });
-    }
-
-    renderCards(savedIds);
-
-    // Firebase lazy-load to get real saved IDs
-    let _fbCache = null;
-    let _currentUid = null;
-    function loadFirebase() {
-      if (_fbCache) return _fbCache;
-      _fbCache = Promise.all([
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"),
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"),
-        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"),
-      ]).then(async ([{ initializeApp }, { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence }, { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }]) => {
-        const app = initializeApp({ apiKey:"AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco", authDomain:"apocalypse-closet.firebaseapp.com", projectId:"apocalypse-closet", storageBucket:"apocalypse-closet.firebasestorage.app", messagingSenderId:"493697340280", appId:"1:493697340280:web:9db33f9844c77d95232e8d" });
-        const auth = getAuth(app);
-        const db = getFirestore(app);
-
-        // AC_AUTH_PERSISTENCE_20260805
-        try {
-          await setPersistence(auth, browserLocalPersistence);
-        } catch (localError) {
-          console.warn('Local auth persistence unavailable; using session.', localError);
-          try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
-            console.warn('Session auth persistence unavailable.', sessionError);
-          }
-        }
-        await new Promise(resolve => {
-          const unsub = onAuthStateChanged(auth, async user => {
-            unsub();
-            if (user) {
-              _currentUid = user.uid;
-              const snap = await getDocs(collection(db, 'users', user.uid, 'closet'));
-              savedIds = new Set();
-              snap.forEach(d => savedIds.add(d.id));
-              try { localStorage.setItem('ac_saved_ids', JSON.stringify([...savedIds])); } catch(e) {}
-              // Re-render with accurate data
-              renderCards(savedIds);
-            }
-            resolve();
-          });
-        });
-        return { db, doc, setDoc, deleteDoc, currentUid: _currentUid };
-      });
-      return _fbCache;
-    }
-
-    // Load Firebase after page is interactive
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(() => loadFirebase(), { timeout: 2000 });
-    } else {
-      setTimeout(() => loadFirebase(), 500);
-    }
-
-    try {
-      const user = JSON.parse(localStorage.getItem('ac_user'));
       if (user) {
-        const btn = document.getElementById('nav-closet-btn');
-        btn.href = '../closet.html';
-        document.getElementById('nav-closet-icon').innerHTML = '♥';
-        btn.style.color = '#c0392b';
-        btn.style.borderColor = '#c0392b';
+        const snap = await storeMod.getDocs(storeMod.collection(db,'users',user.uid,'closet'));
+        savedIds = new Set();
+        snap.forEach(d => savedIds.add(d.id));
+        try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
+        updateSavedButtons();
       }
-    } catch(e) {}
-  </script>
+      return {auth,db,user,storeMod};
+    }).catch(err => { console.error('Firebase load failed', err); return {user:null}; });
+    return fbPromise;
+  }
 
-  <script>
-  window.acApplyStyleOutfitFilters = function(_state, matched){
-    const ids = new Set((matched || []).map(o => o.id));
-    displayed = filtered.filter(o => ids.has(o.id));
-    if (counterEl) counterEl.textContent = displayed.length + ' LOOKS';
-    renderCards(savedIds);
-  };
-  </script>
-  <script src="/assets/js/outfit-filter.min.js?v=20260805-style-auth-home-v1" defer></script>
+  cards.forEach(card => {
+    const btn = card.querySelector('.btn-save-card');
+    if (!btn) return;
+    btn.addEventListener('click', async event => {
+      event.preventDefault();
+      event.stopPropagation();
+      const id = card.dataset.outfitId;
+      const outfit = byId.get(id);
+      if (!outfit) return;
+      btn.disabled = true;
+      const fb = await loadFirebase();
+      btn.disabled = false;
+      if (!fb.user) {
+        try { sessionStorage.setItem('ac_return_after_login', location.href); localStorage.setItem('ac_return_after_login', location.href); } catch (_) {}
+        location.href = '../login.html';
+        return;
+      }
+      const ref = fb.storeMod.doc(fb.db,'users',fb.user.uid,'closet',id);
+      if (savedIds.has(id)) {
+        await fb.storeMod.deleteDoc(ref);
+        savedIds.delete(id);
+      } else {
+        const img = card.querySelector('img');
+        await fb.storeMod.setDoc(ref,{
+          id:outfit.id,title:outfit.title,image:outfit.img,category:outfit.primaryStyle||outfit.category,
+          secondaryStyles:outfit.secondaryStyles||[],slug:outfit.slug,url:'/outfits/'+outfit.slug+'.html',
+          imageWidth:Number(img?.getAttribute('width'))||1080,imageHeight:Number(img?.getAttribute('height'))||1920,savedAt:Date.now()
+        });
+        savedIds.add(id);
+      }
+      try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
+      updateSavedButtons();
+    });
+  });
+
+  if ('requestIdleCallback' in window) requestIdleCallback(loadFirebase,{timeout:2500});
+  else setTimeout(loadFirebase,800);
+})();
+</script>
+<script src="/assets/js/outfit-filter.min.js?v=20260805-style-static-v3" defer></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
 </body>
 </html>
