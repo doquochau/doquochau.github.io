@@ -373,7 +373,79 @@
   .outfit-grid{columns:2;}
 }
 </style>
-<link href="/assets/css/outfit-filter.min.css?v=20260804-v1" rel="stylesheet"/></head>
+<link href="/assets/css/outfit-filter.min.css?v=20260804-v1" rel="stylesheet"/>
+<style id="style-original-image-display-fix">
+  /* Bỏ lớp noise phủ lên ảnh. */
+  body::before {
+    display: none !important;
+    content: none !important;
+    opacity: 0 !important;
+    background: none !important;
+  }
+
+  /* Masonry giữ đúng tỷ lệ thật của ảnh 3:4 và 9:16. */
+  .outfit-grid {
+    columns: 4 !important;
+    column-gap: 2px !important;
+    display: block !important;
+  }
+
+  .outfit-card {
+    display: inline-block !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    margin: 0 0 2px !important;
+    break-inside: avoid !important;
+    -webkit-column-break-inside: avoid !important;
+    opacity: 1 !important;
+    animation: none !important;
+    background: #0a0a0a !important;
+    vertical-align: top !important;
+  }
+
+  .outfit-card picture {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .outfit-card img,
+  .outfit-card:hover img,
+  .outfit-card:focus-within img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    transform: none !important;
+    background: transparent !important;
+  }
+
+  .outfit-card::before,
+  .outfit-card::after,
+  .outfit-card:hover::before,
+  .outfit-card:hover::after {
+    display: none !important;
+    content: none !important;
+    opacity: 0 !important;
+    background: none !important;
+  }
+
+  @media (max-width: 768px) {
+    .outfit-grid {
+      columns: 2 !important;
+    }
+  }
+</style>
+
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
@@ -514,7 +586,7 @@
 </section>
 <section aria-labelledby="topic-hub-baddie-streetwear" class="seo-style-content"><h2 id="topic-hub-baddie-streetwear">Hướng dẫn đầy đủ về Baddie Streetwear</h2><p>Trang này tập trung vào bộ sưu tập Look. Phần định nghĩa, cách phối, item, ngân sách và các nhánh liên quan được tổ chức tại trang chủ đề riêng.</p><div class="seo-style-links"><a href="../blog/baddie-streetwear.html">Mở cụm Baddie Streetwear</a><a href="../phoi-do-nu-ca-tinh.html#baddie-streetwear">Phối đồ nữ cá tính theo Baddie Streetwear</a></div></section>
 <footer>© 2026 APOCALYPSE CLOSET  ·  <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>  ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
-<script src="../outfits.js?v=20260804-taxonomy-filter-v1"></script>
+<script src="../outfits.js?v=20260805-style-original-v3"></script>
 <script>
     const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
     const filtered = outfitsData.filter(o => (o.primaryStyle || o.category) === "Baddie Streetwear");
@@ -538,17 +610,13 @@
         card.className = 'outfit-card';
         card.style.animationDelay = (i * 0.03) + 's';
         card.onclick = () => window.location.href = `/outfits/${outfit.slug}.html`;
-        const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
-        const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
-        const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
+        // Dùng ảnh gốc giống trang chi tiết Look.
+        // Không dùng AVIF/images-mobile/images-grid vì các biến thể đó có thể thiếu hoặc bị nhạt màu.
         const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
-        const isNewPortrait = lookNumber >= 41;
-        const v = (url) => `${url}?v=20260803-perf100b`;
-        const avif = (url) => url.replace(/\.webp(\?.*)?$/i, '.avif$1');
-        const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
-        const imageMarkup = isNewPortrait
-          ? `<picture><source type="image/avif" srcset="${avif(v(mobileUrl))} 280w, ${avif(v(mobileHdUrl))} 560w, ${avif(v(gridUrl))} 720w" sizes="${responsiveSizes}"><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} Baddie Streetwear outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
-          : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} Baddie Streetwear outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
+        const originalWidth = lookNumber >= 41 ? 1080 : 1086;
+        const originalHeight = lookNumber >= 41 ? 1920 : 1448;
+        const originalImageUrl = `${outfit.img}?v=20260805-style-original-v3`;
+        const imageMarkup = `<img src="${originalImageUrl}" width="${originalWidth}" height="${originalHeight}" alt="${outfit.tag} Baddie Streetwear outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
         const isSaved = ids.has(outfit.id);
         card.innerHTML = `
           ${imageMarkup}
@@ -647,5 +715,20 @@
   </script>
   <script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
+
+<script id="style-image-load-safety">
+window.addEventListener('load', function () {
+  var grid = document.getElementById('outfit-grid');
+  if (!grid) return;
+
+  window.setTimeout(function () {
+    var cards = grid.querySelectorAll('.outfit-card');
+    if (!cards.length && !grid.textContent.trim()) {
+      grid.innerHTML = '<p class="ac-filter-empty">Không tải được dữ liệu outfit. Hãy kiểm tra file outfits.js rồi tải lại trang.</p>';
+    }
+  }, 1200);
+}, { once: true });
+</script>
+
 </body>
 </html>
