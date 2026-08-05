@@ -27,6 +27,9 @@
 <meta content="https://apocalypsecloset.com/logo-1.png" name="twitter:image"/>
 <link href="/Logo-Apocalypse-Closet.webp" rel="apple-touch-icon"/>
 <link as="image" fetchpriority="high" href="Logo-Apocalypse-Closet.webp" rel="preload"/>
+<link rel="preload" href="/oswald.woff2?v=20260717-full-v2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="/space-mono-regular.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="/space-mono-bold.woff2" as="font" type="font/woff2" crossorigin/>
 <style>
     @font-face {
       font-family: 'Oswald';
@@ -300,31 +303,36 @@
     transform: translateX(-1px);
   }
 }
-    #outfit-grid:empty { min-height: 100vh; }
+    #outfit-grid:empty { min-height: 0; }
 
     .outfit-grid {
-      /* Masonry layout: ảnh 3:4 cũ và ảnh 9:16 mới đều hiện đúng tỷ lệ,
-         không crop và không còn hai dải đen hai bên. */
-      column-count: 4;
-      column-gap: 2px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      align-items: start;
+      gap: 2px;
       padding: 0 2px 2px;
+    }
+
+    .ac-masonry-column {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      gap: 2px;
     }
 
     .outfit-card {
       position: relative;
       overflow: hidden;
-      display: inline-block;
+      display: block;
       width: 100%;
-      margin: 0 0 2px;
-      aspect-ratio: auto;
+      margin: 0;
       vertical-align: top;
-      break-inside: avoid;
-      -webkit-column-break-inside: avoid;
       background: var(--grey);
       cursor: pointer;
-      opacity: 0;
-      animation: fadeIn 0.4s ease forwards;
-      will-change: transform;
+      opacity: 1;
+      animation: none;
+      transform: none;
+      will-change: auto;
     }
 
     .outfit-card--critical {
@@ -418,9 +426,9 @@
     .shimmer {
       background: linear-gradient(90deg, #111 25%, #1e1e1e 50%, #111 75%);
       background-size: 200% 100%;
-      animation: shimmer 1.5s infinite !important;
+      animation: none !important;
       opacity: 1 !important;
-      contain: layout paint;
+      contain: paint;
     }
     @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
     @keyframes fadeIn {
@@ -554,7 +562,7 @@
       .hero-label { font-size: 8px; letter-spacing: 0.28em; }
       .hero-title { font-size: 23px; }
       .hero-sub { margin-top: 7px; font-size: 9px; line-height: 1.55; text-align: left; max-width: none; }
-      .outfit-grid { column-count: 2; }
+      .outfit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .section-header { padding: 20px 16px 12px; }
       .section-count { font-size: 11px; }
       .feed-end { padding: 48px 20px 44px; }
@@ -702,40 +710,36 @@
     background: none !important;
   }
 </style>
-
-
-<style id="homepage-existing-responsive-images-performance-fix">
-  /* Không đặt card outfit tĩnh. Trong lúc outfits.js chưa chạy xong,
-     chỉ ẩn các khối nằm SAU lưới để chúng không xuất hiện trong viewport
-     rồi bị 32 card đẩy xuống — đây là nguyên nhân CLS 1.8+. */
-  html:not(.ac-grid-ready) .feed-end,
-  html:not(.ac-grid-ready) .ticker,
-  html:not(.ac-grid-ready) .home-mix-pillar,
-  html:not(.ac-grid-ready) .about-section,
-  html:not(.ac-grid-ready) body > footer {
-    display: none !important;
-  }
-
-  /* Lưới rỗng chỉ giữ một màn hình, không dùng 300vw/1200vw gây nhảy bố cục. */
-  #outfit-grid:empty {
-    min-height: 100vh !important;
-  }
-
-  #outfit-grid .outfit-card {
-    animation: none !important;
-    transition: none !important;
+<style id="ac-home-grid-stability-v6">
+  #outfit-grid .outfit-card,
+  #outfit-grid .outfit-card.shimmer {
     opacity: 1 !important;
+    animation: none !important;
     transform: none !important;
+    transition: none !important;
     will-change: auto !important;
   }
+  #outfit-grid .outfit-card-link,
+  #outfit-grid picture,
+  #outfit-grid img {
+    display: block !important;
+    width: 100% !important;
+  }
+  #outfit-grid .outfit-card-link,
+  #outfit-grid picture {
+    height: auto !important;
+  }
+  #outfit-grid img {
+    height: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    background: transparent !important;
+  }
+  #outfit-filter-root.ac-filter-root {
+    min-height: 42px !important;
+  }
 </style>
-<script>
-  window.setTimeout(function () {
-    document.documentElement.classList.add('ac-grid-ready');
-    var grid = document.getElementById('outfit-grid');
-    if (grid) grid.removeAttribute('aria-busy');
-  }, 8000);
-</script>
+
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -784,8 +788,137 @@
 </div>
 <p class="hero-sub">Bấm RELOAD để ưu tiên nhận những outfit chưa xuất hiện.</p>
 </section>
-<div data-ac-filter-mode="home" id="outfit-filter-root"></div>
+<div class="ac-filter-root" data-ac-filter-mode="home" id="outfit-filter-root"></div>
 <div aria-busy="true" class="outfit-grid" id="outfit-grid"></div>
+<script src="outfits.js?v=20260805-stable-grid-v6"></script>
+<script id="ac-home-grid-bootstrap-v6">
+(function () {
+  'use strict';
+  const THUMB_DIMS = {"badgirl-baddie-streetwear-look-02-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-07-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-14-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-17-full-outfit.webp":[768,1025],"badgirl-baddie-streetwear-look-20-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-21-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-23-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-26-full-outfit.webp":[768,1152],"badgirl-baddie-streetwear-look-27-full-outfit.webp":[768,1152],"badgirl-baddie-streetwear-look-28-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-34-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-37-full-outfit.webp":[768,1024],"badgirl-baddie-streetwear-look-39-full-outfit.webp":[768,1154],"badgirl-dark-feminine-look-04-full-outfit.webp":[768,1024],"badgirl-dark-feminine-look-15-full-outfit.webp":[768,1024],"badgirl-dark-feminine-look-18-full-outfit.webp":[768,1024],"badgirl-dark-feminine-look-22-full-outfit.webp":[768,1152],"badgirl-dark-feminine-look-29-full-outfit.webp":[768,1154],"badgirl-dark-feminine-look-30-full-outfit.webp":[768,1152],"badgirl-dark-feminine-look-36-full-outfit.webp":[768,1152],"badgirl-dark-feminine-look-40-full-outfit.webp":[768,1024],"badgirl-e-girl-look-01-full-outfit.webp":[768,1024],"badgirl-e-girl-look-05-full-outfit.webp":[768,1024],"badgirl-e-girl-look-08-full-outfit.webp":[768,1024],"badgirl-e-girl-look-11-full-outfit.webp":[768,1024],"badgirl-e-girl-look-13-full-outfit.webp":[768,1024],"badgirl-e-girl-look-31-full-outfit.webp":[768,1152],"badgirl-e-girl-look-33-full-outfit.webp":[768,1152],"badgirl-e-girl-look-35-full-outfit.webp":[768,1024],"badgirl-goth-look-09-full-outfit.webp":[768,1024],"badgirl-goth-look-16-full-outfit.webp":[768,1024],"badgirl-goth-look-24-full-outfit.webp":[768,1152],"badgirl-goth-look-25-full-outfit.webp":[768,1152],"badgirl-goth-look-32-full-outfit.webp":[768,1154],"badgirl-punk-look-03-full-outfit.webp":[768,1024],"badgirl-punk-look-06-full-outfit.webp":[768,1024],"badgirl-punk-look-10-full-outfit.webp":[768,1024],"badgirl-punk-look-12-full-outfit.webp":[768,1024],"badgirl-punk-look-19-full-outfit.webp":[768,1024],"badgirl-punk-look-38-full-outfit.webp":[768,1024],"outfit-nu-baddie-ao-co-vuong-xam-quan-ong-rong-trang-122.webp":[720,1280],"outfit-nu-baddie-ao-corset-nau-chan-vay-kaki-113.webp":[720,1280],"outfit-nu-baddie-ao-corset-trang-quan-cargo-hong-133.webp":[720,1280],"outfit-nu-baddie-ao-corset-xanh-xam-quan-cargo-sang-114.webp":[720,1280],"outfit-nu-baddie-ao-crop-co-cao-den-quan-cargo-063.webp":[720,1280],"outfit-nu-baddie-ao-crop-den-quan-cargo-xam-121.webp":[720,1280],"outfit-nu-baddie-ao-crop-khoa-keo-den-quan-cargo-xam-084.webp":[720,1280],"outfit-nu-baddie-ao-crop-lech-vai-den-quan-jean-rong-123.webp":[720,1280],"outfit-nu-baddie-ao-crop-so-23-chan-vay-cargo-xam-076.webp":[720,1280],"outfit-nu-baddie-ao-crop-the-thao-quan-ong-rong-xanh-117.webp":[720,1280],"outfit-nu-baddie-ao-hai-day-trang-ao-khoac-xam-quan-cargo-125.webp":[720,1280],"outfit-nu-baddie-ao-hai-day-trang-quan-jean-xanh-128.webp":[720,1280],"outfit-nu-baddie-ao-hong-om-dang-chan-vay-cargo-den-075.webp":[720,1280],"outfit-nu-baddie-ao-jersey-so-17-quan-cargo-den-058.webp":[720,1280],"outfit-nu-baddie-ao-ngoi-sao-xanh-quan-cargo-vang-116.webp":[720,1280],"outfit-nu-baddie-ao-quay-xam-quan-cargo-olive-127.webp":[720,1280],"outfit-nu-baddie-ao-tank-den-ao-khoac-the-thao-quan-cargo-132.webp":[720,1280],"outfit-nu-baddie-ao-tank-kem-quan-cargo-do-ruou-115.webp":[720,1280],"outfit-nu-baddie-ao-tay-dai-tim-quan-cargo-trang-118.webp":[720,1280],"outfit-nu-baddie-ao-tre-vai-kem-quan-cargo-den-086.webp":[720,1280],"outfit-nu-baddie-ao-tre-vai-trang-quan-cargo-xam-067.webp":[720,1280],"outfit-nu-baddie-ao-tre-vai-trang-quan-jean-xanh-119.webp":[720,1280],"outfit-nu-baddie-ao-vest-khoa-keo-den-chan-vay-denim-082.webp":[720,1280],"outfit-nu-dark-feminine-ao-corset-den-quan-jean-ong-rong-077.webp":[720,1280],"outfit-nu-dark-feminine-ao-corset-olive-chan-vay-denim-083.webp":[720,1280],"outfit-nu-dark-feminine-ao-crop-khoet-nguc-chan-vay-den-053.webp":[720,1280],"outfit-nu-dark-feminine-ao-crop-lech-vai-be-chan-vay-nau-108.webp":[720,1280],"outfit-nu-dark-feminine-ao-crop-xam-quan-cargo-den-120.webp":[720,1280],"outfit-nu-dark-feminine-ao-ren-buoc-day-den-quan-cargo-xam-072.webp":[720,1280],"outfit-nu-dark-feminine-ao-tre-vai-nau-quan-cargo-kaki-129.webp":[720,1280],"outfit-nu-dark-feminine-ao-tre-vai-xam-chan-vay-denim-den-134.webp":[720,1280],"outfit-nu-dark-feminine-ao-tre-vai-xam-quan-jean-xanh-136.webp":[720,1280],"outfit-nu-dark-feminine-ao-tre-vai-xam-quan-parachute-den-135.webp":[720,1280],"outfit-nu-dark-feminine-ao-yem-corset-nau-quan-cargo-den-081.webp":[720,1280],"outfit-nu-egirl-ao-corset-caro-xam-chan-vay-xep-ly-091.webp":[720,1280],"outfit-nu-egirl-ao-crop-buom-trang-quan-cargo-xam-095.webp":[720,1280],"outfit-nu-egirl-ao-crop-den-tay-be-chan-vay-xep-ly-055.webp":[720,1280],"outfit-nu-egirl-ao-crop-graphic-den-chan-vay-caro-043.webp":[720,1280],"outfit-nu-egirl-ao-crop-graphic-den-chan-vay-denim-093.webp":[720,1280],"outfit-nu-egirl-ao-crop-graphic-den-chan-vay-xep-ly-106.webp":[720,1280],"outfit-nu-egirl-ao-crop-ngoi-sao-den-chan-vay-denim-102.webp":[720,1280],"outfit-nu-egirl-ao-crop-trang-chan-vay-denim-den-088.webp":[720,1280],"outfit-nu-egirl-ao-crop-trang-graphic-mat-quan-cargo-den-071.webp":[720,1280],"outfit-nu-egirl-ao-crop-tre-vai-den-chan-vay-xep-ly-xam-104.webp":[720,1280],"outfit-nu-egirl-ao-graphic-den-chan-vay-xep-ly-103.webp":[720,1280],"outfit-nu-egirl-ao-graphic-den-tay-ke-soc-quan-cargo-xam-101.webp":[720,1280],"outfit-nu-egirl-ao-graphic-hong-chan-vay-caro-den-111.webp":[720,1280],"outfit-nu-egirl-ao-graphic-trang-chan-vay-xep-ly-den-041.webp":[720,1280],"outfit-nu-egirl-ao-graphic-xam-chan-vay-xep-ly-den-087.webp":[720,1280],"outfit-nu-egirl-ao-jersey-so-09-chan-vay-den-061.webp":[720,1280],"outfit-nu-egirl-ao-jersey-trang-chan-vay-xep-ly-051.webp":[720,1280],"outfit-nu-egirl-ao-ke-soc-den-chan-vay-xep-ly-042.webp":[720,1280],"outfit-nu-egirl-ao-polo-crop-trang-chan-vay-xam-062.webp":[720,1280],"outfit-nu-egirl-ao-thun-graphic-den-chan-vay-mini-098.webp":[720,1280],"outfit-nu-egirl-ao-thun-graphic-den-chan-vay-xep-ly-090.webp":[720,1280],"outfit-nu-goth-ao-corset-den-chan-vay-xep-ly-046.webp":[720,1280],"outfit-nu-goth-ao-corset-khoa-cai-quan-cargo-xam-070.webp":[720,1280],"outfit-nu-goth-ao-corset-xam-chan-vay-xep-ly-den-059.webp":[720,1280],"outfit-nu-goth-ao-day-dan-den-chan-vay-xep-ly-052.webp":[720,1280],"outfit-nu-goth-ao-graphic-tre-vai-chan-vay-den-049.webp":[720,1280],"outfit-nu-goth-ao-graphic-tre-vai-chan-vay-xep-ly-056.webp":[720,1280],"outfit-nu-goth-ao-luoi-corset-den-quan-cargo-xam-047.webp":[720,1280],"outfit-nu-goth-ao-luoi-day-dan-chan-vay-mini-den-065.webp":[720,1280],"outfit-nu-goth-ao-luoi-den-quan-cargo-den-068.webp":[720,1280],"outfit-nu-goth-ao-luoi-den-quan-cargo-trang-131.webp":[720,1280],"outfit-nu-goth-ao-luoi-den-quan-short-xich-044.webp":[720,1280],"outfit-nu-goth-ao-ren-den-chan-vay-bat-doi-xung-112.webp":[720,1280],"outfit-nu-goth-ao-yem-graphic-den-quan-cargo-tim-073.webp":[720,1280],"outfit-nu-grunge-ao-crop-buom-xam-quan-cargo-den-107.webp":[720,1280],"outfit-nu-grunge-ao-crop-do-ruou-quan-cargo-den-078.webp":[720,1280],"outfit-nu-grunge-ao-crop-graphic-den-quan-jean-rach-xam-097.webp":[720,1280],"outfit-nu-grunge-ao-crop-graphic-hong-quan-cargo-den-060.webp":[720,1280],"outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-057.webp":[720,1280],"outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-100.webp":[720,1280],"outfit-nu-grunge-ao-crop-tre-vai-den-quan-cargo-xam-089.webp":[720,1280],"outfit-nu-grunge-ao-crop-tre-vai-xam-quan-jean-ong-rong-110.webp":[720,1280],"outfit-nu-grunge-ao-graphic-den-quan-cargo-xam-048.webp":[720,1280],"outfit-nu-grunge-ao-graphic-kem-quan-cargo-den-130.webp":[720,1280],"outfit-nu-grunge-ao-graphic-tre-vai-quan-cargo-den-096.webp":[720,1280],"outfit-nu-grunge-ao-graphic-tre-vai-trang-quan-cargo-den-124.webp":[720,1280],"outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-085.webp":[720,1280],"outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-109.webp":[720,1280],"outfit-nu-grunge-ao-graphic-xam-quan-cargo-den-080.webp":[720,1280],"outfit-nu-grunge-ao-ke-soc-den-quan-cargo-den-105.webp":[720,1280],"outfit-nu-grunge-ao-ke-soc-do-den-chan-vay-den-045.webp":[720,1280],"outfit-nu-grunge-ao-khoac-the-thao-quan-cargo-den-064.webp":[720,1280],"outfit-nu-grunge-ao-luoi-graphic-xam-quan-cargo-den-050.webp":[720,1280],"outfit-nu-grunge-ao-luoi-nau-quan-cargo-den-066.webp":[720,1280],"outfit-nu-grunge-ao-luoi-xam-quan-cargo-ong-rong-079.webp":[720,1280],"outfit-nu-grunge-ao-tank-chaos-den-quan-cargo-den-099.webp":[720,1280],"outfit-nu-grunge-ao-tank-graphic-den-quan-cargo-xam-092.webp":[720,1280],"outfit-nu-grunge-ao-thun-graphic-den-chan-vay-mini-054.webp":[720,1280],"outfit-nu-grunge-ao-thun-graphic-den-quan-cargo-xam-069.webp":[720,1280],"outfit-nu-grunge-ao-thun-graphic-xam-quan-cargo-den-094.webp":[720,1280],"outfit-nu-grunge-ao-thun-tre-vai-xam-quan-cargo-den-126.webp":[720,1280],"outfit-nu-grunge-ao-tre-vai-graphic-den-chan-vay-denim-074.webp":[720,1280]};
+  const grid = document.getElementById('outfit-grid');
+  if (!grid || !Array.isArray(window.outfits || (typeof outfits !== 'undefined' ? outfits : null))) return;
+  const list = window.outfits || outfits;
+
+  function shuffle(ids) {
+    const result = ids.slice();
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  }
+  function fileName(outfit) { return String(outfit.img || '').split('/').pop(); }
+  function dimensions(outfit) {
+    const name = fileName(outfit);
+    const d = THUMB_DIMS[name];
+    return d ? { width: d[0], height: d[1] } : { width: 720, height: 1280 };
+  }
+  function thumbUrls(outfit) {
+    const name = fileName(outfit);
+    return {
+      mobile: `/images-mobile/badgirl-outfits/${name}`,
+      mobileHd: `/images-mobile-hd/badgirl-outfits/${name}`,
+      grid: `/images-grid/badgirl-outfits/${name}`
+    };
+  }
+  function bindEarlySave(btn, outfit) {
+    btn.type = 'button';
+    btn.dataset.outfitId = outfit.id;
+    btn.dataset.outfitTag = outfit.tag;
+    btn.className = 'btn-save-card';
+    btn.innerHTML = '♡';
+    btn.setAttribute('aria-label', `Lưu ${outfit.tag} vào Closet`);
+    btn.onclick = function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (typeof window.toggleSave === 'function') window.toggleSave(outfit, btn);
+    };
+  }
+  function createCard(outfit, priority, highest) {
+    const dims = dimensions(outfit);
+    const urls = thumbUrls(outfit);
+    const card = document.createElement('article');
+    card.className = 'outfit-card';
+    card.dataset.outfitId = outfit.id;
+    card.style.aspectRatio = `${dims.width} / ${dims.height}`;
+
+    const link = document.createElement('a');
+    link.className = 'outfit-card-link';
+    link.href = `/outfits/${outfit.slug}.html`;
+    link.setAttribute('aria-label', `Xem chi tiết ${outfit.tag}: ${outfit.title}`);
+    link.style.aspectRatio = card.style.aspectRatio;
+
+    const picture = document.createElement('picture');
+    picture.style.aspectRatio = card.style.aspectRatio;
+    const img = document.createElement('img');
+    img.alt = `Badgirl outfit ${outfit.tag} — ${outfit.title} (${outfit.category})`;
+    img.width = dims.width;
+    img.height = dims.height;
+    img.style.aspectRatio = card.style.aspectRatio;
+    img.src = urls.grid;
+    img.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w, ${urls.grid} ${dims.width}w`;
+    img.sizes = '(max-width: 768px) 50vw, 25vw';
+    img.loading = priority ? 'eager' : 'lazy';
+    img.decoding = 'async';
+    if (highest) img.fetchPriority = 'high';
+    picture.appendChild(img);
+
+    const overlay = document.createElement('div');
+    overlay.className = 'outfit-overlay';
+    overlay.innerHTML = `<span class="outfit-tag">XEM OUTFIT</span><div class="outfit-num">${outfit.tag}</div>`;
+    link.appendChild(picture);
+    link.appendChild(overlay);
+
+    const save = document.createElement('button');
+    bindEarlySave(save, outfit);
+    card.appendChild(link);
+    card.appendChild(save);
+    return { card, ratio: dims.height / dims.width };
+  }
+  function renderStable(data) {
+    const count = window.matchMedia('(max-width: 768px)').matches ? 2 : 4;
+    const columns = Array.from({ length: count }, function () {
+      const col = document.createElement('div');
+      col.className = 'ac-masonry-column';
+      return col;
+    });
+    const heights = Array(count).fill(0);
+    const priorityPerColumn = 2;
+    data.forEach(function (outfit, index) {
+      let target = index < count ? index : heights.indexOf(Math.min.apply(null, heights));
+      const priority = columns[target].childElementCount < priorityPerColumn;
+      const built = createCard(outfit, priority, index === 0);
+      columns[target].appendChild(built.card);
+      heights[target] += built.ratio + 0.002;
+    });
+    grid.replaceChildren.apply(grid, columns);
+    grid.setAttribute('aria-busy', 'false');
+  }
+
+  const signature = `home32-stable-v6|${list.map(o => o.id).join('|')}`;
+  try {
+    if (sessionStorage.getItem('ac_outfit_signature') !== signature) {
+      sessionStorage.removeItem('ac_pool');
+      sessionStorage.removeItem('ac_last_batch');
+      sessionStorage.removeItem('savedOutfitOrder');
+      sessionStorage.setItem('ac_outfit_signature', signature);
+    }
+  } catch (_) {}
+  const ids = shuffle(list.map(o => o.id));
+  const batchIds = ids.slice(0, Math.min(32, ids.length));
+  const pool = ids.slice(batchIds.length);
+  try {
+    sessionStorage.setItem('ac_pool', JSON.stringify(pool));
+    sessionStorage.setItem('ac_last_batch', JSON.stringify(batchIds));
+    sessionStorage.setItem('savedOutfitOrder', JSON.stringify(batchIds));
+  } catch (_) {}
+  const batch = batchIds.map(id => list.find(o => o.id === id)).filter(Boolean);
+  renderStable(batch);
+  window.__acInitialGridRendered = true;
+  window.__acInitialBatch = batch;
+  window.__acThumbDimensions = THUMB_DIMS;
+})();
+</script>
 <section aria-labelledby="feed-end-title" class="feed-end" data-nosnippet="">
 <div aria-hidden="true" class="feed-end-icon">✦</div>
 <p class="feed-end-title" id="feed-end-title">Bạn đã xem hết!</p>
@@ -863,7 +996,6 @@
 <source src="https://res.cloudinary.com/dazjcjufd/video/upload/v1779505038/apocalypse_hu44u2.mp3" type="audio/mpeg"/>
 </audio>
 </div>
-<script defer="" fetchpriority="low" src="outfits.js?v=20260805-existing-thumbs-v1"></script>
 <script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
 <script defer="" type="module">
     let _fbCache = null;
@@ -986,9 +1118,7 @@
     }
 
     function getPriorityCount() {
-      // Hai ảnh đầu nằm ngay vùng nhìn thấy trên mobile. Chỉ ảnh đầu có
-      // fetchpriority=high; ảnh thứ hai eager để tránh LCP rơi vào lazy-load.
-      return 2;
+      return 0;
     }
 
     function bindSaveButton(btn, outfit, savedIds) {
@@ -1017,80 +1147,54 @@
       if (feedCopy) feedCopy.textContent = 'Bạn đã xem hết outfit của lượt này.';
     }
 
-    const exactOldImageDimensions = {"look-17":{"width":1086,"height":1449},"look-22":{"width":1024,"height":1536},"look-24":{"width":1024,"height":1536},"look-25":{"width":1024,"height":1536},"look-26":{"width":1024,"height":1536},"look-27":{"width":1024,"height":1536},"look-28":{"width":848,"height":1131},"look-29":{"width":1023,"height":1537},"look-30":{"width":1024,"height":1536},"look-31":{"width":1024,"height":1536},"look-32":{"width":1023,"height":1537},"look-33":{"width":1024,"height":1536},"look-36":{"width":1024,"height":1536},"look-39":{"width":1023,"height":1537}};
-
-    function getOutfitDimensions(outfit) {
-      const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
-      return exactOldImageDimensions[outfit.id]
-        || (lookNumber >= 41
-          ? { width: 1080, height: 1920 }
-          : { width: 1086, height: 1448 });
+    function getThumbDimensions(outfit) {
+      const name = String(outfit.img || '').split('/').pop();
+      const dims = window.__acThumbDimensions?.[name];
+      return dims ? { width: dims[0], height: dims[1] } : { width: 720, height: 1280 };
     }
 
-    function getResponsiveOutfitSources(outfit) {
-      const fileName = String(outfit.img || '').split('/').pop();
-      const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
+    function getThumbUrls(outfit) {
+      const name = String(outfit.img || '').split('/').pop();
       return {
-        mobile: `/images-mobile/badgirl-outfits/${fileName}`,
-        mobileHd: `/images-mobile-hd/badgirl-outfits/${fileName}`,
-        grid: `/images-grid/badgirl-outfits/${fileName}`,
-        gridWidth: lookNumber >= 41 ? 720 : 768
+        mobile: `/images-mobile/badgirl-outfits/${name}`,
+        mobileHd: `/images-mobile-hd/badgirl-outfits/${name}`,
+        grid: `/images-grid/badgirl-outfits/${name}`
       };
     }
 
-    function finishGridRender(grid) {
-      if (!grid) return;
-      grid.removeAttribute('aria-busy');
-      grid.style.removeProperty('min-height');
-      document.documentElement.classList.add('ac-grid-ready');
-    }
-
-    function buildCard(outfit, i, savedIds) {
+    function buildCard(outfit, i, savedIds, isPriority = false, isHighest = false) {
+      const dims = getThumbDimensions(outfit);
+      const urls = getThumbUrls(outfit);
+      const ratio = `${dims.width} / ${dims.height}`;
       const card = document.createElement('article');
       card.className = 'outfit-card';
       card.dataset.outfitId = outfit.id;
+      card.style.aspectRatio = ratio;
 
       const link = document.createElement('a');
       link.className = 'outfit-card-link';
       link.href = `/outfits/${outfit.slug}.html`;
       link.setAttribute('aria-label', `Xem chi tiết ${outfit.tag}: ${outfit.title}`);
-
-      const img = document.createElement('img');
-      img.alt = `Badgirl outfit ${outfit.tag} — ${outfit.title} (${outfit.category})`;
-      const isPriority = i < getPriorityCount();
-      img.setAttribute('loading', isPriority ? 'eager' : 'lazy');
-      img.decoding = 'async';
-      if (i === 0) img.setAttribute('fetchpriority', 'high');
-
-      const exactDimensions = getOutfitDimensions(outfit);
-      img.width = exactDimensions.width;
-      img.height = exactDimensions.height;
-
-      // Tận dụng đúng ba bộ ảnh nhẹ đã có sẵn trong repository.
-      // Trang chi tiết Look vẫn dùng outfit.img là ảnh gốc độ phân giải cao.
-      const sources = getResponsiveOutfitSources(outfit);
-      img.src = sources.grid;
-      img.srcset = `${sources.mobile} 240w, ${sources.mobileHd} 480w, ${sources.grid} ${sources.gridWidth}w`;
-      img.sizes = '(max-width: 768px) calc(50vw - 3px), calc(25vw - 3px)';
-
-      // Chỉ quay về ảnh gốc nếu một thumbnail cũ thực sự bị thiếu.
-      let usedOriginalFallback = false;
-      img.onerror = () => {
-        if (!usedOriginalFallback) {
-          usedOriginalFallback = true;
-          img.removeAttribute('srcset');
-          img.removeAttribute('sizes');
-          img.src = outfit.img;
-        }
-      };
+      link.style.aspectRatio = ratio;
 
       const picture = document.createElement('picture');
+      picture.style.aspectRatio = ratio;
+      const img = document.createElement('img');
+      img.alt = `Badgirl outfit ${outfit.tag} — ${outfit.title} (${outfit.category})`;
+      img.width = dims.width;
+      img.height = dims.height;
+      img.style.aspectRatio = ratio;
+      img.src = urls.grid;
+      img.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w, ${urls.grid} ${dims.width}w`;
+      img.sizes = '(max-width: 768px) 50vw, 25vw';
+      img.loading = isPriority ? 'eager' : 'lazy';
+      img.decoding = 'async';
+      if (isHighest) img.fetchPriority = 'high';
       picture.appendChild(img);
 
       const overlay = document.createElement('div');
       overlay.className = 'outfit-overlay';
       overlay.innerHTML = `<span class="outfit-tag">XEM OUTFIT</span><div class="outfit-num">${outfit.tag}</div>`;
-
       link.appendChild(picture);
       link.appendChild(overlay);
 
@@ -1098,56 +1202,40 @@
       card.appendChild(link);
       bindSaveButton(saveBtn, outfit, savedIds);
       card.appendChild(saveBtn);
-      return card;
+      return { card, ratioValue: dims.height / dims.width };
     }
 
     window.renderAll = function(data = outfits) {
       const grid = document.getElementById('outfit-grid');
       const savedIds = getSafeSavedIds();
-
-      grid.setAttribute('aria-busy', 'true');
-      grid.innerHTML = '';
       updateGridCopy();
+      window.__acCurrentRenderedData = Array.isArray(data) ? data.slice() : [];
 
-      if (data.length === 0) {
+      if (!data.length) {
         grid.innerHTML = `<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Không tìm thấy outfit nào phù hợp.</div>`;
-        finishGridRender(grid);
         return;
       }
 
-      const fragment = document.createDocumentFragment();
-      data.forEach((outfit, i) => fragment.appendChild(buildCard(outfit, i, savedIds)));
-      grid.appendChild(fragment);
-      finishGridRender(grid);
+      const columnCount = window.matchMedia('(max-width: 768px)').matches ? 2 : 4;
+      const columns = Array.from({ length: columnCount }, () => {
+        const column = document.createElement('div');
+        column.className = 'ac-masonry-column';
+        return column;
+      });
+      const heights = Array(columnCount).fill(0);
+      const priorityPerColumn = 2;
+
+      data.forEach((outfit, i) => {
+        const target = i < columnCount ? i : heights.indexOf(Math.min(...heights));
+        const priority = columns[target].childElementCount < priorityPerColumn;
+        const built = buildCard(outfit, i, savedIds, priority, i === 0);
+        columns[target].appendChild(built.card);
+        heights[target] += built.ratioValue + 0.002;
+      });
+      grid.replaceChildren(...columns);
+      grid.setAttribute('aria-busy', 'false');
     };
 
-    function renderInitialBatch(data) {
-      const grid = document.getElementById('outfit-grid');
-      const savedIds = getSafeSavedIds();
-      const criticalCards = [...grid.querySelectorAll('.outfit-card--critical')];
-      const criticalIds = criticalCards.map(card => card.dataset.outfitId);
-      const expectedIds = data.slice(0, criticalCards.length).map(outfit => outfit.id);
-
-      if (criticalCards.length !== 4 || criticalIds.some((id, i) => id !== expectedIds[i])) {
-        window.renderAll(data);
-        return;
-      }
-
-      updateGridCopy();
-      criticalCards.forEach((card, i) => {
-        const btn = card.querySelector('.btn-save-card');
-        if (btn) bindSaveButton(btn, data[i], savedIds);
-      });
-
-      grid.querySelectorAll('.outfit-card--placeholder').forEach(card => card.remove());
-
-      const fragment = document.createDocumentFragment();
-      data.slice(criticalCards.length).forEach((outfit, i) => {
-        fragment.appendChild(buildCard(outfit, i + criticalCards.length, savedIds));
-      });
-      grid.appendChild(fragment);
-      finishGridRender(grid);
-    }
 
     window.updateSaveButtons = function() {
       const savedIds = getSafeSavedIds();
@@ -1167,7 +1255,7 @@
     }
 
     function syncOutfitPoolVersion() {
-      const signature = `home32-responsive-v3|${outfits.map(outfit => outfit.id).join('|')}`;
+      const signature = `home32-stable-v6|${outfits.map(outfit => outfit.id).join('|')}`;
       try {
         if (sessionStorage.getItem('ac_outfit_signature') !== signature) {
           sessionStorage.removeItem('ac_pool');
@@ -1235,6 +1323,11 @@
     }
 
     function initGrid() {
+      if (window.__acInitialGridRendered && Array.isArray(window.__acInitialBatch)) {
+        window.__acCurrentRenderedData = window.__acInitialBatch.slice();
+        updateGridCopy();
+        return;
+      }
       syncOutfitPoolVersion();
       renderFirstVisit();
     }
@@ -1283,6 +1376,13 @@
       }
     }
 
+    const acGridMedia = window.matchMedia('(max-width: 768px)');
+    acGridMedia.addEventListener?.('change', () => {
+      if (Array.isArray(window.__acCurrentRenderedData) && window.__acCurrentRenderedData.length) {
+        window.renderAll(window.__acCurrentRenderedData);
+      }
+    });
+
     window._renderAllReady = true;
     if (typeof outfits !== 'undefined') {
       initGrid();
@@ -1291,10 +1391,7 @@
         if (typeof outfits !== 'undefined') initGrid();
         else {
           const grid = document.getElementById('outfit-grid');
-          if (grid) {
-            grid.innerHTML = '<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Không tải được dữ liệu outfit. Vui lòng refresh lại trang.</div>';
-            finishGridRender(grid);
-          }
+          if (grid) grid.innerHTML = '<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Không tải được dữ liệu outfit. Vui lòng refresh lại trang.</div>';
         }
       }, { once: true });
     }
@@ -1363,65 +1460,7 @@
 </script>
 
 
-<script id="homepage-remove-forced-ratio-bars">
-(function () {
-  function installFinalRatioFix() {
-    var old = document.getElementById('ac-homepage-final-natural-ratio');
-    if (old) old.remove();
 
-    var style = document.createElement('style');
-    style.id = 'ac-homepage-final-natural-ratio';
-    style.textContent = `
-      #outfit-grid.ac-stable-masonry .outfit-card,
-      #outfit-grid.ac-stable-masonry .outfit-card-link,
-      #outfit-grid.ac-stable-masonry .outfit-card picture,
-      #outfit-grid.ac-stable-masonry .outfit-card img {
-        aspect-ratio: auto !important;
-      }
-
-      #outfit-grid.ac-stable-masonry .outfit-card-link,
-      #outfit-grid.ac-stable-masonry .outfit-card picture,
-      #outfit-grid.ac-stable-masonry .outfit-card img {
-        height: auto !important;
-      }
-
-      #outfit-grid.ac-stable-masonry .outfit-card img {
-        width: 100% !important;
-        object-fit: initial !important;
-        object-position: initial !important;
-        display: block !important;
-      }
-
-      #outfit-grid.ac-stable-masonry {
-        gap: 2px !important;
-      }
-
-      #outfit-grid.ac-stable-masonry > .ac-masonry-column {
-        gap: 2px !important;
-      }
-    `;
-    document.head.appendChild(style);
-
-    document.querySelectorAll('#outfit-grid .outfit-card').forEach(function (card) {
-      card.style.removeProperty('aspect-ratio');
-      var link = card.querySelector('.outfit-card-link');
-      var picture = card.querySelector('picture');
-      var img = card.querySelector('img');
-      if (link) link.style.removeProperty('aspect-ratio');
-      if (picture) picture.style.removeProperty('aspect-ratio');
-      if (img) img.style.removeProperty('aspect-ratio');
-    });
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', installFinalRatioFix, { once: true });
-  } else {
-    installFinalRatioFix();
-  }
-
-  window.addEventListener('load', installFinalRatioFix, { once: true });
-})();
-</script>
 
 </body>
 </html>
