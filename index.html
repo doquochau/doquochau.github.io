@@ -652,6 +652,53 @@
   }
 </style>
 
+
+<style id="homepage-original-image-color-fix">
+  /* Bỏ lớp noise phủ lên toàn bộ ảnh. */
+  body::before {
+    display: none !important;
+    content: none !important;
+    opacity: 0 !important;
+    background: none !important;
+  }
+
+  /* Card chỉ dùng nền đen trong lúc ảnh chưa tải, không dùng shimmer xám. */
+  .outfit-card,
+  .outfit-card.shimmer {
+    background: #0a0a0a !important;
+  }
+
+  .outfit-card.shimmer {
+    background-image: none !important;
+    animation-name: fadeIn !important;
+  }
+
+  /* Giữ nguyên màu ảnh gốc trong mọi trạng thái. */
+  #outfit-grid img,
+  .outfit-card img,
+  .outfit-card:hover img,
+  .outfit-card:focus img,
+  .outfit-card:focus-within img,
+  .outfit-card.shimmer img {
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    transform: none !important;
+    background: transparent !important;
+  }
+
+  .outfit-card::before,
+  .outfit-card::after,
+  .outfit-card:hover::before,
+  .outfit-card:hover::after {
+    display: none !important;
+    content: none !important;
+    opacity: 0 !important;
+    background: none !important;
+  }
+</style>
+
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -777,7 +824,7 @@
 <source src="https://res.cloudinary.com/dazjcjufd/video/upload/v1779505038/apocalypse_hu44u2.mp3" type="audio/mpeg"/>
 </audio>
 </div>
-<script defer="" fetchpriority="low" src="outfits.js?v=20260804-taxonomy-filter-v1"></script>
+<script defer="" fetchpriority="low" src="outfits.js?v=20260805-original-color-v2"></script>
 <script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
 <script defer="" type="module">
     let _fbCache = null;
@@ -952,30 +999,10 @@
       img.onload  = () => card.classList.remove('shimmer');
       img.onerror = () => card.classList.remove('shimmer');
 
-      const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
-      const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
-      const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
+      // Dùng trực tiếp ảnh gốc như trang chi tiết Look.
+      // Không dùng images-grid/images-mobile vì các bản đó đang bị nhạt màu.
       const picture = document.createElement('picture');
-      const versioned = (url) => `${url}?v=20260803-card-sharp-v3`;
-
-      // 240w for low-DPR phones and 480w for Retina/high-DPR screens.
-      // The browser chooses the sharpest suitable file instead of forcing 240px.
-      const mobileWebp = document.createElement('source');
-      mobileWebp.media = '(max-width: 768px)';
-      mobileWebp.type = 'image/webp';
-      mobileWebp.srcset = `${versioned(mobileUrl)} 240w, ${versioned(mobileHdUrl)} 480w`;
-      mobileWebp.sizes = 'calc((100vw - 6px) / 2)';
-      picture.appendChild(mobileWebp);
-
-      // Desktop cards and outfit detail pages keep their larger files unchanged.
-      img.src = gridUrl;
-      if (isNewPortrait) {
-        img.width = 720;
-        img.height = 1280;
-      } else {
-        img.width = 768;
-        img.height = 1024;
-      }
+      img.src = `${outfit.img}?v=20260805-original-color-v2`;
       picture.appendChild(img);
 
       const overlay = document.createElement('div');
