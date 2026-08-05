@@ -328,6 +328,9 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import {
       getAuth,
+      setPersistence,
+      browserLocalPersistence,
+      browserSessionPersistence,
       signInWithPopup,
       GoogleAuthProvider,
       createUserWithEmailAndPassword,
@@ -351,6 +354,19 @@
     const app  = initializeApp(firebaseConfig);
     const auth = getAuth(app);
 
+    // AC_AUTH_PERSISTENCE_20260805
+    // Keep Firebase login across mobile navigation and reloads.
+    try {
+      await setPersistence(auth, browserLocalPersistence);
+    } catch (localError) {
+      console.warn('Không dùng được local auth persistence, chuyển sang session.', localError);
+      try {
+        await setPersistence(auth, browserSessionPersistence);
+      } catch (sessionError) {
+        console.warn('Không dùng được session auth persistence.', sessionError);
+      }
+    }
+
     // ── Hiện user đã login ────────────────────────────────────────
     function showUserBox(user) {
       document.getElementById('login-box').style.display = 'none';
@@ -371,7 +387,12 @@
     let returnHandled = false;
 
     function getReturnUrl() {
-      const saved = sessionStorage.getItem('ac_return_after_login');
+      let saved = null;
+      try {
+        saved = sessionStorage.getItem('ac_return_after_login') || localStorage.getItem('ac_return_after_login');
+      } catch (error) {
+        saved = sessionStorage.getItem('ac_return_after_login');
+      }
       if (!saved) return null;
       try {
         const target = new URL(saved, window.location.origin);
@@ -388,6 +409,7 @@
       if (!target) return false;
       returnHandled = true;
       sessionStorage.removeItem('ac_return_after_login');
+      try { localStorage.removeItem('ac_return_after_login'); } catch (error) {}
       window.location.replace(target);
       return true;
     }

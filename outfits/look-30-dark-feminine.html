@@ -91,7 +91,7 @@
     <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>
     ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
 <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
-<script src="../outfits.js?v=20260804-taxonomy-filter-v1"></script>
+<script src="../outfits.js?v=20260805-style-auth-home-v1"></script>
 <script>
     const OUTFIT_ID  = "look-30";
 
@@ -263,7 +263,7 @@
         fbScript.type  = 'module';
         fbScript.innerHTML = `
           import { initializeApp }   from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-          import { getAuth, onAuthStateChanged }
+          import { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence }
                                        from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
           import { getFirestore, doc, setDoc, deleteDoc, getDoc }
                                        from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
@@ -280,6 +280,16 @@
           const app  = initializeApp(firebaseConfig);
           const auth = getAuth(app);
           const db   = getFirestore(app);
+
+          // AC_AUTH_PERSISTENCE_20260805
+          try {
+            await setPersistence(auth, browserLocalPersistence);
+          } catch (localError) {
+            console.warn('Local auth persistence unavailable; using session.', localError);
+            try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
+              console.warn('Session auth persistence unavailable.', sessionError);
+            }
+          }
           const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
           const pageSlug = window.location.pathname.split('/').pop().replace(/[.]html$/i, '');
           const numberMatch = pageSlug.match(/^look-([0-9]+)/i);
@@ -300,6 +310,7 @@
             if (!user) {
               btn.onclick = () => {
                 sessionStorage.setItem('ac_return_after_login', window.location.href);
+                try { localStorage.setItem('ac_return_after_login', window.location.href); } catch (e) {}
                 window.location.href = '../login.html';
               };
               return;

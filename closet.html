@@ -370,7 +370,7 @@
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
-  <script src="/outfits.js?v=20260804-taxonomy-filter-v1"></script>
+  <script src="/outfits.js?v=20260805-style-auth-home-v1"></script>
   <script>
     // Bridge: expose slug lookup for module scripts
     window.__getSlug = function(id) {
@@ -381,7 +381,7 @@
   </script>
   <script type="module">
     import { initializeApp }            from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getAuth, onAuthStateChanged, signOut as fbSignOut }
+    import { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence, signOut as fbSignOut }
                                         from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
     import { getFirestore, collection, getDocs, doc, deleteDoc }
                                         from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
@@ -398,6 +398,16 @@
     const app  = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     const db   = getFirestore(app);
+
+    // AC_AUTH_PERSISTENCE_20260805
+    try {
+      await setPersistence(auth, browserLocalPersistence);
+    } catch (localError) {
+      console.warn('Local auth persistence unavailable; using session.', localError);
+      try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
+        console.warn('Session auth persistence unavailable.', sessionError);
+      }
+    }
 
     // ── Format ngày lưu ──────────────────────────────────────────
     function fmtDate(ts) {

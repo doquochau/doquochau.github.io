@@ -343,7 +343,7 @@
   .outfit-grid{columns:2;}
 }
 </style>
-<link href="/assets/css/outfit-filter.min.css?v=20260804-v1" rel="stylesheet"/></head>
+<link href="/assets/css/outfit-filter.min.css?v=20260805-style-auth-home-v1" rel="stylesheet"/></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
@@ -450,7 +450,7 @@
 </section>
 <section aria-labelledby="topic-hub-goth" class="seo-style-content"><h2 id="topic-hub-goth">Hướng dẫn đầy đủ về Goth / Gothic</h2><p>Trang này tập trung vào bộ sưu tập Look. Phần định nghĩa, cách phối, item, ngân sách và các nhánh liên quan được tổ chức tại trang chủ đề riêng.</p><div class="seo-style-links"><a href="../blog/goth.html">Mở cụm Goth / Gothic</a><a href="../phoi-do-nu-ca-tinh.html#goth">Phối đồ nữ cá tính theo Goth / Gothic</a></div></section>
 <footer>© 2026 APOCALYPSE CLOSET  ·  <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>  ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
-<script src="../outfits.js?v=20260804-taxonomy-filter-v1"></script>
+<script src="../outfits.js?v=20260805-style-auth-home-v1"></script>
 <script>
     const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
     const filtered = outfitsData.filter(o => (o.primaryStyle || o.category) === "Goth");
@@ -480,10 +480,9 @@
         const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
         const isNewPortrait = lookNumber >= 41;
         const v = (url) => `${url}?v=20260803-perf100b`;
-        const avif = (url) => url.replace(/\.webp(\?.*)?$/i, '.avif$1');
         const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
         const imageMarkup = isNewPortrait
-          ? `<picture><source type="image/avif" srcset="${avif(v(mobileUrl))} 280w, ${avif(v(mobileHdUrl))} 560w, ${avif(v(gridUrl))} 720w" sizes="${responsiveSizes}"><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} Goth / Gothic outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
+          ? `<picture><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} Goth / Gothic outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
           : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} Goth / Gothic outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
         const isSaved = ids.has(outfit.id);
         card.innerHTML = `
@@ -500,7 +499,12 @@
           btn.style.opacity = '0.4';
           const { db, doc, setDoc, deleteDoc, currentUid } = await loadFirebase();
           btn.style.opacity = '';
-          if (!currentUid) { sessionStorage.setItem('ac_return_after_login', window.location.href); window.location.href = '../login.html'; return; }
+          if (!currentUid) {
+            sessionStorage.setItem('ac_return_after_login', window.location.href);
+            try { localStorage.setItem('ac_return_after_login', window.location.href); } catch (e) {}
+            window.location.href = '../login.html';
+            return;
+          }
           const ref = doc(db, 'users', currentUid, 'closet', outfit.id);
           if (savedIds.has(outfit.id)) {
             await deleteDoc(ref);
@@ -530,10 +534,20 @@
         import("https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"),
         import("https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"),
         import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"),
-      ]).then(async ([{ initializeApp }, { getAuth, onAuthStateChanged }, { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }]) => {
+      ]).then(async ([{ initializeApp }, { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence }, { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }]) => {
         const app = initializeApp({ apiKey:"AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco", authDomain:"apocalypse-closet.firebaseapp.com", projectId:"apocalypse-closet", storageBucket:"apocalypse-closet.firebasestorage.app", messagingSenderId:"493697340280", appId:"1:493697340280:web:9db33f9844c77d95232e8d" });
         const auth = getAuth(app);
         const db = getFirestore(app);
+
+        // AC_AUTH_PERSISTENCE_20260805
+        try {
+          await setPersistence(auth, browserLocalPersistence);
+        } catch (localError) {
+          console.warn('Local auth persistence unavailable; using session.', localError);
+          try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
+            console.warn('Session auth persistence unavailable.', sessionError);
+          }
+        }
         await new Promise(resolve => {
           const unsub = onAuthStateChanged(auth, async user => {
             unsub();
@@ -581,7 +595,7 @@
     renderCards(savedIds);
   };
   </script>
-  <script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
+  <script src="/assets/js/outfit-filter.min.js?v=20260805-style-auth-home-v1" defer></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
 </body>
 </html>
