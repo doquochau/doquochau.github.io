@@ -155,15 +155,15 @@
     .outfit-card img {
       width: 100%; height: 100%; object-fit: cover; display: block;
       transition: transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94), filter 0.3s;
-      filter: saturate(0.85);
+      filter: none;
     }
-    .outfit-card:hover img { transform: scale(1.06); filter: saturate(1.1); }
+    .outfit-card:hover img { transform: none; filter: none; }
     .outfit-card::after {
       content: ''; position: absolute; inset: 0;
       background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%);
       opacity: 0; transition: opacity 0.3s;
     }
-    .outfit-card:hover::after { opacity: 1; }
+    .outfit-card:hover::after { opacity: 0; }
     .outfit-overlay {
       position: absolute; bottom: 16px; left: 16px; z-index: 2;
       opacity: 0; transform: translateY(8px); transition: all 0.3s;
@@ -173,10 +173,16 @@
       font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase;
       color: var(--white); background: var(--red); padding: 4px 10px; display: inline-block;
     }
-    .outfit-num { font-family: 'Oswald', sans-serif; font-size: 28px; color: var(--white); line-height: 1; margin-top: 4px; }
+    .outfit-num { font-family: 'Oswald', sans-serif; font-size: 28px; color: var(--white); line-height: 1; margin-top: 4px; text-shadow: 0 2px 10px rgba(0,0,0,0.9); }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
     footer { padding: 32px; border-top: 1px solid #1a1a1a; text-align: center; font-size: 10px; color: var(--muted); letter-spacing: 0.2em; }
+
+    
+    @media (hover: none), (pointer: coarse) {
+      .outfit-card:hover img { transform: none !important; filter: none !important; }
+      .outfit-card:hover::after { opacity: 0 !important; }
+    }
 
     @media (max-width: 768px) {
       header { padding: 14px 16px; }
@@ -343,39 +349,7 @@
   .outfit-grid{columns:2;}
 }
 </style>
-<link href="/assets/css/outfit-filter.min.css?v=20260805-style-static-v3" rel="stylesheet"/>
-<style id="ac-style-card-visible-menu-layer-fix-v2">
-/* Card đã dựng phải luôn hiển thị; không phụ thuộc animation fadeIn. */
-header{z-index:10050!important;}
-.dropdown-content{z-index:10060!important;}
-.outfit-card{
-  opacity:1!important;
-  animation:none!important;
-  visibility:visible!important;
-  background:#0a0a0a!important;
-}
-.outfit-card picture,.outfit-card img{
-  opacity:1!important;
-  visibility:visible!important;
-}
-.outfit-card img{
-  filter:none!important;
-  background:#0a0a0a!important;
-}
-@media(max-width:768px){
-  header{z-index:10050!important;}
-  .dropdown-content{z-index:10060!important;}
-}
-</style>
-
-<style id="ac-static-style-grid-v3">
-/* Ảnh được dựng sẵn trong HTML: không phụ thuộc JavaScript để xuất hiện. */
-.outfit-card-main{display:block;position:relative;color:inherit;text-decoration:none;}
-.outfit-card.ac-card-hidden{display:none!important;}
-.outfit-card img{opacity:1!important;visibility:visible!important;filter:none!important;}
-.outfit-card{opacity:1!important;visibility:visible!important;animation:none!important;}
-</style>
-</head>
+<link href="/assets/css/outfit-filter.min.css?v=20260804-v1" rel="stylesheet"/></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <span id="main" tabindex="-1"></span>
@@ -463,113 +437,7 @@ header{z-index:10050!important;}
 <span class="section-label">The Looks</span>
 <span class="section-count" id="counter"></span>
 </div>
-<div class="outfit-grid" id="outfit-grid">
-<article class="outfit-card" data-outfit-id="look-44" data-outfit-url="../outfits/look-44-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-44-goth.html" aria-label="Mở LOOK #44 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-short-xich-044.webp" width="1080" height="1920" alt="LOOK #44 Goth / Gothic outfit — Apocalypse Closet" loading="eager" decoding="async" fetchpriority="high"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #44</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-44" aria-label="Lưu LOOK #44">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-46" data-outfit-url="../outfits/look-46-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-46-goth.html" aria-label="Mở LOOK #46 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-corset-den-chan-vay-xep-ly-046.webp" width="1080" height="1920" alt="LOOK #46 Goth / Gothic outfit — Apocalypse Closet" loading="eager" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #46</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-46" aria-label="Lưu LOOK #46">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-47" data-outfit-url="../outfits/look-47-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-47-goth.html" aria-label="Mở LOOK #47 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-luoi-corset-den-quan-cargo-xam-047.webp" width="1080" height="1920" alt="LOOK #47 Goth / Gothic outfit — Apocalypse Closet" loading="eager" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #47</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-47" aria-label="Lưu LOOK #47">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-49" data-outfit-url="../outfits/look-49-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-49-goth.html" aria-label="Mở LOOK #49 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-den-049.webp" width="1080" height="1920" alt="LOOK #49 Goth / Gothic outfit — Apocalypse Closet" loading="eager" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #49</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-49" aria-label="Lưu LOOK #49">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-52" data-outfit-url="../outfits/look-52-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-52-goth.html" aria-label="Mở LOOK #52 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-day-dan-den-chan-vay-xep-ly-052.webp" width="1080" height="1920" alt="LOOK #52 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #52</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-52" aria-label="Lưu LOOK #52">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-57" data-outfit-url="../outfits/look-57-grunge.html">
-  <a class="outfit-card-main" href="../outfits/look-57-grunge.html" aria-label="Mở LOOK #57 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-057.webp" width="1080" height="1920" alt="LOOK #57 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #57</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-57" aria-label="Lưu LOOK #57">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-59" data-outfit-url="../outfits/look-59-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-59-goth.html" aria-label="Mở LOOK #59 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-corset-xam-chan-vay-xep-ly-den-059.webp" width="1080" height="1920" alt="LOOK #59 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #59</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-59" aria-label="Lưu LOOK #59">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-65" data-outfit-url="../outfits/look-65-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-65-goth.html" aria-label="Mở LOOK #65 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-luoi-day-dan-chan-vay-mini-den-065.webp" width="1080" height="1920" alt="LOOK #65 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #65</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-65" aria-label="Lưu LOOK #65">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-66" data-outfit-url="../outfits/look-66-grunge.html">
-  <a class="outfit-card-main" href="../outfits/look-66-grunge.html" aria-label="Mở LOOK #66 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-nau-quan-cargo-den-066.webp" width="1080" height="1920" alt="LOOK #66 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #66</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-66" aria-label="Lưu LOOK #66">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-68" data-outfit-url="../outfits/look-68-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-68-goth.html" aria-label="Mở LOOK #68 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-cargo-den-068.webp" width="1080" height="1920" alt="LOOK #68 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #68</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-68" aria-label="Lưu LOOK #68">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-70" data-outfit-url="../outfits/look-70-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-70-goth.html" aria-label="Mở LOOK #70 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-corset-khoa-cai-quan-cargo-xam-070.webp" width="1080" height="1920" alt="LOOK #70 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #70</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-70" aria-label="Lưu LOOK #70">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-73" data-outfit-url="../outfits/look-73-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-73-goth.html" aria-label="Mở LOOK #73 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-yem-graphic-den-quan-cargo-tim-073.webp" width="1080" height="1920" alt="LOOK #73 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #73</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-73" aria-label="Lưu LOOK #73">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-79" data-outfit-url="../outfits/look-79-grunge.html">
-  <a class="outfit-card-main" href="../outfits/look-79-grunge.html" aria-label="Mở LOOK #79 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-xam-quan-cargo-ong-rong-079.webp" width="1080" height="1920" alt="LOOK #79 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #79</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-79" aria-label="Lưu LOOK #79">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-112" data-outfit-url="../outfits/look-112-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-112-goth.html" aria-label="Mở LOOK #112 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-ren-den-chan-vay-bat-doi-xung-112.webp" width="1080" height="1920" alt="LOOK #112 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #112</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-112" aria-label="Lưu LOOK #112">&#9825;</button>
-</article>
-<article class="outfit-card" data-outfit-id="look-131" data-outfit-url="../outfits/look-131-goth.html">
-  <a class="outfit-card-main" href="../outfits/look-131-goth.html" aria-label="Mở LOOK #131 Goth / Gothic outfit — Apocalypse Closet">
-    <img src="/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-cargo-trang-131.webp" width="1080" height="1920" alt="LOOK #131 Goth / Gothic outfit — Apocalypse Closet" loading="lazy" decoding="async"/>
-    <span class="outfit-overlay"><span class="outfit-tag">XEM OUTFIT</span><span class="outfit-num">LOOK #131</span></span>
-  </a>
-  <button class="btn-save-card" type="button" data-outfit-id="look-131" aria-label="Lưu LOOK #131">&#9825;</button>
-</article>
-</div>
+<div class="outfit-grid" id="outfit-grid"></div>
 <section aria-labelledby="seo-goth-title" class="seo-style-content">
 <h2 id="seo-goth-title">Điểm nhận diện của bộ sưu tập outfit Goth</h2>
 <p>Bộ sưu tập outfit Goth này tập trung vào màu đen, ren, lưới, da, nhung và phụ kiện bạc. Mỗi Look được chọn để thể hiện một silhouette tối rõ ràng nhưng vẫn có thể ứng dụng theo hướng street style hiện đại.</p>
@@ -588,119 +456,138 @@ header{z-index:10050!important;}
 </section>
 <section aria-labelledby="topic-hub-goth" class="seo-style-content"><h2 id="topic-hub-goth">Hướng dẫn đầy đủ về Goth / Gothic</h2><p>Trang này tập trung vào bộ sưu tập Look. Phần định nghĩa, cách phối, item, ngân sách và các nhánh liên quan được tổ chức tại trang chủ đề riêng.</p><div class="seo-style-links"><a href="../blog/goth.html">Mở cụm Goth / Gothic</a><a href="../phoi-do-nu-ca-tinh.html#goth">Phối đồ nữ cá tính theo Goth / Gothic</a></div></section>
 <footer>© 2026 APOCALYPSE CLOSET  ·  <a href="../privacy.html" onmouseout="this.style.color='#a0a0a0'" onmouseover="this.style.color='#f0ece4'" style="color:#a0a0a0;text-decoration:underline;">Privacy Policy</a>  ·  <span class="trust-links"><a href="../about.html">Giới thiệu</a><a href="../author.html">Tác giả</a><a href="../editorial-policy.html">Biên tập</a><a href="../contact.html">Liên hệ</a></span></footer>
-<script src="../outfits.js?v=20260805-style-static-v3"></script>
+<script src="../outfits.js?v=20260804-taxonomy-filter-v1"></script>
 <script>
-(function(){
-  'use strict';
-  const STYLE_NAME = "Goth";
-  const allOutfits = Array.isArray(window.outfits) ? window.outfits : [];
-  const styleOutfits = allOutfits.filter(o => (o.primaryStyle || o.category) === STYLE_NAME);
-  const byId = new Map(styleOutfits.map(o => [o.id, o]));
-  const cards = Array.from(document.querySelectorAll('#outfit-grid .outfit-card[data-outfit-id]'));
-  const counterEl = document.getElementById('counter');
-  let savedIds = new Set();
+    const outfitsData = window.outfits || (typeof outfits !== 'undefined' ? outfits : []);
+    const filtered = outfitsData.filter(o => (o.primaryStyle || o.category) === "Goth");
+    let displayed = filtered;
+    const counterEl = document.getElementById('counter');
+    if (counterEl) counterEl.textContent = filtered.length + ' LOOKS';
+    const grid = document.getElementById('outfit-grid');
+    let savedIds = new Set();
+    try {
+      // Preload saved IDs from localStorage as a fallback before Firebase loads
+      const raw = localStorage.getItem('ac_saved_ids');
+      if (raw) savedIds = new Set(JSON.parse(raw));
+    } catch(e) {}
 
-  try {
-    const raw = localStorage.getItem('ac_saved_ids');
-    const parsed = raw ? JSON.parse(raw) : [];
-    if (Array.isArray(parsed)) savedIds = new Set(parsed);
-  } catch (_) {}
+    function renderCards(ids) {
+      if (!grid) return;
+      grid.innerHTML = '';
+      if (!displayed.length) { grid.innerHTML = '<p class="ac-filter-empty">Không có outfit khớp tất cả bộ lọc. Hãy bỏ bớt một lựa chọn.</p>'; return; }
+      displayed.forEach((outfit, i) => {
+        const card = document.createElement('div');
+        card.className = 'outfit-card';
+        card.style.animationDelay = (i * 0.03) + 's';
+        card.onclick = () => window.location.href = `/outfits/${outfit.slug}.html`;
+        const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
+        const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
+        const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
+        const lookNumber = Number(String(outfit.id || '').replace(/\D/g, '')) || 0;
+        const isNewPortrait = lookNumber >= 41;
+        const v = (url) => `${url}?v=20260803-perf100b`;
+        const avif = (url) => url.replace(/\.webp(\?.*)?$/i, '.avif$1');
+        const responsiveSizes = '(max-width: 768px) calc((100vw - 6px) / 2), calc((100vw - 10px) / 4)';
+        const imageMarkup = isNewPortrait
+          ? `<picture><source type="image/avif" srcset="${avif(v(mobileUrl))} 280w, ${avif(v(mobileHdUrl))} 560w, ${avif(v(gridUrl))} 720w" sizes="${responsiveSizes}"><img src="${v(mobileHdUrl)}" srcset="${v(mobileUrl)} 280w, ${v(mobileHdUrl)} 560w, ${v(gridUrl)} 720w" sizes="${responsiveSizes}" width="560" height="996" alt="${outfit.tag} Goth / Gothic outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}></picture>`
+          : `<img src="${gridUrl}" srcset="${mobileUrl} 240w, ${mobileHdUrl} 480w, ${gridUrl} 768w" sizes="${responsiveSizes}" alt="${outfit.tag} Goth / Gothic outfit — Apocalypse Closet" loading="${i < 2 ? 'eager' : 'lazy'}" decoding="async" ${i === 0 ? 'fetchpriority="high"' : ''}>`;
+        const isSaved = ids.has(outfit.id);
+        card.innerHTML = `
+          ${imageMarkup}
+          <div class="outfit-overlay">
+            <span class="outfit-tag">XEM OUTFIT</span>
+            <div class="outfit-num">${outfit.tag}</div>
+          </div>
+          <button class="btn-save-card${isSaved ? ' saved' : ''}" data-outfit-id="${outfit.id}">${isSaved ? '&#9829;' : '&#9825;'}</button>`;
 
-  function updateSavedButtons(){
-    cards.forEach(card => {
-      const id = card.dataset.outfitId;
-      const btn = card.querySelector('.btn-save-card');
-      if (!btn) return;
-      const saved = savedIds.has(id);
-      btn.classList.toggle('saved', saved);
-      btn.innerHTML = saved ? '&#9829;' : '&#9825;';
-      btn.setAttribute('aria-pressed', String(saved));
-    });
-  }
-
-  function showMatched(matched){
-    const ids = new Set((matched || styleOutfits).map(o => o.id));
-    let visible = 0;
-    cards.forEach(card => {
-      const show = ids.has(card.dataset.outfitId);
-      card.classList.toggle('ac-card-hidden', !show);
-      if (show) visible++;
-    });
-    if (counterEl) counterEl.textContent = visible + ' LOOKS';
-  }
-
-  updateSavedButtons();
-  showMatched(styleOutfits);
-  window.acApplyStyleOutfitFilters = function(_state, matched){ showMatched(matched); };
-
-  let fbPromise = null;
-  function loadFirebase(){
-    if (fbPromise) return fbPromise;
-    fbPromise = Promise.all([
-      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js'),
-      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js'),
-      import('https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js')
-    ]).then(async ([appMod, authMod, storeMod]) => {
-      const app = appMod.getApps().length ? appMod.getApp() : appMod.initializeApp({apiKey:'AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco',authDomain:'apocalypse-closet.firebaseapp.com',projectId:'apocalypse-closet',storageBucket:'apocalypse-closet.firebasestorage.app',messagingSenderId:'493697340280',appId:'1:493697340280:web:9db33f9844c77d95232e8d'});
-      const auth = authMod.getAuth(app);
-      const db = storeMod.getFirestore(app);
-      try { await authMod.setPersistence(auth, authMod.browserLocalPersistence); }
-      catch (_) { try { await authMod.setPersistence(auth, authMod.browserSessionPersistence); } catch (_) {} }
-      const user = await new Promise(resolve => {
-        const stop = authMod.onAuthStateChanged(auth, current => { stop(); resolve(current || null); });
-      });
-      if (user) {
-        const snap = await storeMod.getDocs(storeMod.collection(db,'users',user.uid,'closet'));
-        savedIds = new Set();
-        snap.forEach(d => savedIds.add(d.id));
-        try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
-        updateSavedButtons();
-      }
-      return {auth,db,user,storeMod};
-    }).catch(err => { console.error('Firebase load failed', err); return {user:null}; });
-    return fbPromise;
-  }
-
-  cards.forEach(card => {
-    const btn = card.querySelector('.btn-save-card');
-    if (!btn) return;
-    btn.addEventListener('click', async event => {
-      event.preventDefault();
-      event.stopPropagation();
-      const id = card.dataset.outfitId;
-      const outfit = byId.get(id);
-      if (!outfit) return;
-      btn.disabled = true;
-      const fb = await loadFirebase();
-      btn.disabled = false;
-      if (!fb.user) {
-        try { sessionStorage.setItem('ac_return_after_login', location.href); localStorage.setItem('ac_return_after_login', location.href); } catch (_) {}
-        location.href = '../login.html';
-        return;
-      }
-      const ref = fb.storeMod.doc(fb.db,'users',fb.user.uid,'closet',id);
-      if (savedIds.has(id)) {
-        await fb.storeMod.deleteDoc(ref);
-        savedIds.delete(id);
-      } else {
-        const img = card.querySelector('img');
-        await fb.storeMod.setDoc(ref,{
-          id:outfit.id,title:outfit.title,image:outfit.img,category:outfit.primaryStyle||outfit.category,
-          secondaryStyles:outfit.secondaryStyles||[],slug:outfit.slug,url:'/outfits/'+outfit.slug+'.html',
-          imageWidth:Number(img?.getAttribute('width'))||1080,imageHeight:Number(img?.getAttribute('height'))||1920,savedAt:Date.now()
+        card.querySelector('.btn-save-card').addEventListener('click', async (e) => {
+          e.stopPropagation();
+          const btn = e.currentTarget;
+          btn.style.opacity = '0.4';
+          const { db, doc, setDoc, deleteDoc, currentUid } = await loadFirebase();
+          btn.style.opacity = '';
+          if (!currentUid) { sessionStorage.setItem('ac_return_after_login', window.location.href); window.location.href = '../login.html'; return; }
+          const ref = doc(db, 'users', currentUid, 'closet', outfit.id);
+          if (savedIds.has(outfit.id)) {
+            await deleteDoc(ref);
+            savedIds.delete(outfit.id);
+            btn.innerHTML = '&#9825;';
+            btn.classList.remove('saved');
+          } else {
+            await setDoc(ref, { id: outfit.id, title: outfit.title, image: outfit.img, category: outfit.primaryStyle || outfit.category, secondaryStyles: outfit.secondaryStyles || [], slug: outfit.slug, url: `/outfits/${outfit.slug}.html`, imageWidth: Number(card.querySelector('img')?.getAttribute('width')) || (lookNumber >= 41 ? 560 : 768), imageHeight: Number(card.querySelector('img')?.getAttribute('height')) || (lookNumber >= 41 ? 996 : 1024), savedAt: Date.now() });
+            savedIds.add(outfit.id);
+            btn.innerHTML = '&#9829;';
+            btn.classList.add('saved');
+          }
         });
-        savedIds.add(id);
-      }
-      try { localStorage.setItem('ac_saved_ids', JSON.stringify(Array.from(savedIds))); } catch (_) {}
-      updateSavedButtons();
-    });
-  });
 
-  if ('requestIdleCallback' in window) requestIdleCallback(loadFirebase,{timeout:2500});
-  else setTimeout(loadFirebase,800);
-})();
-</script>
-<script src="/assets/js/outfit-filter.min.js?v=20260805-style-static-v3" defer></script>
+        grid.appendChild(card);
+      });
+    }
+
+    renderCards(savedIds);
+
+    // Firebase lazy-load to get real saved IDs
+    let _fbCache = null;
+    let _currentUid = null;
+    function loadFirebase() {
+      if (_fbCache) return _fbCache;
+      _fbCache = Promise.all([
+        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"),
+        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"),
+        import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"),
+      ]).then(async ([{ initializeApp }, { getAuth, onAuthStateChanged }, { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }]) => {
+        const app = initializeApp({ apiKey:"AIzaSyD6S4HYT_QzltQSJjGbLe-vJljQixxpDco", authDomain:"apocalypse-closet.firebaseapp.com", projectId:"apocalypse-closet", storageBucket:"apocalypse-closet.firebasestorage.app", messagingSenderId:"493697340280", appId:"1:493697340280:web:9db33f9844c77d95232e8d" });
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+        await new Promise(resolve => {
+          const unsub = onAuthStateChanged(auth, async user => {
+            unsub();
+            if (user) {
+              _currentUid = user.uid;
+              const snap = await getDocs(collection(db, 'users', user.uid, 'closet'));
+              savedIds = new Set();
+              snap.forEach(d => savedIds.add(d.id));
+              try { localStorage.setItem('ac_saved_ids', JSON.stringify([...savedIds])); } catch(e) {}
+              // Re-render with accurate data
+              renderCards(savedIds);
+            }
+            resolve();
+          });
+        });
+        return { db, doc, setDoc, deleteDoc, currentUid: _currentUid };
+      });
+      return _fbCache;
+    }
+
+    // Load Firebase after page is interactive
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(() => loadFirebase(), { timeout: 2000 });
+    } else {
+      setTimeout(() => loadFirebase(), 500);
+    }
+
+    try {
+      const user = JSON.parse(localStorage.getItem('ac_user'));
+      if (user) {
+        const btn = document.getElementById('nav-closet-btn');
+        btn.href = '../closet.html';
+        document.getElementById('nav-closet-icon').innerHTML = '♥';
+        btn.style.color = '#c0392b';
+        btn.style.borderColor = '#c0392b';
+      }
+    } catch(e) {}
+  </script>
+
+  <script>
+  window.acApplyStyleOutfitFilters = function(_state, matched){
+    const ids = new Set((matched || []).map(o => o.id));
+    displayed = filtered.filter(o => ids.has(o.id));
+    if (counterEl) counterEl.textContent = displayed.length + ' LOOKS';
+    renderCards(savedIds);
+  };
+  </script>
+  <script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
 </body>
 </html>
