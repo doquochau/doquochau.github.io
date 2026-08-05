@@ -318,6 +318,13 @@
       .outfit-grid { column-count: 2; column-gap: 2px; }
       .nav-user span { display: none; }
     }
+  
+    #auth-checking{min-height:62vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 24px;color:var(--muted);font-size:10px;letter-spacing:.16em;text-transform:uppercase}
+    body:not(.auth-ready) .nav-right,body:not(.auth-ready) .page-header,body:not(.auth-ready) .grid-wrap,body:not(.auth-ready) .closet-guides,body:not(.auth-ready)>footer{visibility:hidden}
+    body.auth-ready #auth-checking{display:none}
+    .btn-delete-account{background:none;border:1px solid #4a2420;color:#c98278;font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;cursor:pointer}
+    .btn-delete-account:hover,.btn-delete-account:focus-visible{border-color:var(--red);color:var(--white)}
+
   </style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-452MPHT894"></script>
   <script>
@@ -344,9 +351,11 @@
         <img alt="avatar" decoding="async" height="32" id="nav-avatar" loading="eager" src="/Logo-Apocalypse-Closet.webp" width="32"/>
         <span id="nav-name"></span>
       </div>
-      <button class="btn-signout" onclick="signOut()">Sign out</button>
+      <button class="btn-signout" onclick="signOut()">Sign out</button><button class="btn-delete-account" id="delete-account" type="button">Xóa tài khoản</button>
     </div>
   </nav>
+
+  <div id="auth-checking" role="status" aria-live="polite">Đang kiểm tra trạng thái đăng nhập…</div>
 
   <!-- ── PAGE HEADER ── -->
   <div class="page-header">
@@ -381,9 +390,9 @@
   </script>
   <script type="module">
     import { initializeApp }            from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence, signOut as fbSignOut }
+    import { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence, signOut as fbSignOut, deleteUser }
                                         from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getFirestore, collection, getDocs, doc, deleteDoc }
+    import { getFirestore, collection, getDocs, doc, deleteDoc, writeBatch }
                                         from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
     const firebaseConfig = {
@@ -489,7 +498,7 @@
         const canonicalById = new Map((window.outfits || []).map(o => [o.id, o]));
         const outfits = closetOutfits.map(saved => {
           const canonical = canonicalById.get(saved.id);
-          return canonical ? { ...saved, title: canonical.title, image: canonical.img, category: canonical.primaryStyle || canonical.category, secondaryStyles: canonical.secondaryStyles || [], slug: canonical.slug, url: `/outfits/${canonical.slug}.html` } : saved;
+          return canonical ? { ...saved, title: canonical.title, image: canonical.img, imageWidth: canonical.imageWidth, imageHeight: canonical.imageHeight, category: canonical.primaryStyle || canonical.category, secondaryStyles: canonical.secondaryStyles || [], slug: canonical.slug, url: `/outfits/${canonical.slug}.html` } : saved;
         });
 
         count.textContent = `${outfits.length} OUTFIT${outfits.length !== 1 ? 'S' : ''} SAVED`;
@@ -539,12 +548,44 @@
       window.location.href = 'login.html';
     };
 
+
+    async function deleteAccountAndData() {
+      const user = auth.currentUser;
+      if (!user) return;
+      const confirmed = window.confirm('Xóa vĩnh viễn tài khoản và toàn bộ outfit đã lưu? Hành động này không thể hoàn tác.');
+      if (!confirmed) return;
+      try {
+        const snap = await getDocs(collection(db, 'users', user.uid, 'closet'));
+        let batch = writeBatch(db);
+        let count = 0;
+        for (const savedDoc of snap.docs) {
+          batch.delete(savedDoc.ref);
+          count += 1;
+          if (count % 450 === 0) { await batch.commit(); batch = writeBatch(db); }
+        }
+        if (count % 450 !== 0) await batch.commit();
+        await deleteUser(user);
+        localStorage.removeItem('ac_user');
+        localStorage.removeItem('ac_saved_ids');
+        window.location.href = 'login.html?account=deleted';
+      } catch (error) {
+        console.error('Không thể xóa tài khoản:', error);
+        if (error?.code === 'auth/requires-recent-login') {
+          showToast('Hãy đăng xuất, đăng nhập lại rồi thử xóa tài khoản.');
+        } else {
+          showToast('Không thể xóa tài khoản lúc này. Hãy thử lại.');
+        }
+      }
+    }
+    document.getElementById('delete-account')?.addEventListener('click', deleteAccountAndData);
+
     // ── Auth guard + init ──────────────────────────────────────────
     onAuthStateChanged(auth, user => {
       if (!user) {
         window.location.href = 'login.html';
         return;
       }
+      document.body.classList.add('auth-ready');
       // Điền navbar
       document.getElementById('nav-avatar').src        = user.photoURL || '/Logo-Apocalypse-Closet.webp';
       document.getElementById('nav-name').textContent  = user.displayName || '';

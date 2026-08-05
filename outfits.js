@@ -85,8 +85,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-02",
     "slug": "look-02-baddie-streetwear",
@@ -164,8 +163,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-03",
     "slug": "look-03-punk",
@@ -252,8 +250,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-04",
     "slug": "look-04-dark-feminine",
@@ -331,8 +328,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-05",
     "slug": "look-05-egirl",
@@ -414,8 +410,7 @@ const outfits = [
       "Cân đối",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-06",
     "slug": "look-06-punk",
@@ -501,8 +496,7 @@ const outfits = [
       "Hack chân dài",
       "Short",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-07",
     "slug": "look-07-baddie-streetwear",
@@ -595,8 +589,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-08",
     "slug": "look-08-egirl",
@@ -687,8 +680,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-09",
     "slug": "look-09-goth",
@@ -768,8 +760,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-10",
     "slug": "look-10-punk",
@@ -849,8 +840,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-11",
     "slug": "look-11-egirl",
@@ -950,8 +940,7 @@ const outfits = [
       "Hack chân dài",
       "Short",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-12",
     "slug": "look-12-punk",
@@ -1042,8 +1031,7 @@ const outfits = [
       "Hack chân dài",
       "Short",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-13",
     "slug": "look-13-egirl",
@@ -1131,8 +1119,7 @@ const outfits = [
       "Hack chân dài",
       "Short",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-14",
     "slug": "look-14-baddie-streetwear",
@@ -1215,8 +1202,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-15",
     "slug": "look-15-dark-feminine",
@@ -1302,8 +1288,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-16",
     "slug": "look-16-goth",
@@ -1397,8 +1382,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-17",
     "slug": "look-17-baddie-streetwear",
@@ -1488,8 +1472,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-18",
     "slug": "look-18-dark-feminine",
@@ -1581,8 +1564,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-19",
     "slug": "look-19-punk",
@@ -1667,8 +1649,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-20",
     "slug": "look-20-baddie-streetwear",
@@ -1751,8 +1732,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-21",
     "slug": "look-21-baddie-streetwear",
@@ -1842,8 +1822,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-22",
     "slug": "look-22-dark-feminine",
@@ -1919,8 +1898,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Giày khác"
-    ]
-  },
+    ],},
   {
     "id": "look-23",
     "slug": "look-23-baddie-streetwear",
@@ -1988,8 +1966,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-24",
     "slug": "look-24-goth",
@@ -2064,8 +2041,7 @@ const outfits = [
       "Hack chân dài",
       "Short",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-25",
     "slug": "look-25-goth",
@@ -2162,8 +2138,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-26",
     "slug": "look-26-baddie-streetwear",
@@ -2253,8 +2228,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-27",
     "slug": "look-27-baddie-streetwear",
@@ -2339,8 +2313,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-28",
     "slug": "look-28-baddie-streetwear",
@@ -2425,8 +2398,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-29",
     "slug": "look-29-dark-feminine",
@@ -2507,8 +2479,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Giày khác"
-    ]
-  },
+    ],},
   {
     "id": "look-30",
     "slug": "look-30-dark-feminine",
@@ -2596,8 +2567,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-31",
     "slug": "look-31-egirl",
@@ -2680,8 +2650,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-32",
     "slug": "look-32-goth",
@@ -2759,8 +2728,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-33",
     "slug": "look-33-egirl",
@@ -2855,8 +2823,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-34",
     "slug": "look-34-baddie-streetwear",
@@ -2949,8 +2916,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-35",
     "slug": "look-35-egirl",
@@ -3032,8 +2998,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-36",
     "slug": "look-36-dark-feminine",
@@ -3125,8 +3090,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-37",
     "slug": "look-37-baddie-streetwear",
@@ -3224,8 +3188,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-38",
     "slug": "look-38-punk",
@@ -3310,8 +3273,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-39",
     "slug": "look-39-baddie-streetwear",
@@ -3386,8 +3348,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-40",
     "slug": "look-40-dark-feminine",
@@ -3469,8 +3430,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-41",
     "slug": "look-41-egirl",
@@ -3548,8 +3508,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-42",
     "slug": "look-42-egirl",
@@ -3624,8 +3583,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-43",
     "slug": "look-43-egirl",
@@ -3705,8 +3663,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-44",
     "slug": "look-44-goth",
@@ -3782,8 +3739,7 @@ const outfits = [
       "Hack chân dài",
       "Short",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-45",
     "slug": "look-45-grunge",
@@ -3861,8 +3817,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-46",
     "slug": "look-46-goth",
@@ -3942,8 +3897,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-47",
     "slug": "look-47-goth",
@@ -4027,8 +3981,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-48",
     "slug": "look-48-grunge",
@@ -4106,8 +4059,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-49",
     "slug": "look-49-goth",
@@ -4189,8 +4141,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-50",
     "slug": "look-50-grunge",
@@ -4268,8 +4219,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-51",
     "slug": "look-51-egirl",
@@ -4344,8 +4294,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-52",
     "slug": "look-52-goth",
@@ -4423,8 +4372,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-53",
     "slug": "look-53-dark-feminine",
@@ -4499,8 +4447,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-54",
     "slug": "look-54-grunge",
@@ -4578,8 +4525,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-55",
     "slug": "look-55-egirl",
@@ -4656,8 +4602,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-56",
     "slug": "look-56-goth",
@@ -4739,8 +4684,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-57",
     "slug": "look-57-grunge",
@@ -4820,8 +4764,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-58",
     "slug": "look-58-baddie-streetwear",
@@ -4894,8 +4837,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-59",
     "slug": "look-59-goth",
@@ -4975,8 +4917,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-60",
     "slug": "look-60-grunge",
@@ -5056,8 +4997,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-61",
     "slug": "look-61-egirl",
@@ -5132,8 +5072,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-62",
     "slug": "look-62-egirl",
@@ -5210,8 +5149,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-63",
     "slug": "look-63-baddie-streetwear",
@@ -5286,8 +5224,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-64",
     "slug": "look-64-grunge",
@@ -5365,8 +5302,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-65",
     "slug": "look-65-goth",
@@ -5442,8 +5378,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-66",
     "slug": "look-66-grunge",
@@ -5521,8 +5456,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-67",
     "slug": "look-67-baddie-streetwear",
@@ -5602,8 +5536,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-68",
     "slug": "look-68-goth",
@@ -5683,8 +5616,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-69",
     "slug": "look-69-grunge",
@@ -5762,8 +5694,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-70",
     "slug": "look-70-goth",
@@ -5847,8 +5778,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-71",
     "slug": "look-71-egirl",
@@ -5932,8 +5862,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-72",
     "slug": "look-72-dark-feminine",
@@ -6011,8 +5940,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-73",
     "slug": "look-73-goth",
@@ -6092,8 +6020,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-74",
     "slug": "look-74-grunge",
@@ -6168,8 +6095,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-75",
     "slug": "look-75-baddie-streetwear",
@@ -6249,8 +6175,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-76",
     "slug": "look-76-baddie-streetwear",
@@ -6330,8 +6255,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-77",
     "slug": "look-77-dark-feminine",
@@ -6408,8 +6332,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-78",
     "slug": "look-78-grunge",
@@ -6489,8 +6412,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-79",
     "slug": "look-79-grunge",
@@ -6570,8 +6492,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-80",
     "slug": "look-80-grunge",
@@ -6649,8 +6570,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-81",
     "slug": "look-81-dark-feminine",
@@ -6730,8 +6650,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-82",
     "slug": "look-82-baddie-streetwear",
@@ -6807,8 +6726,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-83",
     "slug": "look-83-dark-feminine",
@@ -6885,8 +6803,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-84",
     "slug": "look-84-baddie-streetwear",
@@ -6961,8 +6878,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-85",
     "slug": "look-85-grunge",
@@ -7040,8 +6956,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-86",
     "slug": "look-86-baddie-streetwear",
@@ -7121,8 +7036,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-87",
     "slug": "look-87-egirl",
@@ -7200,8 +7114,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-88",
     "slug": "look-88-egirl",
@@ -7278,8 +7191,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-89",
     "slug": "look-89-grunge",
@@ -7359,8 +7271,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-90",
     "slug": "look-90-egirl",
@@ -7438,8 +7349,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-91",
     "slug": "look-91-egirl",
@@ -7516,8 +7426,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-92",
     "slug": "look-92-grunge",
@@ -7597,8 +7506,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-93",
     "slug": "look-93-egirl",
@@ -7678,8 +7586,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-94",
     "slug": "look-94-grunge",
@@ -7757,8 +7664,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-95",
     "slug": "look-95-egirl",
@@ -7840,8 +7746,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-96",
     "slug": "look-96-grunge",
@@ -7921,8 +7826,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-97",
     "slug": "look-97-grunge",
@@ -7997,8 +7901,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-98",
     "slug": "look-98-egirl",
@@ -8076,8 +7979,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-99",
     "slug": "look-99-grunge",
@@ -8157,8 +8059,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-100",
     "slug": "look-100-grunge",
@@ -8238,8 +8139,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-101",
     "slug": "look-101-egirl",
@@ -8321,8 +8221,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-102",
     "slug": "look-102-egirl",
@@ -8399,8 +8298,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-103",
     "slug": "look-103-egirl",
@@ -8478,8 +8376,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-104",
     "slug": "look-104-egirl",
@@ -8556,8 +8453,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-105",
     "slug": "look-105-grunge",
@@ -8635,8 +8531,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-106",
     "slug": "look-106-egirl",
@@ -8716,8 +8611,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-107",
     "slug": "look-107-grunge",
@@ -8797,8 +8691,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-108",
     "slug": "look-108-dark-feminine",
@@ -8875,8 +8768,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-109",
     "slug": "look-109-grunge",
@@ -8954,8 +8846,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-110",
     "slug": "look-110-grunge",
@@ -9034,8 +8925,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-111",
     "slug": "look-111-egirl",
@@ -9113,8 +9003,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-112",
     "slug": "look-112-goth",
@@ -9190,8 +9079,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-113",
     "slug": "look-113-baddie-streetwear",
@@ -9271,8 +9159,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-114",
     "slug": "look-114-baddie-streetwear",
@@ -9352,8 +9239,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-115",
     "slug": "look-115-baddie-streetwear",
@@ -9430,8 +9316,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-116",
     "slug": "look-116-baddie-streetwear",
@@ -9506,8 +9391,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-117",
     "slug": "look-117-baddie-streetwear",
@@ -9586,8 +9470,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-118",
     "slug": "look-118-baddie-streetwear",
@@ -9662,8 +9545,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-119",
     "slug": "look-119-baddie-streetwear",
@@ -9743,8 +9625,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-120",
     "slug": "look-120-dark-feminine",
@@ -9824,8 +9705,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-121",
     "slug": "look-121-baddie-streetwear",
@@ -9900,8 +9780,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-122",
     "slug": "look-122-baddie-streetwear",
@@ -9978,8 +9857,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-123",
     "slug": "look-123-baddie-streetwear",
@@ -10057,8 +9935,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-124",
     "slug": "look-124-grunge",
@@ -10138,8 +10015,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-125",
     "slug": "look-125-baddie-streetwear",
@@ -10212,8 +10088,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-126",
     "slug": "look-126-grunge",
@@ -10293,8 +10168,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-127",
     "slug": "look-127-baddie-streetwear",
@@ -10374,8 +10248,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-128",
     "slug": "look-128-baddie-streetwear",
@@ -10450,8 +10323,7 @@ const outfits = [
       "Cân đối",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-129",
     "slug": "look-129-dark-feminine",
@@ -10531,8 +10403,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-130",
     "slug": "look-130-grunge",
@@ -10610,8 +10481,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-131",
     "slug": "look-131-goth",
@@ -10691,8 +10561,7 @@ const outfits = [
       "Hack chân dài",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-132",
     "slug": "look-132-baddie-streetwear",
@@ -10767,8 +10636,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-133",
     "slug": "look-133-baddie-streetwear",
@@ -10848,8 +10716,7 @@ const outfits = [
       "Che hông / đùi",
       "Quần",
       "Sneaker"
-    ]
-  },
+    ],},
   {
     "id": "look-134",
     "slug": "look-134-dark-feminine",
@@ -10926,8 +10793,7 @@ const outfits = [
       "Hack chân dài",
       "Váy",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-135",
     "slug": "look-135-dark-feminine",
@@ -11009,8 +10875,7 @@ const outfits = [
       "Thoải mái",
       "Quần",
       "Boots / Platform"
-    ]
-  },
+    ],},
   {
     "id": "look-136",
     "slug": "look-136-dark-feminine",
@@ -11083,8 +10948,7 @@ const outfits = [
       "Tôn eo",
       "Quần",
       "Boots / Platform"
-    ]
-  }
+    ],}
 ];
 
 if (typeof window !== 'undefined') window.outfits = outfits;
