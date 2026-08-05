@@ -705,12 +705,22 @@
 
 
 <style id="homepage-existing-responsive-images-performance-fix">
-  /* Không đặt card tĩnh; chỉ giữ vùng lưới đủ cao trước khi JS dựng 32 Look,
-     để khối "Bạn đã xem hết" không nhảy vào viewport rồi bị đẩy xuống. */
-  #outfit-grid:empty,
-  #outfit-grid.ac-grid-preparing {
-    min-height: 1200vw !important;
+  /* Không đặt card outfit tĩnh. Trong lúc outfits.js chưa chạy xong,
+     chỉ ẩn các khối nằm SAU lưới để chúng không xuất hiện trong viewport
+     rồi bị 32 card đẩy xuống — đây là nguyên nhân CLS 1.8+. */
+  html:not(.ac-grid-ready) .feed-end,
+  html:not(.ac-grid-ready) .ticker,
+  html:not(.ac-grid-ready) .home-mix-pillar,
+  html:not(.ac-grid-ready) .about-section,
+  html:not(.ac-grid-ready) body > footer {
+    display: none !important;
   }
+
+  /* Lưới rỗng chỉ giữ một màn hình, không dùng 300vw/1200vw gây nhảy bố cục. */
+  #outfit-grid:empty {
+    min-height: 100vh !important;
+  }
+
   #outfit-grid .outfit-card {
     animation: none !important;
     transition: none !important;
@@ -718,13 +728,14 @@
     transform: none !important;
     will-change: auto !important;
   }
-  @media (min-width: 769px) {
-    #outfit-grid:empty,
-    #outfit-grid.ac-grid-preparing {
-      min-height: 300vw !important;
-    }
-  }
 </style>
+<script>
+  window.setTimeout(function () {
+    document.documentElement.classList.add('ac-grid-ready');
+    var grid = document.getElementById('outfit-grid');
+    if (grid) grid.removeAttribute('aria-busy');
+  }, 8000);
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -774,7 +785,7 @@
 <p class="hero-sub">Bấm RELOAD để ưu tiên nhận những outfit chưa xuất hiện.</p>
 </section>
 <div data-ac-filter-mode="home" id="outfit-filter-root"></div>
-<div aria-busy="true" class="outfit-grid ac-grid-preparing" id="outfit-grid"></div>
+<div aria-busy="true" class="outfit-grid" id="outfit-grid"></div>
 <section aria-labelledby="feed-end-title" class="feed-end" data-nosnippet="">
 <div aria-hidden="true" class="feed-end-icon">✦</div>
 <p class="feed-end-title" id="feed-end-title">Bạn đã xem hết!</p>
@@ -1027,26 +1038,11 @@
       };
     }
 
-    function reserveGridHeight(grid, data) {
-      if (!grid || !Array.isArray(data) || !data.length) return;
-      const columnCount = window.innerWidth <= 768 ? 2 : 4;
-      const gap = 2;
-      const gridWidth = grid.clientWidth || document.documentElement.clientWidth || window.innerWidth;
-      const columnWidth = Math.max(1, (gridWidth - gap * (columnCount - 1)) / columnCount);
-      const columnHeights = Array(columnCount).fill(0);
-
-      data.forEach((outfit, index) => {
-        const dimensions = getOutfitDimensions(outfit);
-        const cardHeight = columnWidth * dimensions.height / dimensions.width;
-        const target = index < columnCount
-          ? index
-          : columnHeights.indexOf(Math.min(...columnHeights));
-        columnHeights[target] += cardHeight + gap;
-      });
-
-      grid.classList.add('ac-grid-preparing');
-      grid.setAttribute('aria-busy', 'true');
-      grid.style.minHeight = `${Math.ceil(Math.max(...columnHeights))}px`;
+    function finishGridRender(grid) {
+      if (!grid) return;
+      grid.removeAttribute('aria-busy');
+      grid.style.removeProperty('min-height');
+      document.documentElement.classList.add('ac-grid-ready');
     }
 
     function buildCard(outfit, i, savedIds) {
@@ -1109,18 +1105,20 @@
       const grid = document.getElementById('outfit-grid');
       const savedIds = getSafeSavedIds();
 
-      reserveGridHeight(grid, data);
+      grid.setAttribute('aria-busy', 'true');
       grid.innerHTML = '';
       updateGridCopy();
 
       if (data.length === 0) {
         grid.innerHTML = `<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Không tìm thấy outfit nào phù hợp.</div>`;
+        finishGridRender(grid);
         return;
       }
 
       const fragment = document.createDocumentFragment();
       data.forEach((outfit, i) => fragment.appendChild(buildCard(outfit, i, savedIds)));
       grid.appendChild(fragment);
+      finishGridRender(grid);
     };
 
     function renderInitialBatch(data) {
@@ -1148,6 +1146,7 @@
         fragment.appendChild(buildCard(outfit, i + criticalCards.length, savedIds));
       });
       grid.appendChild(fragment);
+      finishGridRender(grid);
     }
 
     window.updateSaveButtons = function() {
@@ -1292,7 +1291,10 @@
         if (typeof outfits !== 'undefined') initGrid();
         else {
           const grid = document.getElementById('outfit-grid');
-          if (grid) grid.innerHTML = '<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Không tải được dữ liệu outfit. Vui lòng refresh lại trang.</div>';
+          if (grid) {
+            grid.innerHTML = '<div style="grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;">Không tải được dữ liệu outfit. Vui lòng refresh lại trang.</div>';
+            finishGridRender(grid);
+          }
         }
       }, { once: true });
     }
