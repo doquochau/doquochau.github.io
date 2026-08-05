@@ -367,7 +367,7 @@
       display: block;
       transition: transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94), filter 0.3s;
     }
-    .outfit-card:hover img { transform: none; filter: saturate(1.1); }
+    .outfit-card:hover img { transform: none; filter: none; }
 
     .outfit-card::after {
       content: '';
@@ -378,7 +378,7 @@
       opacity: 0;
       transition: opacity 0.3s;
     }
-    .outfit-card:hover::after { opacity: 1; }
+    .outfit-card:hover::after { opacity: 0; }
 
     .outfit-overlay {
       position: absolute;
@@ -393,7 +393,7 @@
       font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase;
       color: var(--white); background: var(--red); padding: 4px 10px; display: inline-block;
     }
-    .outfit-num { font-family: 'Oswald', sans-serif; font-size: 28px; font-weight: 700; color: var(--white); line-height: 1; margin-top: 4px; }
+    .outfit-num { font-family: 'Oswald', sans-serif; font-size: 28px; font-weight: 700; color: var(--white); line-height: 1; margin-top: 4px; text-shadow: 0 2px 10px rgba(0,0,0,0.9); }
 
     .btn-save-card {
       position: absolute;
@@ -524,6 +524,12 @@
     #record-icon.playing { animation-play-state: running; }
     @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
+    
+    @media (hover: none), (pointer: coarse) {
+      .outfit-card:hover img { transform: none !important; filter: none !important; }
+      .outfit-card:hover::after { opacity: 0 !important; }
+    }
+
     @media (max-width: 768px) {
       header { padding: 14px 16px; }
       nav { gap: 4px; }
@@ -581,32 +587,7 @@
 <meta content="Badgirl Aesthetic — Thời Trang Dark &amp; Nổi Loạn" property="og:image:alt"/>
 <style id="critical-site-accessibility">.skip-link{position:absolute;left:12px;top:-100px;z-index:10000;background:#f0ece4;color:#0a0a0a;padding:10px 14px;border:2px solid #c0392b;font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;transition:top .15s ease}.skip-link:focus{top:12px;outline:2px solid #f0ece4;outline-offset:2px}.seo-faq{max-width:720px;margin:48px auto 0;padding:32px 0;border-top:1px solid #292929}.seo-faq h2{font-family:'Oswald',sans-serif;font-size:26px;line-height:1.2;text-transform:uppercase;letter-spacing:.04em;margin:0 0 24px;color:#f0ece4}.seo-faq details{border-bottom:1px solid #242424;padding:0}.seo-faq summary{cursor:pointer;padding:18px 36px 18px 0;font-weight:700;line-height:1.55;position:relative;list-style:none}.seo-faq summary::-webkit-details-marker{display:none}.seo-faq summary::after{content:'+';position:absolute;right:4px;top:16px;color:#e05444;font-size:20px}.seo-faq details[open] summary::after{content:'−'}.seo-faq details p{margin:0;padding:0 0 20px;line-height:1.8;color:#c8c4bc}.trust-links{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px}.trust-links a{color:#a0a0a0;text-decoration:underline}.trust-links a:hover,.trust-links a:focus-visible{color:#f0ece4}.icon-only[aria-label],.btn-icon-only[aria-label]{position:relative}@media(max-width:768px){footer{padding-left:16px;padding-right:16px;line-height:1.5}.seo-faq{margin-top:36px;padding-top:24px}.seo-faq h2{font-size:22px}.seo-faq summary{font-size:13px}}footer a,footer .trust-links a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:48px!important;min-height:48px!important;padding:12px 14px!important;margin:4px!important;box-sizing:border-box!important;line-height:1.25!important;vertical-align:middle!important;-webkit-tap-highlight-color:transparent}footer .trust-links{display:inline-flex!important;flex-wrap:wrap!important;justify-content:center!important;align-items:center!important;gap:8px!important}@media(max-width:768px){footer{padding-left:16px!important;padding-right:16px!important;line-height:1.5!important}footer a,footer .trust-links a{margin:4px!important}}</style><link href="/assets/css/phoi-do-nu-ca-tinh-20260731.min.css?v=20260803-masonry-v1" rel="stylesheet"/>
 <link href="/favicon.ico" rel="icon" sizes="64x64" type="image/x-icon"/>
-</meta></meta></meta></meta><link href="/assets/css/outfit-filter.min.css?v=20260805-style-auth-home-v1" rel="stylesheet"/>
-<style id="ac-index-image-menu-layer-fix-v2">
-/* Dropdown phải nằm trên thanh lọc; card không còn nền shimmer xám. */
-header{z-index:10050!important;}
-.dropdown-content{z-index:10060!important;}
-.outfit-card{
-  opacity:1!important;
-  visibility:visible!important;
-  background:#0a0a0a!important;
-}
-.outfit-card img{
-  opacity:1!important;
-  visibility:visible!important;
-  filter:none!important;
-  background:#0a0a0a!important;
-}
-.shimmer{
-  background:#0a0a0a!important;
-  animation:none!important;
-}
-@media(max-width:768px){
-  header{z-index:10050!important;}
-  .dropdown-content{z-index:10060!important;}
-}
-</style>
-</head>
+</meta></meta></meta></meta><link href="/assets/css/outfit-filter.min.css?v=20260804-v1" rel="stylesheet"/></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header>
@@ -654,7 +635,10 @@ header{z-index:10050!important;}
 </div>
 <p class="hero-sub">Bấm RELOAD để ưu tiên nhận những outfit chưa xuất hiện.</p>
 </section>
-<div data-ac-filter-mode="home" id="outfit-filter-root"></div><div aria-busy="true" class="outfit-grid ac-grid-preparing" id="outfit-grid"></div>
+<div data-ac-filter-mode="home" id="outfit-filter-root"></div><div class="section-header" data-nosnippet="">
+<span class="section-count" data-text="136 LOOKS · RELOAD ĐỂ ĐỔI OUTFITS" id="counter">136 LOOKS · RELOAD ĐỂ ĐỔI OUTFITS</span>
+</div>
+<div aria-busy="true" class="outfit-grid ac-grid-preparing" id="outfit-grid"></div>
 <section aria-labelledby="feed-end-title" class="feed-end" data-nosnippet="">
 <div aria-hidden="true" class="feed-end-icon">✦</div>
 <h2 class="feed-end-title" id="feed-end-title">Bạn đã xem hết!</h2>
@@ -730,8 +714,8 @@ header{z-index:10050!important;}
 <source src="https://res.cloudinary.com/dazjcjufd/video/upload/v1779505038/apocalypse_hu44u2.mp3" type="audio/mpeg"/>
 </audio>
 </div>
-<script defer="" fetchpriority="low" src="outfits.js?v=20260805-style-auth-home-v1"></script>
-<script src="/assets/js/outfit-filter.min.js?v=20260805-style-auth-home-v1" defer></script>
+<script defer="" fetchpriority="low" src="outfits.js?v=20260804-taxonomy-filter-v1"></script>
+<script src="/assets/js/outfit-filter.min.js?v=20260804-v1" defer></script>
 <script defer="" type="module">
     let _fbCache = null;
     let currentUid = null;
@@ -746,7 +730,7 @@ header{z-index:10050!important;}
         import("https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"),
       ]).then(async ([
         { initializeApp },
-        { getAuth, onAuthStateChanged, setPersistence, browserLocalPersistence, browserSessionPersistence },
+        { getAuth, onAuthStateChanged },
         { getFirestore, doc, setDoc, deleteDoc, getDocs, collection }
       ]) => {
         const app = initializeApp({
@@ -759,16 +743,6 @@ header{z-index:10050!important;}
         });
         const auth = getAuth(app);
         const db   = getFirestore(app);
-
-        // AC_AUTH_PERSISTENCE_20260805
-        try {
-          await setPersistence(auth, browserLocalPersistence);
-        } catch (localError) {
-          console.warn('Local auth persistence unavailable; using session.', localError);
-          try { await setPersistence(auth, browserSessionPersistence); } catch (sessionError) {
-            console.warn('Session auth persistence unavailable.', sessionError);
-          }
-        }
 
         await new Promise(resolve => {
           const unsub = onAuthStateChanged(auth, async user => {
@@ -803,7 +777,6 @@ header{z-index:10050!important;}
       btn.style.opacity = '';
       if (!currentUid) {
         sessionStorage.setItem('ac_return_after_login', window.location.href);
-        try { localStorage.setItem('ac_return_after_login', window.location.href); } catch (e) {}
         window.location.href = 'login.html';
         return;
       }
@@ -883,11 +856,9 @@ header{z-index:10050!important;}
 
     function updateGridCopy() {
       const counterEl = document.getElementById('counter');
-      if (counterEl) {
-        const counterText = '136 LOOKS · RELOAD ĐỂ ĐỔI OUTFITS';
-        counterEl.textContent = counterText;
-        counterEl.setAttribute('data-text', counterText);
-      }
+      const counterText = '136 LOOKS · RELOAD ĐỂ ĐỔI OUTFITS';
+      counterEl.textContent = counterText;
+      counterEl.setAttribute('data-text', counterText);
 
       const feedCopy = document.getElementById('feed-end-copy');
       if (feedCopy) feedCopy.textContent = 'Bạn đã xem hết outfit của lượt này.';
@@ -895,7 +866,7 @@ header{z-index:10050!important;}
 
     function buildCard(outfit, i, savedIds) {
       const card = document.createElement('article');
-      card.className = 'outfit-card';
+      card.className = 'outfit-card shimmer';
       card.dataset.outfitId = outfit.id;
       card.style.animationDelay = (i * 0.03) + 's';
 
@@ -913,23 +884,14 @@ header{z-index:10050!important;}
       const isNewPortrait = lookNumber >= 41;
       img.width = isNewPortrait ? 720 : 768;
       img.height = isNewPortrait ? 1280 : 1024;
+      img.onload  = () => card.classList.remove('shimmer');
+      img.onerror = () => card.classList.remove('shimmer');
 
       const mobileUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile/badgirl-outfits/');
       const mobileHdUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-mobile-hd/badgirl-outfits/');
+      const gridUrl = outfit.img.replace('/images/badgirl-outfits/', '/images-grid/badgirl-outfits/');
       const picture = document.createElement('picture');
-      const versioned = (url) => `${url}?v=20260805-index-visible-v2`;
-      let usedOriginalFallback = false;
-      img.onload = () => card.classList.remove('shimmer');
-      img.onerror = () => {
-        if (!usedOriginalFallback) {
-          usedOriginalFallback = true;
-          picture.querySelectorAll('source').forEach(source => source.remove());
-          img.removeAttribute('srcset');
-          img.src = versioned(outfit.img);
-          return;
-        }
-        card.classList.remove('shimmer');
-      };
+      const versioned = (url) => `${url}?v=20260803-card-sharp-v3`;
 
       // 240w for low-DPR phones and 480w for Retina/high-DPR screens.
       // The browser chooses the sharpest suitable file instead of forcing 240px.
@@ -941,7 +903,7 @@ header{z-index:10050!important;}
       picture.appendChild(mobileWebp);
 
       // Desktop cards and outfit detail pages keep their larger files unchanged.
-      img.src = versioned(outfit.img);
+      img.src = gridUrl;
       if (isNewPortrait) {
         img.width = 720;
         img.height = 1280;
