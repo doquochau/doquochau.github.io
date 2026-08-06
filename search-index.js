@@ -68,7 +68,7 @@ window.searchIndex = [
     "url": "/blog/mob-wife-aesthetic-la-gi.html",
     "type": "Journal",
     "description": "Mob Wife Aesthetic là gì? Phân tích áo khoác có độ nặng, đồ da, họa tiết động vật, trang sức vàng và cách tạo vẻ quyền lực mà không thành costume.",
-    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp",
+    "image": "/images/blog-covers/mob-wife-aesthetic-la-gi.webp",
     "keywords": "mob wife aesthetic là gì, mob wife outfit, phong cách mob wife, dark feminine, áo khoác da nữ, họa tiết da báo, trang sức vàng, power dressing nữ Power Glamour Audit aesthetic fashion"
   },
   {
@@ -76,7 +76,7 @@ window.searchIndex = [
     "url": "/blog/nu-metal-aesthetic-la-gi.html",
     "type": "Journal",
     "description": "Nu Metal Aesthetic là gì? Giải mã quần baggy, jersey, graphic tee, cargo, phụ kiện kim loại và cách mặc tinh thần đầu 2000s mà không thành costume.",
-    "image": "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
+    "image": "/images/blog-covers/nu-metal-aesthetic-la-gi.webp",
     "keywords": "nu metal aesthetic là gì, nu metal fashion, nu metal outfit nữ, phong cách đầu 2000s, quần baggy, áo jersey, cargo nữ, alternative fashion Subculture Wardrobe Map aesthetic fashion"
   },
   {
@@ -84,7 +84,7 @@ window.searchIndex = [
     "url": "/blog/fairy-grunge-la-gi.html",
     "type": "Journal",
     "description": "Fairy Grunge là gì? Giải mã sự kết hợp giữa chất liệu mềm, màu đất, lớp váy bất đối xứng và tinh thần Grunge để mặc đẹp mà không thành costume.",
-    "image": "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
+    "image": "/images/blog-covers/fairy-grunge-la-gi.webp",
     "keywords": "fairy grunge là gì, phong cách fairy grunge, fairy grunge outfit, grunge nữ, aesthetic màu đất, váy layering, alt fashion nữ Hybrid Aesthetic Map aesthetic fashion"
   },
   {
@@ -92,7 +92,7 @@ window.searchIndex = [
     "url": "/blog/scene-style-la-gi.html",
     "type": "Journal",
     "description": "Scene Style là gì? Tìm hiểu tóc layer, màu neon, graphic tee, skinny jeans, phụ kiện vui nhộn và ranh giới giữa Scene, Emo, E-Girl hay Y2K.",
-    "image": "/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp",
+    "image": "/images/blog-covers/scene-style-la-gi.webp",
     "keywords": "scene style là gì, scene fashion, scene girl, phong cách scene, scene và emo, scene outfit nữ, myspace aesthetic, alt fashion Subculture Decoder aesthetic fashion"
   },
   {
@@ -100,7 +100,7 @@ window.searchIndex = [
     "url": "/blog/romantic-goth-la-gi.html",
     "type": "Journal",
     "description": "Romantic Goth là gì? Giải mã ren, nhung, tay phồng, corset, trang sức cổ điển và cách phối vẻ đẹp u tối lãng mạn mà không thành trang phục sân khấu.",
-    "image": "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
+    "image": "/images/blog-covers/romantic-goth-la-gi.webp",
     "keywords": "romantic goth là gì, romantic goth outfit, phong cách goth lãng mạn, goth nữ, váy goth, ren đen, nhung đen, gothic fashion Goth Family Notes aesthetic fashion"
   },
   {
@@ -108,7 +108,7 @@ window.searchIndex = [
     "url": "/blog/downtown-girl-la-gi.html",
     "type": "Journal",
     "description": "Downtown Girl là gì? Phân tích áo khoác da, denim, knit, váy ngắn, boots và cách xây outfit thành thị tự nhiên, có cá tính nhưng không quá cố gắng.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
+    "image": "/images/blog-covers/downtown-girl-la-gi.webp",
     "keywords": "downtown girl là gì, downtown girl aesthetic, downtown girl outfit, phong cách thành thị nữ, áo khoác da nữ, street style nữ, city girl outfit City Wardrobe Study aesthetic fashion"
   },
   {
@@ -116,7 +116,7 @@ window.searchIndex = [
     "url": "/blog/model-off-duty-la-gi.html",
     "type": "Journal",
     "description": "Model Off-Duty là gì? Học cách dùng tank top, blazer, jeans, kính và giày có cấu trúc để tạo outfit ít món, tỷ lệ đẹp và không phụ thuộc đồ đắt tiền.",
-    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
+    "image": "/images/blog-covers/model-off-duty-la-gi.webp",
     "keywords": "model off duty là gì, model off duty outfit, phong cách người mẫu, outfit tối giản nữ, blazer jeans nữ, street style tối giản, capsule wardrobe Silhouette Practice aesthetic fashion"
   },
   {
@@ -124,7 +124,7 @@ window.searchIndex = [
     "url": "/blog/balletcore-la-gi.html",
     "type": "Journal",
     "description": "Balletcore là gì? Giải mã chuyển động, chất liệu mềm, ballet flats, wrap top và cách phân biệt Balletcore với Coquette hay Sporty Chic.",
-    "image": "/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp",
+    "image": "/images/blog-covers/balletcore-la-gi.webp",
     "keywords": "balletcore là gì, phong cách balletcore, balletcore nữ, ballet flats, váy tulle, wrap top, leg warmers, ballet aesthetic Movement Notes aesthetic fashion"
   },
   {
@@ -132,7 +132,7 @@ window.searchIndex = [
     "url": "/blog/office-siren-la-gi.html",
     "type": "Journal",
     "description": "Office Siren là gì? Giải mã blazer ôm, chân váy bút chì, kính Bayonetta và ranh giới giữa thẩm mỹ công sở với trang phục phù hợp môi trường làm việc.",
-    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
+    "image": "/images/blog-covers/office-siren-la-gi.webp",
     "keywords": "office siren là gì, phong cách office siren, office siren outfit, corpcore, bayonetta glasses, thời trang công sở nữ, dark feminine công sở Power Dressing File aesthetic fashion"
   },
   {
@@ -140,7 +140,7 @@ window.searchIndex = [
     "url": "/blog/clean-girl-aesthetic-la-gi.html",
     "type": "Journal",
     "description": "Clean Girl Aesthetic là gì? Phân tích bảng màu, form, chất liệu và lý do tối giản khác với mặc nhạt, đồng thời so sánh với Quiet Luxury và Old Money.",
-    "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+    "image": "/images/blog-covers/clean-girl-aesthetic-la-gi.webp",
     "keywords": "clean girl aesthetic là gì, phong cách clean girl, clean girl outfit, minimal style nữ, quiet luxury, capsule wardrobe, clean girl fashion Visual Noise Audit aesthetic fashion"
   },
   {
@@ -148,7 +148,7 @@ window.searchIndex = [
     "url": "/blog/cottagecore-la-gi.html",
     "type": "Journal",
     "description": "Cottagecore là gì? Giải mã thẩm mỹ đồng quê qua chất liệu, hoa văn, silhouette và cách phân biệt Cottagecore với Coquette, Whimsigoth hay Dark Academia.",
-    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+    "image": "/images/blog-covers/cottagecore-la-gi.webp",
     "keywords": "cottagecore là gì, phong cách cottagecore, cottagecore outfit, váy hoa nhí, aesthetic đồng quê, dark cottagecore, cottagecore nữ Texture Field Guide aesthetic fashion"
   },
   {
@@ -156,7 +156,7 @@ window.searchIndex = [
     "url": "/blog/blokecore-la-gi.html",
     "type": "Journal",
     "description": "Blokecore là gì? Giải mã áo bóng đá, track jacket, quần baggy, sneaker và cách văn hóa sân cỏ đi vào thời trang đường phố mà không thành hóa trang cổ động viên.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
+    "image": "/images/blog-covers/blokecore-la-gi.webp",
     "keywords": "blokecore là gì, phong cách blokecore, blokecore nữ, áo bóng đá streetwear, football jersey outfit, sporty streetwear, blokette, terrace fashion Jersey Culture Map aesthetic fashion"
   },
   {
@@ -164,7 +164,7 @@ window.searchIndex = [
     "url": "/blog/gorpcore-la-gi.html",
     "type": "Journal",
     "description": "Gorpcore là gì? Giải mã cách trang phục outdoor đi vào streetwear, từ shell, fleece, quần kỹ thuật đến giày trail và cách mặc hợp khí hậu Việt Nam.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp",
+    "image": "/images/blog-covers/gorpcore-la-gi.webp",
     "keywords": "gorpcore là gì, phong cách gorpcore, gorpcore nữ, outdoor streetwear, urban outdoor, đồ outdoor mặc phố, gorpcore và techwear, gorpcore outfit nữ Gorpcore Là Gì? Khi Đồ Outdoor Bước Vào Thành Phố Terrain Map urban outdoor outdoor streetwear informational guide"
   },
   {
@@ -172,7 +172,7 @@ window.searchIndex = [
     "url": "/blog/ao-khoac-bomber-nu-mua-o-dau.html",
     "type": "Journal",
     "description": "Áo khoác bomber nữ mua ở đâu và chọn form nào? Kiểm tra vai, bo rib, chất vải, lớp lót, khóa kéo, bảng size, ảnh thật và đổi trả trước khi đặt mua.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
+    "image": "/images/blog-covers/ao-khoac-bomber-nu-mua-o-dau.webp",
     "keywords": "áo khoác bomber nữ mua ở đâu, mua áo bomber nữ, áo bomber nữ đẹp, bomber jacket nữ, áo khoác bomber local brand, áo bomber nữ Shopee, chọn size áo bomber, bomber streetwear nữ Áo Khoác Bomber Nữ Mua Ở Đâu? Cách Chọn Form Đáng Tiền Outerwear Inspection Bay mua hàng chuyển đổi buyer guide"
   },
   {
@@ -180,7 +180,7 @@ window.searchIndex = [
     "url": "/blog/ao-corset-nu-mua-o-dau.html",
     "type": "Journal",
     "description": "Áo corset nữ mua ở đâu và chọn shop thế nào? Kiểm tra gọng, cúp, dây buộc, chất vải, bảng size, ảnh thật và đổi trả trước khi đặt mua online.",
-    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+    "image": "/images/blog-covers/ao-corset-nu-mua-o-dau.webp",
     "keywords": "áo corset nữ mua ở đâu, mua áo corset nữ, corset top nữ, áo corset shopee, corset nữ đẹp, chọn size corset, shop corset nữ, corset dark feminine Áo Corset Nữ Mua Ở Đâu? Cách Chọn Không Sai Form Corset Risk Desk mua hàng chuyển đổi buyer guide"
   },
   {
@@ -188,7 +188,7 @@ window.searchIndex = [
     "url": "/blog/quan-baggy-cho-nguoi-thap.html",
     "type": "Journal",
     "description": "Quần baggy cho người thấp nên chọn cạp, đũng, ống và chiều dài nào? Dùng bảng lọc form, checklist size và ảnh thật để mua online không dìm dáng.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
+    "image": "/images/blog-covers/quan-baggy-cho-nguoi-thap.webp",
     "keywords": "quần baggy cho người thấp, người thấp mặc quần baggy, quần baggy nữ thấp, quần baggy cho nấm lùn, chọn size quần baggy, baggy cạp cao nữ, quần baggy không dìm dáng, mua quần baggy online Quần Baggy Cho Người Thấp: Chọn Form Nào Không Dìm Dáng? Petite Fit Board mua hàng chuyển đổi buyer guide"
   },
   {
@@ -196,7 +196,7 @@ window.searchIndex = [
     "url": "/blog/quan-cargo-vai-du-hay-kaki.html",
     "type": "Journal",
     "description": "Quần cargo vải dù hay kaki? So sánh độ nóng, giữ form, tiếng vải, độ bền, khả năng giặt và bối cảnh mặc để chọn vật liệu phù hợp trước khi mua.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp",
+    "image": "/images/blog-covers/quan-cargo-vai-du-hay-kaki.webp",
     "keywords": "quần cargo vải dù hay kaki, cargo vải dù, cargo kaki nữ, quần túi hộp vải dù, quần cargo chất liệu gì, mua quần cargo nữ, so sánh cargo dù kaki Quần Cargo Vải Dù Hay Kaki? Mua Loại Nào? Fabric Decision Lab mua hàng chuyển đổi buyer guide"
   },
   {
@@ -204,7 +204,7 @@ window.searchIndex = [
     "url": "/blog/combat-boots-hay-platform-boots.html",
     "type": "Journal",
     "description": "Combat boots hay platform boots? So sánh độ ổn định, chiều cao, trọng lượng, khả năng đi bộ, size và độ linh hoạt outfit để chọn đôi phù hợp trước khi mua.",
-    "image": "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
+    "image": "/images/blog-covers/combat-boots-hay-platform-boots.webp",
     "keywords": "combat boots hay platform boots, combat boots và platform boots, nên mua combat boots hay platform, boots goth nữ, boots đế cao nữ, chọn boots nữ, platform boots nữ Combat Boots Hay Platform Boots? Chọn Loại Nào? Decision Matrix mua hàng chuyển đổi buyer guide"
   },
   {
@@ -212,7 +212,7 @@ window.searchIndex = [
     "url": "/blog/tu-do-alt-fashion-1-trieu.html",
     "type": "Journal",
     "description": "Tủ đồ Alt Fashion 1 triệu nên mua gì? Lập bản đồ mua theo món nền, silhouette, phụ kiện và giày; ưu tiên khả năng phối chéo thay vì mua một set hoàn chỉnh.",
-    "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
+    "image": "/images/blog-covers/tu-do-alt-fashion-1-trieu.webp",
     "keywords": "tủ đồ alt fashion 1 triệu, alt fashion giá rẻ, mua đồ alt fashion, tủ đồ dark aesthetic, capsule wardrobe alt, đồ alt nữ, xây tủ đồ alt fashion Tủ Đồ Alt Fashion 1 Triệu: Nên Mua Gì? Capsule Buy Plan mua hàng chuyển đổi buyer guide"
   },
   {
@@ -220,7 +220,7 @@ window.searchIndex = [
     "url": "/blog/set-baddie-duoi-700k.html",
     "type": "Journal",
     "description": "Xây set Baddie dưới 700K bằng chiến lược hero piece: chọn quần hoặc áo chủ lực, tận dụng nền sẵn có, kiểm soát phụ kiện và tránh mua nguyên set khó mặc lại.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp",
+    "image": "/images/blog-covers/set-baddie-duoi-700k.webp",
     "keywords": "set baddie dưới 700k, outfit baddie giá rẻ, đồ baddie nữ, set baddie streetwear, mua đồ baddie, outfit badgirl ngân sách, baddie outfit nữ Set Baddie Dưới 700K: Mua Món Nào Trước? Hero Piece Budget mua hàng chuyển đổi buyer guide"
   },
   {
@@ -228,7 +228,7 @@ window.searchIndex = [
     "url": "/blog/outfit-egirl-duoi-500k.html",
     "type": "Journal",
     "description": "Xây outfit E-Girl dưới 500K bằng cách chia ngân sách cho áo, quần, phụ kiện và giày; ưu tiên món tạo nhận diện, tránh mua nhiều món rẻ nhưng khó mặc lại.",
-    "image": "/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp",
+    "image": "/images/blog-covers/outfit-egirl-duoi-500k.webp",
     "keywords": "outfit e-girl dưới 500k, set e girl giá rẻ, đồ e girl nữ, outfit egirl nữ, mua đồ e girl, e girl budget outfit, phối set e girl giá rẻ Outfit E-Girl Dưới 500K: Chia Ngân Sách Sao? Budget Stack mua hàng chuyển đổi buyer guide"
   },
   {
@@ -236,7 +236,7 @@ window.searchIndex = [
     "url": "/blog/do-goth-nu-mua-o-dau.html",
     "type": "Journal",
     "description": "Đồ Goth nữ mua ở đâu? Kiểm tra ảnh thật, chất liệu, size, hardware, đổi trả và độ nhất quán của shop trước khi mua corset, váy, boots hoặc phụ kiện Goth.",
-    "image": "/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp",
+    "image": "/images/blog-covers/do-goth-nu-mua-o-dau.webp",
     "keywords": "đồ goth nữ mua ở đâu, shop đồ goth nữ, mua đồ gothic nữ, quần áo goth nữ, shop alt fashion, đồ goth online, goth outfit nữ Đồ Goth Nữ Mua Ở Đâu? Cách Chọn Shop Uy Tín Shop Trust Audit mua hàng chuyển đổi buyer guide"
   },
   {
@@ -244,7 +244,7 @@ window.searchIndex = [
     "url": "/blog/phu-kien-egirl-mua-o-dau.html",
     "type": "Journal",
     "description": "Phụ kiện E-Girl mua ở đâu và nên mua gì trước? Xếp hạng dây chuyền, belt, túi, kính, tất và phụ kiện tóc theo hiệu quả outfit, độ bền và ngân sách.",
-    "image": "/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp",
+    "image": "/images/blog-covers/phu-kien-egirl-mua-o-dau.webp",
     "keywords": "phụ kiện e-girl mua ở đâu, phụ kiện egirl, mua phụ kiện e girl, dây chuyền e girl, thắt lưng xích, phụ kiện alt fashion, phụ kiện y2k nữ Phụ Kiện E-Girl Mua Ở Đâu? Mua Gì Trước Priority Ladder mua hàng chuyển đổi buyer guide"
   },
   {
@@ -252,7 +252,7 @@ window.searchIndex = [
     "url": "/blog/boots-de-cao-nu-duoi-500k.html",
     "type": "Journal",
     "description": "Cách chọn boots đế cao nữ dưới 500K: kiểm tra đế, độ ổn định, form mũi, khóa, lớp lót, size và đổi trả để tránh đôi giày đẹp ảnh nhưng đau chân.",
-    "image": "/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp",
+    "image": "/images/blog-covers/boots-de-cao-nu-duoi-500k.webp",
     "keywords": "boots đế cao nữ dưới 500k, boots nữ giá rẻ, platform boots nữ, mua boots đế cao, boots nữ dưới 500 nghìn, chọn size boots nữ, boots goth nữ Boots Đế Cao Nữ Dưới 500K: Chọn Sao Cho Đáng Price Guard mua hàng chuyển đổi buyer guide"
   },
   {
@@ -260,7 +260,7 @@ window.searchIndex = [
     "url": "/blog/ao-baby-tee-form-dep-tren-shopee.html",
     "type": "Journal",
     "description": "Cách tìm áo baby tee form đẹp trên Shopee: đọc vai, ngực, dài áo, chất vải, độ co giãn, ảnh thật và đánh giá để hạn chế áo quá ngắn hoặc bai dão.",
-    "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
+    "image": "/images/blog-covers/ao-baby-tee-form-dep-tren-shopee.webp",
     "keywords": "áo baby tee form đẹp trên shopee, mua áo baby tee, baby tee nữ đẹp, áo baby tee cotton, baby tee thun gân, chọn size baby tee, shop baby tee shopee Áo Baby Tee Form Đẹp Trên Shopee: Cách Chọn Listing Decoder mua hàng chuyển đổi buyer guide"
   },
   {
@@ -268,7 +268,7 @@ window.searchIndex = [
     "url": "/blog/quan-cargo-nu-mua-o-dau.html",
     "type": "Journal",
     "description": "Quần cargo nữ mua ở đâu? Dùng checklist form, vải, túi, size, ảnh thật và đổi trả để chọn shop đáng mua, hạn chế quần bí, xệ cạp hoặc sai dáng.",
-    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp",
+    "image": "/images/blog-covers/quan-cargo-nu-mua-o-dau.webp",
     "keywords": "quần cargo nữ mua ở đâu, mua quần cargo nữ, shop quần cargo nữ, quần túi hộp nữ, cargo nữ đẹp, quần cargo nữ online, chọn quần cargo nữ Quần Cargo Nữ Mua Ở Đâu? Checklist Chọn Shop Purchase Map mua hàng chuyển đổi buyer guide"
   },
   {
