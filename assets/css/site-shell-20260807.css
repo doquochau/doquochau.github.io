@@ -1,9 +1,13 @@
+/* Local fonts are preloaded by blog pages; optional display prevents late font swaps/CLS. */
+@font-face{font-family:"Oswald";src:url("/oswald.woff2") format("woff2");font-style:normal;font-weight:500 700;font-display:optional}
+@font-face{font-family:"Space Mono";src:url("/space-mono-regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:optional}
+@font-face{font-family:"Space Mono";src:url("/space-mono-bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:optional}
 /* Apocalypse Closet unified site header + footer — 2026-08-07 */
 :root{
   --ac-shell-bg:#080808;
   --ac-shell-panel:#0d0d0d;
   --ac-shell-text:#f4f1ea;
-  --ac-shell-muted:#a7a39b;
+  --ac-shell-muted:#c4bfb6;
   --ac-shell-line:#282828;
   --ac-shell-accent:#f0ece4;
   --ac-shell-danger:#d87970;
@@ -203,13 +207,13 @@ body:not(.auth-ready).ac-closet-page .ac-user-panel{visibility:hidden!important}
 .ac-footer-grid{max-width:1220px!important;margin:0 auto!important;display:grid!important;grid-template-columns:minmax(250px,1.4fr) repeat(3,minmax(150px,1fr))!important;gap:34px!important}
 .ac-footer-brand{display:flex!important;align-items:center!important;gap:10px!important;width:max-content!important;min-height:0!important;margin:0 0 13px!important;padding:0!important;color:var(--ac-shell-text)!important;background:none!important;border:0!important;text-decoration:none!important}
 .ac-footer-brand img:first-child{width:40px!important;height:40px!important;object-fit:contain!important}.ac-footer-brand img:last-child{height:27px!important;width:auto!important;max-width:190px!important;object-fit:contain!important;mix-blend-mode:screen!important}
-.ac-footer-about p{max-width:460px!important;margin:0!important;color:var(--ac-shell-muted)!important;font-size:10px!important;line-height:1.75!important}
-.ac-footer-title{display:block!important;margin:0 0 12px!important;color:var(--ac-shell-text)!important;font:700 10px/1.2 "Space Mono",monospace!important;letter-spacing:.11em!important;text-transform:uppercase!important}
+.ac-footer-about p{max-width:460px!important;margin:0!important;color:#c4bfb6!important;font-size:11px!important;line-height:1.75!important}
+.ac-footer-title{display:block!important;margin:0 0 12px!important;color:#f4f1ea!important;font:700 11px/1.3 "Space Mono",monospace!important;letter-spacing:.09em!important;text-transform:uppercase!important}
 .ac-footer-links{display:grid!important;gap:8px!important;margin:0!important;padding:0!important;list-style:none!important}
-.ac-footer-links a{display:inline!important;width:auto!important;min-height:0!important;margin:0!important;padding:0!important;color:var(--ac-shell-muted)!important;background:none!important;border:0!important;border-radius:0!important;text-decoration:none!important;font-size:10px!important;line-height:1.45!important;letter-spacing:.01em!important;text-transform:none!important}
-.ac-footer-links a:hover,.ac-footer-links a:focus-visible{color:var(--ac-shell-text)!important;text-decoration:underline!important;outline:none!important}
-.ac-footer-bottom{max-width:1220px!important;margin:34px auto 0!important;padding-top:18px!important;border-top:1px solid #202020!important;display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:20px!important;flex-wrap:wrap!important;color:#777!important;font-size:9px!important;line-height:1.6!important;letter-spacing:.05em!important;text-transform:uppercase!important}
-.ac-affiliate-note{max-width:580px!important;text-align:right!important;text-transform:none!important;letter-spacing:0!important}
+.ac-footer-links a{display:inline!important;width:auto!important;min-height:0!important;margin:0!important;padding:0!important;color:#d0cbc2!important;background:none!important;border:0!important;border-radius:0!important;text-decoration:underline!important;text-decoration-color:#66615b!important;text-decoration-thickness:1px!important;text-underline-offset:3px!important;font-size:11px!important;line-height:1.55!important;letter-spacing:.01em!important;text-transform:none!important}
+.ac-footer-links a:hover,.ac-footer-links a:focus-visible{color:#fff!important;text-decoration-color:currentColor!important;outline:2px solid #f4f1ea!important;outline-offset:3px!important}
+.ac-footer-bottom{max-width:1220px!important;margin:34px auto 0!important;padding-top:18px!important;border-top:1px solid #303030!important;display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:20px!important;flex-wrap:wrap!important;color:#c4bfb6!important;font-size:10px!important;line-height:1.7!important;letter-spacing:.02em!important;text-transform:none!important}
+.ac-affiliate-note{max-width:580px!important;text-align:right!important;color:#c4bfb6!important;text-transform:none!important;letter-spacing:0!important}
 @media (max-width:1080px){
   .ac-brand-wordmark{max-width:150px!important}
   .ac-primary-nav>a,.ac-dropdown-toggle,.ac-context-button{padding-inline:8px!important;font-size:9px!important;letter-spacing:.05em!important}
@@ -257,3 +261,15 @@ body.ac-privacy-page>.wrap>.back{display:none!important}
 /* Closet used to hide its footer and had a separate nav. */
 body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 @media (prefers-reduced-motion:reduce){.ac-site-header *,.ac-site-footer *{transition:none!important;scroll-behavior:auto!important}}
+
+/* A11Y 2026-08-07: links inside prose must not rely on color alone. */
+.ac-site-shell :where(.article-content,.faq-section,.seo-faq,.hub-main,.trust-page,.privacy-content) p a,
+.ac-site-shell :where(.article-content,.faq-section,.seo-faq,.hub-main,.trust-page,.privacy-content) li a{
+  color:#ff8b80!important;text-decoration-line:underline!important;text-decoration-color:currentColor!important;
+  text-decoration-thickness:1.5px!important;text-underline-offset:4px!important;text-decoration-skip-ink:auto!important;
+}
+.ac-site-shell :where(.article-content,.faq-section,.seo-faq,.hub-main,.trust-page,.privacy-content) p a:hover,
+.ac-site-shell :where(.article-content,.faq-section,.seo-faq,.hub-main,.trust-page,.privacy-content) li a:hover{color:#ffd3ce!important;text-decoration-thickness:2px!important}
+.ac-site-shell a:focus-visible,.ac-site-shell button:focus-visible{outline:3px solid #f4f1ea!important;outline-offset:3px!important}
+.ac-footer-bottom>span{color:#c4bfb6!important}
+@media(max-width:620px){.ac-footer-links a{display:inline-flex!important;align-items:center!important;min-height:44px!important;padding:7px 0!important}}
