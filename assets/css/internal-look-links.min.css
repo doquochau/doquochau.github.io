@@ -1,0 +1,11 @@
+.related-outfit-links{margin:42px 0;padding:26px 0;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12)}
+.related-outfit-links h2{margin:0 0 8px;font-family:Oswald,Arial,sans-serif;font-size:clamp(24px,4vw,36px);line-height:1.15;text-transform:uppercase}
+.related-outfit-links>p{margin:0 0 18px;color:#aaa;font-size:13px}
+.related-outfit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.related-outfit-card{display:block;min-width:0;border:1px solid #2a2a2a;background:#111;color:inherit;text-decoration:none;overflow:hidden;transition:transform .18s ease,border-color .18s ease}
+.related-outfit-card:hover{transform:translateY(-2px);border-color:#888}
+.related-outfit-card img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#0a0a0a}
+.related-outfit-copy{display:block;padding:12px}
+.related-outfit-copy strong{display:block;font-family:'Space Mono',monospace;font-size:11px;line-height:1.55;color:#f0ece4}
+.related-outfit-copy small{display:block;margin-top:6px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#999}
+@media(max-width:720px){.related-outfit-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.related-outfit-card:last-child:nth-child(odd){grid-column:1/-1}.related-outfit-copy{padding:10px}.related-outfit-copy strong{font-size:10px}}
