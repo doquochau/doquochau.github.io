@@ -4,7 +4,7 @@ window.searchIndex = [
     "url": "/blog/phoi-do-nu-ca-tinh-di-choi.html",
     "type": "Outfit Guide",
     "description": "Gợi ý phối đồ nữ cá tính đi chơi, đi cafe, dạo phố và đi tối theo E-Girl, Baddie, Goth, Dark Feminine; dễ mặc và dễ chọn Look.",
-    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-di-choi.webp",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-di-choi.webp?v=20260807-cover2",
     "keywords": "phối đồ nữ cá tính đi chơi, outfit nữ cá tính đi cafe, đồ nữ cá tính đi dạo phố, outfit đi chơi tối nữ, set đồ nữ cá tính"
   },
   {
@@ -12,7 +12,7 @@ window.searchIndex = [
     "url": "/blog/phoi-do-nu-ca-tinh-mua-he.html",
     "type": "Seasonal Guide",
     "description": "Cách phối đồ nữ cá tính mùa hè bằng chất liệu nhẹ, silhouette rõ và phụ kiện vừa đủ; gợi ý E-Girl, Baddie, Goth, Dark Feminine dễ mặc.",
-    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-mua-he.webp",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-mua-he.webp?v=20260807-cover2",
     "keywords": "phối đồ nữ cá tính mùa hè, outfit nữ cá tính mùa hè, mặc đồ đen mùa hè, outfit đi chơi mùa hè nữ, phối crop top nữ"
   },
   {
@@ -20,7 +20,7 @@ window.searchIndex = [
     "url": "/blog/phoi-do-nu-ca-tinh-cho-nu-lun.html",
     "type": "Fit Guide",
     "description": "Hướng dẫn phối đồ nữ cá tính cho nữ lùn hoặc petite: chọn cạp, chiều dài áo, quần, váy, boots và tỷ lệ để trông cao, gọn hơn.",
-    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-cho-nu-lun.webp",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-cho-nu-lun.webp?v=20260807-cover2",
     "keywords": "phối đồ nữ cá tính cho nữ lùn, phối đồ cho nữ thấp, outfit petite cá tính, hack dáng nữ lùn, quần cargo cho người thấp"
   },
   {
@@ -28,7 +28,7 @@ window.searchIndex = [
     "url": "/blog/phoi-do-nu-ca-tinh-cho-nguoi-map.html",
     "type": "Fit Guide",
     "description": "Cách phối đồ nữ cá tính cho người mập hoặc plus size bằng tỷ lệ, chất liệu, điểm nhấn và form thoải mái; không ép cơ thể vào quy tắc che khuyết điểm.",
-    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-cho-nguoi-map.webp",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-cho-nguoi-map.webp?v=20260807-cover2",
     "keywords": "phối đồ nữ cá tính cho người mập, outfit plus size cá tính, phối đồ che bụng nữ, đồ nữ cá tính size lớn, phối đồ alt fashion plus size"
   },
   {
@@ -36,7 +36,7 @@ window.searchIndex = [
     "url": "/blog/phoi-do-voi-quan-cargo-nu.html",
     "type": "Item Guide",
     "description": "Cách phối đồ với quần cargo nữ theo Baddie, E-Girl, Goth, Dark Feminine và Grunge; chọn top, giày, áo khoác và tỷ lệ không cồng kềnh.",
-    "image": "/images/blog-covers/phoi-do-voi-quan-cargo-nu.webp",
+    "image": "/images/blog-covers/phoi-do-voi-quan-cargo-nu.webp?v=20260807-cover2",
     "keywords": "phối đồ với quần cargo nữ, quần cargo nữ mặc với áo gì, outfit cargo nữ cá tính, phối cargo baddie, quần cargo cho nữ thấp"
   },
   {
@@ -44,7 +44,7 @@ window.searchIndex = [
     "url": "/blog/outfit-nu-ca-tinh-di-concert.html",
     "type": "Event Guide",
     "description": "Gợi ý outfit nữ cá tính đi concert theo Goth, E-Girl, Baddie và Grunge; ưu tiên di chuyển, thời tiết, túi gọn, giày êm và ảnh đẹp.",
-    "image": "/images/blog-covers/outfit-nu-ca-tinh-di-concert.webp",
+    "image": "/images/blog-covers/outfit-nu-ca-tinh-di-concert.webp?v=20260807-cover2",
     "keywords": "outfit nữ cá tính đi concert, phối đồ đi concert nữ, outfit đi xem nhạc nữ, đồ goth đi concert, outfit egirl concert"
   },
   {
@@ -52,7 +52,7 @@ window.searchIndex = [
     "url": "/blog/outfit-nu-ca-tinh-duoi-500k.html",
     "type": "Budget Guide",
     "description": "Cách xây outfit nữ cá tính dưới 500K bằng món nền sẵn có, hero piece và phụ kiện; chia ngân sách thực tế cho Baddie, E-Girl, Goth, Dark Feminine.",
-    "image": "/images/blog-covers/outfit-nu-ca-tinh-duoi-500k.webp",
+    "image": "/images/blog-covers/outfit-nu-ca-tinh-duoi-500k.webp?v=20260807-cover2",
     "keywords": "outfit nữ cá tính dưới 500k, set đồ nữ cá tính giá rẻ, phối đồ nữ cá tính ngân sách thấp, outfit shopee dưới 500k, alt fashion giá rẻ"
   },
   {
@@ -60,7 +60,7 @@ window.searchIndex = [
     "url": "/blog/set-do-nu-ca-tinh-shopee.html",
     "type": "Buyer Guide",
     "description": "Hướng dẫn chọn set đồ nữ cá tính trên Shopee: kiểm tra ảnh thật, size, chất liệu, tổng giá, link từng món và khả năng phối lại trước khi mua cả set.",
-    "image": "/images/blog-covers/set-do-nu-ca-tinh-shopee.webp",
+    "image": "/images/blog-covers/set-do-nu-ca-tinh-shopee.webp?v=20260807-cover2",
     "keywords": "set đồ nữ cá tính shopee, outfit nữ cá tính shopee, mua cả set đồ nữ, đồ nữ cá tính giá rẻ, set baddie shopee, set egirl shopee"
   },
   {
