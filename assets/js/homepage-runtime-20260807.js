@@ -83,20 +83,25 @@ function getUser() {
       const picture = document.createElement('picture');
       picture.style.aspectRatio = ratio;
       const mobileSource = document.createElement('source');
-      mobileSource.media = '(max-width: 768px)';
-      mobileSource.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w`;
-      mobileSource.sizes = 'calc((100vw - 6px) / 2)';
       const img = document.createElement('img');
       img.alt = `Badgirl outfit ${outfit.tag} — ${outfit.title} (${outfit.category})`;
       img.width = dims.width;
       img.height = dims.height;
       img.style.aspectRatio = ratio;
-      img.src = urls.grid;
-      img.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w, ${urls.grid} ${dims.width}w`;
-      img.sizes = '25vw';
-      img.loading = isPriority ? 'eager' : 'lazy';
-      img.decoding = isHighest && window.matchMedia('(max-width: 768px)').matches ? 'sync' : 'async';
-      if (isHighest) img.fetchPriority = 'high';
+      if (typeof window.acConfigureOutfitImage === 'function') {
+        window.acConfigureOutfitImage(mobileSource, img, urls, dims, isPriority, isHighest);
+      } else {
+        mobileSource.media = '(max-width: 768px)';
+        mobileSource.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w`;
+        mobileSource.sizes = 'calc((100vw - 6px) / 2)';
+        img.src = urls.grid;
+        img.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w, ${urls.grid} ${dims.width}w`;
+        img.sizes = '25vw';
+        img.loading = isPriority ? 'eager' : 'lazy';
+        img.decoding = isHighest && window.matchMedia('(max-width: 768px)').matches ? 'sync' : 'async';
+        if (isHighest) img.fetchPriority = 'high';
+        else if (!isPriority) img.fetchPriority = 'low';
+      }
       picture.appendChild(mobileSource);
       picture.appendChild(img);
 
@@ -115,6 +120,10 @@ function getUser() {
 
     window.renderAll = function(data = outfits) {
       const grid = document.getElementById('outfit-grid');
+      if (window.__acMobileLazyObserver) {
+        window.__acMobileLazyObserver.disconnect();
+        window.__acMobileLazyObserver = null;
+      }
       const savedIds = getSafeSavedIds();
       updateGridCopy();
       window.__acCurrentRenderedData = Array.isArray(data) ? data.slice() : [];

@@ -1171,6 +1171,67 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
       if (typeof window.toggleSave === 'function') window.toggleSave(outfit, btn);
     };
   }
+  const AC_TRANSPARENT_PIXEL = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+  function loadDeferredOutfitImage(img) {
+    if (!img || img.dataset.acLoaded === '1') return;
+    const picture = img.parentElement;
+    const source = picture ? picture.querySelector('source[data-srcset]') : null;
+    if (source && source.dataset.srcset) {
+      source.srcset = source.dataset.srcset;
+      source.removeAttribute('data-srcset');
+    }
+    if (img.dataset.srcset) {
+      img.srcset = img.dataset.srcset;
+      img.removeAttribute('data-srcset');
+    }
+    if (img.dataset.src) {
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+    }
+    img.dataset.acLoaded = '1';
+  }
+  function mobileLazyObserver() {
+    if (!('IntersectionObserver' in window)) return null;
+    if (window.__acMobileLazyObserver) return window.__acMobileLazyObserver;
+    window.__acMobileLazyObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        loadDeferredOutfitImage(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: '600px 0px', threshold: 0.01 });
+    return window.__acMobileLazyObserver;
+  }
+  window.acConfigureOutfitImage = function (mobileSource, img, urls, dims, priority, highest) {
+    const mobile = window.matchMedia('(max-width: 768px)').matches;
+    const mobileSet = `${urls.mobile} 240w, ${urls.mobileHd} 480w`;
+    const fullSet = `${urls.mobile} 240w, ${urls.mobileHd} 480w, ${urls.grid} ${dims.width}w`;
+    mobileSource.media = '(max-width: 768px)';
+    mobileSource.sizes = 'calc((100vw - 6px) / 2)';
+    img.sizes = '25vw';
+    img.loading = priority ? 'eager' : 'lazy';
+    img.decoding = highest && mobile ? 'sync' : 'async';
+    if (highest) img.fetchPriority = 'high';
+    else if (!priority) img.fetchPriority = 'low';
+
+    if (mobile && !priority && 'IntersectionObserver' in window) {
+      mobileSource.dataset.srcset = mobileSet;
+      img.dataset.src = urls.grid;
+      img.dataset.srcset = fullSet;
+      img.src = AC_TRANSPARENT_PIXEL;
+      requestAnimationFrame(function () {
+        const observer = mobileLazyObserver();
+        if (observer) observer.observe(img);
+        else loadDeferredOutfitImage(img);
+      });
+      return;
+    }
+
+    mobileSource.srcset = mobileSet;
+    img.src = urls.grid;
+    img.srcset = fullSet;
+    img.dataset.acLoaded = '1';
+  };
   function createCard(outfit, priority, highest) {
     const dims = dimensions(outfit);
     const urls = thumbUrls(outfit);
@@ -1188,20 +1249,12 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
     const picture = document.createElement('picture');
     picture.style.aspectRatio = card.style.aspectRatio;
     const mobileSource = document.createElement('source');
-    mobileSource.media = '(max-width: 768px)';
-    mobileSource.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w`;
-    mobileSource.sizes = 'calc((100vw - 6px) / 2)';
     const img = document.createElement('img');
     img.alt = `Badgirl outfit ${outfit.tag} — ${outfit.title} (${outfit.category})`;
     img.width = dims.width;
     img.height = dims.height;
     img.style.aspectRatio = card.style.aspectRatio;
-    img.src = urls.grid;
-    img.srcset = `${urls.mobile} 240w, ${urls.mobileHd} 480w, ${urls.grid} ${dims.width}w`;
-    img.sizes = '25vw';
-    img.loading = priority ? 'eager' : 'lazy';
-    img.decoding = highest && window.matchMedia('(max-width: 768px)').matches ? 'sync' : 'async';
-    if (highest) img.fetchPriority = 'high';
+    window.acConfigureOutfitImage(mobileSource, img, urls, dims, priority, highest);
     picture.appendChild(mobileSource);
     picture.appendChild(img);
 
@@ -1418,7 +1471,7 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
       }
     };
   </script>
-<script defer src="/assets/js/homepage-runtime-20260807.js?v=20260807-mobile-perf-v1"></script>
+<script defer src="/assets/js/homepage-runtime-20260807.js?v=20260807-mobile-image-opt-v2"></script>
 <script defer="" src="/assets/js/analytics-enhancements.min.js?v=20260807-mobile-perf-v1"></script>
 
 <script id="homepage-remove-look-counts">
