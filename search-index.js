@@ -1,11 +1,75 @@
 window.searchIndex = [
   {
+    "title": "Phối Đồ Nữ Cá Tính Đi Chơi: 12 Công Thức Dễ Mặc",
+    "url": "/blog/phoi-do-nu-ca-tinh-di-choi.html",
+    "type": "Outfit Guide",
+    "description": "Gợi ý phối đồ nữ cá tính đi chơi, đi cafe, dạo phố và đi tối theo E-Girl, Baddie, Goth, Dark Feminine; dễ mặc và dễ chọn Look.",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-di-choi.webp",
+    "keywords": "phối đồ nữ cá tính đi chơi, outfit nữ cá tính đi cafe, đồ nữ cá tính đi dạo phố, outfit đi chơi tối nữ, set đồ nữ cá tính"
+  },
+  {
+    "title": "Phối Đồ Nữ Cá Tính Mùa Hè: Mát Nhưng Vẫn Ngầu",
+    "url": "/blog/phoi-do-nu-ca-tinh-mua-he.html",
+    "type": "Seasonal Guide",
+    "description": "Cách phối đồ nữ cá tính mùa hè bằng chất liệu nhẹ, silhouette rõ và phụ kiện vừa đủ; gợi ý E-Girl, Baddie, Goth, Dark Feminine dễ mặc.",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-mua-he.webp",
+    "keywords": "phối đồ nữ cá tính mùa hè, outfit nữ cá tính mùa hè, mặc đồ đen mùa hè, outfit đi chơi mùa hè nữ, phối crop top nữ"
+  },
+  {
+    "title": "Phối Đồ Nữ Cá Tính Cho Nữ Lùn: 10 Cách Hack Dáng",
+    "url": "/blog/phoi-do-nu-ca-tinh-cho-nu-lun.html",
+    "type": "Fit Guide",
+    "description": "Hướng dẫn phối đồ nữ cá tính cho nữ lùn hoặc petite: chọn cạp, chiều dài áo, quần, váy, boots và tỷ lệ để trông cao, gọn hơn.",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-cho-nu-lun.webp",
+    "keywords": "phối đồ nữ cá tính cho nữ lùn, phối đồ cho nữ thấp, outfit petite cá tính, hack dáng nữ lùn, quần cargo cho người thấp"
+  },
+  {
+    "title": "Phối Đồ Nữ Cá Tính Cho Người Mập: Gọn Dáng, Dễ Mặc",
+    "url": "/blog/phoi-do-nu-ca-tinh-cho-nguoi-map.html",
+    "type": "Fit Guide",
+    "description": "Cách phối đồ nữ cá tính cho người mập hoặc plus size bằng tỷ lệ, chất liệu, điểm nhấn và form thoải mái; không ép cơ thể vào quy tắc che khuyết điểm.",
+    "image": "/images/blog-covers/phoi-do-nu-ca-tinh-cho-nguoi-map.webp",
+    "keywords": "phối đồ nữ cá tính cho người mập, outfit plus size cá tính, phối đồ che bụng nữ, đồ nữ cá tính size lớn, phối đồ alt fashion plus size"
+  },
+  {
+    "title": "Phối Đồ Với Quần Cargo Nữ: 10 Công Thức Cá Tính",
+    "url": "/blog/phoi-do-voi-quan-cargo-nu.html",
+    "type": "Item Guide",
+    "description": "Cách phối đồ với quần cargo nữ theo Baddie, E-Girl, Goth, Dark Feminine và Grunge; chọn top, giày, áo khoác và tỷ lệ không cồng kềnh.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-cargo-nu.webp",
+    "keywords": "phối đồ với quần cargo nữ, quần cargo nữ mặc với áo gì, outfit cargo nữ cá tính, phối cargo baddie, quần cargo cho nữ thấp"
+  },
+  {
+    "title": "Outfit Nữ Cá Tính Đi Concert: Ngầu, Dễ Di Chuyển",
+    "url": "/blog/outfit-nu-ca-tinh-di-concert.html",
+    "type": "Event Guide",
+    "description": "Gợi ý outfit nữ cá tính đi concert theo Goth, E-Girl, Baddie và Grunge; ưu tiên di chuyển, thời tiết, túi gọn, giày êm và ảnh đẹp.",
+    "image": "/images/blog-covers/outfit-nu-ca-tinh-di-concert.webp",
+    "keywords": "outfit nữ cá tính đi concert, phối đồ đi concert nữ, outfit đi xem nhạc nữ, đồ goth đi concert, outfit egirl concert"
+  },
+  {
+    "title": "Outfit Nữ Cá Tính Dưới 500K: Chia Ngân Sách Thông Minh",
+    "url": "/blog/outfit-nu-ca-tinh-duoi-500k.html",
+    "type": "Budget Guide",
+    "description": "Cách xây outfit nữ cá tính dưới 500K bằng món nền sẵn có, hero piece và phụ kiện; chia ngân sách thực tế cho Baddie, E-Girl, Goth, Dark Feminine.",
+    "image": "/images/blog-covers/outfit-nu-ca-tinh-duoi-500k.webp",
+    "keywords": "outfit nữ cá tính dưới 500k, set đồ nữ cá tính giá rẻ, phối đồ nữ cá tính ngân sách thấp, outfit shopee dưới 500k, alt fashion giá rẻ"
+  },
+  {
+    "title": "Set Đồ Nữ Cá Tính Shopee: Cách Chọn Cả Set Không Hớ",
+    "url": "/blog/set-do-nu-ca-tinh-shopee.html",
+    "type": "Buyer Guide",
+    "description": "Hướng dẫn chọn set đồ nữ cá tính trên Shopee: kiểm tra ảnh thật, size, chất liệu, tổng giá, link từng món và khả năng phối lại trước khi mua cả set.",
+    "image": "/images/blog-covers/set-do-nu-ca-tinh-shopee.webp",
+    "keywords": "set đồ nữ cá tính shopee, outfit nữ cá tính shopee, mua cả set đồ nữ, đồ nữ cá tính giá rẻ, set baddie shopee, set egirl shopee"
+  },
+  {
     "title": "Phối Đồ Nữ Cá Tính: E-Girl, Baddie, Goth & Grunge",
     "url": "/phoi-do-nu-ca-tinh.html",
     "type": "Pillar",
-    "description": "Hướng dẫn phối đồ nữ cá tính với 136 outfit hoàn chỉnh theo E-Girl, Baddie, Goth, Dark Feminine và Grunge.",
+    "description": "Trang trụ cột phối đồ nữ cá tính với 136 Look và các nhánh theo hoàn cảnh, vóc dáng, item, ngân sách.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
-    "keywords": "phối đồ nữ cá tính cách phối đồ nữ cá tính outfit nữ cá tính mix đồ nữ cá tính phối đồ nữ cool ngầu style nữ ngầu e-girl baddie goth dark feminine grunge"
+    "keywords": "phối đồ nữ cá tính cách phối đồ nữ cá tính outfit nữ cá tính mix đồ nữ cá tính phối đồ nữ cool ngầu style nữ ngầu e-girl baddie goth dark feminine grunge phối đồ nữ cá tính đi chơi mùa hè nữ lùn người mập cargo chân váy crop top boots concert dưới 500k shopee"
   },
   {
     "title": "E-Girl / Alt Girl: Hướng Dẫn, Outfit Và Dark Y2K",
@@ -608,12 +672,12 @@ window.searchIndex = [
     "keywords": "cách phối đồ layer nữ phối đồ layering nữ layer alt fashion cách mặc nhiều lớp không bị nặng layering dark feminine layering egirl phối đồ layer mùa lạnh áo khoác layer layering goth punk grunge layering sheer mesh layer texture mix layer outfit nhiều lớp alt fashion layer công thức"
   },
   {
-    "title": "Phối Đồ Với Váy Ngắn Nữ Theo Phong Cách Alt Fashion",
+    "title": "Phối Đồ Với Chân Váy Ngắn Cá Tính Cho Nữ",
     "url": "/blog/phoi-do-voi-vay-ngan-nu.html",
     "type": "Journal",
-    "description": "Phối đồ với váy ngắn nữ theo phong cách alt fashion: từ mini skirt egirl, plaid skirt punk đến satin slip dress dark feminine — cách chọn và mặc cho từng aesthetic.",
+    "description": "Cách phối đồ với chân váy ngắn cá tính cho nữ theo E-Girl, Goth, Grunge và Dark Feminine; chọn top, boots, tỷ lệ và độ dài dễ mặc.",
     "image": "/images/blog-covers/phoi-do-voi-vay-ngan-nu.webp",
-    "keywords": "phối đồ với váy ngắn nữ mini skirt phối đồ váy ngắn mặc với gì plaid skirt phối đồ váy ngắn dark feminine mini skirt egirl váy ngắn alt fashion váy ngắn boots phối đồ váy ngắn cá tính slip dress ngắn satin mini skirt punk grunge"
+    "keywords": "phối đồ với chân váy ngắn cá tính chân váy ngắn nữ mặc với gì outfit váy ngắn cá tính mini skirt egirl chân váy goth"
   },
   {
     "title": "Phối Đồ Với Áo Khoác Da Nữ: 7 Công Thức Alt Fashion Không Bị Sai",
@@ -624,12 +688,12 @@ window.searchIndex = [
     "keywords": "phối đồ với áo khoác da nữ áo khoác da nữ mặc với gì leather jacket nữ áo da nữ phối đồ jacket da nữ alt fashion áo khoác da đen nữ moto jacket nữ cropped leather jacket duster coat da áo khoác da ngắn nữ dark feminine punk goth baddie streetwear egirl"
   },
   {
-    "title": "Phối Đồ Với Boots Da Nữ: 7 Công Thức Alt Fashion Không Bị Sai",
+    "title": "Phối Đồ Với Boots Nữ Cá Tính: 7 Công Thức Alt",
     "url": "/blog/phoi-do-voi-boots-da-nu.html",
     "type": "Journal",
-    "description": "Phối đồ với boots da nữ đúng cách: 7 công thức từ dark feminine, punk, baddie streetwear đến goth — boots da không khó mặc nếu biết công thức.",
+    "description": "Cách phối đồ với boots nữ cá tính theo Dark Feminine, Punk, Baddie và Goth; chọn cổ boots, quần, váy và tỷ lệ phù hợp từng hoàn cảnh.",
     "image": "/images/blog-covers/phoi-do-voi-boots-da-nu.webp",
-    "keywords": "phối đồ với boots da nữ boots da nữ mặc với gì boots da cổ cao nữ combat boots nữ phối đồ ankle boots da nữ platform boots da boots da đen nữ dark feminine punk goth baddie streetwear"
+    "keywords": "phối đồ với boots nữ cá tính boots nữ mặc với gì outfit boots nữ combat boots platform boots"
   },
   {
     "title": "Outfit Đi Chơi Đêm: 7 Công Thức Badgirl Không Sợ Bị Nhìn",
@@ -704,12 +768,12 @@ window.searchIndex = [
     "keywords": "Alt Fashion Là Gì Và Tại Sao Nó Quan Trọng Hơn Bạn Nghĩ — Apocalypse Closet Alt fashion không phải rebellion trẻ con. Đó là cách một số người từ chối để hệ thống quyết định họ trông như thế nào — và tại sao điều đó có ý nghĩa chính trị thật sự. Alt Fashion Là Gì Và Tại Sao Nó Quan Trọng Hơn Bạn Nghĩ Alt Fashion Là Gì Và Tại Sao Nó Quan Trọng Hơn Bạn Nghĩ — Apocalypse Closet ← Blog Apocalypse Closet Tâm Lý Học 26 May 2026 Alt Fashion Là Gì Và Tại Sao Nó Quan Trọng Hơn Bạn Nghĩ By Apocalypse Closet Alt fashion — alternative fashion — là thuật ngữ dù cho bất cứ aesthetic nào tồn tại bên ngoài mainstream. Goth, punk, grunge, egirl, dark feminine, decora, lolita, visual kei: tất cả đều là alt fashion. Nhưng gọi nó chỉ là fashion bỏ sót phần quan trọng nhất. Alt fashion là một hệ thống ngôn ngữ mà người mặc dùng để nói: tôi không thuộc về narrative của bạn về tôi. Tại Sao Alt Fashion Không Phải Về Quần Áo Nghiên cứu trong tâm lý học xã hội cho thấy những người tham gia vào subculture thời trang có xu hướng có sense of identity ổn định hơn và khả năng chịu đựng social pressure cao hơn. Không phải vì quần áo có phép thuật — mà vì hành động chủ động xây dựng visual identity của bản thân là hành động tự xác định, và tự xác định là nền tảng của sức khỏe tâm lý. Alt Fashion Và Vấn Đề Authenticity Câu hỏi thường gặp nhất về alt fashion: bạn có thực sự là goth/punk/egirl hay chỉ đang make-believe? Câu hỏi này chứa một giả định sai — rằng có một bản thể thật đang bị che giấu bởi quần áo. Alt fashion reject giả định đó. Bạn không ăn mặc theo cách bạn là. Bạn trở thành cách bạn ăn mặc. Performativity không phải giả tạo — đó là cách identity thật sự được xây dựng. Mainstream fashion bán cho bạn một phiên bản của người bạn nên là. Alt fashion cho bạn nguyên liệu để xây dựng người bạn chọn là. Bắt Đầu Với Alt Fashion Ở Đâu Khi Bạn Chưa Biết Mình Thuộc Aesthetic Nào Điều tốt nhất về alt fashion năm 2026 là ranh giới giữa các aesthetic đã mờ đi đáng kể. Bạn không cần phải chọn một subculture và cam kết toàn bộ. Bắt đầu từ một item bạn bị thu hút — một đôi boots, một kiểu jewelry, một silhouette — rồi build từ đó. Alt fashion authentic không được xây từ trên xuống theo một aesthetic hoàn chỉnh. Nó được xây từ dưới lên theo những thứ thật sự resonated với bạn, piece by piece. #AltFashion #Identity #Subculture Share: Twitter ← Bài trước Cách Phối Đồ Đen Không Nhàm Chán © 2026 APOCALYPSE CLOSET"
   },
   {
-    "title": "Cách Phối Đồ Đen Không Nhàm Chán: 7 Công Thức Từ Apocalypse Closet",
+    "title": "Phối Đồ Đen Nữ Cá Tính: 7 Công Thức Không Nhàm",
     "url": "/blog/cach-phoi-do-den-khong-nham-chan.html",
     "type": "Journal",
-    "description": "All-black không phải lazy dressing — đó là kỷ luật thẩm mỹ cao nhất. 7 công thức phối đồ đen không nhàm chán từ góc nhìn của dark fashion.",
+    "description": "Cách phối đồ đen nữ cá tính bằng texture, tỷ lệ, layer và phụ kiện bạc; áp dụng cho Baddie, Goth, E-Girl, Dark Feminine và Grunge.",
     "image": "/images/blog-covers/cach-phoi-do-den-khong-nham-chan.webp",
-    "keywords": "Cách Phối Đồ Đen Không Nhàm Chán: 7 Công Thức Từ Apocalypse Closet — Apocalypse Closet All-black không phải lazy dressing — đó là kỷ luật thẩm mỹ cao nhất. 7 công thức phối đồ đen không nhàm chán từ góc nhìn của dark fashion. Cách Phối Đồ Đen Không Nhàm Chán: 7 Công Thức Từ Apocalypse Closet Cách Phối Đồ Đen Không Nhàm Chán: 7 Công Thức Từ Apocalypse Closet — Apocalypse Closet ← Blog Apocalypse Closet Style Guide 25 May 2026 Cách Phối Đồ Đen Không Nhàm Chán: 7 Công Thức Từ Apocalypse Closet By Apocalypse Closet Người ngoài nhìn vào tủ đồ toàn đen và nghĩ: đơn giản, an toàn, không cần suy nghĩ. Người thật sự mặc all-black biết sự thật ngược lại — phối đồ đen với đồ đen đòi hỏi hiểu biết về texture, silhouette và proportion còn nhiều hơn bất kỳ outfit màu sắc nào. Đây là 7 công thức đã được kiểm chứng. Công Thức 1: Texture Clash Kết hợp ít nhất 3 texture khác nhau trong cùng một outfit all-black: ví dụ matte jersey top + shiny PVC skirt + velvet boots. Mắt người nhìn sẽ không bị bored vì luôn có điều gì đó để xử lý, ngay cả khi tất cả đều là đen. Công Thức 2: Volume Game Oversized trên fitted dưới hoặc ngược lại — không bao giờ oversized cả trên lẫn dưới trừ khi bạn đang làm điều đó một cách rất có chủ ý với một statement piece. Ví dụ: oversized leather jacket + fitted turtleneck + straight leg pants là một trong những công thức all-black không bao giờ fail. Công Thức 3: Một Statement Piece, Phần Còn Lại Là Nền Chọn một item làm nhân vật chính — một chiếc corset với boning chi tiết, một đôi boots có buckle hàng hàng, một trench coat structured với vai bồng. Mọi thứ còn lại trong outfit phải phục vụ cho piece đó, không cạnh tranh với nó. Công Thức 4: Jewelry Như Điểm Sáng Duy Nhất All-black outfit với silver hardware jewelry tạo ra contrast mà không phá vỡ palette. Chain necklace nhiều tầng, rings nhiều ngón, earrings asymmetric — jewelry trong dark fashion không phải phụ kiện, đó là punctuation của toàn bộ câu chuyện bạn đang kể. All-black không phải không có màu sắc. Đó là tất cả màu sắc đã được distilled xuống bản chất thuần túy nhất. Công Thức 5–7: Nhanh Và Hiệu Quả Công thức 5: Layering chiều dài — crop top + midi skirt + long cardigan tạo ra visual layers thú vị. Công thức 6: Mix formality — blazer structured với jogger đen và sneakers platform, hoặc slip dress với hoodie bên ngoài. Công thức 7: Tonal black — sử dụng nhiều shade đen khác nhau (jet black, soft black, faded black) để tạo depth trong outfit mà vẫn giữ nguyên palette. #AllBlac do den all black outfit black outfit"
+    "keywords": "phối đồ đen nữ cá tính outfit đen nữ cá tính phối đồ all black nữ set đồ đen nữ ngầu dark aesthetic"
   },
   {
     "title": "Dark Feminine Is Not a Trend: Đây Là Cách Sống",
