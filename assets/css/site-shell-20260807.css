@@ -273,3 +273,66 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 .ac-site-shell a:focus-visible,.ac-site-shell button:focus-visible{outline:3px solid #f4f1ea!important;outline-offset:3px!important}
 .ac-footer-bottom>span{color:#c4bfb6!important}
 @media(max-width:620px){.ac-footer-links a{display:inline-flex!important;align-items:center!important;min-height:44px!important;padding:7px 0!important}}
+
+
+/* Homepage persistent RELOAD control — 2026-08-07 v4 */
+.ac-header-actions{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-end!important;
+  gap:8px!important;
+  flex:0 0 auto!important;
+}
+.ac-header-reload{
+  box-sizing:border-box!important;
+  min-height:38px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:7px!important;
+  padding:9px 12px!important;
+  margin:0!important;
+  color:#f4f1ea!important;
+  background:#15100f!important;
+  border:1px solid #8f3b34!important;
+  border-radius:2px!important;
+  font:700 10px/1 "Space Mono",ui-monospace,monospace!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  cursor:pointer!important;
+  transition:color .18s ease,border-color .18s ease,background .18s ease,transform .18s ease!important;
+}
+.ac-header-reload:hover,.ac-header-reload:focus-visible{
+  color:#fff!important;
+  background:#9f3028!important;
+  border-color:#c9554b!important;
+}
+.ac-header-reload:active{transform:translateY(1px)!important}
+.ac-reload-icon{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:16px!important;
+  height:16px!important;
+  font-size:17px!important;
+  line-height:1!important;
+  transform-origin:center!important;
+}
+.ac-header-reload.is-reloading .ac-reload-icon{animation:ac-reload-spin .38s ease-out 1!important}
+@keyframes ac-reload-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@media (max-width:960px){
+  .ac-site-header>.ac-header-actions{margin-left:auto!important}
+  .ac-menu-toggle{margin-left:0!important}
+  .ac-header-reload{min-height:42px!important;padding:10px 11px!important;font-size:9px!important}
+}
+@media (max-width:380px){
+  .ac-site-header{gap:8px!important;padding-inline:10px!important}
+  .ac-brand{gap:7px!important}
+  .ac-brand-wordmark{height:20px!important;max-width:96px!important}
+  .ac-header-actions{gap:6px!important}
+  .ac-header-reload{padding-inline:8px!important;letter-spacing:.05em!important}
+}
+@media (prefers-reduced-motion:reduce){
+  .ac-header-reload.is-reloading .ac-reload-icon{animation:none!important}
+}

@@ -740,13 +740,12 @@
   }
 </style>
 
-<link rel="stylesheet" href="/assets/css/site-shell-20260807.css?v=20260807-3">
+<link rel="stylesheet" href="/assets/css/site-shell-20260807.css?v=20260807-4">
 </head>
 <body class="ac-site-shell">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="ac-site-header">
 <a class="ac-brand" href="/" aria-label="Apocalypse Closet — Trang chủ"><img class="ac-brand-mark" src="/Logo-Apocalypse-Closet.webp" width="88" height="88" alt="Apocalypse Closet"><img class="ac-brand-wordmark" src="/wordmark-hd.webp" width="280" height="128" alt="Apocalypse Closet"></a>
-<button class="ac-menu-toggle" type="button" aria-expanded="false" aria-controls="ac-primary-nav" aria-label="Mở menu"><svg aria-hidden="true" fill="none" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg></button>
 <nav class="ac-primary-nav" id="ac-primary-nav" aria-label="Điều hướng chính">
 <a data-ac-nav="home" href="/">Trang chủ</a>
 <a data-ac-nav="outfits" href="/phoi-do-nu-ca-tinh.html">Phối đồ nữ cá tính</a>
@@ -755,8 +754,12 @@
 </div></div>
 <a data-ac-nav="blog" href="/blog.html">Blog</a>
 <a data-ac-nav="closet" href="/closet.html">Tủ đồ</a>
-<button aria-label="Tìm kiếm" class="ac-context-button" onclick="toggleSearch()" type="button">Tìm kiếm</button><button aria-label="Tải lại outfit ngẫu nhiên" class="ac-context-button" data-ac-action="reload" onclick="randomize()" type="button">↻</button>
+<button aria-label="Tìm kiếm" class="ac-context-button" onclick="toggleSearch()" type="button">Tìm kiếm</button>
 </nav>
+<div class="ac-header-actions">
+<button aria-label="Random outfit mới" class="ac-header-reload" data-ac-action="reload" data-reload-source="header" onclick="acHeaderReload(this)" type="button"><span aria-hidden="true" class="ac-reload-icon">↻</span><span>RELOAD</span></button>
+<button class="ac-menu-toggle" type="button" aria-expanded="false" aria-controls="ac-primary-nav" aria-label="Mở menu"><svg aria-hidden="true" fill="none" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg></button>
+</div>
 </header>
 <main id="main" tabindex="-1">
 <form action="/search.html" aria-label="Tìm kiếm Apocalypse Closet" id="search-bar" method="get" role="search">
@@ -904,7 +907,7 @@
 <div aria-hidden="true" class="feed-end-icon">✦</div>
 <p class="feed-end-title" id="feed-end-title">Bạn đã xem hết!</p>
 <p class="feed-end-copy" id="feed-end-copy">Bạn đã xem hết outfit của lượt này.</p>
-<button class="btn btn-reload" onclick="randomize()" type="button">
+<button class="btn btn-reload" data-reload-source="feed-end" onclick="randomize(true)" type="button">
 <span aria-hidden="true" class="nav-icon spin">↻</span>
 <span>RELOAD OUTFIT CHƯA HIỆN</span>
 </button>
@@ -1241,19 +1244,45 @@
       return result;
     }
 
-    function randomize(shouldScroll = true) {
+    function restoreScrollPosition(x, y) {
+      const restore = () => window.scrollTo({ left: x, top: y, behavior: 'auto' });
+      restore();
+      requestAnimationFrame(() => {
+        restore();
+        requestAnimationFrame(restore);
+      });
+    }
+
+    function randomize(shouldScroll = false) {
       const PAGE_SIZE = getPageSize();
       const allIds = outfits.map(o => o.id);
+      const scrollX = window.scrollX;
+      const scrollY = window.scrollY;
 
       let pool;
-      try { pool = JSON.parse(sessionStorage.getItem('ac_pool') || '[]'); } catch { pool = []; }
+      let lastBatch;
+      try {
+        pool = JSON.parse(sessionStorage.getItem('ac_pool') || '[]');
+        lastBatch = JSON.parse(sessionStorage.getItem('ac_last_batch') || '[]');
+      } catch {
+        pool = [];
+        lastBatch = [];
+      }
       pool = Array.isArray(pool) ? pool.filter(id => allIds.includes(id)) : [];
-      if (pool.length === 0) pool = shuffle(allIds);
+      lastBatch = Array.isArray(lastBatch) ? lastBatch.filter(id => allIds.includes(id)) : [];
+      if (pool.length === 0) {
+        const fresh = allIds.filter(id => !lastBatch.includes(id));
+        pool = shuffle(fresh.length >= PAGE_SIZE ? fresh : allIds);
+      }
 
       const batch = [];
       while (batch.length < PAGE_SIZE && allIds.length > 0) {
         if (pool.length === 0) {
-          pool = shuffle(allIds.filter(id => !batch.includes(id)));
+          let candidates = allIds.filter(id => !batch.includes(id) && !lastBatch.includes(id));
+          if (candidates.length < PAGE_SIZE - batch.length) {
+            candidates = allIds.filter(id => !batch.includes(id));
+          }
+          pool = shuffle(candidates);
           if (pool.length === 0) break;
         }
         const nextId = pool.shift();
@@ -1271,6 +1300,8 @@
         requestAnimationFrame(() => {
           document.querySelector('#outfit-grid')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
+      } else {
+        restoreScrollPosition(scrollX, scrollY);
       }
     }
 
@@ -1387,17 +1418,41 @@
         originalRandomize(false);
       }
     };
-    window.randomize = function(shouldScroll=true){
+    let lastFilteredOrder = [];
+    window.randomize = function(shouldScroll=false){
       if(!activeFilterCount) return originalRandomize(shouldScroll);
-      window.renderAll(shuffleFiltered(activeMatches));
+      const scrollX=window.scrollX,scrollY=window.scrollY;
+      let shuffled=shuffleFiltered(activeMatches);
+      const previousOrder=lastFilteredOrder.length
+        ? lastFilteredOrder
+        : (Array.isArray(window.__acCurrentRenderedData) ? window.__acCurrentRenderedData.map(item=>item.id) : []);
+      if(shuffled.length>1 && previousOrder.length===shuffled.length){
+        const same=shuffled.every((item,index)=>item.id===previousOrder[index]);
+        if(same) shuffled=[...shuffled.slice(1),shuffled[0]];
+      }
+      lastFilteredOrder=shuffled.map(item=>item.id);
+      window.renderAll(shuffled);
       const counter=document.getElementById('counter');
       if(counter){const text=`${activeMatches.length} LOOK PHÙ HỢP`;counter.textContent=text;counter.setAttribute('data-text',text);}
-      if(shouldScroll)requestAnimationFrame(()=>document.querySelector('#outfit-grid')?.scrollIntoView({behavior:'smooth',block:'start'}));
-      if(window.acTrack)window.acTrack('reload_outfits',{filtered:true,result_count:activeMatches.length});
+      if(shouldScroll){
+        requestAnimationFrame(()=>document.querySelector('#outfit-grid')?.scrollIntoView({behavior:'smooth',block:'start'}));
+      }else{
+        const restore=()=>window.scrollTo({left:scrollX,top:scrollY,behavior:'auto'});
+        restore();requestAnimationFrame(()=>{restore();requestAnimationFrame(restore);});
+      }
+    };
+    window.acHeaderReload=function(button){
+      if(button){
+        button.classList.remove('is-reloading');
+        void button.offsetWidth;
+        button.classList.add('is-reloading');
+        window.setTimeout(()=>button.classList.remove('is-reloading'),420);
+      }
+      window.randomize(false);
     };
   })();
   </script>
-<script defer="" src="/assets/js/analytics-enhancements.min.js"></script>
+<script defer="" src="/assets/js/analytics-enhancements.min.js?v=20260807-reload-v1"></script>
 
 <script id="homepage-remove-look-counts">
 (function () {
