@@ -16,11 +16,29 @@
     header.classList.toggle('is-menu-open', open);
     menuButton.setAttribute('aria-expanded', String(open));
   });
+  const desktopHover = window.matchMedia('(hover: hover) and (min-width: 961px)');
+  let dropdownCloseTimer = 0;
+  const setDropdownOpen = (open) => {
+    if (!dropdown) return;
+    window.clearTimeout(dropdownCloseTimer);
+    dropdown.classList.toggle('is-open', open);
+    dropdownButton?.setAttribute('aria-expanded', String(open));
+  };
   dropdownButton?.addEventListener('click', (event) => {
     event.preventDefault();
-    const open = !dropdown.classList.contains('is-open');
-    dropdown.classList.toggle('is-open', open);
-    dropdownButton.setAttribute('aria-expanded', String(open));
+    setDropdownOpen(!dropdown.classList.contains('is-open'));
+  });
+  dropdown?.addEventListener('pointerenter', () => {
+    if (desktopHover.matches) setDropdownOpen(true);
+  });
+  dropdown?.addEventListener('pointerleave', () => {
+    if (!desktopHover.matches) return;
+    window.clearTimeout(dropdownCloseTimer);
+    dropdownCloseTimer = window.setTimeout(() => setDropdownOpen(false), 180);
+  });
+  dropdown?.addEventListener('focusin', () => setDropdownOpen(true));
+  dropdown?.addEventListener('focusout', (event) => {
+    if (!dropdown.contains(event.relatedTarget)) setDropdownOpen(false);
   });
   document.addEventListener('click', (event) => {
     if (dropdown && !dropdown.contains(event.target)) {
