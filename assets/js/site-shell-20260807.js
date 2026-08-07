@@ -1,0 +1,49 @@
+/* Apocalypse Closet unified site shell — 2026-08-07 */
+(() => {
+  const header = document.querySelector('.ac-site-header');
+  if (!header) return;
+  const menuButton = header.querySelector('.ac-menu-toggle');
+  const dropdown = header.querySelector('.ac-nav-dropdown');
+  const dropdownButton = header.querySelector('.ac-dropdown-toggle');
+  const closeMenu = () => {
+    header.classList.remove('is-menu-open');
+    menuButton?.setAttribute('aria-expanded','false');
+    dropdown?.classList.remove('is-open');
+    dropdownButton?.setAttribute('aria-expanded','false');
+  };
+  menuButton?.addEventListener('click', () => {
+    const open = !header.classList.contains('is-menu-open');
+    header.classList.toggle('is-menu-open', open);
+    menuButton.setAttribute('aria-expanded', String(open));
+  });
+  dropdownButton?.addEventListener('click', (event) => {
+    event.preventDefault();
+    const open = !dropdown.classList.contains('is-open');
+    dropdown.classList.toggle('is-open', open);
+    dropdownButton.setAttribute('aria-expanded', String(open));
+  });
+  document.addEventListener('click', (event) => {
+    if (dropdown && !dropdown.contains(event.target)) {
+      dropdown.classList.remove('is-open');
+      dropdownButton?.setAttribute('aria-expanded','false');
+    }
+  });
+  document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closeMenu(); });
+  header.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    if (window.matchMedia('(max-width: 960px)').matches) closeMenu();
+  }));
+  const path = (location.pathname || '/').replace(/\/+$/,'') || '/';
+  let section = '';
+  if (path === '/') section = 'home';
+  else if (path === '/phoi-do-nu-ca-tinh.html' || path.startsWith('/outfits/')) section = 'outfits';
+  else if (path.startsWith('/style/')) section = 'style';
+  else if (path === '/blog.html' || path.startsWith('/blog/')) section = 'blog';
+  else if (path === '/closet.html' || path === '/login.html') section = 'closet';
+  if (section === 'style') dropdownButton?.classList.add('is-active');
+  else header.querySelector(`[data-ac-nav="${section}"]`)?.classList.add('is-active');
+  header.querySelectorAll('.ac-dropdown-menu a').forEach(link => {
+    const href = new URL(link.href, location.origin).pathname.replace(/\/+$/,'');
+    if (href === path) link.classList.add('is-active');
+  });
+  window.addEventListener('resize', () => { if (window.innerWidth > 960) closeMenu(); }, {passive:true});
+})();
