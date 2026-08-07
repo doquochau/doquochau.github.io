@@ -13,7 +13,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #01",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #1",
+      "title": "Look #01 Baddie Streetwear: Camisole trắng + Quần dây rút đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
@@ -94,7 +94,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #02",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #2",
+      "title": "Look #02 Baddie Streetwear: Sweatshirt đen oversize + Cargo rằn ri",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp",
@@ -172,7 +172,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #03",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #3",
+      "title": "Look #03 Punk / Grunge: Crop tee graphic trắng + Cargo đen ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp",
@@ -259,7 +259,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #04",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #4",
+      "title": "Look #04 Dark Feminine: Áo trễ vai nâu + Jeans rách tua rua",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp",
@@ -337,7 +337,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #05",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #5",
+      "title": "Look #05 Punk / Grunge: Graphic tee đen + Jeans rách xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp",
@@ -419,7 +419,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #06",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #6",
+      "title": "Look #06 Punk / Grunge: Graphic tee đỏ + Short đen cạp cao",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp",
@@ -505,7 +505,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #07",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #7",
+      "title": "Look #07 Baddie Streetwear: Tube top đen + Parachute đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp",
@@ -598,7 +598,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #08",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #8",
+      "title": "Look #08 E-Girl: Crop tee đỏ + Jeans cargo xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp",
@@ -689,7 +689,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #09",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #9",
+      "title": "Look #09 Punk / Grunge: Áo thun đen + Cargo rằn ri xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp",
@@ -769,7 +769,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #10",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #10",
+      "title": "Look #10 Punk / Grunge: Crop top cổ lọ + Jeans rách đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp",
@@ -849,7 +849,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #11",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #11",
+      "title": "Look #11 Baddie Streetwear: Camisole satin trắng + Short đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp",
@@ -949,7 +949,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #12",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #12",
+      "title": "Look #12 E-Girl: Halter top đen + Bermuda denim đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
@@ -1040,7 +1040,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #13",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #13",
+      "title": "Look #13 E-Girl: Camisole đen + Short đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp",
@@ -1128,7 +1128,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #14",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #14",
+      "title": "Look #14 Baddie Streetwear: Tank top Brazil + Jeans baggy rách",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp",
@@ -1211,7 +1211,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #15",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #15",
+      "title": "Look #15 Baddie Streetwear: Camisole đen + Cargo graffiti trắng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp",
@@ -1297,7 +1297,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #16",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #16",
+      "title": "Look #16 Punk / Grunge: Halter top đen + Cargo đen nhiều túi",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
@@ -1391,7 +1391,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #17",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #17",
+      "title": "Look #17 Baddie Streetwear: Graphic tee đen + Jeans baggy xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
@@ -1481,7 +1481,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #18",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #18",
+      "title": "Look #18 Punk / Grunge: Crop top đen + Jeans rách đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp",
@@ -1573,7 +1573,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #19",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #19",
+      "title": "Look #19 Punk / Grunge: Bandeau đen + Cargo rách phối lưới",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
@@ -1658,7 +1658,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #20",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #20",
+      "title": "Look #20 Baddie Streetwear: Crop tee trắng + Jogger xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp",
@@ -1741,7 +1741,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #21",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #21",
+      "title": "Look #21 Baddie Streetwear: Crop top đen + Jeans đen ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
@@ -1831,7 +1831,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #22",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #22",
+      "title": "Look #22 Dark Feminine: Crop top lệch vai + Jeans phối ren đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
@@ -1907,7 +1907,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #23",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #23",
+      "title": "Look #23 Baddie Streetwear: Crop tee trắng đỏ + Track pants trắng đỏ",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp",
@@ -1975,7 +1975,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #24",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #24",
+      "title": "Look #24 Punk / Grunge: Graphic tee đen + Short đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp",
@@ -2050,7 +2050,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #25",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #25",
+      "title": "Look #25 Punk / Grunge: Áo lưới graphic đen + Cargo navy ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp",
@@ -2147,7 +2147,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #26",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #26",
+      "title": "Look #26 Punk / Grunge: Áo trễ vai xám + Cargo jeans xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp",
@@ -2237,7 +2237,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #27",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #27",
+      "title": "Look #27 Punk / Grunge: Graphic tee nâu + Jeans baggy xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
@@ -2322,7 +2322,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #28",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #28",
+      "title": "Look #28 Baddie Streetwear: Crop tee trắng + Parachute beige",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp",
@@ -2407,7 +2407,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #29",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #29",
+      "title": "Look #29 Dark Feminine: Camisole da báo + Jeans wash nâu",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
@@ -2488,7 +2488,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #30",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #30",
+      "title": "Look #30 Dark Feminine: Corset nâu + Jeans cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
@@ -2576,7 +2576,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #31",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #31",
+      "title": "Look #31 Baddie Streetwear: Áo thun đen + Jeans baggy xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp",
@@ -2659,7 +2659,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #32",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #32",
+      "title": "Look #32 Baddie Streetwear: Tank top đen + Quần ống rộng đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp",
@@ -2737,7 +2737,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #33",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #33",
+      "title": "Look #33 E-Girl: Corset đen đỏ + Jeans baggy xanh nhạt",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp",
@@ -2832,7 +2832,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #34",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #34",
+      "title": "Look #34 Baddie Streetwear: Crop tee đen + Jogger xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp",
@@ -2925,7 +2925,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #35",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #35",
+      "title": "Look #35 Baddie Streetwear: Crop top trễ vai + Jeans đen ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp",
@@ -3007,7 +3007,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #36",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #36",
+      "title": "Look #36 Baddie Streetwear: Áo trễ vai đen + Jeans baggy xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp",
@@ -3099,7 +3099,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #37",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #37",
+      "title": "Look #37 Baddie Streetwear: Crop tank đen + Quần tây đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp",
@@ -3197,7 +3197,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #38",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #38",
+      "title": "Look #38 Punk / Grunge: Crop top cổ lọ + Jeans rách đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp",
@@ -3282,7 +3282,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #39",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #39",
+      "title": "Look #39 Baddie Streetwear: Tank top đen + Quần ống rộng đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp",
@@ -3357,7 +3357,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #40",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #40",
+      "title": "Look #40 Baddie Streetwear: Crop top cutout trắng + Jeans baggy xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp",
@@ -3439,7 +3439,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #41",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #41 – E-Girl",
+      "title": "Look #41 E-Girl: Áo graphic trắng + Chân váy xếp ly đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-trang-chan-vay-xep-ly-den-041.webp"
@@ -3517,7 +3517,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #42",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #42 – E-Girl",
+      "title": "Look #42 E-Girl: Áo kẻ sọc đen + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-ke-soc-den-chan-vay-xep-ly-042.webp"
@@ -3592,7 +3592,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #43",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #43 – E-Girl",
+      "title": "Look #43 E-Girl: Áo crop graphic đen + Chân váy caro",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-caro-043.webp"
@@ -3672,7 +3672,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #44",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #44 – Goth",
+      "title": "Look #44 Goth: Áo lưới đen + Quần short xích",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-short-xich-044.webp"
@@ -3748,7 +3748,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #45",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #45 – Grunge",
+      "title": "Look #45 E-Girl: Áo kẻ sọc đỏ đen + Chân váy đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-do-den-chan-vay-den-045.webp"
@@ -3826,7 +3826,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #46",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #46 – Goth",
+      "title": "Look #46 Goth: Áo corset đen + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-corset-den-chan-vay-xep-ly-046.webp"
@@ -3906,7 +3906,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #47",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #47 – Goth",
+      "title": "Look #47 Goth: Áo lưới corset đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-corset-den-quan-cargo-xam-047.webp"
@@ -3990,7 +3990,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #48",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #48 – Grunge",
+      "title": "Look #48 Punk / Grunge: Áo graphic đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-den-quan-cargo-xam-048.webp"
@@ -4068,7 +4068,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #49",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #49 – Goth",
+      "title": "Look #49 Goth: Áo graphic trễ vai + Chân váy đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-den-049.webp"
@@ -4150,7 +4150,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #50",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #50 – Grunge",
+      "title": "Look #50 Punk / Grunge: Áo lưới graphic xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-graphic-xam-quan-cargo-den-050.webp"
@@ -4228,7 +4228,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #51",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #51 – E-Girl",
+      "title": "Look #51 E-Girl: Áo jersey trắng + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-jersey-trang-chan-vay-xep-ly-051.webp"
@@ -4303,7 +4303,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #52",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #52 – Goth",
+      "title": "Look #52 Goth: Áo dây đan đen + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-day-dan-den-chan-vay-xep-ly-052.webp"
@@ -4381,7 +4381,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #53",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #53 – Dark Feminine",
+      "title": "Look #53 Dark Feminine: Áo crop khoét ngực + Chân váy đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-khoet-nguc-chan-vay-den-053.webp"
@@ -4456,7 +4456,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #54",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #54 – Grunge",
+      "title": "Look #54 Punk / Grunge: Áo thun graphic đen + Chân váy mini",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-chan-vay-mini-054.webp"
@@ -4534,7 +4534,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #55",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #55 – E-Girl",
+      "title": "Look #55 E-Girl: Áo crop đen tay be + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-den-tay-be-chan-vay-xep-ly-055.webp"
@@ -4611,7 +4611,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #56",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #56 – Goth",
+      "title": "Look #56 Punk / Grunge: Áo graphic trễ vai + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-xep-ly-056.webp"
@@ -4693,7 +4693,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #57",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #57 – Grunge",
+      "title": "Look #57 Goth: Áo crop graphic xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-057.webp"
@@ -4773,7 +4773,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #58",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #58 – Baddie Streetwear",
+      "title": "Look #58 Baddie Streetwear: Áo jersey số 17 + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-jersey-so-17-quan-cargo-den-058.webp"
@@ -4846,7 +4846,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #59",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #59 – Goth",
+      "title": "Look #59 Goth: Áo corset xám + Chân váy xếp ly đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-corset-xam-chan-vay-xep-ly-den-059.webp"
@@ -4926,7 +4926,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #60",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #60 – Grunge",
+      "title": "Look #60 Punk / Grunge: Áo crop graphic hồng + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-hong-quan-cargo-den-060.webp"
@@ -5006,7 +5006,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #61",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #61 – E-Girl",
+      "title": "Look #61 E-Girl: Áo jersey số 09 + Chân váy đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-jersey-so-09-chan-vay-den-061.webp"
@@ -5081,7 +5081,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #62",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #62 – E-Girl",
+      "title": "Look #62 E-Girl: Áo polo crop trắng + Chân váy xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-polo-crop-trang-chan-vay-xam-062.webp"
@@ -5158,7 +5158,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #63",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #63 – Baddie Streetwear",
+      "title": "Look #63 Baddie Streetwear: Áo crop cổ cao đen + Quần cargo",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-co-cao-den-quan-cargo-063.webp"
@@ -5233,7 +5233,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #64",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #64 – Grunge",
+      "title": "Look #64 Punk / Grunge: Áo khoác thể thao + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-khoac-the-thao-quan-cargo-den-064.webp"
@@ -5311,7 +5311,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #65",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #65 – Goth",
+      "title": "Look #65 Goth: Áo lưới dây đan + Chân váy mini đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-day-dan-chan-vay-mini-den-065.webp"
@@ -5387,7 +5387,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #66",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #66 – Grunge",
+      "title": "Look #66 Goth: Áo lưới nâu + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-nau-quan-cargo-den-066.webp"
@@ -5465,7 +5465,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #67",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #67 – Baddie Streetwear",
+      "title": "Look #67 Baddie Streetwear: Áo trễ vai trắng + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-trang-quan-cargo-xam-067.webp"
@@ -5545,7 +5545,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #68",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #68 – Goth",
+      "title": "Look #68 Goth: Áo lưới đen + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-cargo-den-068.webp"
@@ -5625,7 +5625,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #69",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #69 – Grunge",
+      "title": "Look #69 Punk / Grunge: Áo thun graphic đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-quan-cargo-xam-069.webp"
@@ -5703,7 +5703,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #70",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #70 – Goth",
+      "title": "Look #70 Goth: Áo corset khóa cài + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-corset-khoa-cai-quan-cargo-xam-070.webp"
@@ -5787,7 +5787,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #71",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #71 – E-Girl",
+      "title": "Look #71 E-Girl: Áo crop trắng graphic mắt + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-trang-graphic-mat-quan-cargo-den-071.webp"
@@ -5871,7 +5871,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #72",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #72 – Dark Feminine",
+      "title": "Look #72 Dark Feminine: Áo ren buộc dây đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-ren-buoc-day-den-quan-cargo-xam-072.webp"
@@ -5949,7 +5949,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #73",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #73 – Goth",
+      "title": "Look #73 Goth: Áo yếm graphic đen + Quần cargo tím",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-yem-graphic-den-quan-cargo-tim-073.webp"
@@ -6029,7 +6029,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #74",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #74 – Grunge",
+      "title": "Look #74 Dark Feminine: Áo trễ vai graphic đen + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-tre-vai-graphic-den-chan-vay-denim-074.webp"
@@ -6104,7 +6104,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #75",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #75 – Baddie Streetwear",
+      "title": "Look #75 Baddie Streetwear: Áo hồng ôm dáng + Chân váy cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-hong-om-dang-chan-vay-cargo-den-075.webp"
@@ -6184,7 +6184,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #76",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #76 – Baddie Streetwear",
+      "title": "Look #76 Baddie Streetwear: Áo crop số 23 + Chân váy cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-so-23-chan-vay-cargo-xam-076.webp"
@@ -6264,7 +6264,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #77",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #77 – Dark Feminine",
+      "title": "Look #77 Dark Feminine: Áo corset đen + Quần jean ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-corset-den-quan-jean-ong-rong-077.webp"
@@ -6341,7 +6341,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #78",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #78 – Grunge",
+      "title": "Look #78 Punk / Grunge: Áo crop đỏ rượu + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-do-ruou-quan-cargo-den-078.webp"
@@ -6421,7 +6421,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #79",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #79 – Grunge",
+      "title": "Look #79 Goth: Áo lưới xám + Quần cargo ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-xam-quan-cargo-ong-rong-079.webp"
@@ -6501,7 +6501,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #80",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #80 – Grunge",
+      "title": "Look #80 Punk / Grunge: Áo graphic xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-quan-cargo-den-080.webp"
@@ -6579,7 +6579,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #81",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #81 – Dark Feminine",
+      "title": "Look #81 Dark Feminine: Áo yếm corset nâu + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-yem-corset-nau-quan-cargo-den-081.webp"
@@ -6659,7 +6659,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #82",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #82 – Baddie Streetwear",
+      "title": "Look #82 Baddie Streetwear: Áo vest khóa kéo đen + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-vest-khoa-keo-den-chan-vay-denim-082.webp"
@@ -6735,7 +6735,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #83",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #83 – Dark Feminine",
+      "title": "Look #83 Dark Feminine: Áo corset olive + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-corset-olive-chan-vay-denim-083.webp"
@@ -6812,7 +6812,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #84",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #84 – Baddie Streetwear",
+      "title": "Look #84 Baddie Streetwear: Áo crop khóa kéo đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-khoa-keo-den-quan-cargo-xam-084.webp"
@@ -6887,7 +6887,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #85",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #85 – Grunge",
+      "title": "Look #85 Punk / Grunge: Áo graphic xám + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-085.webp"
@@ -6965,7 +6965,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #86",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #86 – Baddie Streetwear",
+      "title": "Look #86 Baddie Streetwear: Áo trễ vai kem + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-kem-quan-cargo-den-086.webp"
@@ -7045,7 +7045,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #87",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #87 – E-Girl",
+      "title": "Look #87 E-Girl: Áo graphic xám + Chân váy xếp ly đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-xam-chan-vay-xep-ly-den-087.webp"
@@ -7123,7 +7123,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #88",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #88 – E-Girl",
+      "title": "Look #88 E-Girl: Áo crop trắng + Chân váy denim đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-trang-chan-vay-denim-den-088.webp"
@@ -7200,7 +7200,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #89",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #89 – Grunge",
+      "title": "Look #89 Punk / Grunge: Áo crop trễ vai đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-den-quan-cargo-xam-089.webp"
@@ -7280,7 +7280,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #90",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #90 – E-Girl",
+      "title": "Look #90 E-Girl: Áo thun graphic đen + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-thun-graphic-den-chan-vay-xep-ly-090.webp"
@@ -7358,7 +7358,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #91",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #91 – E-Girl",
+      "title": "Look #91 E-Girl: Áo corset caro xám + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-corset-caro-xam-chan-vay-xep-ly-091.webp"
@@ -7435,7 +7435,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #92",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #92 – Grunge",
+      "title": "Look #92 Punk / Grunge: Áo tank graphic đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-tank-graphic-den-quan-cargo-xam-092.webp"
@@ -7515,7 +7515,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #93",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #93 – E-Girl",
+      "title": "Look #93 E-Girl: Áo crop graphic đen + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-denim-093.webp"
@@ -7595,7 +7595,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #94",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #94 – Grunge",
+      "title": "Look #94 Punk / Grunge: Áo thun graphic xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-xam-quan-cargo-den-094.webp"
@@ -7673,7 +7673,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #95",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #95 – E-Girl",
+      "title": "Look #95 E-Girl: Áo crop bướm trắng + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-buom-trang-quan-cargo-xam-095.webp"
@@ -7755,7 +7755,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #96",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #96 – Grunge",
+      "title": "Look #96 Punk / Grunge: Áo graphic trễ vai + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-quan-cargo-den-096.webp"
@@ -7835,7 +7835,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #97",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #97 – Grunge",
+      "title": "Look #97 Punk / Grunge: Áo crop graphic đen + Quần jean rách xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-den-quan-jean-rach-xam-097.webp"
@@ -7910,7 +7910,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #98",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #98 – E-Girl",
+      "title": "Look #98 E-Girl: Áo thun graphic đen + Chân váy mini",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-thun-graphic-den-chan-vay-mini-098.webp"
@@ -7988,7 +7988,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #99",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #99 – Grunge",
+      "title": "Look #99 Punk / Grunge: Áo tank chaos đen + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-tank-chaos-den-quan-cargo-den-099.webp"
@@ -8068,7 +8068,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #100",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #100 – Grunge",
+      "title": "Look #100 Punk / Grunge: Áo crop graphic xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-100.webp"
@@ -8148,7 +8148,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #101",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #101 – E-Girl",
+      "title": "Look #101 E-Girl: Áo graphic đen tay kẻ sọc + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-den-tay-ke-soc-quan-cargo-xam-101.webp"
@@ -8230,7 +8230,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #102",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #102 – E-Girl",
+      "title": "Look #102 E-Girl: Áo crop ngôi sao đen + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-ngoi-sao-den-chan-vay-denim-102.webp"
@@ -8307,7 +8307,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #103",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #103 – E-Girl",
+      "title": "Look #103 E-Girl: Áo graphic đen + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-den-chan-vay-xep-ly-103.webp"
@@ -8385,7 +8385,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #104",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #104 – E-Girl",
+      "title": "Look #104 E-Girl: Áo crop trễ vai đen + Chân váy xếp ly xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-tre-vai-den-chan-vay-xep-ly-xam-104.webp"
@@ -8462,7 +8462,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #105",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #105 – Grunge",
+      "title": "Look #105 Punk / Grunge: Áo kẻ sọc đen + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-den-quan-cargo-den-105.webp"
@@ -8540,7 +8540,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #106",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #106 – E-Girl",
+      "title": "Look #106 E-Girl: Áo crop graphic đen + Chân váy xếp ly",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-xep-ly-106.webp"
@@ -8620,7 +8620,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #107",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #107 – Grunge",
+      "title": "Look #107 Punk / Grunge: Áo crop bướm xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-buom-xam-quan-cargo-den-107.webp"
@@ -8700,7 +8700,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #108",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #108 – Dark Feminine",
+      "title": "Look #108 Dark Feminine: Áo crop lệch vai be + Chân váy nâu",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-lech-vai-be-chan-vay-nau-108.webp"
@@ -8777,7 +8777,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #109",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #109 – Grunge",
+      "title": "Look #109 Punk / Grunge: Áo graphic xám + Chân váy denim",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-109.webp"
@@ -8855,7 +8855,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #110",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #110 – Grunge",
+      "title": "Look #110 Punk / Grunge: Áo crop trễ vai xám + Quần jean ống rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-xam-quan-jean-ong-rong-110.webp"
@@ -8934,7 +8934,7 @@ const outfits = [
     "title": "E-Girl Outfit Nữ Look #111",
     "category": "E-Girl",
     "detail": {
-      "title": "OUTFIT DETAILS #111 – E-Girl",
+      "title": "Look #111 E-Girl: Áo graphic hồng + Chân váy caro đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-hong-chan-vay-caro-den-111.webp"
@@ -9012,7 +9012,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #112",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #112 – Goth",
+      "title": "Look #112 Goth: Áo ren đen + Chân váy bất đối xứng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-ren-den-chan-vay-bat-doi-xung-112.webp"
@@ -9088,7 +9088,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #113",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #113 – Baddie Streetwear",
+      "title": "Look #113 Dark Feminine: Áo corset nâu + Chân váy kaki",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-nau-chan-vay-kaki-113.webp"
@@ -9168,7 +9168,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #114",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #114 – Baddie Streetwear",
+      "title": "Look #114 Baddie Streetwear: Áo corset xanh xám + Quần cargo sáng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-xanh-xam-quan-cargo-sang-114.webp"
@@ -9248,7 +9248,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #115",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #115 – Baddie Streetwear",
+      "title": "Look #115 Baddie Streetwear: Áo tank kem + Quần cargo đỏ rượu",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-tank-kem-quan-cargo-do-ruou-115.webp"
@@ -9325,7 +9325,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #116",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #116 – Baddie Streetwear",
+      "title": "Look #116 Baddie Streetwear: Áo ngôi sao xanh + Quần cargo vàng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-ngoi-sao-xanh-quan-cargo-vang-116.webp"
@@ -9400,7 +9400,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #117",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #117 – Baddie Streetwear",
+      "title": "Look #117 Baddie Streetwear: Áo crop thể thao + Quần ống rộng xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-the-thao-quan-ong-rong-xanh-117.webp"
@@ -9479,7 +9479,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #118",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #118 – Baddie Streetwear",
+      "title": "Look #118 Baddie Streetwear: Áo tay dài tím + Quần cargo trắng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-tay-dai-tim-quan-cargo-trang-118.webp"
@@ -9554,7 +9554,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #119",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #119 – Baddie Streetwear",
+      "title": "Look #119 Baddie Streetwear: Áo trễ vai trắng + Quần jean xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-trang-quan-jean-xanh-119.webp"
@@ -9634,7 +9634,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #120",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #120 – Dark Feminine",
+      "title": "Look #120 Dark Feminine: Áo crop xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-xam-quan-cargo-den-120.webp"
@@ -9714,7 +9714,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #121",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #121 – Baddie Streetwear",
+      "title": "Look #121 Baddie Streetwear: Áo crop đen + Quần cargo xám",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-den-quan-cargo-xam-121.webp"
@@ -9789,7 +9789,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #122",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #122 – Baddie Streetwear",
+      "title": "Look #122 Baddie Streetwear: Áo cổ vuông xám + Quần ống rộng trắng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-co-vuong-xam-quan-ong-rong-trang-122.webp"
@@ -9866,7 +9866,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #123",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #123 – Baddie Streetwear",
+      "title": "Look #123 Baddie Streetwear: Áo crop lệch vai đen + Quần jean rộng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-lech-vai-den-quan-jean-rong-123.webp"
@@ -9944,7 +9944,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #124",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #124 – Grunge",
+      "title": "Look #124 Punk / Grunge: Áo graphic trễ vai trắng + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-trang-quan-cargo-den-124.webp"
@@ -10024,7 +10024,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #125",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #125 – Baddie Streetwear",
+      "title": "Look #125 Baddie Streetwear: Áo hai dây trắng áo khoác xám + Quần cargo",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-hai-day-trang-ao-khoac-xam-quan-cargo-125.webp"
@@ -10097,7 +10097,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #126",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #126 – Grunge",
+      "title": "Look #126 Punk / Grunge: Áo thun trễ vai xám + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-tre-vai-xam-quan-cargo-den-126.webp"
@@ -10177,7 +10177,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #127",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #127 – Baddie Streetwear",
+      "title": "Look #127 Baddie Streetwear: Áo quây xám + Quần cargo olive",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-quay-xam-quan-cargo-olive-127.webp"
@@ -10257,7 +10257,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #128",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #128 – Baddie Streetwear",
+      "title": "Look #128 Baddie Streetwear: Áo hai dây trắng + Quần jean xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-hai-day-trang-quan-jean-xanh-128.webp"
@@ -10332,7 +10332,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #129",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #129 – Dark Feminine",
+      "title": "Look #129 Dark Feminine: Áo trễ vai nâu + Quần cargo kaki",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-nau-quan-cargo-kaki-129.webp"
@@ -10412,7 +10412,7 @@ const outfits = [
     "title": "Punk / Grunge Outfit Nữ Look #130",
     "category": "Punk / Grunge",
     "detail": {
-      "title": "OUTFIT DETAILS #130 – Grunge",
+      "title": "Look #130 Punk / Grunge: Áo graphic kem + Quần cargo đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-kem-quan-cargo-den-130.webp"
@@ -10490,7 +10490,7 @@ const outfits = [
     "title": "Goth Outfit Nữ Look #131",
     "category": "Goth",
     "detail": {
-      "title": "OUTFIT DETAILS #131 – Goth",
+      "title": "Look #131 Goth: Áo lưới đen + Quần cargo trắng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-cargo-trang-131.webp"
@@ -10570,7 +10570,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #132",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #132 – Baddie Streetwear",
+      "title": "Look #132 Baddie Streetwear: Áo tank đen áo khoác thể thao + Quần cargo",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-tank-den-ao-khoac-the-thao-quan-cargo-132.webp"
@@ -10645,7 +10645,7 @@ const outfits = [
     "title": "Baddie Streetwear Outfit Nữ Look #133",
     "category": "Baddie Streetwear",
     "detail": {
-      "title": "OUTFIT DETAILS #133 – Baddie Streetwear",
+      "title": "Look #133 Baddie Streetwear: Áo corset trắng + Quần cargo hồng",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-trang-quan-cargo-hong-133.webp"
@@ -10725,7 +10725,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #134",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #134 – Dark Feminine",
+      "title": "Look #134 Dark Feminine: Áo trễ vai xám + Chân váy denim đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-chan-vay-denim-den-134.webp"
@@ -10802,7 +10802,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #135",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #135 – Dark Feminine",
+      "title": "Look #135 Dark Feminine: Áo trễ vai xám + Quần parachute đen",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-quan-parachute-den-135.webp"
@@ -10884,7 +10884,7 @@ const outfits = [
     "title": "Dark Feminine Outfit Nữ Look #136",
     "category": "Dark Feminine",
     "detail": {
-      "title": "OUTFIT DETAILS #136 – Dark Feminine",
+      "title": "Look #136 Dark Feminine: Áo trễ vai xám + Quần jean xanh",
       "desc": "Nhấn vào từng mục để xem chi tiết sản phẩm.",
       "imgs": [
         "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-quan-jean-xanh-136.webp"

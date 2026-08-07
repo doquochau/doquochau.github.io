@@ -491,7 +491,7 @@ window.searchIndex = [
     "title": "Streetwear Là Gì? Phong Cách Đường Phố Từ Basic Đến Baddie",
     "url": "/blog/streetwear-la-gi.html",
     "type": "Journal",
-    "description": "Streetwear là gì? Giải thích phong cách thời trang đường phố, khác casual/sportswear ra sao và vì sao streetwear nữ là nhánh dễ chuyển đổi sang baddie, alt fashion.",
+    "description": "Streetwear là gì? Giải thích phong cách thời trang đường phố, khác casual/sportswear ra sao và vì sao streetwear nữ là cầu nối tự nhiên sang baddie và alt fashion.",
     "image": "/images/blog-covers/streetwear-la-gi.webp",
     "keywords": "streetwear là gì phong cách streetwear streetwear nữ baddie streetwear thời trang đường phố streetwear gen z outfit streetwear nữ local brand streetwear"
   },
@@ -757,7 +757,7 @@ window.searchIndex = [
     "type": "Journal",
     "description": "7 công thức badgirl outfit đi cafe cho nữ: crop top, cargo pants, boots, all-black, dark feminine và baddie streetwear kèm cụm outfit liên quan.",
     "image": "/images/blog-covers/badgirl-outfit-di-cafe.webp",
-    "keywords": "Badgirl Outfit Đi Cafe: 7 Công Thức Cá Tính | Apocalypse Closet ← BLOG ♡ CLOSET STYLE ↓ Dark Feminine E-Girl / Alt Girl Goth / Gothic Baddie Streetwear Punk / Grunge Style Guide 28 May 2026 Apocalypse Closet Badgirl Outfit Đi Cafe: 7 Công Thức Lên Đồ Cá Tính Nhưng Vẫn Dễ Mặc Không cần mặc quá gắt để có khí chất badgirl. Đây là 7 công thức outfit đi cafe vừa dễ mặc, vừa lên ảnh đẹp, vừa kéo link sang cụm outfit baddie, egirl và dark feminine. Nếu bạn đang tìm một badgirl outfit đi cafe , lỗi dễ gặp nhất là phối quá nặng: quá nhiều da, quá nhiều xích, quá nhiều chi tiết đến mức outfit nhìn giống đi club hơn là đi ngồi cafe. Một outfit đi cafe đẹp cần đủ cá tính để người ta nhớ, nhưng vẫn đủ thoải mái để bạn ngồi lâu, chụp ảnh đẹp và di chuyển bình thường. Bài này gom một cụm outfit dễ áp dụng cho nữ Việt Nam: baddie streetwear, dark feminine nhẹ, egirl tối màu và all-black casual. Keyword chính là badgirl outfit đi cafe , nhưng mục tiêu thật sự là giúp bạn có công thức mặc ngay, không phải chỉ đọc cho vui. Badgirl Outfit Đi Cafe Cần Có Gì? Đi cafe không giống đi party. Ánh sáng thường rõ hơn, không gian nhỏ hơn, người nhìn outfit ở khoảng cách gần hơn. Vì vậy, badgirl outfit đi cafe nên dựa trên 3 điểm: silhouette rõ, màu sắc kiểm soát và một điểm nhấn mạnh. Silhouette rõ: hoặc trên ôm dưới rộng, hoặc trên rộng dưới gọn. Đừng để cả outfit bị lùng bùng nếu không có chủ ý. Palette tối: đen, xám than, nâu đậm, trắng bẩn, đỏ rượu hoặc bạc metallic. Không cần quá nhiều màu. Một điểm nhấn: boots platform, chain belt, kính đen, túi bạc, áo khoác da hoặc quần cargo thật rộng. Badgirl đi cafe không cần mặc quá gắt. Chỉ cần một chi tiết đủ sắc, phần còn lại phải biết im lặng. 1. Crop Top Đen + Cargo Pants Rộng + Chunky Sneakers Đây là công thức dễ mặc nhất cho người mới bắt đầu. Crop top tạo tỷ lệ cơ thể, cargo pants tạo chất streetwear, chunky sneakers làm outfit bớt “điệu” và thực tế hơn. Nếu bạn muốn vibe baddie rõ hơn, thêm một chiếc túi nhỏ đeo vai hoặc kính đen narrow frame. Outfit này hợp với cafe ban ngày, cafe ngoài trời, quán có background xi măng, gỗ tối hoặc ánh sáng tự nhiên. Nếu crop top quá basic, chọn áo có cut-out nhẹ, logo nhỏ hoặc chất liệu ribbed để outfit không bị nhạt. 2. Baby Tee + Jeans Rộng + Thắt Lưng Đinh Tán Nếu bạn thích vibe Y2K badgirl nhưng không muốn nhìn quá costume, hãy bắt đầu từ baby tee và jeans rộng. Công thức này hợp với dáng người nhỏ vì phần áo ngắn giúp kéo chân dài hơn, còn jeans rộng tạo cảm giác effortless. Điểm quyết định nằm ở thắt lưng. Một chiếc belt đinh tán, belt bạc hoặc chain belt có thể biến một set đồ rất cơ bản thành outfit có thái độ. Giày nên là platform sneakers hoặc boots đế cao, tránh giày quá mềm vì sẽ làm outfit mất lực. 3. Áo Khoác Da Mỏng + Tank Top + Quần Đen Suông Đây là công thức cho buổi cafe chiều hoặc tối. Áo khoác da không nhất thiết phải dày; với thời tiết Việt Nam, một chiếc faux leather mỏng hoặc bomber đen có bề mặt bóng nhẹ là đủ. Bên trong mặc tank top hoặc crop top trắng/đen để tạo lớp. Quần đen suông giúp outfit trưởng thành hơn cargo pants. Nếu bạn muốn nghiêng về dark feminine , đổi sneakers thành ankle boots mũi nhọn và thêm son màu đất hoặc đỏ trầm. 4. Váy Đen Ngắn + Boots Cao Cổ + Áo Khoác Oversized Công thức này dành cho người muốn feminine hơn nhưng vẫn giữ edge. Váy đen ngắn một mình có thể hơi basic, nhưng khi đi cùng boots cao cổ và áo khoác oversized, tổng thể sẽ bớt “cute” và nhiều attitude hơn. Đi cafe với outfit này nên chọn quán có background tối, gương lớn hoặc ánh sáng vàng dịu. Khi chụp ảnh, đứng hơi lệch một bên, để áo khoác rơi tự nhiên trên vai hoặc một tay giữ túi. Đừng pose quá nhiều; outfit này đẹp nhất khi nhìn như bạn không cố. 5. All Black Nhưng Phải Có Texture All-black là lựa chọn an toàn nhất cho badgirl outfit đi cafe, nhưng cũng dễ nhàm nhất nếu bạn mặc toàn vải cotton phẳng. Muốn all-black đẹp, hãy trộn texture: áo ribbed, quần da hoặc denim washed black, túi bạc, boots da bóng, jewelry kim loại. Nếu outfit có quá nhiều đen, phụ kiện bạc là điểm sáng quan trọng. Chain necklace, vòng tay kim loại, nhẫn nhiều ngón hoặc túi có hardware bạc sẽ giúp tổng thể có chiều sâu hơn. Bạn có thể xem thêm bài cách phối đồ đen không nhàm chán để mở rộng công thức này. 6. Hoodie Oversized + Mini Skirt + Platform Boots Đây là công thức cân bằng giữa lười và có gu. Hoodie oversized giúp outfit thoải mái, mini skirt tạo độ nữ tính, platform boots kéo lại toàn bộ vibe badgirl. Nếu bạn sợ hở quá nhiều, thêm tất đen cao cổ hoặc quần short bảo hộ bên trong. Công thức này hợp với cafe tối, đi xem phim sau đó, hoặc những ngày bạn muốn mặc gì đó dễ chịu nhưng vẫn có ảnh đẹp. Tóc buộc cao, eyeliner sắc và một chiếc túi nhỏ là đủ. 7. Corset Top + Quần Rộng + Áo Khoác Ngoài Corset top có thể rất đẹp khi đi cafe, nhưng phải tiết chế. Đừng phối corset với váy quá ôm nếu bạn muốn outfit có tính ứng dụng. Hãy mặc corset với quần rộng hoặc cargo pants để giảm cảm giác “đi sự kiện”. Khoác ngoài bằng sơ mi đen, blazer oversized hoặc jacket mỏng. Đây là công thức phù hợp khi bạn muốn outfit có điểm nhấn rõ ở phần thân trên. Với ảnh ngồi cafe, corset lên hình rất tốt vì phần eo và vai được định hình. Nhưng nếu quán đông hoặc cần di chuyển nhiều, hãy chọn corset vải mềm thay vì corset quá cứng. Cụm Outfit Liên Quan Nên Gắn Vào Bài Này Để bài không chỉ là nội dung đọc mà còn kéo traffic sang trang outfit, bạn nên gắn một cụm outfit liên quan ngay trong bài. Cụm này nên xoay quanh baddie streetwear, egirl tối màu và dark feminine nhẹ: Look #02 — Baddie Streetwear: hợp với công thức crop top, cargo pants và chunky sneakers. Look #07 — Baddie Streetwear: hợp với cafe ban ngày, streetwear mạnh và dễ chụp full body. Look #14 — Dark Y2K/Baddie: hợp với keyword dark Y2K outfit, đi cafe tối hoặc cafe gương. Look #04 — Dark Feminine: hợp với corset, boots và outfit trưởng thành hơn. Look #05 — E-Girl: hợp với outfit váy ngắn, boots cao cổ và vibe alt girl. Checklist Nhanh Trước Khi Ra Khỏi Nhà Trước khi chốt badgirl outfit đi cafe, soi gương và hỏi 5 câu này: Outfit có một điểm nhấn chính chưa, hay mọi thứ đang tranh nhau? Giày có đủ mạnh để giữ vibe badgirl không? Phụ kiện bạc/đen đã đủ làm outfit có chiều sâu chưa? Ngồi xuống có bị khó chịu, quá ngắn hoặc quá cứng không? Ảnh full body có thấy rõ tỷ lệ người không? Nếu câu trả lời ổn, outfit đã đủ dùng. Badgirl outfit đi cafe không cần phải cực đoan. Nó chỉ cần khiến bạn bước vào quán với cảm giác: mình biết mình đang mặc gì, và mình không cần ai phê duyệt. Câu Hỏi Thường Gặp Badgirl outfit đi cafe nên mặc gì? Nên chọn crop top đen, cargo pants hoặc jeans rộng, chunky sneakers hoặc platform boots, thêm phụ kiện bạc như chain necklace, belt đinh tán hoặc túi nhỏ. Công thức này đủ cá tính nhưng vẫn thoải mái để ngồi cafe lâu. Đi cafe có nên mặc all-black không? Có. All-black rất hợp badgirl aesthetic, nhưng nên mix nhiều texture như denim, da bóng, ribbed cotton và phụ kiện kim loại để outfit không bị phẳng hoặc nhàm chán. Badgirl outfit đi cafe khác outfit đi club như thế nào? Outfit đi cafe nên nhẹ hơn, thực tế hơn và thoải mái hơn. Giữ một điểm nhấn mạnh như boots, chain belt hoặc áo khoác da; tránh phối quá nhiều chi tiết gắt cùng lúc. Nữ thấp có mặc badgirl outfit đi cafe đẹp không? Có. Hãy ưu tiên crop top, quần cạp cao, boots hoặc sneakers đế cao. Tránh áo quá dài che mất eo vì sẽ làm tỷ lệ cơ thể bị thấp hơn khi chụp ảnh full body. Đọc Thêm Về Outfit Liên Quan Style Guide Badgirl Aesthetic Style Guide Phối Đồ Đen Không Nhàm Chán Aesthetic Dark Y2K Aesthetic Style Guide Phong Cách Egirl Là Gì © 2026 APOCALYPSE CLOSET · Privacy Policy badgirl outfit đi cafe outfit đi cafe nữ cá tính baddie outfit đi cafe dark feminine outfit đi cafe phối đồ đi cafe cá tính"
+    "keywords": "Badgirl Outfit Đi Cafe: 7 Công Thức Cá Tính | Apocalypse Closet ← BLOG ♡ CLOSET STYLE ↓ Dark Feminine E-Girl / Alt Girl Goth / Gothic Baddie Streetwear Punk / Grunge Style Guide 28 May 2026 Apocalypse Closet Badgirl Outfit Đi Cafe: 7 Công Thức Lên Đồ Cá Tính Nhưng Vẫn Dễ Mặc Không cần mặc quá gắt để có khí chất badgirl. 7 công thức đi cafe dễ mặc, lên ảnh đẹp, trải từ Baddie Streetwear tới Dark Feminine nhẹ và E-Girl tối màu. Nếu bạn đang tìm một badgirl outfit đi cafe , lỗi dễ gặp nhất là phối quá nặng: quá nhiều da, quá nhiều xích, quá nhiều chi tiết đến mức outfit nhìn giống đi club hơn là đi ngồi cafe. Một outfit đi cafe đẹp cần đủ cá tính để người ta nhớ, nhưng vẫn đủ thoải mái để bạn ngồi lâu, chụp ảnh đẹp và di chuyển bình thường. Bài này gom một cụm outfit dễ áp dụng cho nữ Việt Nam: baddie streetwear, dark feminine nhẹ, egirl tối màu và all-black casual. Keyword chính là badgirl outfit đi cafe , nhưng mục tiêu thật sự là giúp bạn có công thức mặc ngay, không phải chỉ đọc cho vui. Badgirl Outfit Đi Cafe Cần Có Gì? Đi cafe không giống đi party. Ánh sáng thường rõ hơn, không gian nhỏ hơn, người nhìn outfit ở khoảng cách gần hơn. Vì vậy, badgirl outfit đi cafe nên dựa trên 3 điểm: silhouette rõ, màu sắc kiểm soát và một điểm nhấn mạnh. Silhouette rõ: hoặc trên ôm dưới rộng, hoặc trên rộng dưới gọn. Đừng để cả outfit bị lùng bùng nếu không có chủ ý. Palette tối: đen, xám than, nâu đậm, trắng bẩn, đỏ rượu hoặc bạc metallic. Không cần quá nhiều màu. Một điểm nhấn: boots platform, chain belt, kính đen, túi bạc, áo khoác da hoặc quần cargo thật rộng. Badgirl đi cafe không cần mặc quá gắt. Chỉ cần một chi tiết đủ sắc, phần còn lại phải biết im lặng. 1. Crop Top Đen + Cargo Pants Rộng + Chunky Sneakers Đây là công thức dễ mặc nhất cho người mới bắt đầu. Crop top tạo tỷ lệ cơ thể, cargo pants tạo chất streetwear, chunky sneakers làm outfit bớt “điệu” và thực tế hơn. Nếu bạn muốn vibe baddie rõ hơn, thêm một chiếc túi nhỏ đeo vai hoặc kính đen narrow frame. Outfit này hợp với cafe ban ngày, cafe ngoài trời, quán có background xi măng, gỗ tối hoặc ánh sáng tự nhiên. Nếu crop top quá basic, chọn áo có cut-out nhẹ, logo nhỏ hoặc chất liệu ribbed để outfit không bị nhạt. 2. Baby Tee + Jeans Rộng + Thắt Lưng Đinh Tán Nếu bạn thích vibe Y2K badgirl nhưng không muốn nhìn quá costume, hãy bắt đầu từ baby tee và jeans rộng. Công thức này hợp với dáng người nhỏ vì phần áo ngắn giúp kéo chân dài hơn, còn jeans rộng tạo cảm giác effortless. Điểm quyết định nằm ở thắt lưng. Một chiếc belt đinh tán, belt bạc hoặc chain belt có thể biến một set đồ rất cơ bản thành outfit có thái độ. Giày nên là platform sneakers hoặc boots đế cao, tránh giày quá mềm vì sẽ làm outfit mất lực. 3. Áo Khoác Da Mỏng + Tank Top + Quần Đen Suông Đây là công thức cho buổi cafe chiều hoặc tối. Áo khoác da không nhất thiết phải dày; với thời tiết Việt Nam, một chiếc faux leather mỏng hoặc bomber đen có bề mặt bóng nhẹ là đủ. Bên trong mặc tank top hoặc crop top trắng/đen để tạo lớp. Quần đen suông giúp outfit trưởng thành hơn cargo pants. Nếu bạn muốn nghiêng về dark feminine , đổi sneakers thành ankle boots mũi nhọn và thêm son màu đất hoặc đỏ trầm. 4. Váy Đen Ngắn + Boots Cao Cổ + Áo Khoác Oversized Công thức này dành cho người muốn feminine hơn nhưng vẫn giữ edge. Váy đen ngắn một mình có thể hơi basic, nhưng khi đi cùng boots cao cổ và áo khoác oversized, tổng thể sẽ bớt “cute” và nhiều attitude hơn. Đi cafe với outfit này nên chọn quán có background tối, gương lớn hoặc ánh sáng vàng dịu. Khi chụp ảnh, đứng hơi lệch một bên, để áo khoác rơi tự nhiên trên vai hoặc một tay giữ túi. Đừng pose quá nhiều; outfit này đẹp nhất khi nhìn như bạn không cố. 5. All Black Nhưng Phải Có Texture All-black là lựa chọn an toàn nhất cho badgirl outfit đi cafe, nhưng cũng dễ nhàm nhất nếu bạn mặc toàn vải cotton phẳng. Muốn all-black đẹp, hãy trộn texture: áo ribbed, quần da hoặc denim washed black, túi bạc, boots da bóng, jewelry kim loại. Nếu outfit có quá nhiều đen, phụ kiện bạc là điểm sáng quan trọng. Chain necklace, vòng tay kim loại, nhẫn nhiều ngón hoặc túi có hardware bạc sẽ giúp tổng thể có chiều sâu hơn. Bạn có thể xem thêm bài cách phối đồ đen không nhàm chán để mở rộng công thức này. 6. Hoodie Oversized + Mini Skirt + Platform Boots Đây là công thức cân bằng giữa lười và có gu. Hoodie oversized giúp outfit thoải mái, mini skirt tạo độ nữ tính, platform boots kéo lại toàn bộ vibe badgirl. Nếu bạn sợ hở quá nhiều, thêm tất đen cao cổ hoặc quần short bảo hộ bên trong. Công thức này hợp với cafe tối, đi xem phim sau đó, hoặc những ngày bạn muốn mặc gì đó dễ chịu nhưng vẫn có ảnh đẹp. Tóc buộc cao, eyeliner sắc và một chiếc túi nhỏ là đủ. 7. Corset Top + Quần Rộng + Áo Khoác Ngoài Corset top có thể rất đẹp khi đi cafe, nhưng phải tiết chế. Đừng phối corset với váy quá ôm nếu bạn muốn outfit có tính ứng dụng. Hãy mặc corset với quần rộng hoặc cargo pants để giảm cảm giác “đi sự kiện”. Khoác ngoài bằng sơ mi đen, blazer oversized hoặc jacket mỏng. Đây là công thức phù hợp khi bạn muốn outfit có điểm nhấn rõ ở phần thân trên. Với ảnh ngồi cafe, corset lên hình rất tốt vì phần eo và vai được định hình. Nhưng nếu quán đông hoặc cần di chuyển nhiều, hãy chọn corset vải mềm thay vì corset quá cứng. Cụm Outfit Liên Quan Nên Gắn Vào Bài Này Để bài không chỉ là nội dung đọc mà còn kéo traffic sang trang outfit, bạn nên gắn một cụm outfit liên quan ngay trong bài. Cụm này nên xoay quanh baddie streetwear, egirl tối màu và dark feminine nhẹ: Look #02 — Baddie Streetwear: hợp với công thức crop top, cargo pants và chunky sneakers. Look #07 — Baddie Streetwear: hợp với cafe ban ngày, streetwear mạnh và dễ chụp full body. Look #14 — Dark Y2K/Baddie: hợp với keyword dark Y2K outfit, đi cafe tối hoặc cafe gương. Look #04 — Dark Feminine: hợp với corset, boots và outfit trưởng thành hơn. Look #05 — E-Girl: hợp với outfit váy ngắn, boots cao cổ và vibe alt girl. Checklist Nhanh Trước Khi Ra Khỏi Nhà Trước khi chốt badgirl outfit đi cafe, soi gương và hỏi 5 câu này: Outfit có một điểm nhấn chính chưa, hay mọi thứ đang tranh nhau? Giày có đủ mạnh để giữ vibe badgirl không? Phụ kiện bạc/đen đã đủ làm outfit có chiều sâu chưa? Ngồi xuống có bị khó chịu, quá ngắn hoặc quá cứng không? Ảnh full body có thấy rõ tỷ lệ người không? Nếu câu trả lời ổn, outfit đã đủ dùng. Badgirl outfit đi cafe không cần phải cực đoan. Nó chỉ cần khiến bạn bước vào quán với cảm giác: mình biết mình đang mặc gì, và mình không cần ai phê duyệt. Câu Hỏi Thường Gặp Badgirl outfit đi cafe nên mặc gì? Nên chọn crop top đen, cargo pants hoặc jeans rộng, chunky sneakers hoặc platform boots, thêm phụ kiện bạc như chain necklace, belt đinh tán hoặc túi nhỏ. Công thức này đủ cá tính nhưng vẫn thoải mái để ngồi cafe lâu. Đi cafe có nên mặc all-black không? Có. All-black rất hợp badgirl aesthetic, nhưng nên mix nhiều texture như denim, da bóng, ribbed cotton và phụ kiện kim loại để outfit không bị phẳng hoặc nhàm chán. Badgirl outfit đi cafe khác outfit đi club như thế nào? Outfit đi cafe nên nhẹ hơn, thực tế hơn và thoải mái hơn. Giữ một điểm nhấn mạnh như boots, chain belt hoặc áo khoác da; tránh phối quá nhiều chi tiết gắt cùng lúc. Nữ thấp có mặc badgirl outfit đi cafe đẹp không? Có. Hãy ưu tiên crop top, quần cạp cao, boots hoặc sneakers đế cao. Tránh áo quá dài che mất eo vì sẽ làm tỷ lệ cơ thể bị thấp hơn khi chụp ảnh full body. Đọc Thêm Về Outfit Liên Quan Style Guide Badgirl Aesthetic Style Guide Phối Đồ Đen Không Nhàm Chán Aesthetic Dark Y2K Aesthetic Style Guide Phong Cách Egirl Là Gì © 2026 APOCALYPSE CLOSET · Privacy Policy badgirl outfit đi cafe outfit đi cafe nữ cá tính baddie outfit đi cafe dark feminine outfit đi cafe phối đồ đi cafe cá tính"
   },
   {
     "title": "Alt Fashion Là Gì Và Tại Sao Nó Quan Trọng Hơn Bạn Nghĩ",
@@ -848,164 +848,164 @@ window.searchIndex = [
     "keywords": "Apocalypse Closet - Phong Cách Và Thời Trang Badgirl Giữa một thế giới đang dần bão hòa bởi những khuôn mẫu nhàm chán và những xu hướng rập khuôn, Apocalypse Closet ra đời như một thánh địa dành riêng cho những tâm hồn nổi loạn. DRESS LIKE THE END Apocalypse Closet - Phong Cách Và Thời Trang Badgirl SEARCH ↻ RELOAD ♡ CLOSET STYLE ↓ Dark Feminine E-Girl / Alt Girl Goth / Gothic Baddie Streetwear Punk / Grunge // Gợi ý phối đồ hôm nay DRESS LIKE THE END Outfit ngẫu nhiên mỗi lần reload. Bấm RELOAD để xáo trộn thứ tự. All Outfits APOCALYPSE CLOSET ✦ BADGIRL AESTHETIC OUTFIT OF THE DAY ✦ SHOPEE LINKS CLOSET BADGIRL ✦ DARK FASHION APOCALYPSE CLOSET ✦ BADGIRL AESTHETIC OUTFIT OF THE DAY ✦ SHOPEE LINKS CLOSET BADGIRL ✦ DARK FASHION ✦ APOCALYPSE CLOSET Giữa một thế giới đang dần bão hòa bởi những khuôn mẫu nhàm chán và những xu hướng rập khuôn, Apocalypse Closet ra đời như một thánh địa dành riêng cho những tâm hồn nổi loạn. Chúng tôi tin rằng thời trang không chỉ là những mảnh vải vô tri, mà là thứ vũ khí sắc bén, là lớp áo giáp gai góc để bạn sẵn sàng đối mặt với mọi rào cản. Mang đậm âm hưởng của kỷ nguyên hậu tận thế, đan xen cùng nét sắc lạnh của Dark Wear , Grunge và Badgirl Aesthetic . Mỗi trang phục tại đây không đơn thuần là một gợi ý phối đồ, mà là một lời tuyên ngôn độc bản: Hãy rực sáng, kiêu hãnh và sống trọn vẹn theo cách riêng của bạn. \"Dress like it's the end of the world\" ĐỌC THE MANIFESTO → © 2026 APOCALYPSE CLOSET · Privacy Policy baddie streetwear badgirl phong cach badgirl"
   },
   {
-    "title": "OUTFIT DETAILS #01 – Baddie Streetwear",
+    "title": "Look #01 Baddie Streetwear: Camisole trắng + Quần dây rút đen",
     "url": "/outfits/look-01-egirl.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #01: Camisole trắng, Quần dây rút đen và Sneaker chunky trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #01 – Baddie Streetwear Outfit Baddie Streetwear #01: Camisole trắng, Quần dây rút đen và Sneaker chunky trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Punk / Grunge Baddie Streetwear Dark Feminine Punk / Grunge Camisole trắng Quần dây rút đen Sneaker chunky trắng Đi học Đi cafe Đen Tôn eo Quần Sneaker"
+    "keywords": "Look #01 Baddie Streetwear: Camisole trắng + Quần dây rút đen Outfit Baddie Streetwear #01: Camisole trắng, Quần dây rút đen và Sneaker chunky trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Punk / Grunge Baddie Streetwear Dark Feminine Punk / Grunge Camisole trắng Quần dây rút đen Sneaker chunky trắng Đi học Đi cafe Đen Tôn eo Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #02 – Baddie Streetwear",
+    "title": "Look #02 Baddie Streetwear: Sweatshirt đen oversize + Cargo rằn ri",
     "url": "/outfits/look-02-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #02: Sweatshirt đen oversize, Cargo rằn ri và Clog trắng chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-02-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #02 – Baddie Streetwear Outfit Baddie Streetwear #02: Sweatshirt đen oversize, Cargo rằn ri và Clog trắng chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Sweatshirt đen oversize Cargo rằn ri Clog trắng chunky Đi học Đi cafe Đen Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #02 Baddie Streetwear: Sweatshirt đen oversize + Cargo rằn ri Outfit Baddie Streetwear #02: Sweatshirt đen oversize, Cargo rằn ri và Clog trắng chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Sweatshirt đen oversize Cargo rằn ri Clog trắng chunky Đi học Đi cafe Đen Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #03 – Punk / Grunge",
+    "title": "Look #03 Punk / Grunge: Crop tee graphic trắng + Cargo đen ống rộng",
     "url": "/outfits/look-03-punk.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #03: Crop tee graphic trắng, Cargo đen ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-punk-look-03-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #03 – Punk / Grunge Outfit Punk / Grunge #03: Crop tee graphic trắng, Cargo đen ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Punk Crop tee graphic trắng Cargo đen ống rộng Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
+    "keywords": "Look #03 Punk / Grunge: Crop tee graphic trắng + Cargo đen ống rộng Outfit Punk / Grunge #03: Crop tee graphic trắng, Cargo đen ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Punk Crop tee graphic trắng Cargo đen ống rộng Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #04 – Dark Feminine",
+    "title": "Look #04 Dark Feminine: Áo trễ vai nâu + Jeans rách tua rua",
     "url": "/outfits/look-04-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #04: Áo trễ vai nâu, Jeans rách tua rua và Platform đen chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #04 – Dark Feminine Outfit Dark Feminine #04: Áo trễ vai nâu, Jeans rách tua rua và Platform đen chunky. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo trễ vai nâu Jeans rách tua rua Platform đen chunky Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #04 Dark Feminine: Áo trễ vai nâu + Jeans rách tua rua Outfit Dark Feminine #04: Áo trễ vai nâu, Jeans rách tua rua và Platform đen chunky. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo trễ vai nâu Jeans rách tua rua Platform đen chunky Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #05 – Punk / Grunge",
+    "title": "Look #05 Punk / Grunge: Graphic tee đen + Jeans rách xám",
     "url": "/outfits/look-05-egirl.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #05: Graphic tee đen, Jeans rách xám và Sneaker cổ cao đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-05-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #05 – Punk / Grunge Outfit Punk / Grunge #05: Graphic tee đen, Jeans rách xám và Sneaker cổ cao đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear E-Girl Punk / Grunge Baddie Streetwear E-Girl Grunge Graphic tee đen Jeans rách xám Sneaker cổ cao đen Đi học Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Cân đối Quần Sneaker"
+    "keywords": "Look #05 Punk / Grunge: Graphic tee đen + Jeans rách xám Outfit Punk / Grunge #05: Graphic tee đen, Jeans rách xám và Sneaker cổ cao đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear E-Girl Punk / Grunge Baddie Streetwear E-Girl Grunge Graphic tee đen Jeans rách xám Sneaker cổ cao đen Đi học Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Cân đối Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #06 – Punk / Grunge",
+    "title": "Look #06 Punk / Grunge: Graphic tee đỏ + Short đen cạp cao",
     "url": "/outfits/look-06-punk.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #06: Graphic tee đỏ, Short đen cạp cao và Combat boots platform. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-punk-look-06-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #06 – Punk / Grunge Outfit Punk / Grunge #06: Graphic tee đỏ, Short đen cạp cao và Combat boots platform. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Graphic tee đỏ Short đen cạp cao Combat boots platform Đi chơi tối Chụp ảnh Đỏ / Hồng Hack chân dài Short Boots / Platform"
+    "keywords": "Look #06 Punk / Grunge: Graphic tee đỏ + Short đen cạp cao Outfit Punk / Grunge #06: Graphic tee đỏ, Short đen cạp cao và Combat boots platform. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Graphic tee đỏ Short đen cạp cao Combat boots platform Đi chơi tối Chụp ảnh Đỏ / Hồng Hack chân dài Short Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #07 – Baddie Streetwear",
+    "title": "Look #07 Baddie Streetwear: Tube top đen + Parachute đen",
     "url": "/outfits/look-07-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #07: Tube top đen, Parachute đen và Boot mũi nhọn đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #07 – Baddie Streetwear Outfit Baddie Streetwear #07: Tube top đen, Parachute đen và Boot mũi nhọn đen. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Tube top đen Parachute đen Boot mũi nhọn đen Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
+    "keywords": "Look #07 Baddie Streetwear: Tube top đen + Parachute đen Outfit Baddie Streetwear #07: Tube top đen, Parachute đen và Boot mũi nhọn đen. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Tube top đen Parachute đen Boot mũi nhọn đen Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #08 – E-Girl",
+    "title": "Look #08 E-Girl: Crop tee đỏ + Jeans cargo xanh",
     "url": "/outfits/look-08-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #08: Crop tee đỏ, Jeans cargo xanh và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-08-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #08 – E-Girl Outfit E-Girl #08: Crop tee đỏ, Jeans cargo xanh và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Baddie Streetwear E-Girl Baddie Streetwear Crop tee đỏ Jeans cargo xanh Sneaker trắng Đi học Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #08 E-Girl: Crop tee đỏ + Jeans cargo xanh Outfit E-Girl #08: Crop tee đỏ, Jeans cargo xanh và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Baddie Streetwear E-Girl Baddie Streetwear Crop tee đỏ Jeans cargo xanh Sneaker trắng Đi học Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #09 – Punk / Grunge",
+    "title": "Look #09 Punk / Grunge: Áo thun đen + Cargo rằn ri xanh",
     "url": "/outfits/look-09-goth.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #09: Áo thun đen, Cargo rằn ri xanh và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-goth-look-09-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #09 – Punk / Grunge Outfit Punk / Grunge #09: Áo thun đen, Cargo rằn ri xanh và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Goth Punk / Grunge Baddie Streetwear Goth Grunge Áo thun đen Cargo rằn ri xanh Sneaker đen trắng Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Quần Sneaker"
+    "keywords": "Look #09 Punk / Grunge: Áo thun đen + Cargo rằn ri xanh Outfit Punk / Grunge #09: Áo thun đen, Cargo rằn ri xanh và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Goth Punk / Grunge Baddie Streetwear Goth Grunge Áo thun đen Cargo rằn ri xanh Sneaker đen trắng Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #10 – Punk / Grunge",
+    "title": "Look #10 Punk / Grunge: Crop top cổ lọ + Jeans rách đen",
     "url": "/outfits/look-10-punk.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #10: Crop top cổ lọ, Jeans rách đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-punk-look-10-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #10 – Punk / Grunge Outfit Punk / Grunge #10: Crop top cổ lọ, Jeans rách đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Crop top cổ lọ Jeans rách đen Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #10 Punk / Grunge: Crop top cổ lọ + Jeans rách đen Outfit Punk / Grunge #10: Crop top cổ lọ, Jeans rách đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Crop top cổ lọ Jeans rách đen Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #11 – Baddie Streetwear",
+    "title": "Look #11 Baddie Streetwear: Camisole satin trắng + Short đen",
     "url": "/outfits/look-11-egirl.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #11: Camisole satin trắng, Short đen và Sneaker chunky trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #11 – Baddie Streetwear Outfit Baddie Streetwear #11: Camisole satin trắng, Short đen và Sneaker chunky trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Punk / Grunge Baddie Streetwear Dark Feminine Punk / Grunge Camisole satin trắng Short đen Sneaker chunky trắng Đi học Đi cafe Chụp ảnh Đen Tôn eo Hack chân dài Short Sneaker"
+    "keywords": "Look #11 Baddie Streetwear: Camisole satin trắng + Short đen Outfit Baddie Streetwear #11: Camisole satin trắng, Short đen và Sneaker chunky trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Punk / Grunge Baddie Streetwear Dark Feminine Punk / Grunge Camisole satin trắng Short đen Sneaker chunky trắng Đi học Đi cafe Chụp ảnh Đen Tôn eo Hack chân dài Short Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #12 – E-Girl",
+    "title": "Look #12 E-Girl: Halter top đen + Bermuda denim đen",
     "url": "/outfits/look-12-punk.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #12: Halter top đen, Bermuda denim đen và Platform boots đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-punk-look-12-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #12 – E-Girl Outfit E-Girl #12: Halter top đen, Bermuda denim đen và Platform boots đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Halter top đen Bermuda denim đen Platform boots đen trắng Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Short Boots / Platform"
+    "keywords": "Look #12 E-Girl: Halter top đen + Bermuda denim đen Outfit E-Girl #12: Halter top đen, Bermuda denim đen và Platform boots đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Halter top đen Bermuda denim đen Platform boots đen trắng Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Short Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #13 – E-Girl",
+    "title": "Look #13 E-Girl: Camisole đen + Short đen",
     "url": "/outfits/look-13-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #13: Camisole đen, Short đen và Boot cao gối đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #13 – E-Girl Outfit E-Girl #13: Camisole đen, Short đen và Boot cao gối đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Camisole đen Short đen Boot cao gối đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Short Boots / Platform"
+    "keywords": "Look #13 E-Girl: Camisole đen + Short đen Outfit E-Girl #13: Camisole đen, Short đen và Boot cao gối đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Camisole đen Short đen Boot cao gối đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Short Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #14 – Baddie Streetwear",
+    "title": "Look #14 Baddie Streetwear: Tank top Brazil + Jeans baggy rách",
     "url": "/outfits/look-14-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #14: Tank top Brazil, Jeans baggy rách và Sneaker xanh vàng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-14-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #14 – Baddie Streetwear Outfit Baddie Streetwear #14: Tank top Brazil, Jeans baggy rách và Sneaker xanh vàng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge Baddie Streetwear Punk / Grunge Tank top Brazil Jeans baggy rách Sneaker xanh vàng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #14 Baddie Streetwear: Tank top Brazil + Jeans baggy rách Outfit Baddie Streetwear #14: Tank top Brazil, Jeans baggy rách và Sneaker xanh vàng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge Baddie Streetwear Punk / Grunge Tank top Brazil Jeans baggy rách Sneaker xanh vàng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #15 – Baddie Streetwear",
+    "title": "Look #15 Baddie Streetwear: Camisole đen + Cargo graffiti trắng",
     "url": "/outfits/look-15-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #15: Camisole đen, Cargo graffiti trắng và Platform đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-15-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #15 – Baddie Streetwear Outfit Baddie Streetwear #15: Camisole đen, Cargo graffiti trắng và Platform đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Camisole đen Cargo graffiti trắng Platform đen trắng Đi cafe Đen Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #15 Baddie Streetwear: Camisole đen + Cargo graffiti trắng Outfit Baddie Streetwear #15: Camisole đen, Cargo graffiti trắng và Platform đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Camisole đen Cargo graffiti trắng Platform đen trắng Đi cafe Đen Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #16 – Punk / Grunge",
+    "title": "Look #16 Punk / Grunge: Halter top đen + Cargo đen nhiều túi",
     "url": "/outfits/look-16-goth.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #16: Halter top đen, Cargo đen nhiều túi và Sneaker chunky đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-goth-look-16-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #16 – Punk / Grunge Outfit Punk / Grunge #16: Halter top đen, Cargo đen nhiều túi và Sneaker chunky đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Goth Punk / Grunge Baddie Streetwear Goth Grunge Halter top đen Cargo đen nhiều túi Sneaker chunky đen Đi học Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #16 Punk / Grunge: Halter top đen + Cargo đen nhiều túi Outfit Punk / Grunge #16: Halter top đen, Cargo đen nhiều túi và Sneaker chunky đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Goth Punk / Grunge Baddie Streetwear Goth Grunge Halter top đen Cargo đen nhiều túi Sneaker chunky đen Đi học Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #17 – Baddie Streetwear",
+    "title": "Look #17 Baddie Streetwear: Graphic tee đen + Jeans baggy xanh",
     "url": "/outfits/look-17-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #17: Graphic tee đen, Jeans baggy xanh và Sneaker đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-17-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #17 – Baddie Streetwear Outfit Baddie Streetwear #17: Graphic tee đen, Jeans baggy xanh và Sneaker đen. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge E-Girl Baddie Streetwear Punk / Grunge E-Girl Graphic tee đen Jeans baggy xanh Sneaker đen Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #17 Baddie Streetwear: Graphic tee đen + Jeans baggy xanh Outfit Baddie Streetwear #17: Graphic tee đen, Jeans baggy xanh và Sneaker đen. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge E-Girl Baddie Streetwear Punk / Grunge E-Girl Graphic tee đen Jeans baggy xanh Sneaker đen Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #18 – Punk / Grunge",
+    "title": "Look #18 Punk / Grunge: Crop top đen + Jeans rách đen",
     "url": "/outfits/look-18-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #18: Crop top đen, Jeans rách đen và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #18 – Punk / Grunge Outfit Punk / Grunge #18: Crop top đen, Jeans rách đen và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Dark Feminine Punk / Grunge Baddie Streetwear Dark Feminine Punk Crop top đen Jeans rách đen Sneaker trắng Đi học Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Quần Sneaker"
+    "keywords": "Look #18 Punk / Grunge: Crop top đen + Jeans rách đen Outfit Punk / Grunge #18: Crop top đen, Jeans rách đen và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Dark Feminine Punk / Grunge Baddie Streetwear Dark Feminine Punk Crop top đen Jeans rách đen Sneaker trắng Đi học Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #19 – Punk / Grunge",
+    "title": "Look #19 Punk / Grunge: Bandeau đen + Cargo rách phối lưới",
     "url": "/outfits/look-19-punk.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #19: Bandeau đen, Cargo rách phối lưới và Combat boots trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-punk-look-19-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #19 – Punk / Grunge Outfit Punk / Grunge #19: Bandeau đen, Cargo rách phối lưới và Combat boots trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Goth Baddie Streetwear Punk / Grunge Goth Baddie Streetwear Punk Bandeau đen Cargo rách phối lưới Combat boots trắng Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #19 Punk / Grunge: Bandeau đen + Cargo rách phối lưới Outfit Punk / Grunge #19: Bandeau đen, Cargo rách phối lưới và Combat boots trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Goth Baddie Streetwear Punk / Grunge Goth Baddie Streetwear Punk Bandeau đen Cargo rách phối lưới Combat boots trắng Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #20 – Baddie Streetwear",
+    "title": "Look #20 Baddie Streetwear: Crop tee trắng + Jogger xám",
     "url": "/outfits/look-20-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #20: Crop tee trắng, Jogger xám và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-20-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #20 – Baddie Streetwear Outfit Baddie Streetwear #20: Crop tee trắng, Jogger xám và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Crop tee trắng Jogger xám Sneaker trắng Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #20 Baddie Streetwear: Crop tee trắng + Jogger xám Outfit Baddie Streetwear #20: Crop tee trắng, Jogger xám và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Crop tee trắng Jogger xám Sneaker trắng Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
     "title": "Baddie Streetwear",
@@ -1048,164 +1048,164 @@ window.searchIndex = [
     "keywords": "PUNK — Apocalypse Closet PUNK — chống lại tất cả. Không xin lỗi, không giải thích. Apocalypse Closet. PUNK PUNK — Apocalypse Closet ♡ CLOSET STYLE ↓ Dark Feminine E-Girl / Alt Girl Goth / Gothic Baddie Streetwear Punk / Grunge HOME › PUNK // Issue No.04 — Apocalypse Closet Zine PUNK NOT DEAD Punk không phải là âm nhạc. Punk không phải là quần áo. Punk là thái độ . Là nói KHÔNG khi cả thế giới nói có. Là mặc những gì bạn muốn — không cần ai cho phép. Là phá vỡ quy tắc vì quy tắc xứng đáng bị phá. 1. Không có quy tắc. (Trừ rule này.) 2. DIY hoặc chết. Tự làm, tự sống, tự thở. 3. Chains, studs, safety pins — vũ khí thẩm mỹ. 4. Không xin lỗi. Không giải thích. Bao giờ hết. PUNK NOT DEAD ★ ANARCHY FASHION DIY OR DIE ★ REBEL STYLE NO RULES ★ SPIKE & CHAINS PUNK NOT DEAD ★ ANARCHY FASHION DIY OR DIE ★ REBEL STYLE DESTROY RESIST REFUSE RECLAIM REVOLT REBEL DESTROY RESIST REFUSE RECLAIM // The Punk Creed ⚡ DIY Forever Tự distress, tự vá, tự paint. Mỗi outfit là tác phẩm duy nhất trên đời ⛓ Hardware & Edge Safety pins, studs, spike chokers — phụ kiện của những người không chịu im lặng ✂ Ripped & Raw Jeans rách, áo torn, boots cũ — vẻ đẹp của sự không hoàn hảo có chủ đích 🖤 No Apologies Không giải thích. Không xin lỗi. Không cần sự chấp thuận của ai // Punk Looks © 2026 APOCALYPSE CLOSET punk grunge soft grunge"
   },
   {
-    "title": "OUTFIT DETAILS #21 – Baddie Streetwear",
+    "title": "Look #21 Baddie Streetwear: Crop top đen + Jeans đen ống rộng",
     "url": "/outfits/look-21-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #21: Crop top đen, Jeans đen ống rộng và Platform màu tan. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-21-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #21 – Baddie Streetwear Outfit Baddie Streetwear #21: Crop top đen, Jeans đen ống rộng và Platform màu tan. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Crop top đen Jeans đen ống rộng Platform màu tan Chụp ảnh Đen Tôn eo Che hông / đùi Hack chân dài Thoải mái Quần Boots / Platform"
+    "keywords": "Look #21 Baddie Streetwear: Crop top đen + Jeans đen ống rộng Outfit Baddie Streetwear #21: Crop top đen, Jeans đen ống rộng và Platform màu tan. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Crop top đen Jeans đen ống rộng Platform màu tan Chụp ảnh Đen Tôn eo Che hông / đùi Hack chân dài Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #22 – Dark Feminine",
+    "title": "Look #22 Dark Feminine: Crop top lệch vai + Jeans phối ren đen",
     "url": "/outfits/look-22-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #22: Crop top lệch vai, Jeans phối ren đen và Mary Jane đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-22-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #22 – Dark Feminine Outfit Dark Feminine #22: Crop top lệch vai, Jeans phối ren đen và Mary Jane đen. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Goth Baddie Streetwear Dark Feminine Goth Baddie Streetwear Crop top lệch vai Jeans phối ren đen Mary Jane đen Đi chơi tối Chụp ảnh Đen Tôn eo Quần Giày khác"
+    "keywords": "Look #22 Dark Feminine: Crop top lệch vai + Jeans phối ren đen Outfit Dark Feminine #22: Crop top lệch vai, Jeans phối ren đen và Mary Jane đen. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Goth Baddie Streetwear Dark Feminine Goth Baddie Streetwear Crop top lệch vai Jeans phối ren đen Mary Jane đen Đi chơi tối Chụp ảnh Đen Tôn eo Quần Giày khác"
   },
   {
-    "title": "OUTFIT DETAILS #23 – Baddie Streetwear",
+    "title": "Look #23 Baddie Streetwear: Crop tee trắng đỏ + Track pants trắng đỏ",
     "url": "/outfits/look-23-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #23: Crop tee trắng đỏ, Track pants trắng đỏ và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-23-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #23 – Baddie Streetwear Outfit Baddie Streetwear #23: Crop tee trắng đỏ, Track pants trắng đỏ và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Crop tee trắng đỏ Track pants trắng đỏ Sneaker trắng Đi học Đi cafe Chụp ảnh Đỏ / Hồng Tôn eo Quần Sneaker"
+    "keywords": "Look #23 Baddie Streetwear: Crop tee trắng đỏ + Track pants trắng đỏ Outfit Baddie Streetwear #23: Crop tee trắng đỏ, Track pants trắng đỏ và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Crop tee trắng đỏ Track pants trắng đỏ Sneaker trắng Đi học Đi cafe Chụp ảnh Đỏ / Hồng Tôn eo Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #24 – Punk / Grunge",
+    "title": "Look #24 Punk / Grunge: Graphic tee đen + Short đen",
     "url": "/outfits/look-24-goth.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #24: Graphic tee đen, Short đen và Combat boots cao cổ. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-goth-look-24-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #24 – Punk / Grunge Outfit Punk / Grunge #24: Graphic tee đen, Short đen và Combat boots cao cổ. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Grunge Graphic tee đen Short đen Combat boots cao cổ Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Short Boots / Platform"
+    "keywords": "Look #24 Punk / Grunge: Graphic tee đen + Short đen Outfit Punk / Grunge #24: Graphic tee đen, Short đen và Combat boots cao cổ. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Grunge Graphic tee đen Short đen Combat boots cao cổ Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Short Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #25 – Punk / Grunge",
+    "title": "Look #25 Punk / Grunge: Áo lưới graphic đen + Cargo navy ống rộng",
     "url": "/outfits/look-25-goth.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #25: Áo lưới graphic đen, Cargo navy ống rộng và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-goth-look-25-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #25 – Punk / Grunge Outfit Punk / Grunge #25: Áo lưới graphic đen, Cargo navy ống rộng và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Grunge Áo lưới graphic đen Cargo navy ống rộng Sneaker đen trắng Đi cafe Đi chơi tối Chụp ảnh Đen Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #25 Punk / Grunge: Áo lưới graphic đen + Cargo navy ống rộng Outfit Punk / Grunge #25: Áo lưới graphic đen, Cargo navy ống rộng và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Grunge Áo lưới graphic đen Cargo navy ống rộng Sneaker đen trắng Đi cafe Đi chơi tối Chụp ảnh Đen Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #26 – Punk / Grunge",
+    "title": "Look #26 Punk / Grunge: Áo trễ vai xám + Cargo jeans xám",
     "url": "/outfits/look-26-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #26: Áo trễ vai xám, Cargo jeans xám và Boot màu tan. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-26-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #26 – Punk / Grunge Outfit Punk / Grunge #26: Áo trễ vai xám, Cargo jeans xám và Boot màu tan. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Baddie Streetwear Punk / Grunge E-Girl Baddie Streetwear Grunge Áo trễ vai xám Cargo jeans xám Boot màu tan Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #26 Punk / Grunge: Áo trễ vai xám + Cargo jeans xám Outfit Punk / Grunge #26: Áo trễ vai xám, Cargo jeans xám và Boot màu tan. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Baddie Streetwear Punk / Grunge E-Girl Baddie Streetwear Grunge Áo trễ vai xám Cargo jeans xám Boot màu tan Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #27 – Punk / Grunge",
+    "title": "Look #27 Punk / Grunge: Graphic tee nâu + Jeans baggy xám",
     "url": "/outfits/look-27-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #27: Graphic tee nâu, Jeans baggy xám và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #27 – Punk / Grunge Outfit Punk / Grunge #27: Graphic tee nâu, Jeans baggy xám và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Grunge Graphic tee nâu Jeans baggy xám Sneaker trắng Đi học Đi cafe Chụp ảnh Nâu / Be Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #27 Punk / Grunge: Graphic tee nâu + Jeans baggy xám Outfit Punk / Grunge #27: Graphic tee nâu, Jeans baggy xám và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Grunge Graphic tee nâu Jeans baggy xám Sneaker trắng Đi học Đi cafe Chụp ảnh Nâu / Be Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #28 – Baddie Streetwear",
+    "title": "Look #28 Baddie Streetwear: Crop tee trắng + Parachute beige",
     "url": "/outfits/look-28-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #28: Crop tee trắng, Parachute beige và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-28-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #28 – Baddie Streetwear Outfit Baddie Streetwear #28: Crop tee trắng, Parachute beige và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Crop tee trắng Parachute beige Sneaker đen trắng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #28 Baddie Streetwear: Crop tee trắng + Parachute beige Outfit Baddie Streetwear #28: Crop tee trắng, Parachute beige và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Crop tee trắng Parachute beige Sneaker đen trắng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #29 – Dark Feminine",
+    "title": "Look #29 Dark Feminine: Camisole da báo + Jeans wash nâu",
     "url": "/outfits/look-29-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #29: Camisole da báo, Jeans wash nâu và Giày da báo. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-29-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #29 – Dark Feminine Outfit Dark Feminine #29: Camisole da báo, Jeans wash nâu và Giày da báo. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Camisole da báo Jeans wash nâu Giày da báo Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Quần Giày khác"
+    "keywords": "Look #29 Dark Feminine: Camisole da báo + Jeans wash nâu Outfit Dark Feminine #29: Camisole da báo, Jeans wash nâu và Giày da báo. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Camisole da báo Jeans wash nâu Giày da báo Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Quần Giày khác"
   },
   {
-    "title": "OUTFIT DETAILS #30 – Dark Feminine",
+    "title": "Look #30 Dark Feminine: Corset nâu + Jeans cargo xám",
     "url": "/outfits/look-30-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #30: Corset nâu, Jeans cargo xám và Sneaker nâu. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-30-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #30 – Dark Feminine Outfit Dark Feminine #30: Corset nâu, Jeans cargo xám và Sneaker nâu. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Corset nâu Jeans cargo xám Sneaker nâu Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #30 Dark Feminine: Corset nâu + Jeans cargo xám Outfit Dark Feminine #30: Corset nâu, Jeans cargo xám và Sneaker nâu. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Corset nâu Jeans cargo xám Sneaker nâu Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #31 – Baddie Streetwear",
+    "title": "Look #31 Baddie Streetwear: Áo thun đen + Jeans baggy xanh",
     "url": "/outfits/look-31-egirl.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #31: Áo thun đen, Jeans baggy xanh và Clog trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-31-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #31 – Baddie Streetwear Outfit Baddie Streetwear #31: Áo thun đen, Jeans baggy xanh và Clog trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo thun đen Jeans baggy xanh Clog trắng Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #31 Baddie Streetwear: Áo thun đen + Jeans baggy xanh Outfit Baddie Streetwear #31: Áo thun đen, Jeans baggy xanh và Clog trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo thun đen Jeans baggy xanh Clog trắng Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #32 – Baddie Streetwear",
+    "title": "Look #32 Baddie Streetwear: Tank top đen + Quần ống rộng đen",
     "url": "/outfits/look-32-goth.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #32: Tank top đen, Quần ống rộng đen và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-goth-look-32-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #32 – Baddie Streetwear Outfit Baddie Streetwear #32: Tank top đen, Quần ống rộng đen và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Goth Baddie Streetwear Goth Tank top đen Quần ống rộng đen Sneaker đen trắng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #32 Baddie Streetwear: Tank top đen + Quần ống rộng đen Outfit Baddie Streetwear #32: Tank top đen, Quần ống rộng đen và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Goth Baddie Streetwear Goth Tank top đen Quần ống rộng đen Sneaker đen trắng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #33 – E-Girl",
+    "title": "Look #33 E-Girl: Corset đen đỏ + Jeans baggy xanh nhạt",
     "url": "/outfits/look-33-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #33: Corset đen đỏ, Jeans baggy xanh nhạt và Platform đỏ. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-33-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #33 – E-Girl Outfit E-Girl #33: Corset đen đỏ, Jeans baggy xanh nhạt và Platform đỏ. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Corset đen đỏ Jeans baggy xanh nhạt Platform đỏ Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Hack chân dài Thoải mái Quần Boots / Platform"
+    "keywords": "Look #33 E-Girl: Corset đen đỏ + Jeans baggy xanh nhạt Outfit E-Girl #33: Corset đen đỏ, Jeans baggy xanh nhạt và Platform đỏ. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Corset đen đỏ Jeans baggy xanh nhạt Platform đỏ Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Hack chân dài Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #34 – Baddie Streetwear",
+    "title": "Look #34 Baddie Streetwear: Crop tee đen + Jogger xám",
     "url": "/outfits/look-34-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #34: Crop tee đen, Jogger xám và Platform màu beige. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-34-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #34 – Baddie Streetwear Outfit Baddie Streetwear #34: Crop tee đen, Jogger xám và Platform màu beige. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge Baddie Streetwear Punk / Grunge Crop tee đen Jogger xám Platform màu beige Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Thoải mái Quần Boots / Platform"
+    "keywords": "Look #34 Baddie Streetwear: Crop tee đen + Jogger xám Outfit Baddie Streetwear #34: Crop tee đen, Jogger xám và Platform màu beige. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge Baddie Streetwear Punk / Grunge Crop tee đen Jogger xám Platform màu beige Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #35 – Baddie Streetwear",
+    "title": "Look #35 Baddie Streetwear: Crop top trễ vai + Jeans đen ống rộng",
     "url": "/outfits/look-35-egirl.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #35: Crop top trễ vai, Jeans đen ống rộng và Sneaker đỏ. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-e-girl-look-35-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #35 – Baddie Streetwear Outfit Baddie Streetwear #35: Crop top trễ vai, Jeans đen ống rộng và Sneaker đỏ. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine E-Girl Baddie Streetwear Dark Feminine E-Girl Crop top trễ vai Jeans đen ống rộng Sneaker đỏ Đi học Đi cafe Đi chơi tối Đen Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #35 Baddie Streetwear: Crop top trễ vai + Jeans đen ống rộng Outfit Baddie Streetwear #35: Crop top trễ vai, Jeans đen ống rộng và Sneaker đỏ. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine E-Girl Baddie Streetwear Dark Feminine E-Girl Crop top trễ vai Jeans đen ống rộng Sneaker đỏ Đi học Đi cafe Đi chơi tối Đen Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #36 – Baddie Streetwear",
+    "title": "Look #36 Baddie Streetwear: Áo trễ vai đen + Jeans baggy xanh",
     "url": "/outfits/look-36-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #36: Áo trễ vai đen, Jeans baggy xanh và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-36-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #36 – Baddie Streetwear Outfit Baddie Streetwear #36: Áo trễ vai đen, Jeans baggy xanh và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai đen Jeans baggy xanh Sneaker đen trắng Đi học Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #36 Baddie Streetwear: Áo trễ vai đen + Jeans baggy xanh Outfit Baddie Streetwear #36: Áo trễ vai đen, Jeans baggy xanh và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai đen Jeans baggy xanh Sneaker đen trắng Đi học Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #37 – Baddie Streetwear",
+    "title": "Look #37 Baddie Streetwear: Crop tank đen + Quần tây đen",
     "url": "/outfits/look-37-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #37: Crop tank đen, Quần tây đen và Sneaker đỏ. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-37-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #37 – Baddie Streetwear Outfit Baddie Streetwear #37: Crop tank đen, Quần tây đen và Sneaker đỏ. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge Baddie Streetwear Punk / Grunge Crop tank đen Quần tây đen Sneaker đỏ Đi học Đi cafe Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #37 Baddie Streetwear: Crop tank đen + Quần tây đen Outfit Baddie Streetwear #37: Crop tank đen, Quần tây đen và Sneaker đỏ. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Punk / Grunge Baddie Streetwear Punk / Grunge Crop tank đen Quần tây đen Sneaker đỏ Đi học Đi cafe Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #38 – Punk / Grunge",
+    "title": "Look #38 Punk / Grunge: Crop top cổ lọ + Jeans rách đen",
     "url": "/outfits/look-38-punk.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #38: Crop top cổ lọ, Jeans rách đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-punk-look-38-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #38 – Punk / Grunge Outfit Punk / Grunge #38: Crop top cổ lọ, Jeans rách đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Crop top cổ lọ Jeans rách đen Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #38 Punk / Grunge: Crop top cổ lọ + Jeans rách đen Outfit Punk / Grunge #38: Crop top cổ lọ, Jeans rách đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Crop top cổ lọ Jeans rách đen Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #39 – Baddie Streetwear",
+    "title": "Look #39 Baddie Streetwear: Tank top đen + Quần ống rộng đen",
     "url": "/outfits/look-39-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #39: Tank top đen, Quần ống rộng đen và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-39-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #39 – Baddie Streetwear Outfit Baddie Streetwear #39: Tank top đen, Quần ống rộng đen và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Tank top đen Quần ống rộng đen Sneaker đen trắng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #39 Baddie Streetwear: Tank top đen + Quần ống rộng đen Outfit Baddie Streetwear #39: Tank top đen, Quần ống rộng đen và Sneaker đen trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Tank top đen Quần ống rộng đen Sneaker đen trắng Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #40 – Baddie Streetwear",
+    "title": "Look #40 Baddie Streetwear: Crop top cutout trắng + Jeans baggy xanh",
     "url": "/outfits/look-40-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #40: Crop top cutout trắng, Jeans baggy xanh và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/badgirl-dark-feminine-look-40-full-outfit.webp",
-    "keywords": "OUTFIT DETAILS #40 – Baddie Streetwear Outfit Baddie Streetwear #40: Crop top cutout trắng, Jeans baggy xanh và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Crop top cutout trắng Jeans baggy xanh Sneaker trắng Đi học Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #40 Baddie Streetwear: Crop top cutout trắng + Jeans baggy xanh Outfit Baddie Streetwear #40: Crop top cutout trắng, Jeans baggy xanh và Sneaker trắng. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Crop top cutout trắng Jeans baggy xanh Sneaker trắng Đi học Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
     "title": "Giới Thiệu Apocalypse Closet",
@@ -1232,771 +1232,771 @@ window.searchIndex = [
     "keywords": "contact liên hệ email instagram"
   },
   {
-    "title": "OUTFIT DETAILS #41 – E-Girl",
+    "title": "Look #41 E-Girl: Áo graphic trắng + Chân váy xếp ly đen",
     "url": "/outfits/look-41-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #41: Áo graphic trắng, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-trang-chan-vay-xep-ly-den-041.webp",
-    "keywords": "OUTFIT DETAILS #41 – E-Girl Outfit E-Girl #41: Áo graphic trắng, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic trắng Chân váy xếp ly đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #41 E-Girl: Áo graphic trắng + Chân váy xếp ly đen Outfit E-Girl #41: Áo graphic trắng, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic trắng Chân váy xếp ly đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #42 – E-Girl",
+    "title": "Look #42 E-Girl: Áo kẻ sọc đen + Chân váy xếp ly",
     "url": "/outfits/look-42-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #42: Áo kẻ sọc đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-ke-soc-den-chan-vay-xep-ly-042.webp",
-    "keywords": "OUTFIT DETAILS #42 – E-Girl Outfit E-Girl #42: Áo kẻ sọc đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo kẻ sọc đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #42 E-Girl: Áo kẻ sọc đen + Chân váy xếp ly Outfit E-Girl #42: Áo kẻ sọc đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo kẻ sọc đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #43 – E-Girl",
+    "title": "Look #43 E-Girl: Áo crop graphic đen + Chân váy caro",
     "url": "/outfits/look-43-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #43: Áo crop graphic đen, Chân váy caro và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-caro-043.webp",
-    "keywords": "OUTFIT DETAILS #43 – E-Girl Outfit E-Girl #43: Áo crop graphic đen, Chân váy caro và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo crop graphic đen Chân váy caro Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #43 E-Girl: Áo crop graphic đen + Chân váy caro Outfit E-Girl #43: Áo crop graphic đen, Chân váy caro và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo crop graphic đen Chân váy caro Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #44 – Goth",
+    "title": "Look #44 Goth: Áo lưới đen + Quần short xích",
     "url": "/outfits/look-44-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #44: Áo lưới đen, Quần short xích và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-short-xich-044.webp",
-    "keywords": "OUTFIT DETAILS #44 – Goth Outfit Goth #44: Áo lưới đen, Quần short xích và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới đen Quần short xích Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Short Boots / Platform"
+    "keywords": "Look #44 Goth: Áo lưới đen + Quần short xích Outfit Goth #44: Áo lưới đen, Quần short xích và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới đen Quần short xích Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Short Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #45 – E-Girl",
+    "title": "Look #45 E-Girl: Áo kẻ sọc đỏ đen + Chân váy đen",
     "url": "/outfits/look-45-grunge.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #45: Áo kẻ sọc đỏ đen, Chân váy đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-do-den-chan-vay-den-045.webp",
-    "keywords": "OUTFIT DETAILS #45 – E-Girl Outfit E-Girl #45: Áo kẻ sọc đỏ đen, Chân váy đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo kẻ sọc đỏ đen Chân váy đen Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Đỏ / Hồng Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #45 E-Girl: Áo kẻ sọc đỏ đen + Chân váy đen Outfit E-Girl #45: Áo kẻ sọc đỏ đen, Chân váy đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo kẻ sọc đỏ đen Chân váy đen Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Đỏ / Hồng Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #46 – Goth",
+    "title": "Look #46 Goth: Áo corset đen + Chân váy xếp ly",
     "url": "/outfits/look-46-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #46: Áo corset đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-corset-den-chan-vay-xep-ly-046.webp",
-    "keywords": "OUTFIT DETAILS #46 – Goth Outfit Goth #46: Áo corset đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Áo corset đen Chân váy xếp ly Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #46 Goth: Áo corset đen + Chân váy xếp ly Outfit Goth #46: Áo corset đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Áo corset đen Chân váy xếp ly Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #47 – Goth",
+    "title": "Look #47 Goth: Áo lưới corset đen + Quần cargo xám",
     "url": "/outfits/look-47-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #47: Áo lưới corset đen, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-corset-den-quan-cargo-xam-047.webp",
-    "keywords": "OUTFIT DETAILS #47 – Goth Outfit Goth #47: Áo lưới corset đen, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Dark Feminine Goth Punk / Grunge Dark Feminine Áo lưới corset đen Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #47 Goth: Áo lưới corset đen + Quần cargo xám Outfit Goth #47: Áo lưới corset đen, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Dark Feminine Goth Punk / Grunge Dark Feminine Áo lưới corset đen Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #48 – Punk / Grunge",
+    "title": "Look #48 Punk / Grunge: Áo graphic đen + Quần cargo xám",
     "url": "/outfits/look-48-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #48: Áo graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-den-quan-cargo-xam-048.webp",
-    "keywords": "OUTFIT DETAILS #48 – Punk / Grunge Outfit Punk / Grunge #48: Áo graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #48 Punk / Grunge: Áo graphic đen + Quần cargo xám Outfit Punk / Grunge #48: Áo graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #49 – Goth",
+    "title": "Look #49 Goth: Áo graphic trễ vai + Chân váy đen",
     "url": "/outfits/look-49-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #49: Áo graphic trễ vai, Chân váy đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-den-049.webp",
-    "keywords": "OUTFIT DETAILS #49 – Goth Outfit Goth #49: Áo graphic trễ vai, Chân váy đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Dark Feminine Goth Punk / Grunge Dark Feminine Áo graphic trễ vai Chân váy đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #49 Goth: Áo graphic trễ vai + Chân váy đen Outfit Goth #49: Áo graphic trễ vai, Chân váy đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Dark Feminine Goth Punk / Grunge Dark Feminine Áo graphic trễ vai Chân váy đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #50 – Punk / Grunge",
+    "title": "Look #50 Punk / Grunge: Áo lưới graphic xám + Quần cargo đen",
     "url": "/outfits/look-50-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #50: Áo lưới graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-graphic-xam-quan-cargo-den-050.webp",
-    "keywords": "OUTFIT DETAILS #50 – Punk / Grunge Outfit Punk / Grunge #50: Áo lưới graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo lưới graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #50 Punk / Grunge: Áo lưới graphic xám + Quần cargo đen Outfit Punk / Grunge #50: Áo lưới graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo lưới graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #51 – E-Girl",
+    "title": "Look #51 E-Girl: Áo jersey trắng + Chân váy xếp ly",
     "url": "/outfits/look-51-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #51: Áo jersey trắng, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-jersey-trang-chan-vay-xep-ly-051.webp",
-    "keywords": "OUTFIT DETAILS #51 – E-Girl Outfit E-Girl #51: Áo jersey trắng, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo jersey trắng Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Trắng / Sáng Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #51 E-Girl: Áo jersey trắng + Chân váy xếp ly Outfit E-Girl #51: Áo jersey trắng, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo jersey trắng Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Trắng / Sáng Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #52 – Goth",
+    "title": "Look #52 Goth: Áo dây đan đen + Chân váy xếp ly",
     "url": "/outfits/look-52-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #52: Áo dây đan đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-day-dan-den-chan-vay-xep-ly-052.webp",
-    "keywords": "OUTFIT DETAILS #52 – Goth Outfit Goth #52: Áo dây đan đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Áo dây đan đen Chân váy xếp ly Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #52 Goth: Áo dây đan đen + Chân váy xếp ly Outfit Goth #52: Áo dây đan đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Áo dây đan đen Chân váy xếp ly Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #53 – Dark Feminine",
+    "title": "Look #53 Dark Feminine: Áo crop khoét ngực + Chân váy đen",
     "url": "/outfits/look-53-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #53: Áo crop khoét ngực, Chân váy đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-khoet-nguc-chan-vay-den-053.webp",
-    "keywords": "OUTFIT DETAILS #53 – Dark Feminine Outfit Dark Feminine #53: Áo crop khoét ngực, Chân váy đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo crop khoét ngực Chân váy đen Boot đen mũi nhọn Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #53 Dark Feminine: Áo crop khoét ngực + Chân váy đen Outfit Dark Feminine #53: Áo crop khoét ngực, Chân váy đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo crop khoét ngực Chân váy đen Boot đen mũi nhọn Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #54 – Punk / Grunge",
+    "title": "Look #54 Punk / Grunge: Áo thun graphic đen + Chân váy mini",
     "url": "/outfits/look-54-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #54: Áo thun graphic đen, Chân váy mini và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-chan-vay-mini-054.webp",
-    "keywords": "OUTFIT DETAILS #54 – Punk / Grunge Outfit Punk / Grunge #54: Áo thun graphic đen, Chân váy mini và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Áo thun graphic đen Chân váy mini Combat boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #54 Punk / Grunge: Áo thun graphic đen + Chân váy mini Outfit Punk / Grunge #54: Áo thun graphic đen, Chân váy mini và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Áo thun graphic đen Chân váy mini Combat boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #55 – E-Girl",
+    "title": "Look #55 E-Girl: Áo crop đen tay be + Chân váy xếp ly",
     "url": "/outfits/look-55-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #55: Áo crop đen tay be, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-den-tay-be-chan-vay-xep-ly-055.webp",
-    "keywords": "OUTFIT DETAILS #55 – E-Girl Outfit E-Girl #55: Áo crop đen tay be, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop đen tay be Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #55 E-Girl: Áo crop đen tay be + Chân váy xếp ly Outfit E-Girl #55: Áo crop đen tay be, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop đen tay be Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #56 – Punk / Grunge",
+    "title": "Look #56 Punk / Grunge: Áo graphic trễ vai + Chân váy xếp ly",
     "url": "/outfits/look-56-goth.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #56: Áo graphic trễ vai, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-graphic-tre-vai-chan-vay-xep-ly-056.webp",
-    "keywords": "OUTFIT DETAILS #56 – Punk / Grunge Outfit Punk / Grunge #56: Áo graphic trễ vai, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Grunge Áo graphic trễ vai Chân váy xếp ly Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #56 Punk / Grunge: Áo graphic trễ vai + Chân váy xếp ly Outfit Punk / Grunge #56: Áo graphic trễ vai, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Goth Grunge Áo graphic trễ vai Chân váy xếp ly Platform boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #57 – Goth",
+    "title": "Look #57 Goth: Áo crop graphic xám + Quần cargo đen",
     "url": "/outfits/look-57-grunge.html",
     "type": "Outfit",
     "description": "Outfit Goth #57: Áo crop graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-057.webp",
-    "keywords": "OUTFIT DETAILS #57 – Goth Outfit Goth #57: Áo crop graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo crop graphic xám Quần cargo đen Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #57 Goth: Áo crop graphic xám + Quần cargo đen Outfit Goth #57: Áo crop graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo crop graphic xám Quần cargo đen Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #58 – Baddie Streetwear",
+    "title": "Look #58 Baddie Streetwear: Áo jersey số 17 + Quần cargo đen",
     "url": "/outfits/look-58-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #58: Áo jersey số 17, Quần cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-jersey-so-17-quan-cargo-den-058.webp",
-    "keywords": "OUTFIT DETAILS #58 – Baddie Streetwear Outfit Baddie Streetwear #58: Áo jersey số 17, Quần cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo jersey số 17 Quần cargo đen Sneaker chunky Đi học Đi cafe Đen Che hông / đùi Quần Sneaker"
+    "keywords": "Look #58 Baddie Streetwear: Áo jersey số 17 + Quần cargo đen Outfit Baddie Streetwear #58: Áo jersey số 17, Quần cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo jersey số 17 Quần cargo đen Sneaker chunky Đi học Đi cafe Đen Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #59 – Goth",
+    "title": "Look #59 Goth: Áo corset xám + Chân váy xếp ly đen",
     "url": "/outfits/look-59-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #59: Áo corset xám, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-corset-xam-chan-vay-xep-ly-den-059.webp",
-    "keywords": "OUTFIT DETAILS #59 – Goth Outfit Goth #59: Áo corset xám, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Áo corset xám Chân váy xếp ly đen Platform boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #59 Goth: Áo corset xám + Chân váy xếp ly đen Outfit Goth #59: Áo corset xám, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge E-Girl Goth Punk / Grunge E-Girl Áo corset xám Chân váy xếp ly đen Platform boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #60 – Punk / Grunge",
+    "title": "Look #60 Punk / Grunge: Áo crop graphic hồng + Quần cargo đen",
     "url": "/outfits/look-60-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #60: Áo crop graphic hồng, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-hong-quan-cargo-den-060.webp",
-    "keywords": "OUTFIT DETAILS #60 – Punk / Grunge Outfit Punk / Grunge #60: Áo crop graphic hồng, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop graphic hồng Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #60 Punk / Grunge: Áo crop graphic hồng + Quần cargo đen Outfit Punk / Grunge #60: Áo crop graphic hồng, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop graphic hồng Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #61 – E-Girl",
+    "title": "Look #61 E-Girl: Áo jersey số 09 + Chân váy đen",
     "url": "/outfits/look-61-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #61: Áo jersey số 09, Chân váy đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-jersey-so-09-chan-vay-den-061.webp",
-    "keywords": "OUTFIT DETAILS #61 – E-Girl Outfit E-Girl #61: Áo jersey số 09, Chân váy đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo jersey số 09 Chân váy đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #61 E-Girl: Áo jersey số 09 + Chân váy đen Outfit E-Girl #61: Áo jersey số 09, Chân váy đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo jersey số 09 Chân váy đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #62 – E-Girl",
+    "title": "Look #62 E-Girl: Áo polo crop trắng + Chân váy xám",
     "url": "/outfits/look-62-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #62: Áo polo crop trắng, Chân váy xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-polo-crop-trang-chan-vay-xam-062.webp",
-    "keywords": "OUTFIT DETAILS #62 – E-Girl Outfit E-Girl #62: Áo polo crop trắng, Chân váy xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo polo crop trắng Chân váy xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #62 E-Girl: Áo polo crop trắng + Chân váy xám Outfit E-Girl #62: Áo polo crop trắng, Chân váy xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo polo crop trắng Chân váy xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #63 – Baddie Streetwear",
+    "title": "Look #63 Baddie Streetwear: Áo crop cổ cao đen + Quần cargo",
     "url": "/outfits/look-63-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #63: Áo crop cổ cao đen, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-co-cao-den-quan-cargo-063.webp",
-    "keywords": "OUTFIT DETAILS #63 – Baddie Streetwear Outfit Baddie Streetwear #63: Áo crop cổ cao đen, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop cổ cao đen Quần cargo Sneaker chunky Đi học Đi cafe Đen Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #63 Baddie Streetwear: Áo crop cổ cao đen + Quần cargo Outfit Baddie Streetwear #63: Áo crop cổ cao đen, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop cổ cao đen Quần cargo Sneaker chunky Đi học Đi cafe Đen Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #64 – Punk / Grunge",
+    "title": "Look #64 Punk / Grunge: Áo khoác thể thao + Quần cargo đen",
     "url": "/outfits/look-64-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #64: Áo khoác thể thao, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-khoac-the-thao-quan-cargo-den-064.webp",
-    "keywords": "OUTFIT DETAILS #64 – Punk / Grunge Outfit Punk / Grunge #64: Áo khoác thể thao, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo khoác thể thao Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #64 Punk / Grunge: Áo khoác thể thao + Quần cargo đen Outfit Punk / Grunge #64: Áo khoác thể thao, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo khoác thể thao Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #65 – Goth",
+    "title": "Look #65 Goth: Áo lưới dây đan + Chân váy mini đen",
     "url": "/outfits/look-65-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #65: Áo lưới dây đan, Chân váy mini đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-day-dan-chan-vay-mini-den-065.webp",
-    "keywords": "OUTFIT DETAILS #65 – Goth Outfit Goth #65: Áo lưới dây đan, Chân váy mini đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới dây đan Chân váy mini đen Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #65 Goth: Áo lưới dây đan + Chân váy mini đen Outfit Goth #65: Áo lưới dây đan, Chân váy mini đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới dây đan Chân váy mini đen Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #66 – Goth",
+    "title": "Look #66 Goth: Áo lưới nâu + Quần cargo đen",
     "url": "/outfits/look-66-grunge.html",
     "type": "Outfit",
     "description": "Outfit Goth #66: Áo lưới nâu, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-nau-quan-cargo-den-066.webp",
-    "keywords": "OUTFIT DETAILS #66 – Goth Outfit Goth #66: Áo lưới nâu, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới nâu Quần cargo đen Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #66 Goth: Áo lưới nâu + Quần cargo đen Outfit Goth #66: Áo lưới nâu, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới nâu Quần cargo đen Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #67 – Baddie Streetwear",
+    "title": "Look #67 Baddie Streetwear: Áo trễ vai trắng + Quần cargo xám",
     "url": "/outfits/look-67-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #67: Áo trễ vai trắng, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-trang-quan-cargo-xam-067.webp",
-    "keywords": "OUTFIT DETAILS #67 – Baddie Streetwear Outfit Baddie Streetwear #67: Áo trễ vai trắng, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai trắng Quần cargo xám Sneaker chunky Đi học Đi cafe Đi chơi tối Xám / Bạc Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #67 Baddie Streetwear: Áo trễ vai trắng + Quần cargo xám Outfit Baddie Streetwear #67: Áo trễ vai trắng, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai trắng Quần cargo xám Sneaker chunky Đi học Đi cafe Đi chơi tối Xám / Bạc Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #68 – Goth",
+    "title": "Look #68 Goth: Áo lưới đen + Quần cargo đen",
     "url": "/outfits/look-68-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #68: Áo lưới đen, Quần cargo đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-cargo-den-068.webp",
-    "keywords": "OUTFIT DETAILS #68 – Goth Outfit Goth #68: Áo lưới đen, Quần cargo đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới đen Quần cargo đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #68 Goth: Áo lưới đen + Quần cargo đen Outfit Goth #68: Áo lưới đen, Quần cargo đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới đen Quần cargo đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #69 – Punk / Grunge",
+    "title": "Look #69 Punk / Grunge: Áo thun graphic đen + Quần cargo xám",
     "url": "/outfits/look-69-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #69: Áo thun graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-den-quan-cargo-xam-069.webp",
-    "keywords": "OUTFIT DETAILS #69 – Punk / Grunge Outfit Punk / Grunge #69: Áo thun graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo thun graphic đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #69 Punk / Grunge: Áo thun graphic đen + Quần cargo xám Outfit Punk / Grunge #69: Áo thun graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo thun graphic đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #70 – Goth",
+    "title": "Look #70 Goth: Áo corset khóa cài + Quần cargo xám",
     "url": "/outfits/look-70-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #70: Áo corset khóa cài, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-corset-khoa-cai-quan-cargo-xam-070.webp",
-    "keywords": "OUTFIT DETAILS #70 – Goth Outfit Goth #70: Áo corset khóa cài, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Dark Feminine Goth Punk / Grunge Dark Feminine Áo corset khóa cài Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #70 Goth: Áo corset khóa cài + Quần cargo xám Outfit Goth #70: Áo corset khóa cài, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Dark Feminine Goth Punk / Grunge Dark Feminine Áo corset khóa cài Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #71 – E-Girl",
+    "title": "Look #71 E-Girl: Áo crop trắng graphic mắt + Quần cargo đen",
     "url": "/outfits/look-71-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #71: Áo crop trắng graphic mắt, Quần cargo đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-trang-graphic-mat-quan-cargo-den-071.webp",
-    "keywords": "OUTFIT DETAILS #71 – E-Girl Outfit E-Girl #71: Áo crop trắng graphic mắt, Quần cargo đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge Baddie Streetwear E-Girl Punk / Grunge Baddie Streetwear Áo crop trắng graphic mắt Quần cargo đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #71 E-Girl: Áo crop trắng graphic mắt + Quần cargo đen Outfit E-Girl #71: Áo crop trắng graphic mắt, Quần cargo đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge Baddie Streetwear E-Girl Punk / Grunge Baddie Streetwear Áo crop trắng graphic mắt Quần cargo đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #72 – Dark Feminine",
+    "title": "Look #72 Dark Feminine: Áo ren buộc dây đen + Quần cargo xám",
     "url": "/outfits/look-72-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #72: Áo ren buộc dây đen, Quần cargo xám và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-ren-buoc-day-den-quan-cargo-xam-072.webp",
-    "keywords": "OUTFIT DETAILS #72 – Dark Feminine Outfit Dark Feminine #72: Áo ren buộc dây đen, Quần cargo xám và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo ren buộc dây đen Quần cargo xám Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #72 Dark Feminine: Áo ren buộc dây đen + Quần cargo xám Outfit Dark Feminine #72: Áo ren buộc dây đen, Quần cargo xám và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo ren buộc dây đen Quần cargo xám Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #73 – Goth",
+    "title": "Look #73 Goth: Áo yếm graphic đen + Quần cargo tím",
     "url": "/outfits/look-73-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #73: Áo yếm graphic đen, Quần cargo tím và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-yem-graphic-den-quan-cargo-tim-073.webp",
-    "keywords": "OUTFIT DETAILS #73 – Goth Outfit Goth #73: Áo yếm graphic đen, Quần cargo tím và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo yếm graphic đen Quần cargo tím Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Màu nổi Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #73 Goth: Áo yếm graphic đen + Quần cargo tím Outfit Goth #73: Áo yếm graphic đen, Quần cargo tím và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo yếm graphic đen Quần cargo tím Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Màu nổi Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #74 – Dark Feminine",
+    "title": "Look #74 Dark Feminine: Áo trễ vai graphic đen + Chân váy denim",
     "url": "/outfits/look-74-grunge.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #74: Áo trễ vai graphic đen, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-tre-vai-graphic-den-chan-vay-denim-074.webp",
-    "keywords": "OUTFIT DETAILS #74 – Dark Feminine Outfit Dark Feminine #74: Áo trễ vai graphic đen, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai graphic đen Chân váy denim Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #74 Dark Feminine: Áo trễ vai graphic đen + Chân váy denim Outfit Dark Feminine #74: Áo trễ vai graphic đen, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai graphic đen Chân váy denim Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #75 – Baddie Streetwear",
+    "title": "Look #75 Baddie Streetwear: Áo hồng ôm dáng + Chân váy cargo đen",
     "url": "/outfits/look-75-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #75: Áo hồng ôm dáng, Chân váy cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-hong-om-dang-chan-vay-cargo-den-075.webp",
-    "keywords": "OUTFIT DETAILS #75 – Baddie Streetwear Outfit Baddie Streetwear #75: Áo hồng ôm dáng, Chân váy cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo hồng ôm dáng Chân váy cargo đen Sneaker chunky Đi học Đi cafe Chụp ảnh Đỏ / Hồng Che hông / đùi Hack chân dài Váy Sneaker"
+    "keywords": "Look #75 Baddie Streetwear: Áo hồng ôm dáng + Chân váy cargo đen Outfit Baddie Streetwear #75: Áo hồng ôm dáng, Chân váy cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo hồng ôm dáng Chân váy cargo đen Sneaker chunky Đi học Đi cafe Chụp ảnh Đỏ / Hồng Che hông / đùi Hack chân dài Váy Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #76 – Baddie Streetwear",
+    "title": "Look #76 Baddie Streetwear: Áo crop số 23 + Chân váy cargo xám",
     "url": "/outfits/look-76-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #76: Áo crop số 23, Chân váy cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-so-23-chan-vay-cargo-xam-076.webp",
-    "keywords": "OUTFIT DETAILS #76 – Baddie Streetwear Outfit Baddie Streetwear #76: Áo crop số 23, Chân váy cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo crop số 23 Chân váy cargo xám Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Váy Sneaker"
+    "keywords": "Look #76 Baddie Streetwear: Áo crop số 23 + Chân váy cargo xám Outfit Baddie Streetwear #76: Áo crop số 23, Chân váy cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo crop số 23 Chân váy cargo xám Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Váy Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #77 – Dark Feminine",
+    "title": "Look #77 Dark Feminine: Áo corset đen + Quần jean ống rộng",
     "url": "/outfits/look-77-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #77: Áo corset đen, Quần jean ống rộng và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-corset-den-quan-jean-ong-rong-077.webp",
-    "keywords": "OUTFIT DETAILS #77 – Dark Feminine Outfit Dark Feminine #77: Áo corset đen, Quần jean ống rộng và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo corset đen Quần jean ống rộng Boot đen mũi nhọn Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
+    "keywords": "Look #77 Dark Feminine: Áo corset đen + Quần jean ống rộng Outfit Dark Feminine #77: Áo corset đen, Quần jean ống rộng và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo corset đen Quần jean ống rộng Boot đen mũi nhọn Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #78 – Punk / Grunge",
+    "title": "Look #78 Punk / Grunge: Áo crop đỏ rượu + Quần cargo đen",
     "url": "/outfits/look-78-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #78: Áo crop đỏ rượu, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-do-ruou-quan-cargo-den-078.webp",
-    "keywords": "OUTFIT DETAILS #78 – Punk / Grunge Outfit Punk / Grunge #78: Áo crop đỏ rượu, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop đỏ rượu Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #78 Punk / Grunge: Áo crop đỏ rượu + Quần cargo đen Outfit Punk / Grunge #78: Áo crop đỏ rượu, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop đỏ rượu Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #79 – Goth",
+    "title": "Look #79 Goth: Áo lưới xám + Quần cargo ống rộng",
     "url": "/outfits/look-79-grunge.html",
     "type": "Outfit",
     "description": "Outfit Goth #79: Áo lưới xám, Quần cargo ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-luoi-xam-quan-cargo-ong-rong-079.webp",
-    "keywords": "OUTFIT DETAILS #79 – Goth Outfit Goth #79: Áo lưới xám, Quần cargo ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới xám Quần cargo ống rộng Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Thoải mái Quần Boots / Platform"
+    "keywords": "Look #79 Goth: Áo lưới xám + Quần cargo ống rộng Outfit Goth #79: Áo lưới xám, Quần cargo ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới xám Quần cargo ống rộng Combat boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #80 – Punk / Grunge",
+    "title": "Look #80 Punk / Grunge: Áo graphic xám + Quần cargo đen",
     "url": "/outfits/look-80-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #80: Áo graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-quan-cargo-den-080.webp",
-    "keywords": "OUTFIT DETAILS #80 – Punk / Grunge Outfit Punk / Grunge #80: Áo graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #80 Punk / Grunge: Áo graphic xám + Quần cargo đen Outfit Punk / Grunge #80: Áo graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #81 – Dark Feminine",
+    "title": "Look #81 Dark Feminine: Áo yếm corset nâu + Quần cargo đen",
     "url": "/outfits/look-81-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #81: Áo yếm corset nâu, Quần cargo đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-yem-corset-nau-quan-cargo-den-081.webp",
-    "keywords": "OUTFIT DETAILS #81 – Dark Feminine Outfit Dark Feminine #81: Áo yếm corset nâu, Quần cargo đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo yếm corset nâu Quần cargo đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #81 Dark Feminine: Áo yếm corset nâu + Quần cargo đen Outfit Dark Feminine #81: Áo yếm corset nâu, Quần cargo đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo yếm corset nâu Quần cargo đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #82 – Baddie Streetwear",
+    "title": "Look #82 Baddie Streetwear: Áo vest khóa kéo đen + Chân váy denim",
     "url": "/outfits/look-82-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #82: Áo vest khóa kéo đen, Chân váy denim và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-vest-khoa-keo-den-chan-vay-denim-082.webp",
-    "keywords": "OUTFIT DETAILS #82 – Baddie Streetwear Outfit Baddie Streetwear #82: Áo vest khóa kéo đen, Chân váy denim và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo vest khóa kéo đen Chân váy denim Sneaker chunky Đi học Đi cafe Đen Hack chân dài Váy Sneaker"
+    "keywords": "Look #82 Baddie Streetwear: Áo vest khóa kéo đen + Chân váy denim Outfit Baddie Streetwear #82: Áo vest khóa kéo đen, Chân váy denim và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear E-Girl Baddie Streetwear E-Girl Áo vest khóa kéo đen Chân váy denim Sneaker chunky Đi học Đi cafe Đen Hack chân dài Váy Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #83 – Dark Feminine",
+    "title": "Look #83 Dark Feminine: Áo corset olive + Chân váy denim",
     "url": "/outfits/look-83-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #83: Áo corset olive, Chân váy denim và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-corset-olive-chan-vay-denim-083.webp",
-    "keywords": "OUTFIT DETAILS #83 – Dark Feminine Outfit Dark Feminine #83: Áo corset olive, Chân váy denim và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo corset olive Chân váy denim Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #83 Dark Feminine: Áo corset olive + Chân váy denim Outfit Dark Feminine #83: Áo corset olive, Chân váy denim và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo corset olive Chân váy denim Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #84 – Baddie Streetwear",
+    "title": "Look #84 Baddie Streetwear: Áo crop khóa kéo đen + Quần cargo xám",
     "url": "/outfits/look-84-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #84: Áo crop khóa kéo đen, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-khoa-keo-den-quan-cargo-xam-084.webp",
-    "keywords": "OUTFIT DETAILS #84 – Baddie Streetwear Outfit Baddie Streetwear #84: Áo crop khóa kéo đen, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop khóa kéo đen Quần cargo xám Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #84 Baddie Streetwear: Áo crop khóa kéo đen + Quần cargo xám Outfit Baddie Streetwear #84: Áo crop khóa kéo đen, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop khóa kéo đen Quần cargo xám Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #85 – Punk / Grunge",
+    "title": "Look #85 Punk / Grunge: Áo graphic xám + Chân váy denim",
     "url": "/outfits/look-85-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #85: Áo graphic xám, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-085.webp",
-    "keywords": "OUTFIT DETAILS #85 – Punk / Grunge Outfit Punk / Grunge #85: Áo graphic xám, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Áo graphic xám Chân váy denim Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #85 Punk / Grunge: Áo graphic xám + Chân váy denim Outfit Punk / Grunge #85: Áo graphic xám, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Áo graphic xám Chân váy denim Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #86 – Baddie Streetwear",
+    "title": "Look #86 Baddie Streetwear: Áo trễ vai kem + Quần cargo đen",
     "url": "/outfits/look-86-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #86: Áo trễ vai kem, Quần cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-kem-quan-cargo-den-086.webp",
-    "keywords": "OUTFIT DETAILS #86 – Baddie Streetwear Outfit Baddie Streetwear #86: Áo trễ vai kem, Quần cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai kem Quần cargo đen Sneaker chunky Đi học Đi cafe Đi chơi tối Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #86 Baddie Streetwear: Áo trễ vai kem + Quần cargo đen Outfit Baddie Streetwear #86: Áo trễ vai kem, Quần cargo đen và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai kem Quần cargo đen Sneaker chunky Đi học Đi cafe Đi chơi tối Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #87 – E-Girl",
+    "title": "Look #87 E-Girl: Áo graphic xám + Chân váy xếp ly đen",
     "url": "/outfits/look-87-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #87: Áo graphic xám, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-xam-chan-vay-xep-ly-den-087.webp",
-    "keywords": "OUTFIT DETAILS #87 – E-Girl Outfit E-Girl #87: Áo graphic xám, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic xám Chân váy xếp ly đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #87 E-Girl: Áo graphic xám + Chân váy xếp ly đen Outfit E-Girl #87: Áo graphic xám, Chân váy xếp ly đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic xám Chân váy xếp ly đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #88 – E-Girl",
+    "title": "Look #88 E-Girl: Áo crop trắng + Chân váy denim đen",
     "url": "/outfits/look-88-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #88: Áo crop trắng, Chân váy denim đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-trang-chan-vay-denim-den-088.webp",
-    "keywords": "OUTFIT DETAILS #88 – E-Girl Outfit E-Girl #88: Áo crop trắng, Chân váy denim đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop trắng Chân váy denim đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #88 E-Girl: Áo crop trắng + Chân váy denim đen Outfit E-Girl #88: Áo crop trắng, Chân váy denim đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop trắng Chân váy denim đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #89 – Punk / Grunge",
+    "title": "Look #89 Punk / Grunge: Áo crop trễ vai đen + Quần cargo xám",
     "url": "/outfits/look-89-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #89: Áo crop trễ vai đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-den-quan-cargo-xam-089.webp",
-    "keywords": "OUTFIT DETAILS #89 – Punk / Grunge Outfit Punk / Grunge #89: Áo crop trễ vai đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop trễ vai đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #89 Punk / Grunge: Áo crop trễ vai đen + Quần cargo xám Outfit Punk / Grunge #89: Áo crop trễ vai đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop trễ vai đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #90 – E-Girl",
+    "title": "Look #90 E-Girl: Áo thun graphic đen + Chân váy xếp ly",
     "url": "/outfits/look-90-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #90: Áo thun graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-thun-graphic-den-chan-vay-xep-ly-090.webp",
-    "keywords": "OUTFIT DETAILS #90 – E-Girl Outfit E-Girl #90: Áo thun graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo thun graphic đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #90 E-Girl: Áo thun graphic đen + Chân váy xếp ly Outfit E-Girl #90: Áo thun graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo thun graphic đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #91 – E-Girl",
+    "title": "Look #91 E-Girl: Áo corset caro xám + Chân váy xếp ly",
     "url": "/outfits/look-91-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #91: Áo corset caro xám, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-corset-caro-xam-chan-vay-xep-ly-091.webp",
-    "keywords": "OUTFIT DETAILS #91 – E-Girl Outfit E-Girl #91: Áo corset caro xám, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo corset caro xám Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #91 E-Girl: Áo corset caro xám + Chân váy xếp ly Outfit E-Girl #91: Áo corset caro xám, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo corset caro xám Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #92 – Punk / Grunge",
+    "title": "Look #92 Punk / Grunge: Áo tank graphic đen + Quần cargo xám",
     "url": "/outfits/look-92-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #92: Áo tank graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-tank-graphic-den-quan-cargo-xam-092.webp",
-    "keywords": "OUTFIT DETAILS #92 – Punk / Grunge Outfit Punk / Grunge #92: Áo tank graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo tank graphic đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #92 Punk / Grunge: Áo tank graphic đen + Quần cargo xám Outfit Punk / Grunge #92: Áo tank graphic đen, Quần cargo xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo tank graphic đen Quần cargo xám Combat boots đen Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #93 – E-Girl",
+    "title": "Look #93 E-Girl: Áo crop graphic đen + Chân váy denim",
     "url": "/outfits/look-93-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #93: Áo crop graphic đen, Chân váy denim và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-denim-093.webp",
-    "keywords": "OUTFIT DETAILS #93 – E-Girl Outfit E-Girl #93: Áo crop graphic đen, Chân váy denim và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo crop graphic đen Chân váy denim Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #93 E-Girl: Áo crop graphic đen + Chân váy denim Outfit E-Girl #93: Áo crop graphic đen, Chân váy denim và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo crop graphic đen Chân váy denim Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #94 – Punk / Grunge",
+    "title": "Look #94 Punk / Grunge: Áo thun graphic xám + Quần cargo đen",
     "url": "/outfits/look-94-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #94: Áo thun graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-graphic-xam-quan-cargo-den-094.webp",
-    "keywords": "OUTFIT DETAILS #94 – Punk / Grunge Outfit Punk / Grunge #94: Áo thun graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo thun graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #94 Punk / Grunge: Áo thun graphic xám + Quần cargo đen Outfit Punk / Grunge #94: Áo thun graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo thun graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #95 – E-Girl",
+    "title": "Look #95 E-Girl: Áo crop bướm trắng + Quần cargo xám",
     "url": "/outfits/look-95-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #95: Áo crop bướm trắng, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-buom-trang-quan-cargo-xam-095.webp",
-    "keywords": "OUTFIT DETAILS #95 – E-Girl Outfit E-Girl #95: Áo crop bướm trắng, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Baddie Streetwear E-Girl Baddie Streetwear Áo crop bướm trắng Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #95 E-Girl: Áo crop bướm trắng + Quần cargo xám Outfit E-Girl #95: Áo crop bướm trắng, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Baddie Streetwear E-Girl Baddie Streetwear Áo crop bướm trắng Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #96 – Punk / Grunge",
+    "title": "Look #96 Punk / Grunge: Áo graphic trễ vai + Quần cargo đen",
     "url": "/outfits/look-96-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #96: Áo graphic trễ vai, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-quan-cargo-den-096.webp",
-    "keywords": "OUTFIT DETAILS #96 – Punk / Grunge Outfit Punk / Grunge #96: Áo graphic trễ vai, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic trễ vai Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #96 Punk / Grunge: Áo graphic trễ vai + Quần cargo đen Outfit Punk / Grunge #96: Áo graphic trễ vai, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic trễ vai Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #97 – Punk / Grunge",
+    "title": "Look #97 Punk / Grunge: Áo crop graphic đen + Quần jean rách xám",
     "url": "/outfits/look-97-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #97: Áo crop graphic đen, Quần jean rách xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-den-quan-jean-rach-xam-097.webp",
-    "keywords": "OUTFIT DETAILS #97 – Punk / Grunge Outfit Punk / Grunge #97: Áo crop graphic đen, Quần jean rách xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Áo crop graphic đen Quần jean rách xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Quần Boots / Platform"
+    "keywords": "Look #97 Punk / Grunge: Áo crop graphic đen + Quần jean rách xám Outfit Punk / Grunge #97: Áo crop graphic đen, Quần jean rách xám và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Áo crop graphic đen Quần jean rách xám Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #98 – E-Girl",
+    "title": "Look #98 E-Girl: Áo thun graphic đen + Chân váy mini",
     "url": "/outfits/look-98-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #98: Áo thun graphic đen, Chân váy mini và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-thun-graphic-den-chan-vay-mini-098.webp",
-    "keywords": "OUTFIT DETAILS #98 – E-Girl Outfit E-Girl #98: Áo thun graphic đen, Chân váy mini và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo thun graphic đen Chân váy mini Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #98 E-Girl: Áo thun graphic đen + Chân váy mini Outfit E-Girl #98: Áo thun graphic đen, Chân váy mini và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo thun graphic đen Chân váy mini Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #99 – Punk / Grunge",
+    "title": "Look #99 Punk / Grunge: Áo tank chaos đen + Quần cargo đen",
     "url": "/outfits/look-99-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #99: Áo tank chaos đen, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-tank-chaos-den-quan-cargo-den-099.webp",
-    "keywords": "OUTFIT DETAILS #99 – Punk / Grunge Outfit Punk / Grunge #99: Áo tank chaos đen, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo tank chaos đen Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #99 Punk / Grunge: Áo tank chaos đen + Quần cargo đen Outfit Punk / Grunge #99: Áo tank chaos đen, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo tank chaos đen Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #100 – Punk / Grunge",
+    "title": "Look #100 Punk / Grunge: Áo crop graphic xám + Quần cargo đen",
     "url": "/outfits/look-100-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #100: Áo crop graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-graphic-xam-quan-cargo-den-100.webp",
-    "keywords": "OUTFIT DETAILS #100 – Punk / Grunge Outfit Punk / Grunge #100: Áo crop graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #100 Punk / Grunge: Áo crop graphic xám + Quần cargo đen Outfit Punk / Grunge #100: Áo crop graphic xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop graphic xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #101 – E-Girl",
+    "title": "Look #101 E-Girl: Áo graphic đen tay kẻ sọc + Quần cargo xám",
     "url": "/outfits/look-101-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #101: Áo graphic đen tay kẻ sọc, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-den-tay-ke-soc-quan-cargo-xam-101.webp",
-    "keywords": "OUTFIT DETAILS #101 – E-Girl Outfit E-Girl #101: Áo graphic đen tay kẻ sọc, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge Baddie Streetwear E-Girl Punk / Grunge Baddie Streetwear Áo graphic đen tay kẻ sọc Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #101 E-Girl: Áo graphic đen tay kẻ sọc + Quần cargo xám Outfit E-Girl #101: Áo graphic đen tay kẻ sọc, Quần cargo xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge Baddie Streetwear E-Girl Punk / Grunge Baddie Streetwear Áo graphic đen tay kẻ sọc Quần cargo xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #102 – E-Girl",
+    "title": "Look #102 E-Girl: Áo crop ngôi sao đen + Chân váy denim",
     "url": "/outfits/look-102-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #102: Áo crop ngôi sao đen, Chân váy denim và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-ngoi-sao-den-chan-vay-denim-102.webp",
-    "keywords": "OUTFIT DETAILS #102 – E-Girl Outfit E-Girl #102: Áo crop ngôi sao đen, Chân váy denim và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop ngôi sao đen Chân váy denim Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #102 E-Girl: Áo crop ngôi sao đen + Chân váy denim Outfit E-Girl #102: Áo crop ngôi sao đen, Chân váy denim và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop ngôi sao đen Chân váy denim Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #103 – E-Girl",
+    "title": "Look #103 E-Girl: Áo graphic đen + Chân váy xếp ly",
     "url": "/outfits/look-103-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #103: Áo graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-den-chan-vay-xep-ly-103.webp",
-    "keywords": "OUTFIT DETAILS #103 – E-Girl Outfit E-Girl #103: Áo graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #103 E-Girl: Áo graphic đen + Chân váy xếp ly Outfit E-Girl #103: Áo graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #104 – E-Girl",
+    "title": "Look #104 E-Girl: Áo crop trễ vai đen + Chân váy xếp ly xám",
     "url": "/outfits/look-104-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #104: Áo crop trễ vai đen, Chân váy xếp ly xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-tre-vai-den-chan-vay-xep-ly-xam-104.webp",
-    "keywords": "OUTFIT DETAILS #104 – E-Girl Outfit E-Girl #104: Áo crop trễ vai đen, Chân váy xếp ly xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop trễ vai đen Chân váy xếp ly xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #104 E-Girl: Áo crop trễ vai đen + Chân váy xếp ly xám Outfit E-Girl #104: Áo crop trễ vai đen, Chân váy xếp ly xám và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl E-Girl Áo crop trễ vai đen Chân váy xếp ly xám Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #105 – Punk / Grunge",
+    "title": "Look #105 Punk / Grunge: Áo kẻ sọc đen + Quần cargo đen",
     "url": "/outfits/look-105-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #105: Áo kẻ sọc đen, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-ke-soc-den-quan-cargo-den-105.webp",
-    "keywords": "OUTFIT DETAILS #105 – Punk / Grunge Outfit Punk / Grunge #105: Áo kẻ sọc đen, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo kẻ sọc đen Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #105 Punk / Grunge: Áo kẻ sọc đen + Quần cargo đen Outfit Punk / Grunge #105: Áo kẻ sọc đen, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo kẻ sọc đen Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #106 – E-Girl",
+    "title": "Look #106 E-Girl: Áo crop graphic đen + Chân váy xếp ly",
     "url": "/outfits/look-106-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #106: Áo crop graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-crop-graphic-den-chan-vay-xep-ly-106.webp",
-    "keywords": "OUTFIT DETAILS #106 – E-Girl Outfit E-Girl #106: Áo crop graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo crop graphic đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #106 E-Girl: Áo crop graphic đen + Chân váy xếp ly Outfit E-Girl #106: Áo crop graphic đen, Chân váy xếp ly và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo crop graphic đen Chân váy xếp ly Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #107 – Punk / Grunge",
+    "title": "Look #107 Punk / Grunge: Áo crop bướm xám + Quần cargo đen",
     "url": "/outfits/look-107-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #107: Áo crop bướm xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-buom-xam-quan-cargo-den-107.webp",
-    "keywords": "OUTFIT DETAILS #107 – Punk / Grunge Outfit Punk / Grunge #107: Áo crop bướm xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop bướm xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #107 Punk / Grunge: Áo crop bướm xám + Quần cargo đen Outfit Punk / Grunge #107: Áo crop bướm xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo crop bướm xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #108 – Dark Feminine",
+    "title": "Look #108 Dark Feminine: Áo crop lệch vai be + Chân váy nâu",
     "url": "/outfits/look-108-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #108: Áo crop lệch vai be, Chân váy nâu và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-lech-vai-be-chan-vay-nau-108.webp",
-    "keywords": "OUTFIT DETAILS #108 – Dark Feminine Outfit Dark Feminine #108: Áo crop lệch vai be, Chân váy nâu và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo crop lệch vai be Chân váy nâu Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #108 Dark Feminine: Áo crop lệch vai be + Chân váy nâu Outfit Dark Feminine #108: Áo crop lệch vai be, Chân váy nâu và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo crop lệch vai be Chân váy nâu Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #109 – Punk / Grunge",
+    "title": "Look #109 Punk / Grunge: Áo graphic xám + Chân váy denim",
     "url": "/outfits/look-109-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #109: Áo graphic xám, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-xam-chan-vay-denim-109.webp",
-    "keywords": "OUTFIT DETAILS #109 – Punk / Grunge Outfit Punk / Grunge #109: Áo graphic xám, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Áo graphic xám Chân váy denim Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #109 Punk / Grunge: Áo graphic xám + Chân váy denim Outfit Punk / Grunge #109: Áo graphic xám, Chân váy denim và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge E-Girl Punk / Grunge E-Girl Punk Áo graphic xám Chân váy denim Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #110 – Punk / Grunge",
+    "title": "Look #110 Punk / Grunge: Áo crop trễ vai xám + Quần jean ống rộng",
     "url": "/outfits/look-110-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #110: Áo crop trễ vai xám, Quần jean ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-crop-tre-vai-xam-quan-jean-ong-rong-110.webp",
-    "keywords": "OUTFIT DETAILS #110 – Punk / Grunge Outfit Punk / Grunge #110: Áo crop trễ vai xám, Quần jean ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Áo crop trễ vai xám Quần jean ống rộng Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
+    "keywords": "Look #110 Punk / Grunge: Áo crop trễ vai xám + Quần jean ống rộng Outfit Punk / Grunge #110: Áo crop trễ vai xám, Quần jean ống rộng và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Punk / Grunge Punk Áo crop trễ vai xám Quần jean ống rộng Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #111 – E-Girl",
+    "title": "Look #111 E-Girl: Áo graphic hồng + Chân váy caro đen",
     "url": "/outfits/look-111-egirl.html",
     "type": "Outfit",
     "description": "Outfit E-Girl #111: Áo graphic hồng, Chân váy caro đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-egirl-ao-graphic-hong-chan-vay-caro-den-111.webp",
-    "keywords": "OUTFIT DETAILS #111 – E-Girl Outfit E-Girl #111: Áo graphic hồng, Chân váy caro đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic hồng Chân váy caro đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đỏ / Hồng Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #111 E-Girl: Áo graphic hồng + Chân váy caro đen Outfit E-Girl #111: Áo graphic hồng, Chân váy caro đen và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. E-Girl Punk / Grunge E-Girl Punk / Grunge Áo graphic hồng Chân váy caro đen Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đỏ / Hồng Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #112 – Goth",
+    "title": "Look #112 Goth: Áo ren đen + Chân váy bất đối xứng",
     "url": "/outfits/look-112-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #112: Áo ren đen, Chân váy bất đối xứng và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-ren-den-chan-vay-bat-doi-xung-112.webp",
-    "keywords": "OUTFIT DETAILS #112 – Goth Outfit Goth #112: Áo ren đen, Chân váy bất đối xứng và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo ren đen Chân váy bất đối xứng Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #112 Goth: Áo ren đen + Chân váy bất đối xứng Outfit Goth #112: Áo ren đen, Chân váy bất đối xứng và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo ren đen Chân váy bất đối xứng Platform boots đen Đi chơi tối Chụp ảnh Đen Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #113 – Dark Feminine",
+    "title": "Look #113 Dark Feminine: Áo corset nâu + Chân váy kaki",
     "url": "/outfits/look-113-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #113: Áo corset nâu, Chân váy kaki và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-nau-chan-vay-kaki-113.webp",
-    "keywords": "OUTFIT DETAILS #113 – Dark Feminine Outfit Dark Feminine #113: Áo corset nâu, Chân váy kaki và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo corset nâu Chân váy kaki Sneaker chunky Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Sneaker"
+    "keywords": "Look #113 Dark Feminine: Áo corset nâu + Chân váy kaki Outfit Dark Feminine #113: Áo corset nâu, Chân váy kaki và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo corset nâu Chân váy kaki Sneaker chunky Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Hack chân dài Váy Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #114 – Baddie Streetwear",
+    "title": "Look #114 Baddie Streetwear: Áo corset xanh xám + Quần cargo sáng",
     "url": "/outfits/look-114-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #114: Áo corset xanh xám, Quần cargo sáng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-xanh-xam-quan-cargo-sang-114.webp",
-    "keywords": "OUTFIT DETAILS #114 – Baddie Streetwear Outfit Baddie Streetwear #114: Áo corset xanh xám, Quần cargo sáng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo corset xanh xám Quần cargo sáng Sneaker chunky Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #114 Baddie Streetwear: Áo corset xanh xám + Quần cargo sáng Outfit Baddie Streetwear #114: Áo corset xanh xám, Quần cargo sáng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo corset xanh xám Quần cargo sáng Sneaker chunky Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #115 – Baddie Streetwear",
+    "title": "Look #115 Baddie Streetwear: Áo tank kem + Quần cargo đỏ rượu",
     "url": "/outfits/look-115-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #115: Áo tank kem, Quần cargo đỏ rượu và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-tank-kem-quan-cargo-do-ruou-115.webp",
-    "keywords": "OUTFIT DETAILS #115 – Baddie Streetwear Outfit Baddie Streetwear #115: Áo tank kem, Quần cargo đỏ rượu và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo tank kem Quần cargo đỏ rượu Sneaker chunky Đi học Đi cafe Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #115 Baddie Streetwear: Áo tank kem + Quần cargo đỏ rượu Outfit Baddie Streetwear #115: Áo tank kem, Quần cargo đỏ rượu và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo tank kem Quần cargo đỏ rượu Sneaker chunky Đi học Đi cafe Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #116 – Baddie Streetwear",
+    "title": "Look #116 Baddie Streetwear: Áo ngôi sao xanh + Quần cargo vàng",
     "url": "/outfits/look-116-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #116: Áo ngôi sao xanh, Quần cargo vàng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-ngoi-sao-xanh-quan-cargo-vang-116.webp",
-    "keywords": "OUTFIT DETAILS #116 – Baddie Streetwear Outfit Baddie Streetwear #116: Áo ngôi sao xanh, Quần cargo vàng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo ngôi sao xanh Quần cargo vàng Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Quần Sneaker"
+    "keywords": "Look #116 Baddie Streetwear: Áo ngôi sao xanh + Quần cargo vàng Outfit Baddie Streetwear #116: Áo ngôi sao xanh, Quần cargo vàng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo ngôi sao xanh Quần cargo vàng Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #117 – Baddie Streetwear",
+    "title": "Look #117 Baddie Streetwear: Áo crop thể thao + Quần ống rộng xanh",
     "url": "/outfits/look-117-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #117: Áo crop thể thao, Quần ống rộng xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-the-thao-quan-ong-rong-xanh-117.webp",
-    "keywords": "OUTFIT DETAILS #117 – Baddie Streetwear Outfit Baddie Streetwear #117: Áo crop thể thao, Quần ống rộng xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop thể thao Quần ống rộng xanh Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #117 Baddie Streetwear: Áo crop thể thao + Quần ống rộng xanh Outfit Baddie Streetwear #117: Áo crop thể thao, Quần ống rộng xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop thể thao Quần ống rộng xanh Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #118 – Baddie Streetwear",
+    "title": "Look #118 Baddie Streetwear: Áo tay dài tím + Quần cargo trắng",
     "url": "/outfits/look-118-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #118: Áo tay dài tím, Quần cargo trắng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-tay-dai-tim-quan-cargo-trang-118.webp",
-    "keywords": "OUTFIT DETAILS #118 – Baddie Streetwear Outfit Baddie Streetwear #118: Áo tay dài tím, Quần cargo trắng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo tay dài tím Quần cargo trắng Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Quần Sneaker"
+    "keywords": "Look #118 Baddie Streetwear: Áo tay dài tím + Quần cargo trắng Outfit Baddie Streetwear #118: Áo tay dài tím, Quần cargo trắng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo tay dài tím Quần cargo trắng Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #119 – Baddie Streetwear",
+    "title": "Look #119 Baddie Streetwear: Áo trễ vai trắng + Quần jean xanh",
     "url": "/outfits/look-119-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #119: Áo trễ vai trắng, Quần jean xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-tre-vai-trang-quan-jean-xanh-119.webp",
-    "keywords": "OUTFIT DETAILS #119 – Baddie Streetwear Outfit Baddie Streetwear #119: Áo trễ vai trắng, Quần jean xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai trắng Quần jean xanh Sneaker chunky Đi học Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Quần Sneaker"
+    "keywords": "Look #119 Baddie Streetwear: Áo trễ vai trắng + Quần jean xanh Outfit Baddie Streetwear #119: Áo trễ vai trắng, Quần jean xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo trễ vai trắng Quần jean xanh Sneaker chunky Đi học Đi cafe Đi chơi tối Chụp ảnh Màu nổi Tôn eo Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #120 – Dark Feminine",
+    "title": "Look #120 Dark Feminine: Áo crop xám + Quần cargo đen",
     "url": "/outfits/look-120-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #120: Áo crop xám, Quần cargo đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-xam-quan-cargo-den-120.webp",
-    "keywords": "OUTFIT DETAILS #120 – Dark Feminine Outfit Dark Feminine #120: Áo crop xám, Quần cargo đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo crop xám Quần cargo đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #120 Dark Feminine: Áo crop xám + Quần cargo đen Outfit Dark Feminine #120: Áo crop xám, Quần cargo đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo crop xám Quần cargo đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #121 – Baddie Streetwear",
+    "title": "Look #121 Baddie Streetwear: Áo crop đen + Quần cargo xám",
     "url": "/outfits/look-121-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #121: Áo crop đen, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-den-quan-cargo-xam-121.webp",
-    "keywords": "OUTFIT DETAILS #121 – Baddie Streetwear Outfit Baddie Streetwear #121: Áo crop đen, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop đen Quần cargo xám Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #121 Baddie Streetwear: Áo crop đen + Quần cargo xám Outfit Baddie Streetwear #121: Áo crop đen, Quần cargo xám và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo crop đen Quần cargo xám Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #122 – Baddie Streetwear",
+    "title": "Look #122 Baddie Streetwear: Áo cổ vuông xám + Quần ống rộng trắng",
     "url": "/outfits/look-122-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #122: Áo cổ vuông xám, Quần ống rộng trắng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-co-vuong-xam-quan-ong-rong-trang-122.webp",
-    "keywords": "OUTFIT DETAILS #122 – Baddie Streetwear Outfit Baddie Streetwear #122: Áo cổ vuông xám, Quần ống rộng trắng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo cổ vuông xám Quần ống rộng trắng Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
+    "keywords": "Look #122 Baddie Streetwear: Áo cổ vuông xám + Quần ống rộng trắng Outfit Baddie Streetwear #122: Áo cổ vuông xám, Quần ống rộng trắng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo cổ vuông xám Quần ống rộng trắng Sneaker chunky Đi học Đi cafe Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #123 – Baddie Streetwear",
+    "title": "Look #123 Baddie Streetwear: Áo crop lệch vai đen + Quần jean rộng",
     "url": "/outfits/look-123-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #123: Áo crop lệch vai đen, Quần jean rộng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-crop-lech-vai-den-quan-jean-rong-123.webp",
-    "keywords": "OUTFIT DETAILS #123 – Baddie Streetwear Outfit Baddie Streetwear #123: Áo crop lệch vai đen, Quần jean rộng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo crop lệch vai đen Quần jean rộng Sneaker chunky Đi học Đi cafe Đi chơi tối Đen Tôn eo Quần Sneaker"
+    "keywords": "Look #123 Baddie Streetwear: Áo crop lệch vai đen + Quần jean rộng Outfit Baddie Streetwear #123: Áo crop lệch vai đen, Quần jean rộng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo crop lệch vai đen Quần jean rộng Sneaker chunky Đi học Đi cafe Đi chơi tối Đen Tôn eo Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #124 – Punk / Grunge",
+    "title": "Look #124 Punk / Grunge: Áo graphic trễ vai trắng + Quần cargo đen",
     "url": "/outfits/look-124-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #124: Áo graphic trễ vai trắng, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-tre-vai-trang-quan-cargo-den-124.webp",
-    "keywords": "OUTFIT DETAILS #124 – Punk / Grunge Outfit Punk / Grunge #124: Áo graphic trễ vai trắng, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic trễ vai trắng Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #124 Punk / Grunge: Áo graphic trễ vai trắng + Quần cargo đen Outfit Punk / Grunge #124: Áo graphic trễ vai trắng, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic trễ vai trắng Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Đen Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #125 – Baddie Streetwear",
+    "title": "Look #125 Baddie Streetwear: Áo hai dây trắng áo khoác xám + Quần cargo",
     "url": "/outfits/look-125-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #125: Áo hai dây trắng áo khoác xám, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-hai-day-trang-ao-khoac-xam-quan-cargo-125.webp",
-    "keywords": "OUTFIT DETAILS #125 – Baddie Streetwear Outfit Baddie Streetwear #125: Áo hai dây trắng áo khoác xám, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo hai dây trắng áo khoác xám Quần cargo Sneaker chunky Đi học Đi cafe Xám / Bạc Che hông / đùi Quần Sneaker"
+    "keywords": "Look #125 Baddie Streetwear: Áo hai dây trắng áo khoác xám + Quần cargo Outfit Baddie Streetwear #125: Áo hai dây trắng áo khoác xám, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo hai dây trắng áo khoác xám Quần cargo Sneaker chunky Đi học Đi cafe Xám / Bạc Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #126 – Punk / Grunge",
+    "title": "Look #126 Punk / Grunge: Áo thun trễ vai xám + Quần cargo đen",
     "url": "/outfits/look-126-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #126: Áo thun trễ vai xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-thun-tre-vai-xam-quan-cargo-den-126.webp",
-    "keywords": "OUTFIT DETAILS #126 – Punk / Grunge Outfit Punk / Grunge #126: Áo thun trễ vai xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo thun trễ vai xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #126 Punk / Grunge: Áo thun trễ vai xám + Quần cargo đen Outfit Punk / Grunge #126: Áo thun trễ vai xám, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo thun trễ vai xám Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #127 – Baddie Streetwear",
+    "title": "Look #127 Baddie Streetwear: Áo quây xám + Quần cargo olive",
     "url": "/outfits/look-127-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #127: Áo quây xám, Quần cargo olive và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-quay-xam-quan-cargo-olive-127.webp",
-    "keywords": "OUTFIT DETAILS #127 – Baddie Streetwear Outfit Baddie Streetwear #127: Áo quây xám, Quần cargo olive và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo quây xám Quần cargo olive Sneaker chunky Đi học Đi cafe Đi chơi tối Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #127 Baddie Streetwear: Áo quây xám + Quần cargo olive Outfit Baddie Streetwear #127: Áo quây xám, Quần cargo olive và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo quây xám Quần cargo olive Sneaker chunky Đi học Đi cafe Đi chơi tối Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #128 – Baddie Streetwear",
+    "title": "Look #128 Baddie Streetwear: Áo hai dây trắng + Quần jean xanh",
     "url": "/outfits/look-128-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #128: Áo hai dây trắng, Quần jean xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-hai-day-trang-quan-jean-xanh-128.webp",
-    "keywords": "OUTFIT DETAILS #128 – Baddie Streetwear Outfit Baddie Streetwear #128: Áo hai dây trắng, Quần jean xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo hai dây trắng Quần jean xanh Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Cân đối Quần Sneaker"
+    "keywords": "Look #128 Baddie Streetwear: Áo hai dây trắng + Quần jean xanh Outfit Baddie Streetwear #128: Áo hai dây trắng, Quần jean xanh và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo hai dây trắng Quần jean xanh Sneaker chunky Đi học Đi cafe Chụp ảnh Màu nổi Cân đối Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #129 – Dark Feminine",
+    "title": "Look #129 Dark Feminine: Áo trễ vai nâu + Quần cargo kaki",
     "url": "/outfits/look-129-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #129: Áo trễ vai nâu, Quần cargo kaki và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-nau-quan-cargo-kaki-129.webp",
-    "keywords": "OUTFIT DETAILS #129 – Dark Feminine Outfit Dark Feminine #129: Áo trễ vai nâu, Quần cargo kaki và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo trễ vai nâu Quần cargo kaki Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #129 Dark Feminine: Áo trễ vai nâu + Quần cargo kaki Outfit Dark Feminine #129: Áo trễ vai nâu, Quần cargo kaki và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo trễ vai nâu Quần cargo kaki Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Nâu / Be Tôn eo Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #130 – Punk / Grunge",
+    "title": "Look #130 Punk / Grunge: Áo graphic kem + Quần cargo đen",
     "url": "/outfits/look-130-grunge.html",
     "type": "Outfit",
     "description": "Outfit Punk / Grunge #130: Áo graphic kem, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-grunge-ao-graphic-kem-quan-cargo-den-130.webp",
-    "keywords": "OUTFIT DETAILS #130 – Punk / Grunge Outfit Punk / Grunge #130: Áo graphic kem, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic kem Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Nâu / Be Che hông / đùi Quần Boots / Platform"
+    "keywords": "Look #130 Punk / Grunge: Áo graphic kem + Quần cargo đen Outfit Punk / Grunge #130: Áo graphic kem, Quần cargo đen và Combat boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Punk / Grunge Baddie Streetwear Punk / Grunge Baddie Streetwear Punk Áo graphic kem Quần cargo đen Combat boots đen Đi chơi tối Chụp ảnh Nâu / Be Che hông / đùi Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #131 – Goth",
+    "title": "Look #131 Goth: Áo lưới đen + Quần cargo trắng",
     "url": "/outfits/look-131-goth.html",
     "type": "Outfit",
     "description": "Outfit Goth #131: Áo lưới đen, Quần cargo trắng và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-goth-ao-luoi-den-quan-cargo-trang-131.webp",
-    "keywords": "OUTFIT DETAILS #131 – Goth Outfit Goth #131: Áo lưới đen, Quần cargo trắng và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới đen Quần cargo trắng Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Che hông / đùi Hack chân dài Quần Boots / Platform"
+    "keywords": "Look #131 Goth: Áo lưới đen + Quần cargo trắng Outfit Goth #131: Áo lưới đen, Quần cargo trắng và Platform boots đen. Xem full look, style phụ và link sản phẩm tham khảo. Goth Punk / Grunge Goth Punk / Grunge Áo lưới đen Quần cargo trắng Platform boots đen Đi cafe Đi chơi tối Chụp ảnh Đen Che hông / đùi Hack chân dài Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #132 – Baddie Streetwear",
+    "title": "Look #132 Baddie Streetwear: Áo tank đen áo khoác thể thao + Quần cargo",
     "url": "/outfits/look-132-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #132: Áo tank đen áo khoác thể thao, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-tank-den-ao-khoac-the-thao-quan-cargo-132.webp",
-    "keywords": "OUTFIT DETAILS #132 – Baddie Streetwear Outfit Baddie Streetwear #132: Áo tank đen áo khoác thể thao, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo tank đen áo khoác thể thao Quần cargo Sneaker chunky Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #132 Baddie Streetwear: Áo tank đen áo khoác thể thao + Quần cargo Outfit Baddie Streetwear #132: Áo tank đen áo khoác thể thao, Quần cargo và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Baddie Streetwear Áo tank đen áo khoác thể thao Quần cargo Sneaker chunky Đi học Đi cafe Nâu / Be Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #133 – Baddie Streetwear",
+    "title": "Look #133 Baddie Streetwear: Áo corset trắng + Quần cargo hồng",
     "url": "/outfits/look-133-baddie-streetwear.html",
     "type": "Outfit",
     "description": "Outfit Baddie Streetwear #133: Áo corset trắng, Quần cargo hồng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-baddie-ao-corset-trang-quan-cargo-hong-133.webp",
-    "keywords": "OUTFIT DETAILS #133 – Baddie Streetwear Outfit Baddie Streetwear #133: Áo corset trắng, Quần cargo hồng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo corset trắng Quần cargo hồng Sneaker chunky Đi cafe Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Sneaker"
+    "keywords": "Look #133 Baddie Streetwear: Áo corset trắng + Quần cargo hồng Outfit Baddie Streetwear #133: Áo corset trắng, Quần cargo hồng và Sneaker chunky. Xem full look, style phụ và link sản phẩm tham khảo. Baddie Streetwear Dark Feminine Baddie Streetwear Dark Feminine Áo corset trắng Quần cargo hồng Sneaker chunky Đi cafe Đi chơi tối Chụp ảnh Đỏ / Hồng Tôn eo Che hông / đùi Quần Sneaker"
   },
   {
-    "title": "OUTFIT DETAILS #134 – Dark Feminine",
+    "title": "Look #134 Dark Feminine: Áo trễ vai xám + Chân váy denim đen",
     "url": "/outfits/look-134-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #134: Áo trễ vai xám, Chân váy denim đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-chan-vay-denim-den-134.webp",
-    "keywords": "OUTFIT DETAILS #134 – Dark Feminine Outfit Dark Feminine #134: Áo trễ vai xám, Chân váy denim đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai xám Chân váy denim đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
+    "keywords": "Look #134 Dark Feminine: Áo trễ vai xám + Chân váy denim đen Outfit Dark Feminine #134: Áo trễ vai xám, Chân váy denim đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai xám Chân váy denim đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Hack chân dài Váy Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #135 – Dark Feminine",
+    "title": "Look #135 Dark Feminine: Áo trễ vai xám + Quần parachute đen",
     "url": "/outfits/look-135-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #135: Áo trễ vai xám, Quần parachute đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-quan-parachute-den-135.webp",
-    "keywords": "OUTFIT DETAILS #135 – Dark Feminine Outfit Dark Feminine #135: Áo trễ vai xám, Quần parachute đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo trễ vai xám Quần parachute đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
+    "keywords": "Look #135 Dark Feminine: Áo trễ vai xám + Quần parachute đen Outfit Dark Feminine #135: Áo trễ vai xám, Quần parachute đen và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Baddie Streetwear Dark Feminine Baddie Streetwear Áo trễ vai xám Quần parachute đen Boot đen mũi nhọn Đi cafe Đi chơi tối Chụp ảnh Xám / Bạc Tôn eo Che hông / đùi Thoải mái Quần Boots / Platform"
   },
   {
-    "title": "OUTFIT DETAILS #136 – Dark Feminine",
+    "title": "Look #136 Dark Feminine: Áo trễ vai xám + Quần jean xanh",
     "url": "/outfits/look-136-dark-feminine.html",
     "type": "Outfit",
     "description": "Outfit Dark Feminine #136: Áo trễ vai xám, Quần jean xanh và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-quan-jean-xanh-136.webp",
-    "keywords": "OUTFIT DETAILS #136 – Dark Feminine Outfit Dark Feminine #136: Áo trễ vai xám, Quần jean xanh và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai xám Quần jean xanh Boot đen mũi nhọn Đi chơi tối Chụp ảnh Màu nổi Tôn eo Quần Boots / Platform"
+    "keywords": "Look #136 Dark Feminine: Áo trễ vai xám + Quần jean xanh Outfit Dark Feminine #136: Áo trễ vai xám, Quần jean xanh và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai xám Quần jean xanh Boot đen mũi nhọn Đi chơi tối Chụp ảnh Màu nổi Tôn eo Quần Boots / Platform"
   }
 ];
