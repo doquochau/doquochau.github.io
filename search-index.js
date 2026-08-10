@@ -1,5 +1,13 @@
 window.searchIndex = [
   {
+    "title": "App Phối Đồ Online – Tạo Outfit Theo Gu",
+    "url": "/app-phoi-do.html",
+    "type": "Tool",
+    "description": "Chọn phong cách, dịp mặc, ngân sách dự kiến, quần/váy và giày để tìm 3 outfit phù hợp từ 136 Look.",
+    "image": "/logo-1.png",
+    "keywords": "app phối đồ, phối đồ online, tạo outfit, outfit builder, app phối đồ nữ, tạo outfit theo gu"
+  },
+  {
     "title": "Phối Đồ Nữ Cá Tính Đi Chơi: 12 Công Thức Dễ Mặc",
     "url": "/blog/phoi-do-nu-ca-tinh-di-choi.html",
     "type": "Outfit Guide",
