@@ -105,7 +105,9 @@
       if(s.occasion && (o.filters?.occasions||[]).includes(s.occasion)) matched.push(s.occasion);
       if(s.bottom && o.filters?.bottom===s.bottom) matched.push(s.bottom);
       if(s.footwear && o.filters?.footwear===s.footwear) matched.push(s.footwear);
-      if(!matched.length) matched.push((o.filters?.occasions || [])[0] || 'Gợi ý phù hợp');
+      const isExact = exactMatch(o, s);
+      matched.unshift(isExact ? 'Khớp hoàn toàn' : 'Gợi ý gần nhất');
+      if(matched.length===1) matched.push((o.filters?.occasions || [])[0] || 'Gợi ý phù hợp');
       chips.innerHTML=matched.slice(0,4).map(x=>`<span>${x}</span>`).join('');
       const items=document.createElement('ul'); items.className='builder-core-items';
       (o.coreItems||[]).slice(0,3).forEach(item=>{
@@ -116,7 +118,15 @@
     }));
 
     const summaryParts=[s.style,s.occasion,s.bottom,s.footwear].filter(Boolean);
-    summary.innerHTML=`<strong>3 LOOK GỢI Ý</strong><span>${summaryParts.length?summaryParts.join(' · '):'Từ toàn bộ 136 Look'}</span>`;
+    const exactSelected = selected.filter(o=>exactMatch(o,s)).length;
+    const criteria = summaryParts.length ? summaryParts.join(' · ') : 'Từ toàn bộ 136 Look';
+    if(!summaryParts.length || exactSelected === selected.length) {
+      summary.innerHTML=`<strong>${selected.length} LOOK KHỚP TIÊU CHÍ</strong><span>${criteria}</span>`;
+    } else if(exactSelected > 0) {
+      summary.innerHTML=`<strong>${exactSelected} LOOK KHỚP HOÀN TOÀN + ${selected.length-exactSelected} GỢI Ý GẦN NHẤT</strong><span>${criteria} · Không đủ 3 Look khớp toàn bộ lựa chọn.</span>`;
+    } else {
+      summary.innerHTML=`<strong>${selected.length} GỢI Ý GẦN NHẤT</strong><span>${criteria} · Chưa có Look khớp toàn bộ lựa chọn.</span>`;
+    }
     results.hidden=false; summary.hidden=false; regenerate.hidden=false;
     results.scrollIntoView({behavior:'smooth',block:'start'});
   }
@@ -129,7 +139,7 @@
     }
     renderCards(currentPool,s);
     track(isRegenerate?'regenerate_outfit':'complete_outfit_builder', {
-      source_page:'app_phoi_do', style:s.style||'all', occasion:s.occasion||'all', bottom:s.bottom||'all', footwear:s.footwear||'all', result_count:Math.min(3,currentPool.length)
+      source_page:'app_phoi_do', style:s.style||'all', occasion:s.occasion||'all', bottom:s.bottom||'all', footwear:s.footwear||'all', result_count:Math.min(3,currentPool.length), exact_match_count:currentPool.slice(0,3).filter(o=>exactMatch(o,s)).length, fallback_used:currentPool.slice(0,3).some(o=>!exactMatch(o,s))
     });
   }
 
