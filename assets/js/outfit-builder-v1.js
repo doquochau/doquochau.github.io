@@ -33,18 +33,9 @@
     return {
       style: String(fd.get('style') || ''),
       occasion: String(fd.get('occasion') || ''),
-      budget: String(fd.get('budget') || ''),
       bottom: String(fd.get('bottom') || ''),
       footwear: String(fd.get('footwear') || '')
     };
-  }
-
-  function budgetScore(complexity, budget) {
-    if (!budget) return 0;
-    if (budget === 'under500') return complexity === 'Tối giản' ? 3 : complexity === 'Cân bằng' ? 1 : 0;
-    if (budget === '500to800') return complexity === 'Cân bằng' ? 3 : 1;
-    if (budget === '800plus') return complexity === 'Nhiều layer' ? 3 : complexity === 'Cân bằng' ? 2 : 0;
-    return 0;
   }
 
   function exactMatch(o, s) {
@@ -61,7 +52,6 @@
     if (s.occasion) n += (o.filters?.occasions || []).includes(s.occasion) ? 7 : -2;
     if (s.bottom) n += o.filters?.bottom === s.bottom ? 4 : -1;
     if (s.footwear) n += o.filters?.footwear === s.footwear ? 4 : -1;
-    n += budgetScore(o.filters?.complexity, s.budget);
     n += Math.random() * 1.75;
     return n;
   }
@@ -81,10 +71,6 @@
       grid:`/images-grid/badgirl-outfits/${name}`,
       full:`/images/badgirl-outfits/${name}`
     };
-  }
-
-  function budgetLabel(v) {
-    return ({under500:'Ưu tiên dưới 500K', '500to800':'Ưu tiên 500K–800K', '800plus':'Ưu tiên 800K+'})[v] || 'Không giới hạn ngân sách';
   }
 
   function label(v, fallback='Tất cả') { return v || fallback; }
@@ -119,8 +105,7 @@
       if(s.occasion && (o.filters?.occasions||[]).includes(s.occasion)) matched.push(s.occasion);
       if(s.bottom && o.filters?.bottom===s.bottom) matched.push(s.bottom);
       if(s.footwear && o.filters?.footwear===s.footwear) matched.push(s.footwear);
-      if(s.budget) matched.push(budgetLabel(s.budget));
-      if(!matched.length) matched.push(o.filters?.complexity || 'Cân bằng');
+      if(!matched.length) matched.push((o.filters?.occasions || [])[0] || 'Gợi ý phù hợp');
       chips.innerHTML=matched.slice(0,4).map(x=>`<span>${x}</span>`).join('');
       const items=document.createElement('ul'); items.className='builder-core-items';
       (o.coreItems||[]).slice(0,3).forEach(item=>{
@@ -130,7 +115,8 @@
       body.append(top,h3,chips,items,cta); card.append(a,body); return card;
     }));
 
-    summary.innerHTML=`<strong>3 LOOK GỢI Ý</strong><span>${label(s.style,'Mọi phong cách')} · ${label(s.occasion,'Mọi dịp')} · ${budgetLabel(s.budget)}</span>`;
+    const summaryParts=[s.style,s.occasion,s.bottom,s.footwear].filter(Boolean);
+    summary.innerHTML=`<strong>3 LOOK GỢI Ý</strong><span>${summaryParts.length?summaryParts.join(' · '):'Từ toàn bộ 136 Look'}</span>`;
     results.hidden=false; summary.hidden=false; regenerate.hidden=false;
     results.scrollIntoView({behavior:'smooth',block:'start'});
   }
@@ -143,7 +129,7 @@
     }
     renderCards(currentPool,s);
     track(isRegenerate?'regenerate_outfit':'complete_outfit_builder', {
-      source_page:'app_phoi_do', style:s.style||'all', occasion:s.occasion||'all', budget:s.budget||'any', bottom:s.bottom||'all', footwear:s.footwear||'all', result_count:Math.min(3,currentPool.length)
+      source_page:'app_phoi_do', style:s.style||'all', occasion:s.occasion||'all', bottom:s.bottom||'all', footwear:s.footwear||'all', result_count:Math.min(3,currentPool.length)
     });
   }
 

@@ -1153,6 +1153,53 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 @media (prefers-reduced-motion:reduce){
   .ac-header-reload.is-reloading .ac-reload-icon{animation:none!important}
 }</style>
+
+<style id="ac-home-mobile-filter-progressive-disclosure">
+/* Homepage mobile UX: chỉ giữ CTA Builder ở màn hình đầu.
+   Filter vẫn tồn tại nhưng chỉ xuất hiện như utility nhỏ khi đã cuộn vào grid. */
+@media (max-width: 768px) {
+  #outfit-filter-root.ac-filter-root {
+    margin: 0 !important;
+    min-height: 0 !important;
+    height: 0 !important;
+  }
+  #outfit-filter-root .ac-filter-toolbar {
+    display: none !important;
+  }
+  #outfit-filter-root .ac-filter-panel {
+    height: auto !important;
+  }
+  .ac-filter-mobile-trigger {
+    display: none !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: 14px !important;
+    width: auto !important;
+    min-width: 154px !important;
+    height: 44px !important;
+    padding: 0 17px !important;
+    transform: translateX(-50%) !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 7px !important;
+    white-space: nowrap !important;
+    border: 1px solid #d7d1c8 !important;
+    background: #f0ece4 !important;
+    color: #0a0a0a !important;
+    box-shadow: 0 10px 24px rgba(0,0,0,.42) !important;
+    font-size: 9px !important;
+    letter-spacing: .11em !important;
+  }
+  .ac-filter-mobile-trigger.ac-grid-filter-visible {
+    display: inline-flex !important;
+  }
+  #outfit-filter-root.is-open ~ .ac-filter-mobile-trigger,
+  .ac-filter-mobile-trigger[aria-expanded="true"] {
+    display: none !important;
+  }
+}
+</style>
+
 </head>
 <body class="ac-site-shell">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -1561,5 +1608,52 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 
 
 <script defer src="/assets/js/site-shell-20260807.js?v=20260809-builder1"></script>
+
+<script id="ac-home-mobile-filter-progressive-disclosure-js">
+(function () {
+  function initProgressiveFilter() {
+    var root = document.getElementById('outfit-filter-root');
+    var grid = document.getElementById('outfit-grid');
+    var heroCta = document.querySelector('.hero-builder-cta');
+    if (!root || !grid || !heroCta) return;
+
+    function bindWhenReady() {
+      var trigger = document.querySelector('.ac-filter-mobile-trigger');
+      if (!trigger) return false;
+
+      function update() {
+        if (!window.matchMedia('(max-width: 768px)').matches) {
+          trigger.classList.remove('ac-grid-filter-visible');
+          return;
+        }
+        var heroRect = heroCta.getBoundingClientRect();
+        var gridRect = grid.getBoundingClientRect();
+        var headerOffset = 82;
+        var builderHasLeftView = heroRect.bottom <= headerOffset;
+        var gridIsRelevant = gridRect.top < window.innerHeight * 0.88 && gridRect.bottom > headerOffset;
+        trigger.classList.toggle('ac-grid-filter-visible', builderHasLeftView && gridIsRelevant);
+      }
+
+      update();
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update, { passive: true });
+      return true;
+    }
+
+    if (bindWhenReady()) return;
+    var observer = new MutationObserver(function () {
+      if (bindWhenReady()) observer.disconnect();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initProgressiveFilter, { once: true });
+  } else {
+    initProgressiveFilter();
+  }
+})();
+</script>
+
 </body>
 </html>
