@@ -1,6 +1,11 @@
-/* APCL BLOG INTERNAL LINK HUB FIX — 2026-08-13
-   Prevents related-topic cards from overlapping/collapsing on desktop and mobile.
+/* APCL BLOG RELATED SECTIONS V2 — 2026-08-13
+   Cleaner related-topic layout + Closet related Look cards.
+   Goal: no overlapping, no giant boxed "one lump", clean desktop/mobile spacing.
 */
+
+/* =========================================================
+   1) "ĐỌC TIẾP THEO CHỦ ĐỀ / CỤM..." — section, not giant box
+   ========================================================= */
 .article-content nav.internal-link-hub{
   display:block!important;
   position:relative!important;
@@ -10,52 +15,62 @@
   max-width:100%!important;
   min-width:0!important;
   height:auto!important;
-  margin:48px 0 0!important;
-  padding:clamp(20px,4vw,28px)!important;
-  border:1px solid #343434!important;
-  background:#0e0e0e!important;
+  margin:52px 0 0!important;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
   box-sizing:border-box!important;
-  overflow:hidden!important;
+  overflow:visible!important;
   text-align:left!important;
 }
+
 .article-content nav.internal-link-hub>*{
   min-width:0!important;
   max-width:100%!important;
   box-sizing:border-box!important;
 }
+
 .article-content nav.internal-link-hub>h2{
   display:block!important;
   width:100%!important;
   height:auto!important;
   margin:0 0 14px!important;
-  padding:0 0 14px!important;
+  padding:0 0 16px!important;
   border:0!important;
-  border-bottom:1px solid #292929!important;
-  line-height:1.25!important;
+  border-bottom:1px solid #2d2d2d!important;
+  background:transparent!important;
+  line-height:1.2!important;
   text-align:left!important;
 }
-.article-content nav.internal-link-hub>p{
+
+.article-content nav.internal-link-hub>p:not(.internal-link-cta){
   display:block!important;
   width:100%!important;
   height:auto!important;
-  margin:0 0 18px!important;
+  margin:0 0 22px!important;
   padding:0!important;
+  border:0!important;
+  background:transparent!important;
   line-height:1.75!important;
   text-align:left!important;
 }
+
 .article-content nav.internal-link-hub>ul{
   display:grid!important;
   grid-template-columns:repeat(2,minmax(0,1fr))!important;
   grid-auto-flow:row!important;
   grid-auto-rows:auto!important;
   align-items:stretch!important;
-  gap:10px 14px!important;
+  gap:12px!important;
   width:100%!important;
   height:auto!important;
-  margin:18px 0 22px!important;
+  margin:0!important;
   padding:0!important;
   list-style:none!important;
+  background:transparent!important;
 }
+
 .article-content nav.internal-link-hub>ul>li{
   display:block!important;
   position:static!important;
@@ -72,10 +87,12 @@
   box-sizing:border-box!important;
   overflow:visible!important;
 }
+
 .article-content nav.internal-link-hub>ul>li::before{
   display:none!important;
   content:none!important;
 }
+
 .article-content nav.internal-link-hub>ul>li>a{
   display:flex!important;
   position:relative!important;
@@ -85,12 +102,12 @@
   width:100%!important;
   min-width:0!important;
   max-width:100%!important;
-  height:auto!important;
-  min-height:54px!important;
+  height:100%!important;
+  min-height:58px!important;
   margin:0!important;
-  padding:12px 42px 12px 14px!important;
+  padding:14px 42px 14px 15px!important;
   border:1px solid #303030!important;
-  background:#111!important;
+  background:#101010!important;
   box-sizing:border-box!important;
   color:#f0ece4!important;
   font:inherit!important;
@@ -104,6 +121,7 @@
   transform:none!important;
   box-shadow:none!important;
 }
+
 .article-content nav.internal-link-hub>ul>li>a::after{
   content:"→"!important;
   display:block!important;
@@ -117,24 +135,29 @@
   line-height:1!important;
   transform:translateY(-50%)!important;
 }
+
 .article-content nav.internal-link-hub>ul>li>a:hover,
 .article-content nav.internal-link-hub>ul>li>a:focus-visible{
   border-color:#e05444!important;
-  background:#171313!important;
+  background:#151111!important;
   color:#f0ece4!important;
   text-decoration:none!important;
   transform:none!important;
-  outline:2px solid transparent!important;
 }
+
 .article-content nav.internal-link-hub>.internal-link-cta,
 .article-content nav.internal-link-hub>p:last-child{
   display:block!important;
   width:100%!important;
-  margin:0!important;
+  height:auto!important;
+  margin:22px 0 0!important;
   padding:18px 0 0!important;
+  border:0!important;
   border-top:1px solid #292929!important;
-  line-height:1.7!important;
+  background:transparent!important;
+  line-height:1.75!important;
 }
+
 .article-content nav.internal-link-hub>.internal-link-cta a,
 .article-content nav.internal-link-hub>p:last-child a{
   display:inline!important;
@@ -152,27 +175,105 @@
   text-underline-offset:4px!important;
   transform:none!important;
 }
+
+/* =========================================================
+   2) "OUTFIT TRONG CLOSET LIÊN QUAN"
+      Convert inline comma-list into clean cards using CSS only.
+   ========================================================= */
+.article-content h2#outfit-trong-closet-lien-quan{
+  margin-bottom:18px!important;
+}
+
+/* hide comma/period text nodes by zeroing parent font-size;
+   anchors restore readable font-size */
+.article-content h2#outfit-trong-closet-lien-quan + p{
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:10px!important;
+  width:100%!important;
+  margin:0 0 12px!important;
+  padding:0!important;
+  font-size:0!important;
+  line-height:0!important;
+  text-align:left!important;
+}
+
+.article-content h2#outfit-trong-closet-lien-quan + p > a{
+  display:flex!important;
+  position:relative!important;
+  align-items:center!important;
+  width:100%!important;
+  min-width:0!important;
+  min-height:58px!important;
+  margin:0!important;
+  padding:13px 38px 13px 14px!important;
+  border:1px solid #2c2c2c!important;
+  background:#0f0f0f!important;
+  box-sizing:border-box!important;
+  color:#ff7668!important;
+  font-family:'Space Mono',monospace!important;
+  font-size:13px!important;
+  line-height:1.55!important;
+  text-align:left!important;
+  text-decoration:none!important;
+  overflow-wrap:anywhere!important;
+  word-break:normal!important;
+}
+
+.article-content h2#outfit-trong-closet-lien-quan + p > a::after{
+  content:"↗"!important;
+  position:absolute!important;
+  right:13px!important;
+  top:50%!important;
+  color:#e05444!important;
+  font-size:14px!important;
+  line-height:1!important;
+  transform:translateY(-50%)!important;
+}
+
+.article-content h2#outfit-trong-closet-lien-quan + p > a:hover,
+.article-content h2#outfit-trong-closet-lien-quan + p > a:focus-visible{
+  border-color:#e05444!important;
+  background:#151111!important;
+  color:#f0ece4!important;
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
 @media(max-width:768px){
   .article-content nav.internal-link-hub{
-    margin-top:40px!important;
-    padding:22px 16px!important;
+    margin-top:44px!important;
   }
+
   .article-content nav.internal-link-hub>ul{
     grid-template-columns:minmax(0,1fr)!important;
-    gap:8px!important;
+    gap:9px!important;
   }
+
   .article-content nav.internal-link-hub>ul>li>a{
-    min-height:50px!important;
-    padding:12px 40px 12px 12px!important;
+    min-height:52px!important;
+    padding:12px 38px 12px 13px!important;
     font-size:14px!important;
     line-height:1.5!important;
   }
-}
-@media(max-width:420px){
-  .article-content nav.internal-link-hub{
-    padding:20px 14px!important;
+
+  .article-content h2#outfit-trong-closet-lien-quan + p{
+    grid-template-columns:minmax(0,1fr)!important;
+    gap:8px!important;
   }
-  .article-content nav.internal-link-hub>ul>li>a{
+
+  .article-content h2#outfit-trong-closet-lien-quan + p > a{
+    min-height:52px!important;
+    padding:12px 36px 12px 12px!important;
     font-size:13px!important;
+    line-height:1.5!important;
+  }
+}
+
+@media(max-width:420px){
+  .article-content nav.internal-link-hub>ul>li>a,
+  .article-content h2#outfit-trong-closet-lien-quan + p > a{
+    font-size:12.5px!important;
   }
 }
