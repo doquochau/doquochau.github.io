@@ -2789,334 +2789,6 @@ main>.apcl-standard-cover{
 }
 </style>
 
-
-<style id="ac-app-box-v15-huge-stars">
-/* V15 — giant visible stars + strong flares */
-.ac-blog-app-box[data-blog-app-box="golden-v15"]{
-  position:relative!important;
-  isolation:isolate!important;
-  overflow:visible!important;
-  display:flex!important;
-  flex-direction:column!important;
-  align-items:center!important;
-  justify-content:center!important;
-  gap:18px!important;
-  width:100%!important;
-  max-width:840px!important;
-  min-height:226px!important;
-  margin:0 auto 38px!important;
-  padding:32px 24px!important;
-  text-decoration:none!important;
-  text-align:center!important;
-  color:#fff7ef!important;
-  background:transparent!important;
-  border:0!important;
-  box-shadow:none!important;
-  transform:translateZ(0)!important;
-}
-.ac-v15-backplate{
-  position:absolute!important;
-  inset:0!important;
-  z-index:0!important;
-  border-radius:8px!important;
-  border:1px solid #8f473d!important;
-  border-left:6px solid #ff6f5b!important;
-  background:
-    radial-gradient(circle at 50% 50%, rgba(255,113,92,.18), transparent 22%),
-    radial-gradient(circle at 22% 18%, rgba(255,240,212,.08), transparent 16%),
-    radial-gradient(circle at 78% 82%, rgba(255,108,84,.10), transparent 18%),
-    linear-gradient(140deg, rgba(255,102,82,.13), transparent 38%),
-    #050505!important;
-  box-shadow:
-    0 24px 60px rgba(0,0,0,.54),
-    0 0 0 1px rgba(255,114,95,.10),
-    0 0 68px rgba(255,94,74,.20),
-    inset 0 1px 0 rgba(255,255,255,.04)!important;
-}
-.ac-v15-core-glow{
-  position:absolute!important;
-  left:50%!important; top:50%!important;
-  z-index:1!important;
-  width:260px!important; height:260px!important;
-  margin-left:-130px!important; margin-top:-130px!important;
-  border-radius:50%!important;
-  pointer-events:none!important;
-  background:radial-gradient(circle, rgba(255,122,97,.28) 0, rgba(255,122,97,.12) 34%, transparent 70%)!important;
-  animation:acV15Breath 2.8s ease-in-out infinite!important;
-}
-
-/* Big flares */
-.ac-v15-flare{
-  position:absolute!important;
-  left:50%!important; top:50%!important;
-  z-index:2!important;
-  pointer-events:none!important;
-  opacity:.8!important;
-}
-.ac-v15-flare::before,
-.ac-v15-flare::after{
-  content:""!important;
-  position:absolute!important;
-  left:50%!important; top:50%!important;
-  transform:translate(-50%,-50%)!important;
-  background:rgba(255,239,211,.95)!important;
-  box-shadow:
-    0 0 16px rgba(255,239,211,.9),
-    0 0 40px rgba(255,154,118,.45)!important;
-}
-.ac-v15-flare::before{width:80px!important;height:4px!important;border-radius:999px!important}
-.ac-v15-flare::after{width:4px!important;height:80px!important;border-radius:999px!important}
-.ac-v15-flare.flare-1{margin-left:-210px!important;margin-top:-80px!important;animation:acV15TwinkleBig 1.8s ease-in-out infinite!important}
-.ac-v15-flare.flare-2{margin-left:180px!important;margin-top:-92px!important;animation:acV15TwinkleBig 2.0s ease-in-out .45s infinite!important}
-.ac-v15-flare.flare-3{margin-left:210px!important;margin-top:70px!important;animation:acV15TwinkleBig 1.9s ease-in-out .9s infinite!important}
-
-/* content */
-.ac-v15-title{
-  position:relative!important;
-  z-index:6!important;
-  display:block!important;
-  max-width:100%!important;
-  margin:0!important;
-  font-family:'Oswald',sans-serif!important;
-  font-size:clamp(46px,5.9vw,82px)!important;
-  font-weight:700!important;
-  line-height:.93!important;
-  letter-spacing:.01em!important;
-  text-transform:uppercase!important;
-  color:#fff7ef!important;
-  text-align:center!important;
-  text-shadow:
-    0 2px 0 rgba(0,0,0,.62),
-    0 0 18px rgba(255,114,92,.18),
-    0 0 30px rgba(255,98,78,.10)!important;
-}
-.ac-v15-cta-wrap{
-  position:relative!important;
-  z-index:6!important;
-  display:flex!important;
-  justify-content:center!important;
-  align-items:center!important;
-  width:100%!important;
-}
-.ac-v15-cta{
-  position:relative!important;
-  display:inline-flex!important;
-  align-items:center!important;
-  justify-content:center!important;
-  gap:12px!important;
-  min-width:198px!important;
-  min-height:76px!important;
-  padding:0 22px!important;
-  border:1px solid #ff7d69!important;
-  border-radius:4px!important;
-  overflow:hidden!important;
-  background:linear-gradient(180deg,#ff8774 0%, #ff664e 100%)!important;
-  color:#080808!important;
-  font-family:'Space Mono',monospace!important;
-  font-size:13px!important;
-  font-weight:700!important;
-  letter-spacing:.14em!important;
-  text-transform:uppercase!important;
-  white-space:nowrap!important;
-  box-shadow:
-    0 15px 34px rgba(255,102,79,.28),
-    0 0 0 1px rgba(255,255,255,.08) inset!important;
-  animation:acV15CtaPop 1.8s ease-in-out infinite!important;
-}
-.ac-v15-cta::before{
-  content:""!important;
-  position:absolute!important;
-  inset:-1px!important;
-  pointer-events:none!important;
-  background:linear-gradient(110deg, transparent 22%, rgba(255,255,255,.52) 47%, transparent 69%)!important;
-  transform:translateX(-150%)!important;
-  animation:acV15CtaSweep 2.0s ease-in-out infinite!important;
-}
-.ac-v15-cta::after{
-  content:""!important;
-  position:absolute!important;
-  left:7px!important; bottom:7px!important;
-  width:7px!important; height:7px!important;
-  background:#fff3dd!important;
-  box-shadow:0 0 12px rgba(255,243,221,.85)!important;
-}
-.ac-v15-cta-arrow{
-  font-size:20px!important;
-  font-weight:700!important;
-  animation:acV15Arrow .95s ease-in-out infinite!important;
-}
-
-/* ALWAYS visible ambient stars */
-.ac-v15-ambient{
-  position:absolute!important;
-  z-index:7!important;
-  pointer-events:none!important;
-  color:#fff4de!important;
-  font-size:30px!important;
-  line-height:1!important;
-  text-shadow:
-    0 0 10px rgba(255,235,195,.95),
-    0 0 22px rgba(255,166,128,.45)!important;
-  opacity:.95!important;
-}
-.ac-v15-ambient.a1{left:-8px!important;top:14px!important;animation:acV15Twinkle 1.6s ease-in-out infinite!important}
-.ac-v15-ambient.a2{left:14%!important;top:-18px!important;animation:acV15Twinkle 1.9s ease-in-out .2s infinite!important}
-.ac-v15-ambient.a3{left:46%!important;top:-22px!important;animation:acV15Twinkle 1.7s ease-in-out .5s infinite!important}
-.ac-v15-ambient.a4{right:16%!important;top:-18px!important;animation:acV15Twinkle 2.0s ease-in-out .1s infinite!important}
-.ac-v15-ambient.a5{right:-8px!important;top:20px!important;animation:acV15Twinkle 1.8s ease-in-out .65s infinite!important}
-.ac-v15-ambient.a6{left:7%!important;bottom:-14px!important;animation:acV15Twinkle 1.9s ease-in-out .35s infinite!important}
-.ac-v15-ambient.a7{right:22%!important;bottom:-18px!important;animation:acV15Twinkle 1.75s ease-in-out .82s infinite!important}
-.ac-v15-ambient.a8{right:-4px!important;bottom:20px!important;animation:acV15Twinkle 2.05s ease-in-out .52s infinite!important}
-
-/* Burst stars: actual big star glyphs with trails */
-.ac-v15-burst{
-  position:absolute!important;
-  left:50%!important; top:50%!important;
-  z-index:8!important;
-  pointer-events:none!important;
-  width:34px!important; height:34px!important;
-  margin-left:-17px!important; margin-top:-17px!important;
-  color:#fff2db!important;
-  font-size:34px!important;
-  line-height:34px!important;
-  text-align:center!important;
-  text-shadow:
-    0 0 12px rgba(255,235,195,.98),
-    0 0 26px rgba(255,166,128,.52)!important;
-  opacity:0!important;
-}
-.ac-v15-burst::after{
-  content:""!important;
-  position:absolute!important;
-  left:50%!important; top:50%!important;
-  width:78px!important; height:4px!important;
-  border-radius:999px!important;
-  transform-origin:left center!important;
-  background:linear-gradient(90deg, rgba(255,242,220,.92), rgba(255,124,92,.34), transparent)!important;
-  box-shadow:0 0 12px rgba(255,185,155,.32)!important;
-}
-.ac-v15-burst.b1{animation:acV15Burst1 1.7s linear infinite!important}
-.ac-v15-burst.b2{animation:acV15Burst2 1.85s linear .14s infinite!important}
-.ac-v15-burst.b3{animation:acV15Burst3 1.72s linear .28s infinite!important}
-.ac-v15-burst.b4{animation:acV15Burst4 1.92s linear .42s infinite!important}
-.ac-v15-burst.b5{animation:acV15Burst5 1.76s linear .56s infinite!important}
-.ac-v15-burst.b6{animation:acV15Burst6 1.88s linear .70s infinite!important}
-.ac-v15-burst.b7{animation:acV15Burst7 1.74s linear .84s infinite!important}
-.ac-v15-burst.b8{animation:acV15Burst8 1.96s linear .98s infinite!important}
-.ac-v15-burst.b9{animation:acV15Burst9 1.78s linear 1.12s infinite!important}
-.ac-v15-burst.b10{animation:acV15Burst10 1.90s linear 1.26s infinite!important}
-.ac-v15-burst.b11{animation:acV15Burst11 1.75s linear 1.40s infinite!important}
-.ac-v15-burst.b12{animation:acV15Burst12 1.94s linear 1.54s infinite!important}
-
-/* trail angles */
-.ac-v15-burst.b1::after{transform:translate(0,-50%) rotate(208deg)}
-.ac-v15-burst.b2::after{transform:translate(0,-50%) rotate(228deg)}
-.ac-v15-burst.b3::after{transform:translate(0,-50%) rotate(258deg)}
-.ac-v15-burst.b4::after{transform:translate(0,-50%) rotate(296deg)}
-.ac-v15-burst.b5::after{transform:translate(0,-50%) rotate(326deg)}
-.ac-v15-burst.b6::after{transform:translate(0,-50%) rotate(352deg)}
-.ac-v15-burst.b7::after{transform:translate(0,-50%) rotate(28deg)}
-.ac-v15-burst.b8::after{transform:translate(0,-50%) rotate(58deg)}
-.ac-v15-burst.b9::after{transform:translate(0,-50%) rotate(98deg)}
-.ac-v15-burst.b10::after{transform:translate(0,-50%) rotate(126deg)}
-.ac-v15-burst.b11::after{transform:translate(0,-50%) rotate(164deg)}
-.ac-v15-burst.b12::after{transform:translate(0,-50%) rotate(186deg)}
-
-@keyframes acV15Breath{
-  0%,100%{transform:scale(.94);opacity:.58}
-  50%{transform:scale(1.08);opacity:1}
-}
-@keyframes acV15Twinkle{
-  0%,100%{transform:scale(.80) rotate(0deg);opacity:.52}
-  50%{transform:scale(1.32) rotate(28deg);opacity:1}
-}
-@keyframes acV15TwinkleBig{
-  0%,100%{transform:scale(.82) rotate(0deg);opacity:.46}
-  50%{transform:scale(1.22) rotate(45deg);opacity:1}
-}
-@keyframes acV15CtaSweep{
-  0%,22%{transform:translateX(-150%);opacity:0}
-  34%{opacity:.9}
-  60%{transform:translateX(150%);opacity:.2}
-  61%,100%{transform:translateX(150%);opacity:0}
-}
-@keyframes acV15CtaPop{
-  0%,100%{transform:scale(1)}
-  50%{transform:scale(1.035)}
-}
-@keyframes acV15Arrow{
-  0%,100%{transform:translateX(0)}
-  50%{transform:translateX(6px)}
-}
-
-/* desktop burst distances */
-@keyframes acV15Burst1{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-220px,-122px) scale(1.18);opacity:0}}
-@keyframes acV15Burst2{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-168px,-184px) scale(1.08);opacity:0}}
-@keyframes acV15Burst3{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-48px,-228px) scale(1.22);opacity:0}}
-@keyframes acV15Burst4{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(90px,-206px) scale(1.12);opacity:0}}
-@keyframes acV15Burst5{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(204px,-148px) scale(1.18);opacity:0}}
-@keyframes acV15Burst6{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(244px,-12px) scale(1.06);opacity:0}}
-@keyframes acV15Burst7{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(200px,114px) scale(1.14);opacity:0}}
-@keyframes acV15Burst8{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(98px,208px) scale(1.20);opacity:0}}
-@keyframes acV15Burst9{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-38px,232px) scale(1.10);opacity:0}}
-@keyframes acV15Burst10{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-170px,178px) scale(1.16);opacity:0}}
-@keyframes acV15Burst11{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-232px,74px) scale(1.08);opacity:0}}
-@keyframes acV15Burst12{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-218px,-30px) scale(1.12);opacity:0}}
-
-/* mobile */
-@media(max-width:768px){
-  .ac-blog-app-box[data-blog-app-box="golden-v15"]{
-    min-height:198px!important;
-    padding:22px 14px!important;
-    gap:14px!important;
-    margin:0 auto 24px!important;
-  }
-  .ac-v15-title{
-    font-size:clamp(34px,9vw,52px)!important;
-    line-height:.95!important;
-  }
-  .ac-v15-cta{
-    min-width:154px!important;
-    min-height:60px!important;
-    padding:0 14px!important;
-    font-size:9px!important;
-    letter-spacing:.09em!important;
-  }
-  .ac-v15-cta-arrow{font-size:16px!important}
-  .ac-v15-core-glow{
-    width:180px!important;height:180px!important;
-    margin-left:-90px!important;margin-top:-90px!important;
-  }
-  .ac-v15-flare::before{width:54px!important;height:3px!important}
-  .ac-v15-flare::after{width:3px!important;height:54px!important}
-  .ac-v15-flare.flare-1{margin-left:-122px!important;margin-top:-70px!important}
-  .ac-v15-flare.flare-2{margin-left:112px!important;margin-top:-72px!important}
-  .ac-v15-flare.flare-3{margin-left:126px!important;margin-top:64px!important}
-
-  .ac-v15-ambient{font-size:22px!important}
-  .ac-v15-burst{width:24px!important;height:24px!important;margin-left:-12px!important;margin-top:-12px!important;font-size:24px!important;line-height:24px!important}
-  .ac-v15-burst::after{width:46px!important;height:3px!important}
-
-  @keyframes acV15Burst1{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-112px,-62px) scale(1.12);opacity:0}}
-  @keyframes acV15Burst2{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-86px,-98px) scale(1.04);opacity:0}}
-  @keyframes acV15Burst3{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-20px,-120px) scale(1.16);opacity:0}}
-  @keyframes acV15Burst4{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(44px,-112px) scale(1.06);opacity:0}}
-  @keyframes acV15Burst5{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(104px,-74px) scale(1.12);opacity:0}}
-  @keyframes acV15Burst6{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(128px,-10px) scale(1.0);opacity:0}}
-  @keyframes acV15Burst7{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(106px,58px) scale(1.08);opacity:0}}
-  @keyframes acV15Burst8{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(56px,110px) scale(1.14);opacity:0}}
-  @keyframes acV15Burst9{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-20px,120px) scale(1.04);opacity:0}}
-  @keyframes acV15Burst10{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-94px,96px) scale(1.10);opacity:0}}
-  @keyframes acV15Burst11{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-128px,34px) scale(1.02);opacity:0}}
-  @keyframes acV15Burst12{0%{transform:translate(0,0) scale(.45);opacity:0}8%{opacity:1}100%{transform:translate(-116px,-16px) scale(1.08);opacity:0}}
-}
-@media(prefers-reduced-motion:reduce){
-  .ac-v15-core-glow,.ac-v15-flare,.ac-v15-ambient,.ac-v15-burst,.ac-v15-cta,.ac-v15-cta::before,.ac-v15-cta-arrow{
-    animation:none!important;
-  }
-}
-</style>
-
 </head>
 <body class="ac-site-shell">
 <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
@@ -3137,40 +2809,43 @@ main>.apcl-standard-cover{
 </header>
 <main id="main-content" tabindex="-1">
 <div class="article-hero">
-<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v15">
-<span class="ac-v15-backplate" aria-hidden="true"></span>
-<span class="ac-v15-core-glow" aria-hidden="true"></span>
-<span class="ac-v15-flare flare-1" aria-hidden="true"></span>
-<span class="ac-v15-flare flare-2" aria-hidden="true"></span>
-<span class="ac-v15-flare flare-3" aria-hidden="true"></span>
+<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v14">
+<span class="ac-v14-backplate" aria-hidden="true"></span>
+<span class="ac-v14-core-glow" aria-hidden="true"></span>
+<span class="ac-v14-ring r1" aria-hidden="true"></span>
+<span class="ac-v14-ring r2" aria-hidden="true"></span>
+<span class="ac-v14-ring r3" aria-hidden="true"></span>
+<span class="ac-v14-sweep" aria-hidden="true"></span>
 
-<span class="ac-v15-ambient a1" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a2" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a3" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a4" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a5" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a6" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a7" aria-hidden="true">✦</span>
-<span class="ac-v15-ambient a8" aria-hidden="true">✦</span>
+<span class="ac-v14-ambient a1" aria-hidden="true"></span>
+<span class="ac-v14-ambient a2" aria-hidden="true"></span>
+<span class="ac-v14-ambient a3" aria-hidden="true"></span>
+<span class="ac-v14-ambient a4" aria-hidden="true"></span>
+<span class="ac-v14-ambient a5" aria-hidden="true"></span>
+<span class="ac-v14-ambient a6" aria-hidden="true"></span>
+<span class="ac-v14-ambient a7" aria-hidden="true"></span>
+<span class="ac-v14-ambient a8" aria-hidden="true"></span>
 
-<span class="ac-v15-burst b1" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b2" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b3" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b4" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b5" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b6" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b7" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b8" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b9" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b10" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b11" aria-hidden="true">✦</span>
-<span class="ac-v15-burst b12" aria-hidden="true">✦</span>
+<span class="ac-v14-burst b1" aria-hidden="true"></span>
+<span class="ac-v14-burst b2" aria-hidden="true"></span>
+<span class="ac-v14-burst b3" aria-hidden="true"></span>
+<span class="ac-v14-burst b4" aria-hidden="true"></span>
+<span class="ac-v14-burst b5" aria-hidden="true"></span>
+<span class="ac-v14-burst b6" aria-hidden="true"></span>
+<span class="ac-v14-burst b7" aria-hidden="true"></span>
+<span class="ac-v14-burst b8" aria-hidden="true"></span>
+<span class="ac-v14-burst b9" aria-hidden="true"></span>
+<span class="ac-v14-burst b10" aria-hidden="true"></span>
+<span class="ac-v14-burst b11" aria-hidden="true"></span>
+<span class="ac-v14-burst b12" aria-hidden="true"></span>
+<span class="ac-v14-burst b13" aria-hidden="true"></span>
+<span class="ac-v14-burst b14" aria-hidden="true"></span>
 
-<span class="ac-v15-title">APP PHỐI ĐỒ ONLINE</span>
-<span class="ac-v15-cta-wrap">
-  <span class="ac-v15-cta">
-    <span class="ac-v15-cta-label">MỞ APP</span>
-    <span class="ac-v15-cta-arrow" aria-hidden="true">→</span>
+<span class="ac-v14-title">APP PHỐI ĐỒ ONLINE</span>
+<span class="ac-v14-cta-wrap">
+  <span class="ac-v14-cta">
+    <span class="ac-v14-cta-label">MỞ APP</span>
+    <span class="ac-v14-cta-arrow" aria-hidden="true">→</span>
   </span>
 </span>
 </a>
