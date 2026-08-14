@@ -2469,6 +2469,326 @@ main>.apcl-standard-cover{
 }
 </style>
 
+
+<style id="ac-app-box-v14-visible-stars">
+/* V14 — stars that are impossible to miss */
+.ac-blog-app-box[data-blog-app-box="golden-v14"]{
+  position:relative!important;
+  isolation:isolate!important;
+  overflow:visible!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:18px!important;
+  width:100%!important;
+  max-width:840px!important;
+  min-height:220px!important;
+  margin:0 auto 36px!important;
+  padding:30px 24px!important;
+  text-decoration:none!important;
+  text-align:center!important;
+  color:#fff7ef!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  transform:translateZ(0)!important;
+}
+.ac-v14-backplate{
+  position:absolute!important;
+  inset:0!important;
+  z-index:0!important;
+  border-radius:8px!important;
+  border:1px solid #8b433a!important;
+  border-left:6px solid #ff6f5b!important;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255,113,92,.18), transparent 22%),
+    radial-gradient(circle at 22% 18%, rgba(255,240,212,.08), transparent 16%),
+    radial-gradient(circle at 78% 82%, rgba(255,108,84,.10), transparent 18%),
+    linear-gradient(140deg, rgba(255,102,82,.13), transparent 38%),
+    #050505!important;
+  box-shadow:
+    0 24px 60px rgba(0,0,0,.54),
+    0 0 0 1px rgba(255,114,95,.10),
+    0 0 54px rgba(255,94,74,.16),
+    inset 0 1px 0 rgba(255,255,255,.04)!important;
+}
+.ac-v14-core-glow,.ac-v14-ring,.ac-v14-sweep{
+  position:absolute!important;
+  left:50%!important; top:50%!important;
+  pointer-events:none!important;
+}
+.ac-v14-core-glow{
+  z-index:1!important;
+  width:250px!important; height:250px!important;
+  margin-left:-125px!important; margin-top:-125px!important;
+  border-radius:50%!important;
+  background:radial-gradient(circle, rgba(255,122,97,.28) 0, rgba(255,122,97,.12) 34%, transparent 70%)!important;
+  animation:acV14Breath 2.8s ease-in-out infinite!important;
+}
+.ac-v14-ring{
+  z-index:1!important;
+  width:92px!important; height:92px!important;
+  margin-left:-46px!important; margin-top:-46px!important;
+  border-radius:50%!important;
+  border:1px solid rgba(255,182,160,.60)!important;
+  opacity:0!important;
+}
+.ac-v14-ring.r1{animation:acV14Ring 2.2s linear infinite!important}
+.ac-v14-ring.r2{animation:acV14Ring 2.2s linear .7s infinite!important}
+.ac-v14-ring.r3{animation:acV14Ring 2.2s linear 1.4s infinite!important}
+.ac-v14-sweep{
+  z-index:1!important;
+  width:180px!important; height:180px!important;
+  margin-left:-90px!important; margin-top:-90px!important;
+  border-radius:50%!important;
+  background:conic-gradient(from 0deg, transparent 0 68%, rgba(255,232,204,.22) 76%, transparent 84% 100%)!important;
+  opacity:.9!important;
+  animation:acV14Spin 4.8s linear infinite!important;
+}
+
+.ac-v14-title{
+  position:relative!important;
+  z-index:4!important;
+  display:block!important;
+  max-width:100%!important;
+  margin:0!important;
+  font-family:'Oswald',sans-serif!important;
+  font-size:clamp(46px,5.9vw,82px)!important;
+  font-weight:700!important;
+  line-height:.93!important;
+  letter-spacing:.01em!important;
+  text-transform:uppercase!important;
+  color:#fff7ef!important;
+  text-align:center!important;
+  text-shadow:
+    0 2px 0 rgba(0,0,0,.62),
+    0 0 18px rgba(255,114,92,.18),
+    0 0 28px rgba(255,98,78,.08)!important;
+}
+.ac-v14-cta-wrap{
+  position:relative!important;
+  z-index:4!important;
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  width:100%!important;
+}
+.ac-v14-cta{
+  position:relative!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:12px!important;
+  min-width:198px!important;
+  min-height:76px!important;
+  padding:0 22px!important;
+  border:1px solid #ff7d69!important;
+  border-radius:4px!important;
+  overflow:hidden!important;
+  background:linear-gradient(180deg,#ff8774 0%, #ff664e 100%)!important;
+  color:#080808!important;
+  font-family:'Space Mono',monospace!important;
+  font-size:13px!important;
+  font-weight:700!important;
+  letter-spacing:.14em!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  box-shadow:
+    0 15px 34px rgba(255,102,79,.28),
+    0 0 0 1px rgba(255,255,255,.08) inset!important;
+}
+.ac-v14-cta::before{
+  content:""!important;
+  position:absolute!important;
+  inset:-1px!important;
+  pointer-events:none!important;
+  background:linear-gradient(110deg, transparent 22%, rgba(255,255,255,.52) 47%, transparent 69%)!important;
+  transform:translateX(-150%)!important;
+  animation:acV14CtaSweep 2.0s ease-in-out infinite!important;
+}
+.ac-v14-cta::after{
+  content:""!important;
+  position:absolute!important;
+  left:7px!important; bottom:7px!important;
+  width:7px!important; height:7px!important;
+  background:#fff3dd!important;
+  box-shadow:0 0 12px rgba(255,243,221,.85)!important;
+}
+.ac-v14-cta-arrow{
+  font-size:20px!important;
+  font-weight:700!important;
+  animation:acV14Arrow .95s ease-in-out infinite!important;
+}
+
+/* Shared star drawing */
+.ac-v14-ambient,
+.ac-v14-burst{
+  position:absolute!important;
+  pointer-events:none!important;
+  z-index:5!important;
+}
+.ac-v14-ambient::before,
+.ac-v14-ambient::after,
+.ac-v14-burst::before,
+.ac-v14-burst::after{
+  content:""!important;
+  position:absolute!important;
+  left:50%!important; top:50%!important;
+  transform:translate(-50%,-50%)!important;
+  background:#fff4de!important;
+  box-shadow:0 0 14px rgba(255,235,195,.88)!important;
+}
+.ac-v14-ambient::before,
+.ac-v14-burst::before{width:22px!important;height:3px!important;border-radius:99px!important}
+.ac-v14-ambient::after,
+.ac-v14-burst::after{width:3px!important;height:22px!important;border-radius:99px!important}
+
+/* ambient stars always visible */
+.ac-v14-ambient{
+  width:22px!important;height:22px!important;
+  opacity:1!important;
+}
+.ac-v14-ambient.a1{left:-8px!important;top:18px!important;animation:acV14Twinkle 1.7s ease-in-out infinite!important}
+.ac-v14-ambient.a2{left:16%!important;top:-12px!important;animation:acV14Twinkle 2.0s ease-in-out .3s infinite!important}
+.ac-v14-ambient.a3{left:44%!important;top:-16px!important;animation:acV14Twinkle 1.9s ease-in-out .5s infinite!important}
+.ac-v14-ambient.a4{right:18%!important;top:-14px!important;animation:acV14Twinkle 2.1s ease-in-out .2s infinite!important}
+.ac-v14-ambient.a5{right:-10px!important;top:26px!important;animation:acV14Twinkle 1.8s ease-in-out .7s infinite!important}
+.ac-v14-ambient.a6{left:8%!important;bottom:-10px!important;animation:acV14Twinkle 2.0s ease-in-out .4s infinite!important}
+.ac-v14-ambient.a7{right:22%!important;bottom:-14px!important;animation:acV14Twinkle 1.75s ease-in-out .9s infinite!important}
+.ac-v14-ambient.a8{right:-6px!important;bottom:24px!important;animation:acV14Twinkle 2.15s ease-in-out .6s infinite!important}
+
+/* burst stars from center */
+.ac-v14-burst{
+  left:50%!important; top:50%!important;
+  width:24px!important; height:24px!important;
+  margin-left:-12px!important; margin-top:-12px!important;
+  opacity:0!important;
+}
+.ac-v14-burst::before,
+.ac-v14-burst::after{
+  background:#fff0d8!important;
+  box-shadow:
+    0 0 12px rgba(255,235,195,.85),
+    0 0 24px rgba(255,166,128,.35)!important;
+}
+.ac-v14-burst{
+  filter:none!important;
+}
+.ac-v14-burst::marker{content:none}
+
+/* trails */
+.ac-v14-burst > *{display:none}
+.ac-v14-burst::after{}
+.ac-v14-burst.b1{animation:acV14Burst1 1.55s linear infinite!important}
+.ac-v14-burst.b2{animation:acV14Burst2 1.75s linear .14s infinite!important}
+.ac-v14-burst.b3{animation:acV14Burst3 1.60s linear .28s infinite!important}
+.ac-v14-burst.b4{animation:acV14Burst4 1.85s linear .42s infinite!important}
+.ac-v14-burst.b5{animation:acV14Burst5 1.68s linear .56s infinite!important}
+.ac-v14-burst.b6{animation:acV14Burst6 1.82s linear .70s infinite!important}
+.ac-v14-burst.b7{animation:acV14Burst7 1.62s linear .84s infinite!important}
+.ac-v14-burst.b8{animation:acV14Burst8 1.90s linear .98s infinite!important}
+.ac-v14-burst.b9{animation:acV14Burst9 1.70s linear 1.12s infinite!important}
+.ac-v14-burst.b10{animation:acV14Burst10 1.88s linear 1.26s infinite!important}
+.ac-v14-burst.b11{animation:acV14Burst11 1.64s linear 1.40s infinite!important}
+.ac-v14-burst.b12{animation:acV14Burst12 1.86s linear 1.54s infinite!important}
+.ac-v14-burst.b13{animation:acV14Burst13 1.72s linear 1.68s infinite!important}
+.ac-v14-burst.b14{animation:acV14Burst14 1.92s linear 1.82s infinite!important}
+
+@keyframes acV14Breath{
+  0%,100%{transform:scale(.94);opacity:.58}
+  50%{transform:scale(1.08);opacity:1}
+}
+@keyframes acV14Ring{
+  0%{transform:scale(.55);opacity:.84}
+  100%{transform:scale(3.3);opacity:0}
+}
+@keyframes acV14Spin{
+  0%{transform:rotate(0deg)}
+  100%{transform:rotate(360deg)}
+}
+@keyframes acV14CtaSweep{
+  0%,22%{transform:translateX(-150%);opacity:0}
+  34%{opacity:.9}
+  60%{transform:translateX(150%);opacity:.2}
+  61%,100%{transform:translateX(150%);opacity:0}
+}
+@keyframes acV14Arrow{
+  0%,100%{transform:translateX(0)}
+  50%{transform:translateX(6px)}
+}
+@keyframes acV14Twinkle{
+  0%,100%{transform:scale(.78) rotate(0deg);opacity:.45}
+  50%{transform:scale(1.28) rotate(45deg);opacity:1}
+}
+
+/* desktop bursts */
+@keyframes acV14Burst1{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-210px,-118px) scale(1.28);opacity:0}}
+@keyframes acV14Burst2{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-160px,-182px) scale(1.12);opacity:0}}
+@keyframes acV14Burst3{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-42px,-226px) scale(1.36);opacity:0}}
+@keyframes acV14Burst4{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(94px,-204px) scale(1.20);opacity:0}}
+@keyframes acV14Burst5{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(202px,-144px) scale(1.22);opacity:0}}
+@keyframes acV14Burst6{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(242px,-12px) scale(1.10);opacity:0}}
+@keyframes acV14Burst7{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(198px,112px) scale(1.20);opacity:0}}
+@keyframes acV14Burst8{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(96px,206px) scale(1.34);opacity:0}}
+@keyframes acV14Burst9{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-38px,230px) scale(1.14);opacity:0}}
+@keyframes acV14Burst10{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-168px,178px) scale(1.24);opacity:0}}
+@keyframes acV14Burst11{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-232px,72px) scale(1.10);opacity:0}}
+@keyframes acV14Burst12{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-218px,-30px) scale(1.16);opacity:0}}
+@keyframes acV14Burst13{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-118px,-210px) scale(1.22);opacity:0}}
+@keyframes acV14Burst14{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(6px,-236px) scale(1.18);opacity:0}}
+
+/* mobile */
+@media(max-width:768px){
+  .ac-blog-app-box[data-blog-app-box="golden-v14"]{
+    min-height:196px!important;
+    padding:22px 14px!important;
+    gap:14px!important;
+    margin:0 auto 24px!important;
+  }
+  .ac-v14-title{
+    font-size:clamp(34px,9vw,52px)!important;
+    line-height:.95!important;
+  }
+  .ac-v14-cta{
+    min-width:154px!important;
+    min-height:60px!important;
+    padding:0 14px!important;
+    font-size:9px!important;
+    letter-spacing:.09em!important;
+  }
+  .ac-v14-cta-arrow{font-size:16px!important}
+  .ac-v14-core-glow{width:180px!important;height:180px!important;margin-left:-90px!important;margin-top:-90px!important}
+  .ac-v14-ring{width:72px!important;height:72px!important;margin-left:-36px!important;margin-top:-36px!important}
+  .ac-v14-sweep{width:130px!important;height:130px!important;margin-left:-65px!important;margin-top:-65px!important}
+
+  .ac-v14-ambient{width:18px!important;height:18px!important}
+  .ac-v14-ambient::before,.ac-v14-burst::before{width:18px!important;height:3px!important}
+  .ac-v14-ambient::after,.ac-v14-burst::after{width:3px!important;height:18px!important}
+
+  .ac-v14-burst{width:18px!important;height:18px!important;margin-left:-9px!important;margin-top:-9px!important}
+  @keyframes acV14Burst1{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-108px,-60px) scale(1.2);opacity:0}}
+  @keyframes acV14Burst2{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-84px,-96px) scale(1.05);opacity:0}}
+  @keyframes acV14Burst3{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-20px,-118px) scale(1.22);opacity:0}}
+  @keyframes acV14Burst4{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(44px,-110px) scale(1.10);opacity:0}}
+  @keyframes acV14Burst5{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(102px,-72px) scale(1.14);opacity:0}}
+  @keyframes acV14Burst6{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(126px,-10px) scale(1.02);opacity:0}}
+  @keyframes acV14Burst7{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(104px,58px) scale(1.10);opacity:0}}
+  @keyframes acV14Burst8{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(56px,108px) scale(1.22);opacity:0}}
+  @keyframes acV14Burst9{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-20px,118px) scale(1.08);opacity:0}}
+  @keyframes acV14Burst10{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-92px,94px) scale(1.14);opacity:0}}
+  @keyframes acV14Burst11{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-128px,34px) scale(1.02);opacity:0}}
+  @keyframes acV14Burst12{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-116px,-16px) scale(1.08);opacity:0}}
+  @keyframes acV14Burst13{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(-64px,-110px) scale(1.14);opacity:0}}
+  @keyframes acV14Burst14{0%{transform:translate(0,0) scale(.35);opacity:0}8%{opacity:1}100%{transform:translate(6px,-120px) scale(1.10);opacity:0}}
+}
+@media(prefers-reduced-motion:reduce){
+  .ac-v14-core-glow,.ac-v14-ring,.ac-v14-sweep,.ac-v14-ambient,.ac-v14-burst,.ac-v14-cta::before,.ac-v14-cta-arrow{
+    animation:none!important;
+  }
+}
+</style>
+
 </head>
 <body class="ac-site-shell">
 <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
@@ -2489,36 +2809,43 @@ main>.apcl-standard-cover{
 </header>
 <main id="main-content" tabindex="-1">
 <div class="article-hero">
-<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v13">
-<span class="ac-v13-backplate" aria-hidden="true"></span>
-<span class="ac-v13-core-glow" aria-hidden="true"></span>
-<span class="ac-v13-ring r1" aria-hidden="true"></span>
-<span class="ac-v13-ring r2" aria-hidden="true"></span>
-<span class="ac-v13-ring r3" aria-hidden="true"></span>
-<span class="ac-v13-sweep" aria-hidden="true"></span>
+<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v14">
+<span class="ac-v14-backplate" aria-hidden="true"></span>
+<span class="ac-v14-core-glow" aria-hidden="true"></span>
+<span class="ac-v14-ring r1" aria-hidden="true"></span>
+<span class="ac-v14-ring r2" aria-hidden="true"></span>
+<span class="ac-v14-ring r3" aria-hidden="true"></span>
+<span class="ac-v14-sweep" aria-hidden="true"></span>
 
-<span class="ac-v13-star p1" aria-hidden="true"></span>
-<span class="ac-v13-star p2" aria-hidden="true"></span>
-<span class="ac-v13-star p3" aria-hidden="true"></span>
-<span class="ac-v13-star p4" aria-hidden="true"></span>
-<span class="ac-v13-star p5" aria-hidden="true"></span>
-<span class="ac-v13-star p6" aria-hidden="true"></span>
-<span class="ac-v13-star p7" aria-hidden="true"></span>
-<span class="ac-v13-star p8" aria-hidden="true"></span>
-<span class="ac-v13-star p9" aria-hidden="true"></span>
-<span class="ac-v13-star p10" aria-hidden="true"></span>
-<span class="ac-v13-star p11" aria-hidden="true"></span>
-<span class="ac-v13-star p12" aria-hidden="true"></span>
-<span class="ac-v13-star p13" aria-hidden="true"></span>
-<span class="ac-v13-star p14" aria-hidden="true"></span>
-<span class="ac-v13-star p15" aria-hidden="true"></span>
-<span class="ac-v13-star p16" aria-hidden="true"></span>
+<span class="ac-v14-ambient a1" aria-hidden="true"></span>
+<span class="ac-v14-ambient a2" aria-hidden="true"></span>
+<span class="ac-v14-ambient a3" aria-hidden="true"></span>
+<span class="ac-v14-ambient a4" aria-hidden="true"></span>
+<span class="ac-v14-ambient a5" aria-hidden="true"></span>
+<span class="ac-v14-ambient a6" aria-hidden="true"></span>
+<span class="ac-v14-ambient a7" aria-hidden="true"></span>
+<span class="ac-v14-ambient a8" aria-hidden="true"></span>
 
-<span class="ac-v13-title">APP PHỐI ĐỒ ONLINE</span>
-<span class="ac-v13-cta-wrap">
-  <span class="ac-v13-cta">
-    <span class="ac-v13-cta-label">MỞ APP</span>
-    <span class="ac-v13-cta-arrow" aria-hidden="true">→</span>
+<span class="ac-v14-burst b1" aria-hidden="true"></span>
+<span class="ac-v14-burst b2" aria-hidden="true"></span>
+<span class="ac-v14-burst b3" aria-hidden="true"></span>
+<span class="ac-v14-burst b4" aria-hidden="true"></span>
+<span class="ac-v14-burst b5" aria-hidden="true"></span>
+<span class="ac-v14-burst b6" aria-hidden="true"></span>
+<span class="ac-v14-burst b7" aria-hidden="true"></span>
+<span class="ac-v14-burst b8" aria-hidden="true"></span>
+<span class="ac-v14-burst b9" aria-hidden="true"></span>
+<span class="ac-v14-burst b10" aria-hidden="true"></span>
+<span class="ac-v14-burst b11" aria-hidden="true"></span>
+<span class="ac-v14-burst b12" aria-hidden="true"></span>
+<span class="ac-v14-burst b13" aria-hidden="true"></span>
+<span class="ac-v14-burst b14" aria-hidden="true"></span>
+
+<span class="ac-v14-title">APP PHỐI ĐỒ ONLINE</span>
+<span class="ac-v14-cta-wrap">
+  <span class="ac-v14-cta">
+    <span class="ac-v14-cta-label">MỞ APP</span>
+    <span class="ac-v14-cta-arrow" aria-hidden="true">→</span>
   </span>
 </span>
 </a>
