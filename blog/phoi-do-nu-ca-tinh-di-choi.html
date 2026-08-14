@@ -1407,6 +1407,395 @@ main>.apcl-standard-cover{
 }
 </style>
 
+
+<style id="ac-app-box-v11-cinematic-max">
+/* V11 — 10/10 spotlight app box */
+.ac-blog-app-box[data-blog-app-box="golden-v11"]{
+  position:relative!important;
+  isolation:isolate!important;
+  overflow:hidden!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  grid-template-areas:
+    "badge badge"
+    "title cta"
+    "sub cta"!important;
+  align-items:center!important;
+  row-gap:8px!important;
+  column-gap:24px!important;
+  width:100%!important;
+  max-width:840px!important;
+  margin:0 auto 34px!important;
+  padding:24px 24px 24px 26px!important;
+  text-decoration:none!important;
+  color:#fff6ec!important;
+
+  background:
+    radial-gradient(circle at 12% 52%, rgba(255,106,84,.30), transparent 20%),
+    radial-gradient(circle at 84% 24%, rgba(255,241,212,.14), transparent 16%),
+    radial-gradient(circle at 83% 78%, rgba(255,93,70,.11), transparent 18%),
+    linear-gradient(125deg, rgba(255,103,82,.18), transparent 32%),
+    #060606!important;
+
+  border:1px solid #80423a!important;
+  border-left:6px solid #ff725f!important;
+  border-radius:6px!important;
+  box-shadow:
+    0 24px 60px rgba(0,0,0,.54),
+    0 0 0 1px rgba(255,114,95,.10),
+    0 0 44px rgba(255,94,74,.12),
+    inset 0 1px 0 rgba(255,255,255,.04)!important;
+
+  transform:translateZ(0)!important;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease!important;
+}
+.ac-blog-app-box[data-blog-app-box="golden-v11"]:hover,
+.ac-blog-app-box[data-blog-app-box="golden-v11"]:focus-visible{
+  transform:translateY(-4px) translateZ(0)!important;
+  border-color:#b25448!important;
+  border-left-color:#ff7e6c!important;
+  box-shadow:
+    0 26px 64px rgba(0,0,0,.56),
+    0 0 0 1px rgba(255,126,108,.16),
+    0 0 58px rgba(255,100,82,.16),
+    inset 0 1px 0 rgba(255,255,255,.05)!important;
+  outline:none!important;
+}
+.ac-blog-app-box[data-blog-app-box="golden-v11"]::before{
+  content:""!important;
+  position:absolute!important;
+  top:-26%!important; bottom:-26%!important; left:-34%!important;
+  width:30%!important;
+  z-index:0!important;
+  pointer-events:none!important;
+  opacity:0!important;
+  background:linear-gradient(90deg,transparent,rgba(255,120,92,.06),rgba(255,126,104,.26),rgba(255,242,224,.24),rgba(255,103,84,.12),transparent)!important;
+  transform:translateX(-20%) skewX(-15deg)!important;
+  animation:acV11Sweep 3.8s cubic-bezier(.4,0,.2,1) infinite!important;
+}
+.ac-blog-app-box[data-blog-app-box="golden-v11"]::after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:0!important;
+  pointer-events:none!important;
+  background:
+    linear-gradient(90deg, transparent 0 4.5%, rgba(255,255,255,.035) 4.5% 4.75%, transparent 4.75% 100%),
+    linear-gradient(180deg, transparent 0 91%, rgba(255,114,95,.18) 91% 92.2%, transparent 92.2% 100%)!important;
+  opacity:.9!important;
+}
+
+/* visual layers */
+.ac-v11-orb,
+.ac-v11-ray,
+.ac-v11-spark,
+.ac-v11-grid{
+  position:absolute!important;
+  pointer-events:none!important;
+}
+.ac-v11-grid{
+  inset:auto 14px 14px auto!important;
+  width:120px!important;
+  height:72px!important;
+  z-index:1!important;
+  opacity:.22!important;
+  background-image:
+    linear-gradient(rgba(255,112,92,.42) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,112,92,.42) 1px, transparent 1px)!important;
+  background-size:12px 12px!important;
+  mask-image:linear-gradient(180deg,transparent,black 28%,black)!important;
+}
+.ac-v11-orb{
+  z-index:1!important;
+  border-radius:50%!important;
+  animation:acV11Float 4.8s ease-in-out infinite!important;
+}
+.ac-v11-orb.orb-1{
+  left:-18px!important; top:26px!important;
+  width:102px!important; height:102px!important;
+  background:radial-gradient(circle, rgba(255,112,92,.34), rgba(255,112,92,.10) 42%, transparent 72%)!important;
+}
+.ac-v11-orb.orb-2{
+  right:78px!important; top:-12px!important;
+  width:132px!important; height:132px!important;
+  background:radial-gradient(circle, rgba(255,235,198,.16), rgba(255,118,96,.08) 38%, transparent 72%)!important;
+  animation-delay:.6s!important;
+}
+.ac-v11-orb.orb-3{
+  right:44px!important; bottom:-26px!important;
+  width:124px!important; height:124px!important;
+  background:radial-gradient(circle, rgba(255,102,80,.16), rgba(255,102,80,.05) 38%, transparent 72%)!important;
+  animation-delay:1.1s!important;
+}
+.ac-v11-ray{
+  z-index:1!important;
+  width:2px!important;
+  background:linear-gradient(180deg,transparent,rgba(255,241,220,.95),transparent)!important;
+  opacity:.78!important;
+  animation:acV11Ray 2.8s ease-in-out infinite!important;
+}
+.ac-v11-ray.ray-1{
+  right:132px!important; top:16px!important; height:116px!important; transform:rotate(26deg)!important;
+}
+.ac-v11-ray.ray-2{
+  right:98px!important; top:52px!important; height:94px!important; transform:rotate(-16deg)!important; animation-delay:.7s!important;
+}
+.ac-v11-ray.ray-3{
+  right:64px!important; top:24px!important; height:78px!important; transform:rotate(10deg)!important; animation-delay:1.1s!important;
+}
+.ac-v11-spark{
+  z-index:2!important;
+  width:14px!important; height:14px!important;
+  opacity:.96!important;
+  animation:acV11Spark 2.15s ease-in-out infinite!important;
+}
+.ac-v11-spark::before,.ac-v11-spark::after{
+  content:""!important;
+  position:absolute!important;
+  left:50%!important; top:50%!important;
+  background:#fff1d7!important;
+  transform:translate(-50%,-50%)!important;
+  box-shadow:0 0 12px rgba(255,235,195,.70)!important;
+}
+.ac-v11-spark::before{width:14px!important;height:2px!important}
+.ac-v11-spark::after{width:2px!important;height:14px!important}
+.ac-v11-spark.sp-1{left:20px!important;top:18px!important}
+.ac-v11-spark.sp-2{left:56%!important;top:16px!important;animation-delay:.38s!important}
+.ac-v11-spark.sp-3{right:132px!important;top:26px!important;animation-delay:.8s!important}
+.ac-v11-spark.sp-4{right:82px!important;bottom:24px!important;animation-delay:1.15s!important}
+.ac-v11-spark.sp-5{left:38%!important;bottom:18px!important;animation-delay:.58s!important}
+
+/* content */
+.ac-v11-badge{
+  grid-area:badge!important;
+  position:relative!important;
+  z-index:3!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:8px!important;
+  width:max-content!important;
+  max-width:100%!important;
+  padding:5px 9px 5px 8px!important;
+  border:1px solid rgba(255,115,95,.42)!important;
+  background:rgba(255,115,95,.08)!important;
+  color:#f4dfd5!important;
+  font-family:'Space Mono',monospace!important;
+  font-size:9px!important;
+  font-weight:700!important;
+  letter-spacing:.16em!important;
+  text-transform:uppercase!important;
+}
+.ac-v11-dot{
+  display:inline-block!important;
+  width:8px!important; height:8px!important;
+  flex:0 0 8px!important;
+  border-radius:50%!important;
+  background:#ff5d49!important;
+  box-shadow:0 0 10px rgba(255,93,73,.52)!important;
+  position:relative!important;
+}
+.ac-v11-dot::after{
+  content:""!important;
+  position:absolute!important;
+  inset:-6px!important;
+  border:1px solid rgba(255,93,73,.62)!important;
+  border-radius:50%!important;
+  animation:acV11Pulse 1.65s ease-out infinite!important;
+}
+.ac-v11-title{
+  grid-area:title!important;
+  position:relative!important;
+  z-index:3!important;
+  display:block!important;
+  max-width:100%!important;
+  margin:0!important;
+  font-family:'Oswald',sans-serif!important;
+  font-weight:700!important;
+  line-height:.94!important;
+  letter-spacing:.005em!important;
+  text-transform:uppercase!important;
+  color:#fff6ec!important;
+  text-shadow:
+    0 2px 0 rgba(0,0,0,.62),
+    0 0 18px rgba(255,112,92,.12)!important;
+}
+.ac-v11-title .line-1{
+  display:block!important;
+  font-size:clamp(38px,4.6vw,58px)!important;
+}
+.ac-v11-title .line-2{
+  display:block!important;
+  font-size:clamp(46px,5.3vw,72px)!important;
+  color:#fff0dd!important;
+}
+.ac-v11-sub{
+  grid-area:sub!important;
+  position:relative!important;
+  z-index:3!important;
+  display:block!important;
+  margin-top:2px!important;
+  font-family:'Space Mono',monospace!important;
+  font-size:11px!important;
+  font-weight:700!important;
+  line-height:1.5!important;
+  letter-spacing:.10em!important;
+  text-transform:uppercase!important;
+  color:#ffd7cb!important;
+}
+.ac-v11-cta-wrap{
+  grid-area:cta!important;
+  position:relative!important;
+  z-index:4!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+}
+.ac-v11-cta{
+  position:relative!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:12px!important;
+  min-width:176px!important;
+  min-height:72px!important;
+  padding:0 20px!important;
+  border:1px solid #ff7966!important;
+  border-radius:4px!important;
+  overflow:hidden!important;
+  background:
+    linear-gradient(180deg,#ff816f 0%, #ff654f 100%)!important;
+  color:#080808!important;
+  font-family:'Space Mono',monospace!important;
+  font-size:12px!important;
+  font-weight:700!important;
+  letter-spacing:.12em!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  box-shadow:
+    0 12px 28px rgba(255,101,79,.22),
+    0 0 0 1px rgba(255,255,255,.08) inset!important;
+}
+.ac-v11-cta::before{
+  content:""!important;
+  position:absolute!important;
+  inset:-1px!important;
+  pointer-events:none!important;
+  background:linear-gradient(110deg, transparent 22%, rgba(255,255,255,.48) 47%, transparent 69%)!important;
+  transform:translateX(-150%)!important;
+  animation:acV11CtaSweep 2.4s ease-in-out infinite!important;
+}
+.ac-v11-cta::after{
+  content:""!important;
+  position:absolute!important;
+  left:7px!important;
+  bottom:7px!important;
+  width:7px!important;height:7px!important;
+  background:#fff3dd!important;
+  box-shadow:0 0 10px rgba(255,243,221,.8)!important;
+}
+.ac-v11-cta-arrow{
+  font-size:19px!important;
+  font-weight:700!important;
+  animation:acV11Arrow 1.0s ease-in-out infinite!important;
+}
+
+/* animations */
+@keyframes acV11Sweep{
+  0%,10%{transform:translateX(-20%) skewX(-15deg);opacity:0}
+  16%{opacity:.92}
+  42%{transform:translateX(590%) skewX(-15deg);opacity:.20}
+  43%,100%{transform:translateX(590%) skewX(-15deg);opacity:0}
+}
+@keyframes acV11Pulse{
+  0%{transform:scale(.42);opacity:1}
+  100%{transform:scale(1.75);opacity:0}
+}
+@keyframes acV11Float{
+  0%,100%{transform:translateY(0) scale(.96);opacity:.62}
+  50%{transform:translateY(-6px) scale(1.04);opacity:.98}
+}
+@keyframes acV11Ray{
+  0%,100%{opacity:.26;transform:scaleY(.82)}
+  50%{opacity:1;transform:scaleY(1.08)}
+}
+@keyframes acV11Spark{
+  0%,100%{transform:scale(.72) rotate(0deg);opacity:.34}
+  50%{transform:scale(1.20) rotate(45deg);opacity:1}
+}
+@keyframes acV11CtaSweep{
+  0%,26%{transform:translateX(-150%);opacity:0}
+  34%{opacity:.84}
+  60%{transform:translateX(150%);opacity:.18}
+  61%,100%{transform:translateX(150%);opacity:0}
+}
+@keyframes acV11Arrow{
+  0%,100%{transform:translateX(0)}
+  50%{transform:translateX(5px)}
+}
+
+/* mobile */
+@media(max-width:768px){
+  .ac-blog-app-box[data-blog-app-box="golden-v11"]{
+    grid-template-columns:minmax(0,1fr) 104px!important;
+    grid-template-areas:
+      "badge badge"
+      "title title"
+      "sub cta"!important;
+    row-gap:8px!important;
+    column-gap:12px!important;
+    padding:18px 14px 17px 16px!important;
+    margin:0 auto 24px!important;
+  }
+  .ac-v11-title .line-1{font-size:clamp(28px,8.7vw,38px)!important}
+  .ac-v11-title .line-2{font-size:clamp(34px,10vw,46px)!important}
+  .ac-v11-sub{font-size:9px!important;letter-spacing:.09em!important}
+  .ac-v11-cta{
+    min-width:104px!important;
+    width:104px!important;
+    min-height:54px!important;
+    padding:0 10px!important;
+    font-size:8px!important;
+    letter-spacing:.08em!important;
+  }
+  .ac-v11-cta-arrow{font-size:15px!important}
+  .ac-v11-orb.orb-2{right:28px!important;top:-18px!important;width:108px!important;height:108px!important}
+  .ac-v11-orb.orb-3{right:8px!important;bottom:-34px!important;width:100px!important;height:100px!important}
+  .ac-v11-ray.ray-1{right:60px!important;top:8px!important;height:84px!important}
+  .ac-v11-ray.ray-2{right:44px!important;top:36px!important;height:66px!important}
+  .ac-v11-ray.ray-3{right:24px!important;top:16px!important;height:54px!important}
+  .ac-v11-spark.sp-3{right:58px!important;top:16px!important}
+  .ac-v11-spark.sp-4{right:34px!important;bottom:16px!important}
+  .ac-v11-grid{right:10px!important;bottom:10px!important;width:88px!important;height:54px!important}
+}
+@media(max-width:420px){
+  .ac-blog-app-box[data-blog-app-box="golden-v11"]{
+    grid-template-columns:minmax(0,1fr) 92px!important;
+    padding:16px 12px 16px 14px!important;
+  }
+  .ac-v11-title .line-1{font-size:28px!important}
+  .ac-v11-title .line-2{font-size:35px!important}
+  .ac-v11-sub{font-size:8px!important}
+  .ac-v11-cta{
+    min-width:92px!important;
+    width:92px!important;
+    min-height:50px!important;
+    font-size:8px!important;
+    padding:0 8px!important;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .ac-blog-app-box[data-blog-app-box="golden-v11"]::before,
+  .ac-v11-dot::after,
+  .ac-v11-orb,
+  .ac-v11-ray,
+  .ac-v11-spark,
+  .ac-v11-cta::before,
+  .ac-v11-cta-arrow{
+    animation:none!important;
+  }
+}
+</style>
+
 </head>
 <body class="ac-site-shell">
 <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
@@ -1427,21 +1816,31 @@ main>.apcl-standard-cover{
 </header>
 <main id="main-content" tabindex="-1">
 <div class="article-hero">
-<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v10">
-<span class="ac-app-glow-ring" aria-hidden="true"></span>
-<span class="ac-app-star s1" aria-hidden="true"></span>
-<span class="ac-app-star s2" aria-hidden="true"></span>
-<span class="ac-app-star s3" aria-hidden="true"></span>
-<span class="ac-app-star s4" aria-hidden="true"></span>
-<span class="ac-app-star s5" aria-hidden="true"></span>
-<span class="ac-app-beam b1" aria-hidden="true"></span>
-<span class="ac-app-beam b2" aria-hidden="true"></span>
-<span class="ac-app-corner ac-app-corner-tl" aria-hidden="true"></span>
-<span class="ac-app-corner ac-app-corner-br" aria-hidden="true"></span>
-<span class="ac-blog-app-status"><span class="ac-blog-app-status-dot" aria-hidden="true"></span><strong>LIVE</strong><span aria-hidden="true">//</span><span class="ac-blog-app-signal" aria-hidden="true"><i></i><i></i><i></i></span></span>
-<span class="ac-blog-app-title">APP PHỐI ĐỒ ONLINE</span>
-<span class="ac-blog-app-desc">136 LOOK • CHỌN STYLE • RA OUTFIT</span>
-<span class="ac-blog-app-cta"><span class="ac-blog-app-cta-label">MỞ APP</span><span class="ac-blog-app-arrow" aria-hidden="true">→</span></span>
+<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v11">
+<span class="ac-v11-orb orb-1" aria-hidden="true"></span>
+<span class="ac-v11-orb orb-2" aria-hidden="true"></span>
+<span class="ac-v11-orb orb-3" aria-hidden="true"></span>
+<span class="ac-v11-ray ray-1" aria-hidden="true"></span>
+<span class="ac-v11-ray ray-2" aria-hidden="true"></span>
+<span class="ac-v11-ray ray-3" aria-hidden="true"></span>
+<span class="ac-v11-spark sp-1" aria-hidden="true"></span>
+<span class="ac-v11-spark sp-2" aria-hidden="true"></span>
+<span class="ac-v11-spark sp-3" aria-hidden="true"></span>
+<span class="ac-v11-spark sp-4" aria-hidden="true"></span>
+<span class="ac-v11-spark sp-5" aria-hidden="true"></span>
+<span class="ac-v11-grid" aria-hidden="true"></span>
+<span class="ac-v11-badge"><span class="ac-v11-dot" aria-hidden="true"></span> LOOK GENERATOR</span>
+<span class="ac-v11-title">
+  <span class="line-1">APP PHỐI ĐỒ</span>
+  <span class="line-2">ONLINE</span>
+</span>
+<span class="ac-v11-sub">136 LOOK • CHỌN STYLE • RA OUTFIT</span>
+<span class="ac-v11-cta-wrap">
+  <span class="ac-v11-cta">
+    <span class="ac-v11-cta-label">MỞ APP</span>
+    <span class="ac-v11-cta-arrow" aria-hidden="true">→</span>
+  </span>
+</span>
 </a>
 <div class="article-meta-top">
 <span>Apocalypse Closet</span><span class="dot"></span><span>Outfit Guide</span><span class="dot"></span>
