@@ -146,157 +146,247 @@ main>.apcl-standard-cover .blog-cover-image{
 <link href="/assets/css/internal-look-links.min.css?v=20260806" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site-shell-20260807.css?v=20260807-3">
 <link rel="stylesheet" href="/assets/css/blog-internal-link-hub-fix-20260813.css?v=20260813-2">
-<style id="ac-blog-app-box-v1">
-/* GOLDEN BLOG TEMPLATE V1 — compact App Phối Đồ box before H1 */
+<style id="ac-blog-app-box-v2">
+/* GOLDEN BLOG TEMPLATE V2 — Apocalypse Closet ambient app launcher */
 .ac-blog-app-box{
   position:relative;
+  isolation:isolate;
   display:grid;
-  grid-template-columns:auto minmax(0,1fr) auto;
+  grid-template-columns:minmax(0,1fr) auto;
+  grid-template-areas:
+    "status cta"
+    "title cta"
+    "desc cta";
   align-items:center;
-  gap:14px;
+  column-gap:22px;
+  row-gap:4px;
   width:100%;
   max-width:820px;
-  margin:0 auto 22px;
-  padding:14px 16px;
+  margin:0 auto 24px;
+  padding:17px 18px 16px 20px;
   box-sizing:border-box;
   overflow:hidden;
+  text-decoration:none;
   color:#f0ece4;
   background:
-    linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.012)),
-    #0f0f0f;
-  border:1px solid #343434;
-  border-radius:14px;
-  text-decoration:none;
-  box-shadow:0 12px 32px rgba(0,0,0,.22);
-  transition:border-color .18s ease,transform .18s ease,box-shadow .18s ease;
+    radial-gradient(circle at 12% -35%,rgba(224,84,68,.24),transparent 46%),
+    linear-gradient(115deg,rgba(255,255,255,.035),rgba(255,255,255,.005) 44%,rgba(224,84,68,.025)),
+    repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 1px,transparent 1px 32px),
+    #0d0d0d;
+  border:1px solid #2e2e2e;
+  border-left:3px solid #e05444;
+  border-radius:2px;
+  box-shadow:
+    0 16px 42px rgba(0,0,0,.34),
+    inset 0 1px rgba(255,255,255,.025);
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
+  animation:acAppBreath 4.8s ease-in-out infinite;
+}
+.ac-blog-app-box::before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  top:-90%;
+  bottom:-90%;
+  left:-34%;
+  width:22%;
+  pointer-events:none;
+  background:linear-gradient(90deg,transparent,rgba(240,236,228,.065),rgba(224,84,68,.075),transparent);
+  transform:skewX(-16deg);
+  animation:acAppScan 6.2s cubic-bezier(.4,0,.2,1) infinite;
 }
 .ac-blog-app-box::after{
   content:"";
   position:absolute;
-  inset:-60% auto -60% -28%;
-  width:24%;
-  transform:skewX(-18deg) translateX(-240%);
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent);
+  top:0;
+  left:-34%;
+  width:34%;
+  height:1px;
   pointer-events:none;
+  background:linear-gradient(90deg,transparent,#e05444 54%,rgba(240,236,228,.8),transparent);
+  filter:drop-shadow(0 0 5px rgba(224,84,68,.65));
+  animation:acAppEdge 4.6s ease-in-out infinite;
 }
 .ac-blog-app-box:hover,
 .ac-blog-app-box:focus-visible{
-  border-color:#6f6f6f;
-  transform:translateY(-1px);
-  box-shadow:0 16px 36px rgba(0,0,0,.28);
+  transform:translateY(-2px);
+  border-color:#4a4a4a;
+  border-left-color:#f06b5b;
+  box-shadow:
+    0 20px 52px rgba(0,0,0,.42),
+    0 0 0 1px rgba(224,84,68,.10),
+    inset 0 1px rgba(255,255,255,.04);
   outline:none;
 }
-.ac-blog-app-box:hover::after,
-.ac-blog-app-box:focus-visible::after{
-  animation:acAppSheen .7s ease;
-}
-.ac-blog-app-icon{
-  display:grid;
-  place-items:center;
-  width:38px;
-  height:38px;
-  border:1px solid #3a3a3a;
-  border-radius:12px;
-  background:#171717;
-  color:#e05444;
-  font-size:17px;
-  line-height:1;
-  flex:0 0 auto;
-}
-.ac-blog-app-copy{
+.ac-blog-app-status{
+  grid-area:status;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
   min-width:0;
-}
-.ac-blog-app-kicker{
-  display:block;
-  margin:0 0 3px;
   font-family:'Space Mono',monospace;
-  font-size:10px;
+  font-size:9px;
   font-weight:700;
-  line-height:1.3;
-  letter-spacing:.12em;
+  line-height:1.25;
+  letter-spacing:.15em;
   text-transform:uppercase;
+  color:#a9a49b;
+}
+.ac-blog-app-status-dot{
+  position:relative;
+  display:inline-block;
+  width:6px;
+  height:6px;
+  flex:0 0 6px;
+  border-radius:50%;
+  background:#e05444;
+  box-shadow:0 0 0 0 rgba(224,84,68,.45);
+  animation:acAppDot 2.2s ease-out infinite;
+}
+.ac-blog-app-status strong{
   color:#e05444;
+  font-weight:700;
 }
 .ac-blog-app-title{
+  grid-area:title;
   display:block;
-  margin:0;
+  margin:1px 0 0;
   font-family:'Oswald',sans-serif;
-  font-size:18px;
+  font-size:22px;
   font-weight:600;
-  line-height:1.2;
-  letter-spacing:.02em;
+  line-height:1.1;
+  letter-spacing:.025em;
+  text-transform:uppercase;
   color:#f0ece4;
+  text-wrap:balance;
 }
 .ac-blog-app-desc{
+  grid-area:desc;
   display:block;
-  margin-top:3px;
+  max-width:610px;
+  margin-top:2px;
   font-size:12px;
-  line-height:1.5;
+  line-height:1.55;
   color:#aaa69e;
 }
 .ac-blog-app-cta{
+  grid-area:cta;
+  position:relative;
   display:inline-flex;
   align-items:center;
-  gap:7px;
-  white-space:nowrap;
+  justify-content:center;
+  gap:10px;
+  min-width:116px;
+  min-height:46px;
+  padding:0 14px;
+  box-sizing:border-box;
+  border:1px solid #373737;
+  background:rgba(8,8,8,.52);
   font-family:'Space Mono',monospace;
   font-size:10px;
   font-weight:700;
-  letter-spacing:.08em;
+  letter-spacing:.1em;
   text-transform:uppercase;
   color:#f0ece4;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.ac-blog-app-cta::before{
+  content:"";
+  position:absolute;
+  inset:auto 0 0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#e05444,transparent);
+  transform:translateX(-110%);
+  animation:acAppCtaLine 3.4s ease-in-out infinite;
 }
 .ac-blog-app-arrow{
   display:inline-block;
-  transition:transform .18s ease;
+  color:#e05444;
+  animation:acAppArrow 1.45s ease-in-out infinite;
 }
-.ac-blog-app-box:hover .ac-blog-app-arrow,
-.ac-blog-app-box:focus-visible .ac-blog-app-arrow{
-  transform:translateX(3px);
+.ac-blog-app-box:hover .ac-blog-app-cta,
+.ac-blog-app-box:focus-visible .ac-blog-app-cta{
+  border-color:#666;
+  background:rgba(240,236,228,.055);
 }
-@keyframes acAppSheen{
-  from{transform:skewX(-18deg) translateX(-240%)}
-  to{transform:skewX(-18deg) translateX(720%)}
+@keyframes acAppBreath{
+  0%,100%{
+    box-shadow:0 16px 42px rgba(0,0,0,.34),0 0 0 rgba(224,84,68,0),inset 0 1px rgba(255,255,255,.025)
+  }
+  50%{
+    box-shadow:0 16px 42px rgba(0,0,0,.34),0 0 24px rgba(224,84,68,.07),inset 0 1px rgba(255,255,255,.035)
+  }
+}
+@keyframes acAppScan{
+  0%,14%{transform:translateX(-15%) skewX(-16deg);opacity:0}
+  20%{opacity:.72}
+  48%{transform:translateX(640%) skewX(-16deg);opacity:.18}
+  49%,100%{transform:translateX(640%) skewX(-16deg);opacity:0}
+}
+@keyframes acAppEdge{
+  0%,18%{transform:translateX(0);opacity:0}
+  24%{opacity:.9}
+  54%{transform:translateX(395%);opacity:.25}
+  55%,100%{transform:translateX(395%);opacity:0}
+}
+@keyframes acAppDot{
+  0%{box-shadow:0 0 0 0 rgba(224,84,68,.42)}
+  60%,100%{box-shadow:0 0 0 9px rgba(224,84,68,0)}
+}
+@keyframes acAppCtaLine{
+  0%,28%{transform:translateX(-110%);opacity:0}
+  34%{opacity:1}
+  58%{transform:translateX(110%);opacity:.3}
+  59%,100%{transform:translateX(110%);opacity:0}
+}
+@keyframes acAppArrow{
+  0%,100%{transform:translateX(0)}
+  50%{transform:translateX(3px)}
 }
 @media(max-width:768px){
   .ac-blog-app-box{
-    grid-template-columns:auto minmax(0,1fr);
-    gap:10px 12px;
-    margin-bottom:18px;
-    padding:12px 13px;
-    border-radius:12px;
+    grid-template-columns:minmax(0,1fr) auto;
+    grid-template-areas:
+      "status status"
+      "title cta"
+      "desc desc";
+    column-gap:12px;
+    row-gap:5px;
+    margin-bottom:20px;
+    padding:14px 13px 13px 15px;
   }
-  .ac-blog-app-icon{
-    width:34px;
-    height:34px;
-    border-radius:10px;
-    font-size:15px;
-  }
-  .ac-blog-app-title{font-size:16px}
-  .ac-blog-app-desc{font-size:11px}
+  .ac-blog-app-title{font-size:18px}
+  .ac-blog-app-desc{font-size:11px;line-height:1.5}
   .ac-blog-app-cta{
-    grid-column:2;
-    justify-self:start;
-    margin-top:-2px;
-    font-size:9px;
+    min-width:88px;
+    min-height:38px;
+    padding:0 10px;
+    font-size:8px;
+    letter-spacing:.07em;
   }
+  .ac-blog-app-status{font-size:8px;gap:7px}
 }
 @media(max-width:420px){
   .ac-blog-app-box{
-    width:100%;
-    padding:11px 12px;
+    grid-template-columns:minmax(0,1fr) auto;
+    padding:13px 11px 12px 13px;
   }
-  .ac-blog-app-desc{
-    max-width:28ch;
-  }
+  .ac-blog-app-title{font-size:17px}
+  .ac-blog-app-desc{max-width:34ch}
+  .ac-blog-app-cta{min-width:76px;padding:0 8px}
+  .ac-blog-app-cta-label{display:none}
+  .ac-blog-app-arrow{font-size:17px}
 }
 @media(prefers-reduced-motion:reduce){
   .ac-blog-app-box,
+  .ac-blog-app-box::before,
+  .ac-blog-app-box::after,
+  .ac-blog-app-status-dot,
+  .ac-blog-app-cta::before,
   .ac-blog-app-arrow{
+    animation:none!important;
     transition:none!important;
-  }
-  .ac-blog-app-box::after{
-    display:none!important;
   }
 }
 </style>
@@ -321,14 +411,11 @@ main>.apcl-standard-cover .blog-cover-image{
 </header>
 <main id="main-content" tabindex="-1">
 <div class="article-hero">
-<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online của Apocalypse Closet" data-blog-app-box="golden-v1">
-  <span class="ac-blog-app-icon" aria-hidden="true">✦</span>
-  <span class="ac-blog-app-copy">
-    <span class="ac-blog-app-kicker">App Phối Đồ Online</span>
-    <span class="ac-blog-app-title">Không biết mặc gì? Tìm Look hợp với bạn.</span>
-    <span class="ac-blog-app-desc">Chọn phong cách và dịp mặc để Apocalypse gợi ý từ 136 Look trong Closet.</span>
-  </span>
-  <span class="ac-blog-app-cta">Thử phối đồ <span class="ac-blog-app-arrow" aria-hidden="true">→</span></span>
+<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v2">
+  <span class="ac-blog-app-status"><span class="ac-blog-app-status-dot" aria-hidden="true"></span><strong>App phối đồ online</strong><span aria-hidden="true">//</span> 136 Look</span>
+  <span class="ac-blog-app-title">Chưa biết mặc gì đi chơi?</span>
+  <span class="ac-blog-app-desc">Chọn style + dịp mặc. App lọc nhanh 3 Look từ Closet để bạn bắt đầu phối đồ.</span>
+  <span class="ac-blog-app-cta"><span class="ac-blog-app-cta-label">Mở App</span><span class="ac-blog-app-arrow" aria-hidden="true">→</span></span>
 </a>
 <div class="article-meta-top">
 <span>Apocalypse Closet</span>
@@ -384,12 +471,12 @@ main>.apcl-standard-cover .blog-cover-image{
 
 <script id="ac-blog-app-box-tracking-v1">
 document.addEventListener('DOMContentLoaded',function(){
-  var appBox=document.querySelector('[data-blog-app-box="golden-v1"]');
+  var appBox=document.querySelector('[data-blog-app-box="golden-v2"]');
   if(!appBox)return;
   appBox.addEventListener('click',function(){
     if(typeof window.gtag==='function'){
       window.gtag('event','click_blog_to_app',{
-        source:'golden_blog_app_box',
+        source:'golden_blog_app_box_v2',
         page_path:window.location.pathname,
         destination:'/app-phoi-do.html'
       });
