@@ -1796,6 +1796,305 @@ main>.apcl-standard-cover{
 }
 </style>
 
+
+<style id="ac-app-box-v12-starburst">
+/* V12: centered minimal box + outward star burst hook */
+.ac-blog-app-box[data-blog-app-box="golden-v12"]{
+  position:relative!important;
+  isolation:isolate!important;
+  overflow:hidden!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:16px!important;
+  width:100%!important;
+  max-width:840px!important;
+  min-height:210px!important;
+  margin:0 auto 34px!important;
+  padding:28px 24px 28px!important;
+  text-decoration:none!important;
+  text-align:center!important;
+  color:#fff6ec!important;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255,117,96,.18), transparent 24%),
+    radial-gradient(circle at 22% 18%, rgba(255,239,209,.08), transparent 16%),
+    radial-gradient(circle at 78% 82%, rgba(255,108,84,.08), transparent 18%),
+    linear-gradient(140deg, rgba(255,102,82,.12), transparent 38%),
+    #060606!important;
+  border:1px solid #87443c!important;
+  border-left:5px solid #ff725f!important;
+  border-radius:6px!important;
+  box-shadow:
+    0 24px 60px rgba(0,0,0,.54),
+    0 0 0 1px rgba(255,114,95,.10),
+    0 0 44px rgba(255,94,74,.10),
+    inset 0 1px 0 rgba(255,255,255,.04)!important;
+  transform:translateZ(0)!important;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease!important;
+}
+.ac-blog-app-box[data-blog-app-box="golden-v12"]:hover,
+.ac-blog-app-box[data-blog-app-box="golden-v12"]:focus-visible{
+  transform:translateY(-4px) translateZ(0)!important;
+  border-color:#b55649!important;
+  border-left-color:#ff836f!important;
+  box-shadow:
+    0 28px 70px rgba(0,0,0,.56),
+    0 0 0 1px rgba(255,126,108,.15),
+    0 0 64px rgba(255,104,84,.16),
+    inset 0 1px 0 rgba(255,255,255,.05)!important;
+  outline:none!important;
+}
+.ac-blog-app-box[data-blog-app-box="golden-v12"]::before{
+  content:""!important;
+  position:absolute!important;
+  inset:-24% auto -24% -30%!important;
+  width:26%!important;
+  z-index:0!important;
+  pointer-events:none!important;
+  opacity:0!important;
+  background:linear-gradient(90deg,transparent,rgba(255,128,104,.04),rgba(255,146,116,.24),rgba(255,242,224,.22),rgba(255,108,84,.10),transparent)!important;
+  transform:translateX(-20%) skewX(-14deg)!important;
+  animation:acV12Sweep 3.4s cubic-bezier(.4,0,.2,1) infinite!important;
+}
+.ac-blog-app-box[data-blog-app-box="golden-v12"]::after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:0!important;
+  pointer-events:none!important;
+  background:
+    linear-gradient(90deg, transparent 0 5%, rgba(255,255,255,.03) 5% 5.25%, transparent 5.25% 100%),
+    linear-gradient(180deg, transparent 0 92%, rgba(255,114,95,.18) 92% 93%, transparent 93% 100%)!important;
+  opacity:.9!important;
+}
+
+/* Core light */
+.ac-v12-glow{
+  position:absolute!important;
+  pointer-events:none!important;
+  border-radius:50%!important;
+  z-index:1!important;
+}
+.ac-v12-glow.core-glow{
+  left:50%!important; top:50%!important;
+  width:260px!important; height:260px!important;
+  transform:translate(-50%,-50%)!important;
+  background:radial-gradient(circle, rgba(255,120,98,.22) 0, rgba(255,120,98,.10) 34%, transparent 70%)!important;
+  animation:acV12Breath 3s ease-in-out infinite!important;
+}
+.ac-v12-glow.halo-1{
+  left:50%!important; top:50%!important;
+  width:330px!important; height:330px!important;
+  transform:translate(-50%,-50%)!important;
+  background:radial-gradient(circle, rgba(255,235,205,.07), transparent 67%)!important;
+  animation:acV12Breath 3.6s ease-in-out .4s infinite!important;
+}
+.ac-v12-glow.halo-2{
+  left:50%!important; top:50%!important;
+  width:390px!important; height:390px!important;
+  transform:translate(-50%,-50%)!important;
+  background:radial-gradient(circle, rgba(255,103,83,.05), transparent 72%)!important;
+  animation:acV12Breath 4.1s ease-in-out .8s infinite!important;
+}
+
+/* centered content */
+.ac-v12-title{
+  position:relative!important;
+  z-index:3!important;
+  display:block!important;
+  max-width:100%!important;
+  margin:0!important;
+  font-family:'Oswald',sans-serif!important;
+  font-size:clamp(44px,5.5vw,74px)!important;
+  font-weight:700!important;
+  line-height:.95!important;
+  letter-spacing:.01em!important;
+  text-transform:uppercase!important;
+  color:#fff6ec!important;
+  text-align:center!important;
+  text-shadow:
+    0 2px 0 rgba(0,0,0,.62),
+    0 0 20px rgba(255,114,92,.14)!important;
+}
+.ac-v12-cta-wrap{
+  position:relative!important;
+  z-index:3!important;
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  width:100%!important;
+}
+.ac-v12-cta{
+  position:relative!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:12px!important;
+  min-width:190px!important;
+  min-height:74px!important;
+  padding:0 22px!important;
+  border:1px solid #ff7c69!important;
+  border-radius:4px!important;
+  overflow:hidden!important;
+  background:linear-gradient(180deg,#ff8471 0%, #ff664f 100%)!important;
+  color:#090909!important;
+  font-family:'Space Mono',monospace!important;
+  font-size:12px!important;
+  font-weight:700!important;
+  letter-spacing:.14em!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  box-shadow:
+    0 14px 30px rgba(255,102,79,.24),
+    0 0 0 1px rgba(255,255,255,.08) inset!important;
+}
+.ac-v12-cta::before{
+  content:""!important;
+  position:absolute!important;
+  inset:-1px!important;
+  pointer-events:none!important;
+  background:linear-gradient(110deg, transparent 22%, rgba(255,255,255,.46) 47%, transparent 69%)!important;
+  transform:translateX(-150%)!important;
+  animation:acV12CtaSweep 2.3s ease-in-out infinite!important;
+}
+.ac-v12-cta::after{
+  content:""!important;
+  position:absolute!important;
+  left:7px!important;
+  bottom:7px!important;
+  width:7px!important;
+  height:7px!important;
+  background:#fff3dd!important;
+  box-shadow:0 0 10px rgba(255,243,221,.8)!important;
+}
+.ac-v12-cta-arrow{
+  font-size:20px!important;
+  font-weight:700!important;
+  animation:acV12Arrow 1s ease-in-out infinite!important;
+}
+
+/* Outward star burst */
+.ac-v12-star{
+  position:absolute!important;
+  left:50%!important;
+  top:50%!important;
+  width:12px!important;
+  height:12px!important;
+  margin-left:-6px!important;
+  margin-top:-6px!important;
+  z-index:2!important;
+  pointer-events:none!important;
+  opacity:0!important;
+}
+.ac-v12-star::before,
+.ac-v12-star::after{
+  content:""!important;
+  position:absolute!important;
+  left:50%!important; top:50%!important;
+  background:#fff0d6!important;
+  transform:translate(-50%,-50%)!important;
+  box-shadow:0 0 12px rgba(255,235,195,.75)!important;
+}
+.ac-v12-star::before{width:12px!important;height:2px!important}
+.ac-v12-star::after{width:2px!important;height:12px!important}
+
+/* Each star flies outward in a different direction */
+.ac-v12-star.s1{animation:acV12Burst1 1.9s linear infinite!important}
+.ac-v12-star.s2{animation:acV12Burst2 2.1s linear .22s infinite!important}
+.ac-v12-star.s3{animation:acV12Burst3 1.8s linear .40s infinite!important}
+.ac-v12-star.s4{animation:acV12Burst4 2.2s linear .58s infinite!important}
+.ac-v12-star.s5{animation:acV12Burst5 1.95s linear .74s infinite!important}
+.ac-v12-star.s6{animation:acV12Burst6 2.15s linear .92s infinite!important}
+.ac-v12-star.s7{animation:acV12Burst7 1.85s linear 1.08s infinite!important}
+.ac-v12-star.s8{animation:acV12Burst8 2.05s linear 1.26s infinite!important}
+.ac-v12-star.s9{animation:acV12Burst9 2.25s linear 1.42s infinite!important}
+.ac-v12-star.s10{animation:acV12Burst10 1.92s linear 1.58s infinite!important}
+.ac-v12-star.s11{animation:acV12Burst11 2.08s linear 1.74s infinite!important}
+.ac-v12-star.s12{animation:acV12Burst12 1.88s linear 1.90s infinite!important}
+
+@keyframes acV12Sweep{
+  0%,10%{transform:translateX(-20%) skewX(-14deg);opacity:0}
+  16%{opacity:.92}
+  44%{transform:translateX(650%) skewX(-14deg);opacity:.18}
+  45%,100%{transform:translateX(650%) skewX(-14deg);opacity:0}
+}
+@keyframes acV12Breath{
+  0%,100%{transform:translate(-50%,-50%) scale(.94);opacity:.55}
+  50%{transform:translate(-50%,-50%) scale(1.05);opacity:1}
+}
+@keyframes acV12CtaSweep{
+  0%,24%{transform:translateX(-150%);opacity:0}
+  34%{opacity:.84}
+  60%{transform:translateX(150%);opacity:.18}
+  61%,100%{transform:translateX(150%);opacity:0}
+}
+@keyframes acV12Arrow{
+  0%,100%{transform:translateX(0)}
+  50%{transform:translateX(5px)}
+}
+
+/* burst paths */
+@keyframes acV12Burst1{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-170px,-90px) scale(1.15) rotate(120deg);opacity:0}}
+@keyframes acV12Burst2{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-112px,-138px) scale(1.0) rotate(160deg);opacity:0}}
+@keyframes acV12Burst3{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-20px,-166px) scale(1.2) rotate(180deg);opacity:0}}
+@keyframes acV12Burst4{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(100px,-144px) scale(1.08) rotate(200deg);opacity:0}}
+@keyframes acV12Burst5{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(168px,-82px) scale(1.15) rotate(240deg);opacity:0}}
+@keyframes acV12Burst6{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(186px,12px) scale(1.0) rotate(180deg);opacity:0}}
+@keyframes acV12Burst7{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(142px,102px) scale(1.1) rotate(150deg);opacity:0}}
+@keyframes acV12Burst8{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(58px,154px) scale(1.18) rotate(210deg);opacity:0}}
+@keyframes acV12Burst9{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-42px,166px) scale(1.06) rotate(170deg);opacity:0}}
+@keyframes acV12Burst10{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-134px,132px) scale(1.14) rotate(220deg);opacity:0}}
+@keyframes acV12Burst11{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-182px,46px) scale(1.0) rotate(160deg);opacity:0}}
+@keyframes acV12Burst12{0%{transform:translate(0,0) scale(.4) rotate(0deg);opacity:0}12%{opacity:1}100%{transform:translate(-174px,-20px) scale(1.1) rotate(190deg);opacity:0}}
+
+/* mobile balance */
+@media(max-width:768px){
+  .ac-blog-app-box[data-blog-app-box="golden-v12"]{
+    min-height:190px!important;
+    padding:22px 14px 22px!important;
+    gap:14px!important;
+    margin:0 auto 24px!important;
+  }
+  .ac-v12-title{
+    font-size:clamp(32px,8.8vw,46px)!important;
+    line-height:.97!important;
+  }
+  .ac-v12-cta{
+    min-width:142px!important;
+    min-height:58px!important;
+    padding:0 14px!important;
+    font-size:9px!important;
+    letter-spacing:.09em!important;
+  }
+  .ac-v12-cta-arrow{font-size:16px!important}
+  .ac-v12-glow.core-glow{width:190px!important;height:190px!important}
+  .ac-v12-glow.halo-1{width:250px!important;height:250px!important}
+  .ac-v12-glow.halo-2{width:310px!important;height:310px!important}
+  @keyframes acV12Burst1{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-108px,-58px) scale(1.1);opacity:0}}
+  @keyframes acV12Burst2{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-68px,-96px) scale(1.0);opacity:0}}
+  @keyframes acV12Burst3{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-10px,-110px) scale(1.1);opacity:0}}
+  @keyframes acV12Burst4{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(72px,-98px) scale(1.05);opacity:0}}
+  @keyframes acV12Burst5{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(114px,-52px) scale(1.08);opacity:0}}
+  @keyframes acV12Burst6{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(124px,8px) scale(1.0);opacity:0}}
+  @keyframes acV12Burst7{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(96px,72px) scale(1.05);opacity:0}}
+  @keyframes acV12Burst8{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(40px,108px) scale(1.1);opacity:0}}
+  @keyframes acV12Burst9{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-28px,112px) scale(1.0);opacity:0}}
+  @keyframes acV12Burst10{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-88px,88px) scale(1.08);opacity:0}}
+  @keyframes acV12Burst11{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-118px,30px) scale(1.0);opacity:0}}
+  @keyframes acV12Burst12{0%{transform:translate(0,0) scale(.4);opacity:0}12%{opacity:1}100%{transform:translate(-112px,-16px) scale(1.04);opacity:0}}
+}
+@media(prefers-reduced-motion:reduce){
+  .ac-blog-app-box[data-blog-app-box="golden-v12"]::before,
+  .ac-v12-glow,
+  .ac-v12-star,
+  .ac-v12-cta::before,
+  .ac-v12-cta-arrow{
+    animation:none!important;
+  }
+}
+</style>
+
 </head>
 <body class="ac-site-shell">
 <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
@@ -1816,29 +2115,29 @@ main>.apcl-standard-cover{
 </header>
 <main id="main-content" tabindex="-1">
 <div class="article-hero">
-<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v11">
-<span class="ac-v11-orb orb-1" aria-hidden="true"></span>
-<span class="ac-v11-orb orb-2" aria-hidden="true"></span>
-<span class="ac-v11-orb orb-3" aria-hidden="true"></span>
-<span class="ac-v11-ray ray-1" aria-hidden="true"></span>
-<span class="ac-v11-ray ray-2" aria-hidden="true"></span>
-<span class="ac-v11-ray ray-3" aria-hidden="true"></span>
-<span class="ac-v11-spark sp-1" aria-hidden="true"></span>
-<span class="ac-v11-spark sp-2" aria-hidden="true"></span>
-<span class="ac-v11-spark sp-3" aria-hidden="true"></span>
-<span class="ac-v11-spark sp-4" aria-hidden="true"></span>
-<span class="ac-v11-spark sp-5" aria-hidden="true"></span>
-<span class="ac-v11-grid" aria-hidden="true"></span>
-<span class="ac-v11-badge"><span class="ac-v11-dot" aria-hidden="true"></span> LOOK GENERATOR</span>
-<span class="ac-v11-title">
-  <span class="line-1">APP PHỐI ĐỒ</span>
-  <span class="line-2">ONLINE</span>
-</span>
-<span class="ac-v11-sub">136 LOOK • CHỌN STYLE • RA OUTFIT</span>
-<span class="ac-v11-cta-wrap">
-  <span class="ac-v11-cta">
-    <span class="ac-v11-cta-label">MỞ APP</span>
-    <span class="ac-v11-cta-arrow" aria-hidden="true">→</span>
+<a class="ac-blog-app-box" href="/app-phoi-do.html" aria-label="Mở App Phối Đồ Online — chọn style và dịp mặc để nhận gợi ý outfit" data-blog-app-box="golden-v12">
+<span class="ac-v12-glow core-glow" aria-hidden="true"></span>
+<span class="ac-v12-glow halo-1" aria-hidden="true"></span>
+<span class="ac-v12-glow halo-2" aria-hidden="true"></span>
+
+<span class="ac-v12-star burst s1" aria-hidden="true"></span>
+<span class="ac-v12-star burst s2" aria-hidden="true"></span>
+<span class="ac-v12-star burst s3" aria-hidden="true"></span>
+<span class="ac-v12-star burst s4" aria-hidden="true"></span>
+<span class="ac-v12-star burst s5" aria-hidden="true"></span>
+<span class="ac-v12-star burst s6" aria-hidden="true"></span>
+<span class="ac-v12-star burst s7" aria-hidden="true"></span>
+<span class="ac-v12-star burst s8" aria-hidden="true"></span>
+<span class="ac-v12-star burst s9" aria-hidden="true"></span>
+<span class="ac-v12-star burst s10" aria-hidden="true"></span>
+<span class="ac-v12-star burst s11" aria-hidden="true"></span>
+<span class="ac-v12-star burst s12" aria-hidden="true"></span>
+
+<span class="ac-v12-title">APP PHỐI ĐỒ ONLINE</span>
+<span class="ac-v12-cta-wrap">
+  <span class="ac-v12-cta">
+    <span class="ac-v12-cta-label">MỞ APP</span>
+    <span class="ac-v12-cta-arrow" aria-hidden="true">→</span>
   </span>
 </span>
 </a>
