@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://apocalypsecloset.com/</loc>
@@ -485,7 +485,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -803,7 +803,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -821,7 +821,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-18-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1016,7 +1016,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1079,7 +1079,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-01-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1262,7 +1262,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-baddie-streetwear-look-07-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1664,7 +1664,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-11-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4151,5 +4151,50 @@
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/casual-chic-la-gi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/casual-chic-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/minimalist-style-la-gi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/minimalist-style-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/vintage-style-la-gi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/vintage-style-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/boho-chic-la-gi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/boho-chic-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/classic-style-la-gi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/classic-style-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

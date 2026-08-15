@@ -1,5 +1,45 @@
 window.searchIndex = [
   {
+    "title": "Casual Chic Là Gì? Cách Phối Đồ Nữ Chỉn Chu Mà Không Gồng",
+    "url": "/blog/casual-chic-la-gi.html",
+    "type": "Style Guide",
+    "description": "Casual Chic là gì? Hướng dẫn phối đồ Casual Chic nữ với jeans, blazer, knit, váy, sneaker và loafer; phân biệt Casual Chic với Smart Casual và Business Casual.",
+    "image": "/images/blog-covers/casual-chic-la-gi.webp?v=20260815-cover2",
+    "keywords": "casual chic, casual chic là gì, casual chic style, phong cách casual chic, casual chic outfit nữ, casual chic nữ, phối đồ casual chic, casual chic đi làm, casual chic đi chơi, smart casual và casual chic"
+  },
+  {
+    "title": "Minimalist Style Là Gì? Phối Đồ Tối Giản Mà Không Nhạt",
+    "url": "/blog/minimalist-style-la-gi.html",
+    "type": "Style Guide",
+    "description": "Minimalist Style là gì? Cách xây outfit tối giản nữ bằng silhouette, bảng màu, chất liệu và capsule wardrobe; phân biệt Minimalist với Clean Girl và Quiet Luxury.",
+    "image": "/images/blog-covers/minimalist-style-la-gi.webp?v=20260815-cover2",
+    "keywords": "minimalist style, minimalist style là gì, phong cách minimalist, minimalist fashion, minimalist outfit nữ, thời trang tối giản nữ, phối đồ minimalist, minimalist wardrobe, outfit tối giản nữ, minimal style nữ"
+  },
+  {
+    "title": "Vintage Style Là Gì? Phối Đồ Vintage Nữ Mà Không Thành Costume",
+    "url": "/blog/vintage-style-la-gi.html",
+    "type": "Style Guide",
+    "description": "Vintage Style là gì? Hướng dẫn phối đồ vintage nữ, phân biệt vintage với retro, chọn thập niên tham chiếu, đồ secondhand, phụ kiện và cách pha vintage với dark/alt fashion.",
+    "image": "/images/blog-covers/vintage-style-la-gi.webp?v=20260815-cover2",
+    "keywords": "vintage style, vintage style là gì, phong cách vintage, vintage fashion, vintage outfit nữ, phối đồ vintage nữ, vintage aesthetic, retro và vintage khác nhau, vintage style nữ, đồ vintage nữ"
+  },
+  {
+    "title": "Boho Chic Là Gì? Phối Đồ Bohemian Nữ Bay Nhưng Không Rối",
+    "url": "/blog/boho-chic-la-gi.html",
+    "type": "Style Guide",
+    "description": "Boho Chic là gì? Hướng dẫn phối đồ Boho Chic nữ với váy dài, crochet, suede, layer, phụ kiện; phân biệt Boho và Bohemian, cách mặc ở khí hậu nóng và Dark Boho.",
+    "image": "/images/blog-covers/boho-chic-la-gi.webp?v=20260815-cover2",
+    "keywords": "boho chic, boho chic là gì, boho chic style, phong cách boho chic, boho outfit nữ, bohemian style nữ, boho chic outfit, phối đồ boho chic, boho và bohemian, boho aesthetic"
+  },
+  {
+    "title": "Classic Style Là Gì? Phong Cách Cổ Điển Nữ Mặc Lâu Vẫn Đẹp",
+    "url": "/blog/classic-style-la-gi.html",
+    "type": "Style Guide",
+    "description": "Classic Style là gì? Hướng dẫn phong cách cổ điển nữ với blazer, sơ mi, quần suông, váy, loafer; phân biệt Classic với Old Money, Minimalist và Quiet Luxury.",
+    "image": "/images/blog-covers/classic-style-la-gi.webp?v=20260815-cover2",
+    "keywords": "classic style, classic style là gì, phong cách classic, classic fashion, classic outfit nữ, phong cách thời trang cổ điển, classic wardrobe, phối đồ classic nữ, timeless style, classic và minimalist"
+  },
+  {
     "title": "App Phối Đồ Online – Tạo Outfit Theo Gu",
     "url": "/app-phoi-do.html",
     "type": "Tool",
