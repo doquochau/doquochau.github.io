@@ -1206,6 +1206,119 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 }
 </style>
 
+
+<style id="ac-home-app-hero-v1">
+  /* Compact App CTA on homepage — desktop balanced, mobile keeps the current compact flow. */
+  .hero {
+    align-items: center;
+    gap: clamp(24px, 4vw, 56px);
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .hero-copy {
+    flex: 1 1 620px;
+    min-width: 0;
+  }
+
+  .hero-side {
+    flex: 0 1 500px;
+    width: min(100%, 500px);
+    max-width: 500px;
+    align-items: stretch;
+  }
+
+  .hero-app-card {
+    width: 100%;
+    min-height: 92px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 150px;
+    align-items: center;
+    gap: 22px;
+    padding: 16px 18px 16px 22px;
+    border: 1px solid rgba(224,84,68,.72);
+    background: #0b0b0b;
+    color: var(--white);
+    text-decoration: none;
+    box-shadow: 0 10px 28px rgba(0,0,0,.22);
+    transition: border-color .18s ease, background .18s ease, transform .18s ease;
+  }
+
+  .hero-app-card:hover,
+  .hero-app-card:focus-visible {
+    border-color: var(--red-text);
+    background: #101010;
+    transform: translateY(-1px);
+    outline: none;
+  }
+
+  .hero-app-title {
+    min-width: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(20px, 1.7vw, 26px);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: .045em;
+    text-transform: uppercase;
+  }
+
+  .hero-app-button {
+    min-height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 18px;
+    background: var(--red);
+    border: 1px solid var(--red);
+    color: #fff;
+    font: 700 10px/1 'Space Mono', monospace;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .hero-app-button > span {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 14px 16px;
+      display: block;
+    }
+
+    .hero-copy {
+      width: 100%;
+    }
+
+    .hero-side {
+      width: 100%;
+      max-width: none;
+      margin-top: 12px;
+    }
+
+    .hero-app-card {
+      min-height: 0;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    .hero-app-title {
+      font-size: 18px;
+      line-height: 1.1;
+    }
+
+    .hero-app-button {
+      width: 100%;
+      min-height: 42px;
+      font-size: 9px;
+    }
+  }
+</style>
+
 </head>
 <body class="ac-site-shell">
 <header class="ac-site-header">
@@ -1231,11 +1344,16 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 <input aria-label="Tìm outfit, phong cách hoặc bài viết" id="search-input" name="q" placeholder="TÌM OUTFIT, STYLE, BLOG... VD: Y2K, QUẦN ỐNG RỘNG, GOTH" type="search"/>
 </form>
 <section class="hero">
-<div>
+<div class="hero-copy">
 <div class="hero-label">// 136 LOOKS · 5 PHONG CÁCH · OUTFIT BUILDER</div>
 <h1 class="hero-title"><span>Outfit Nữ Cá Tính</span> Theo Gu Của Bạn</h1>
 </div>
-<div class="hero-side"><p class="hero-sub">Khám phá 136 Look theo E-Girl, Dark Feminine, Goth, Baddie và Grunge — hoặc để Outfit Builder tìm 3 outfit phù hợp với gu, dịp mặc và kiểu đồ bạn muốn.</p><div class="hero-actions"><a class="hero-builder-cta" href="/app-phoi-do.html">TÌM OUTFIT CHO TÔI <span aria-hidden="true">→</span></a></div></div>
+<div class="hero-side">
+<a class="hero-app-card" href="/app-phoi-do.html" aria-label="Mở App phối đồ online">
+<span class="hero-app-title">APP PHỐI ĐỒ ONLINE</span>
+<span class="hero-app-button">MỞ APP <span aria-hidden="true">→</span></span>
+</a>
+</div>
 </section>
 <div class="ac-filter-root" data-ac-filter-mode="home" id="outfit-filter-root"></div>
 <div aria-busy="true" class="outfit-grid" id="outfit-grid"></div>
@@ -1338,7 +1456,11 @@ body.ac-closet-page>.ac-site-footer{visibility:visible!important}
 
     mobileSource.srcset = mobileSet;
     img.src = urls.grid;
-    img.srcset = fullSet;
+    if (mobile) {
+      img.srcset = fullSet;
+    } else {
+      img.removeAttribute('srcset');
+    }
     img.dataset.acLoaded = '1';
   };
   function createCard(outfit, priority, highest) {
