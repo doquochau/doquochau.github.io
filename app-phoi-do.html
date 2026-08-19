@@ -55,6 +55,17 @@
 .builder-faq details{scroll-margin-top:90px}
 @media(max-width:960px){.builder-trust{grid-template-columns:1fr 1fr}.builder-steps{grid-template-columns:1fr}.builder-use-grid,.builder-compare{grid-template-columns:1fr}}
 @media(max-width:620px){.builder-trust{grid-template-columns:1fr}.builder-content{margin-top:46px}.builder-section{padding:23px 0}.builder-section h2{font-size:24px}.builder-inline-cta{display:block}.builder-inline-cta a{display:inline-block;margin-top:14px}}
+
+
+/* image clarity + anti-crop fixes */
+.sty-main img{max-width:100%;height:auto}
+.sty-hero-minimal,.sty-app,.sty-results-wrap,.sty-panel,.sty-seo-support{scroll-margin-top:128px}
+.sty-hero-minimal .sty-hero-visual{display:flex;align-items:center;justify-content:center;padding:12px 12px 0}
+.sty-hero-minimal .sty-hero-visual img{width:100%;height:100%;object-fit:contain;object-position:center top;display:block;transform:none!important}
+#sty-results img,#sty-quiz-pair img,#sty-drawer-content img{display:block;width:100%;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center top!important;image-rendering:auto;transform:none!important;backface-visibility:hidden}
+#sty-results a:hover img,#sty-results button:hover img,#sty-quiz-pair button:hover img,#sty-drawer-content a:hover img{transform:none!important}
+#sty-results [class*="image"],#sty-results [class*="media"],#sty-results [class*="visual"],#sty-quiz-pair [class*="image"],#sty-quiz-pair [class*="media"],#sty-drawer-content [class*="image"],#sty-drawer-content [class*="media"],#sty-drawer-content [class*="visual"]{overflow:visible!important}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Apocalypse Closet – App Phối Đồ Online","alternateName":"Style DNA & Outfit Recommender Apocalypse Closet","url":"https://apocalypsecloset.com/app-phoi-do.html","applicationCategory":"LifestyleApplication","operatingSystem":"Web","browserRequirements":"Requires JavaScript","inLanguage":"vi-VN","isAccessibleForFree":true,"description":"App phối đồ online miễn phí giúp khám phá Style DNA bằng lựa chọn outfit A/B và xếp hạng Outfit Match theo gu từ 136 Look đang xuất bản của Apocalypse Closet.","featureList":["Khám phá Style DNA bằng 8 lựa chọn outfit A/B","Lưu Style DNA trên trình duyệt","Kết hợp gu với dịp mặc, quần/váy, footwear và độ layer","Tính Outfit Match tương đối trong 136 Look","Mở Look để xem các item và sản phẩm gợi ý"],"offers":{"@type":"Offer","price":"0","priceCurrency":"VND"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"App phối đồ là gì?","acceptedAnswer":{"@type":"Answer","text":"App phối đồ là công cụ giúp bạn thu hẹp lựa chọn outfit theo gu và nhu cầu mặc. Apocalypse Closet dùng Style DNA từ lựa chọn A/B cùng các tiêu chí như dịp mặc, quần/váy, giày và độ layer để xếp hạng Look phù hợp."}},{"@type":"Question","name":"App phối đồ Apocalypse Closet có miễn phí không?","acceptedAnswer":{"@type":"Answer","text":"Có. Style Discovery và Outfit Recommender hiện được dùng miễn phí trực tiếp trên website Apocalypse Closet."}},{"@type":"Question","name":"Tôi có cần tải app về điện thoại không?","acceptedAnswer":{"@type":"Answer","text":"Không. Đây là app phối đồ online chạy trực tiếp trên trình duyệt. Bạn có thể làm Style Discovery và nhận Outfit Match ngay trên web."}},{"@type":"Question","name":"Tool có phải AI outfit generator không?","acceptedAnswer":{"@type":"Answer","text":"Chưa. Phiên bản hiện tại là Style Discovery + recommendation engine dùng dữ liệu 136 Look của Apocalypse Closet, thay vì tạo ảnh hoặc món đồ mới bằng AI."}},{"@type":"Question","name":"Tôi có thể tạo outfit khác với cùng bộ lọc không?","acceptedAnswer":{"@type":"Answer","text":"Có. Bạn có thể thay đổi dịp mặc, quần/váy, giày hoặc độ layer rồi bấm “Phối cho tôi” để xếp hạng lại Look."}},{"@type":"Question","name":"Kết quả của app phối đồ được chọn như thế nào?","acceptedAnswer":{"@type":"Answer","text":"Mỗi Look được chấm điểm theo Style DNA và các tiêu chí bạn chọn. Match % cho biết mức độ phù hợp tương đối trong 136 Look hiện có; Look có điểm cao hơn được ưu tiên."}}]}</script>
@@ -309,9 +320,38 @@
   const today=document.getElementById('sty-today');
   const discovery=document.getElementById('sty-discovery');
   const results=document.getElementById('sty-results-wrap');
+  const resultsGrid=document.getElementById('sty-results');
   const heroQuick=document.getElementById('sty-hero-recommend');
   const heroDna=document.getElementById('sty-hero-discover');
   const close=document.getElementById('sty-app-close');
+  const stickyOffset=124;
+
+  function scrollWithOffset(el){
+    if(!el) return;
+    const top=Math.max(0, el.getBoundingClientRect().top + window.scrollY - stickyOffset);
+    window.scrollTo({top,behavior:'smooth'});
+  }
+
+  function normalizeImages(root){
+    if(!root) return;
+    root.querySelectorAll('img').forEach(img=>{
+      img.style.width='100%';
+      img.style.height='auto';
+      img.style.maxHeight='none';
+      img.style.objectFit='contain';
+      img.style.objectPosition='center top';
+      img.style.display='block';
+      img.style.transform='none';
+      img.style.backfaceVisibility='hidden';
+      const holder=img.parentElement;
+      if(holder){
+        holder.style.overflow='visible';
+        if(holder !== root && !holder.classList.contains('sty-drawer-content')){
+          holder.style.minHeight='0';
+        }
+      }
+    });
+  }
 
   function setMode(mode,scroll){
     if(!app)return;
@@ -325,10 +365,18 @@
     dna&&dna.setAttribute('aria-selected',String(isDna));
     heroQuick&&heroQuick.setAttribute('aria-expanded','true');
     heroDna&&heroDna.setAttribute('aria-expanded','true');
-    if(scroll) app.scrollIntoView({behavior:'smooth',block:'start'});
+    normalizeImages(app);
+    if(scroll) requestAnimationFrame(()=>scrollWithOffset(app));
   }
+
   function showResults(){
     if(results) results.hidden=false;
+    requestAnimationFrame(()=>{
+      normalizeImages(resultsGrid||results);
+      scrollWithOffset(results);
+    });
+    setTimeout(()=>normalizeImages(resultsGrid||results),200);
+    setTimeout(()=>scrollWithOffset(results),220);
   }
 
   heroQuick&&heroQuick.addEventListener('click',()=>setMode('quick',true),true);
@@ -339,11 +387,27 @@
     app.hidden=true;
     heroQuick&&heroQuick.setAttribute('aria-expanded','false');
     heroDna&&heroDna.setAttribute('aria-expanded','false');
-    document.getElementById('sty-hero-title')?.scrollIntoView({behavior:'smooth',block:'start'});
+    scrollWithOffset(document.getElementById('sty-hero-title'));
   });
   document.getElementById('sty-today-submit')?.addEventListener('click',showResults,true);
   document.getElementById('sty-use-dna')?.addEventListener('click',showResults,true);
   document.getElementById('sty-regenerate')?.addEventListener('click',showResults,true);
+
+  normalizeImages(document.getElementById('sty-hero-title')?.closest('main'));
+  if(resultsGrid){
+    const observer=new MutationObserver(()=>normalizeImages(resultsGrid));
+    observer.observe(resultsGrid,{childList:true,subtree:true});
+  }
+  const quizPair=document.getElementById('sty-quiz-pair');
+  if(quizPair){
+    const quizObserver=new MutationObserver(()=>normalizeImages(quizPair));
+    quizObserver.observe(quizPair,{childList:true,subtree:true});
+  }
+  const drawerContent=document.getElementById('sty-drawer-content');
+  if(drawerContent){
+    const drawerObserver=new MutationObserver(()=>normalizeImages(drawerContent));
+    drawerObserver.observe(drawerContent,{childList:true,subtree:true});
+  }
 })();
 </script>
 <script>(()=>{let loaded=false;const load=()=>{if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=window.gtag||function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-452MPHT894');const g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=G-452MPHT894';document.head.appendChild(g);const a=document.createElement('script');a.defer=true;a.src='/assets/js/analytics-enhancements.min.js';document.body.appendChild(a)};['pointerdown','keydown','touchstart'].forEach(ev=>addEventListener(ev,load,{once:true,passive:true}));setTimeout(load,10000)})();</script>
