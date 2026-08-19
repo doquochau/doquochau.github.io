@@ -66,6 +66,20 @@
 #sty-results a:hover img,#sty-results button:hover img,#sty-quiz-pair button:hover img,#sty-drawer-content a:hover img{transform:none!important}
 #sty-results [class*="image"],#sty-results [class*="media"],#sty-results [class*="visual"],#sty-quiz-pair [class*="image"],#sty-quiz-pair [class*="media"],#sty-drawer-content [class*="image"],#sty-drawer-content [class*="media"],#sty-drawer-content [class*="visual"]{overflow:visible!important}
 
+
+
+/* desktop quiz image sharpness fix */
+@media(min-width:821px){
+  #sty-quiz-pair{align-items:flex-start}
+  #sty-quiz-pair button,
+  #sty-quiz-pair [role="button"]{background:#0b0b0b!important;filter:none!important;opacity:1!important;transform:none!important;}
+  #sty-quiz-pair img{filter:none!important;opacity:1!important;transform:none!important;image-rendering:auto!important;}
+  #sty-quiz-pair button::before,
+  #sty-quiz-pair button::after,
+  #sty-quiz-pair [role="button"]::before,
+  #sty-quiz-pair [role="button"]::after{filter:none!important;backdrop-filter:none!important;}
+}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Apocalypse Closet – App Phối Đồ Online","alternateName":"Style DNA & Outfit Recommender Apocalypse Closet","url":"https://apocalypsecloset.com/app-phoi-do.html","applicationCategory":"LifestyleApplication","operatingSystem":"Web","browserRequirements":"Requires JavaScript","inLanguage":"vi-VN","isAccessibleForFree":true,"description":"App phối đồ online miễn phí giúp khám phá Style DNA bằng lựa chọn outfit A/B và xếp hạng Outfit Match theo gu từ 136 Look đang xuất bản của Apocalypse Closet.","featureList":["Khám phá Style DNA bằng 8 lựa chọn outfit A/B","Lưu Style DNA trên trình duyệt","Kết hợp gu với dịp mặc, quần/váy, footwear và độ layer","Tính Outfit Match tương đối trong 136 Look","Mở Look để xem các item và sản phẩm gợi ý"],"offers":{"@type":"Offer","price":"0","priceCurrency":"VND"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"App phối đồ là gì?","acceptedAnswer":{"@type":"Answer","text":"App phối đồ là công cụ giúp bạn thu hẹp lựa chọn outfit theo gu và nhu cầu mặc. Apocalypse Closet dùng Style DNA từ lựa chọn A/B cùng các tiêu chí như dịp mặc, quần/váy, giày và độ layer để xếp hạng Look phù hợp."}},{"@type":"Question","name":"App phối đồ Apocalypse Closet có miễn phí không?","acceptedAnswer":{"@type":"Answer","text":"Có. Style Discovery và Outfit Recommender hiện được dùng miễn phí trực tiếp trên website Apocalypse Closet."}},{"@type":"Question","name":"Tôi có cần tải app về điện thoại không?","acceptedAnswer":{"@type":"Answer","text":"Không. Đây là app phối đồ online chạy trực tiếp trên trình duyệt. Bạn có thể làm Style Discovery và nhận Outfit Match ngay trên web."}},{"@type":"Question","name":"Tool có phải AI outfit generator không?","acceptedAnswer":{"@type":"Answer","text":"Chưa. Phiên bản hiện tại là Style Discovery + recommendation engine dùng dữ liệu 136 Look của Apocalypse Closet, thay vì tạo ảnh hoặc món đồ mới bằng AI."}},{"@type":"Question","name":"Tôi có thể tạo outfit khác với cùng bộ lọc không?","acceptedAnswer":{"@type":"Answer","text":"Có. Bạn có thể thay đổi dịp mặc, quần/váy, giày hoặc độ layer rồi bấm “Phối cho tôi” để xếp hạng lại Look."}},{"@type":"Question","name":"Kết quả của app phối đồ được chọn như thế nào?","acceptedAnswer":{"@type":"Answer","text":"Mỗi Look được chấm điểm theo Style DNA và các tiêu chí bạn chọn. Match % cho biết mức độ phù hợp tương đối trong 136 Look hiện có; Look có điểm cao hơn được ưu tiên."}}]}</script>
@@ -385,6 +399,42 @@
     });
   }
 
+
+  function sharpenQuizImages(){
+    const pair=document.getElementById('sty-quiz-pair');
+    if(!pair) return;
+    pair.querySelectorAll('img').forEach(img=>{
+      const full=img.dataset.fullSrc || img.dataset.originalSrc || img.getAttribute('data-src-original') || img.getAttribute('data-full-src');
+      if(full && img.getAttribute('src') !== full) img.setAttribute('src',full);
+      if(img.hasAttribute('srcset')) img.removeAttribute('srcset');
+      if(img.hasAttribute('sizes')) img.removeAttribute('sizes');
+      img.loading='eager';
+      img.decoding='async';
+      try{img.fetchPriority='high'}catch(e){}
+      img.style.filter='none';
+      img.style.opacity='1';
+      img.style.transform='none';
+      img.style.height='auto';
+      img.style.objectFit='contain';
+      img.style.objectPosition='center top';
+      const applyNativeLimit=()=>{
+        if(window.innerWidth < 821 || !img.naturalWidth) return;
+        const displayed=img.getBoundingClientRect().width;
+        if(displayed > img.naturalWidth){
+          img.style.width=img.naturalWidth+'px';
+          img.style.maxWidth='100%';
+          img.style.marginInline='auto';
+        }else{
+          img.style.width='100%';
+          img.style.maxWidth='100%';
+          img.style.marginInline='0';
+        }
+      };
+      if(img.complete) applyNativeLimit();
+      else img.addEventListener('load',applyNativeLimit,{once:true});
+    });
+  }
+
   function setMode(mode,scroll){
     if(!app)return;
     app.hidden=false;
@@ -431,8 +481,10 @@
   }
   const quizPair=document.getElementById('sty-quiz-pair');
   if(quizPair){
-    const quizObserver=new MutationObserver(()=>normalizeImages(quizPair));
-    quizObserver.observe(quizPair,{childList:true,subtree:true});
+    const refreshQuizImages=()=>{ normalizeImages(quizPair); sharpenQuizImages(); };
+    const quizObserver=new MutationObserver(refreshQuizImages);
+    quizObserver.observe(quizPair,{childList:true,subtree:true,attributes:true,attributeFilter:['src','srcset','sizes']});
+    refreshQuizImages();
   }
   const drawerContent=document.getElementById('sty-drawer-content');
   if(drawerContent){
