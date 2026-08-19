@@ -61,36 +61,104 @@
 <meta property="og:image:width" content="740"/>
 <meta property="og:image:height" content="337"/>
 <meta property="og:image:alt" content="App Phối Đồ Online Miễn Phí – Tạo Outfit Theo Gu | AC"/>
+
+<style id="app-first-progressive-ui">
+/* App-first progressive disclosure — 2026-08-19 */
+.sty-main{width:min(1180px,calc(100% - 32px));margin:auto;padding-bottom:68px}
+.sty-breadcrumb{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.sty-hero-minimal{min-height:calc(100svh - 76px);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(320px,.75fr);align-items:center;gap:52px;padding:36px 0}
+.sty-hero-minimal .sty-hero-copy{max-width:700px}
+.sty-hero-minimal h1{font-family:Oswald,sans-serif;font-size:clamp(52px,7vw,92px);line-height:.95;text-transform:uppercase;margin:0;letter-spacing:-.025em}
+.sty-hero-minimal h1 span{color:var(--red2)}
+.sty-hero-lead{max-width:650px;margin:20px 0 0;font-size:13px;line-height:1.75;color:#c8c3bb}
+.sty-hero-actions-minimal{display:flex;align-items:center;gap:18px;margin-top:26px}
+.sty-hero-actions-minimal .sty-btn-primary{min-height:52px;padding:0 24px}
+.sty-text-action{appearance:none;background:none;border:0;color:#c8c3bb;font:700 10px 'Space Mono',monospace;text-transform:uppercase;letter-spacing:.08em;text-decoration:underline;text-underline-offset:4px;cursor:pointer;padding:12px 0}
+.sty-text-action:hover{color:#fff}
+.sty-hero-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}
+.sty-hero-tags span{border:1px solid #2d2d2d;background:#0d0d0d;padding:7px 9px;font-size:8px;line-height:1;text-transform:uppercase;color:#aaa}
+.sty-hero-minimal .sty-hero-visual{align-self:stretch;max-height:calc(100svh - 150px);overflow:hidden;border:1px solid #262626;background:#0d0d0d}
+.sty-hero-minimal .sty-hero-visual img{width:100%;height:100%;object-fit:cover;object-position:center 28%;display:block}
+.sty-trust{display:none!important}
+
+.sty-app[hidden],.sty-results-wrap[hidden]{display:none!important}
+.sty-app{margin:16px 0 0;border:1px solid #292929;background:#0d0d0d;padding:24px;scroll-margin-top:88px}
+.sty-flow-head-minimal{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:14px}
+.sty-flow-head-minimal h2{margin:0}
+.sty-app-close{width:42px;height:42px;border:1px solid #333;background:#090909;color:#eee;font:28px/1 sans-serif;cursor:pointer}
+.sty-mode-tabs{display:flex;gap:8px;padding-bottom:18px;margin-bottom:18px;border-bottom:1px solid #242424}
+.sty-mode-tab{border:1px solid #333;background:#090909;color:#aaa;padding:10px 14px;font:700 9px 'Space Mono',monospace;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.sty-mode-tab.is-active{background:#f0ece4;color:#0a0a0a;border-color:#f0ece4}
+.sty-stage-grid{display:block!important}
+.sty-stage-grid>.sty-panel{display:none!important}
+.sty-stage-grid>.sty-panel.is-active-panel{display:block!important}
+.sty-panel{margin:0!important;max-width:none!important}
+.sty-results-wrap{margin-top:20px;scroll-margin-top:88px}
+
+.sty-seo-support{margin:46px 0 0;border-top:1px solid #292929;border-bottom:1px solid #292929}
+.sty-seo-support>summary{list-style:none;display:flex;justify-content:space-between;gap:18px;align-items:center;padding:20px 0;cursor:pointer;font-family:Oswald,sans-serif;font-size:23px;text-transform:uppercase}
+.sty-seo-support>summary::-webkit-details-marker{display:none}
+.sty-seo-support>summary:after{content:"+";font-family:'Space Mono',monospace;font-size:20px;color:#aaa}
+.sty-seo-support[open]>summary:after{content:"−"}
+.sty-seo-support>summary small{margin-left:auto;font:9px 'Space Mono',monospace;color:#777;letter-spacing:.06em;text-transform:uppercase}
+.sty-seo-support-body{padding:0 0 26px}
+.sty-seo-support .builder-content{margin-top:16px}
+.sty-seo-support .builder-content-head{margin-bottom:8px}
+.sty-seo-support .builder-content-head .builder-kicker{display:none}
+.sty-seo-support .builder-section{padding:22px 0}
+.sty-seo-support .builder-steps,.sty-seo-support .builder-use-grid,.sty-seo-support .builder-compare{margin-top:12px}
+
+@media(max-width:820px){
+  .sty-main{width:calc(100% - 20px);padding-bottom:52px}
+  .sty-hero-minimal{min-height:auto;grid-template-columns:1fr;gap:20px;padding:26px 0 30px}
+  .sty-hero-minimal h1{font-size:clamp(44px,14vw,66px)}
+  .sty-hero-minimal .sty-hero-visual{height:min(52svh,520px);max-height:none;order:-1}
+  .sty-hero-minimal .sty-hero-visual img{object-position:center 24%}
+  .sty-hero-actions-minimal{align-items:flex-start;flex-direction:column;gap:4px}
+  .sty-hero-actions-minimal .sty-btn-primary{width:100%}
+  .sty-app{padding:16px}
+  .sty-mode-tabs{display:grid;grid-template-columns:1fr 1fr}
+  .sty-mode-tab{width:100%}
+  .sty-seo-support>summary{font-size:20px}
+  .sty-seo-support>summary small{display:none}
+}
+@media(max-width:460px){
+  .sty-hero-tags{gap:5px}
+  .sty-hero-tags span{font-size:7px;padding:6px 7px}
+  .sty-hero-minimal .sty-hero-visual{height:42svh}
+}
+</style>
 </head><body class="ac-site-shell">
 <header class="ac-site-header"><a aria-label="Apocalypse Closet — Trang chủ" class="ac-brand" href="/"><img alt="Apocalypse Closet" class="ac-brand-mark" height="88" src="/Logo-Apocalypse-Closet.webp" width="88"/><img alt="Apocalypse Closet" class="ac-brand-wordmark" height="128" sizes="(max-width:380px) 44px, (max-width:620px) 50px, (max-width:960px) 55px, 64px" src="/wordmark-hd.webp" srcset="/wordmark.webp 70w, /wordmark-hd.webp 280w" width="280"/></a><nav aria-label="Điều hướng chính" class="ac-primary-nav" id="ac-primary-nav"><a data-ac-nav="home" href="/">Trang chủ</a><a data-ac-nav="outfits" href="/phoi-do-nu-ca-tinh.html">Phối đồ nữ cá tính</a><a data-ac-nav="builder" href="/app-phoi-do.html">Tạo outfit</a><div class="ac-nav-dropdown"><button aria-expanded="false" class="ac-dropdown-toggle" type="button">Phong cách <svg aria-hidden="true" fill="none" viewbox="0 0 24 24"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></button><div class="ac-dropdown-menu"><a href="/style/dark-feminine.html">Dark Feminine</a><a href="/style/egirl.html">E-Girl / Alt Girl</a><a href="/style/goth.html">Goth / Gothic</a><a href="/style/baddie-streetwear.html">Baddie Streetwear</a><a href="/style/punk.html">Punk / Grunge</a></div></div><a data-ac-nav="blog" href="/blog.html">Blog</a><a data-ac-nav="closet" href="/closet.html">Tủ đồ</a></nav><div class="ac-header-actions"><button aria-controls="ac-primary-nav" aria-expanded="false" aria-label="Mở menu" class="ac-menu-toggle" type="button"><svg aria-hidden="true" fill="none" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg></button></div></header>
 <main class="sty-main" id="main" tabindex="-1">
 <nav aria-label="Đường dẫn" class="sty-breadcrumb"><a href="/">Trang chủ</a> <span>›</span> <span>App phối đồ</span></nav>
-<section class="sty-hero" aria-labelledby="sty-hero-title">
+<section class="sty-hero sty-hero-minimal" aria-labelledby="sty-hero-title">
   <div class="sty-hero-copy">
-    <p class="sty-kicker">// STYLE DISCOVERY · OUTFIT MATCH · 136 LOOKS</p>
-    <h1 id="sty-hero-title">Phối đồ <span>theo gu của bạn</span></h1>
-    <p>Không cần tự biết mình thuộc style nào. Chọn những outfit bạn thích, Apocalypse Closet sẽ tạo Style DNA rồi xếp hạng Look phù hợp với gu và nhu cầu hôm nay.</p>
-    <div class="sty-hero-actions">
-      <button class="sty-btn sty-btn-primary" id="sty-hero-discover" type="button">Khám phá gu của tôi →</button>
-      <button class="sty-btn" id="sty-hero-recommend" type="button">Tìm outfit ngay</button>
+    <p class="sty-kicker">// APP PHỐI ĐỒ ONLINE</p>
+    <h1 id="sty-hero-title">App phối đồ <span>online nữ</span></h1>
+    <p class="sty-hero-lead">Tạo outfit theo gu, dịp mặc và món bạn muốn diện — từ 136 Look thật của Apocalypse Closet.</p>
+    <div class="sty-hero-actions sty-hero-actions-minimal">
+      <button class="sty-btn sty-btn-primary" id="sty-hero-recommend" type="button" aria-controls="sty-app" aria-expanded="false">Tạo outfit →</button>
+      <button class="sty-text-action" id="sty-hero-discover" type="button" aria-controls="sty-app" aria-expanded="false">Khám phá Style DNA</button>
+    </div>
+    <div class="sty-hero-tags" aria-label="Phong cách hỗ trợ">
+      <span>Dark Feminine</span><span>Goth</span><span>E-Girl</span><span>Baddie</span><span>Punk / Grunge</span>
     </div>
   </div>
   <div class="sty-hero-visual" aria-hidden="true">
     <img src="/images-grid/badgirl-outfits/outfit-nu-dark-feminine-ao-crop-lech-vai-be-chan-vay-nau-108.webp" width="720" height="1280" alt="" fetchpriority="high" decoding="async"/>
-    <div class="sty-hero-stat"><b>136 LOOKS</b>5 phong cách · dùng trực tiếp trên web</div>
   </div>
 </section>
-<div class="sty-trust" aria-label="Thông tin nhanh về app phối đồ">
-  <span><b>Style DNA</b><br/>Tìm gu bằng lựa chọn A/B</span>
-  <span><b>Match % thật</b><br/>Tính từ dữ liệu Look hiện có</span>
-  <span><b>Không cần tải</b><br/>Dùng trên web & mobile</span>
-  <span><b>Look có sản phẩm</b><br/>Mở chi tiết để xem item</span>
-</div>
 
-<section class="sty-app" aria-labelledby="sty-flow-title">
-  <div class="sty-flow-head">
-    <div><p class="sty-kicker">// PERSONAL STYLIST FLOW</p><h2 id="sty-flow-title">Tìm gu → phối Look → xem sản phẩm</h2></div>
-    <p>Ba bước nằm trong cùng một app. Style Discovery tạo tín hiệu gu; “Hôm nay mặc gì?” thêm nhu cầu thực tế; Outfit Match xếp hạng Look phù hợp nhất.</p>
+
+<section class="sty-app" id="sty-app" aria-labelledby="sty-flow-title" hidden>
+  <div class="sty-flow-head sty-flow-head-minimal">
+    <div><p class="sty-kicker">// TẠO OUTFIT</p><h2 id="sty-flow-title">Bạn muốn bắt đầu thế nào?</h2></div>
+    <button class="sty-app-close" id="sty-app-close" type="button" aria-label="Đóng trình tạo outfit">×</button>
+  </div>
+  <div class="sty-mode-tabs" role="tablist" aria-label="Cách tạo outfit">
+    <button class="sty-mode-tab is-active" id="sty-mode-quick" type="button" role="tab" aria-selected="true" aria-controls="sty-today">Phối nhanh</button>
+    <button class="sty-mode-tab" id="sty-mode-dna" type="button" role="tab" aria-selected="false" aria-controls="sty-discovery">Khám phá gu</button>
   </div>
 
   <div class="sty-stage-grid">
@@ -116,7 +184,7 @@
       </div>
     </section>
 
-    <section class="sty-panel" id="sty-today" aria-labelledby="sty-today-title">
+    <section class="sty-panel is-active-panel" id="sty-today" aria-labelledby="sty-today-title">
       <div class="sty-panel-head"><div><span class="sty-step">2</span><h3 id="sty-today-title">Hôm nay mặc gì?</h3></div><p class="sty-panel-note">Không cần chọn hết. App sẽ cộng các tín hiệu này vào Style DNA.</p></div>
       <div class="sty-today-form">
         <fieldset class="sty-fieldset"><legend>Bạn mặc đi đâu?</legend><div class="sty-chips">
@@ -150,7 +218,7 @@
     </section>
   </div>
 
-  <section class="sty-results-wrap" id="sty-results-wrap" aria-labelledby="sty-results-title">
+  <section class="sty-results-wrap" id="sty-results-wrap" hidden aria-labelledby="sty-results-title">
     <div class="sty-results-head"><div><span class="sty-step">3</span><h3 id="sty-results-title">Outfit dành cho bạn</h3></div><p id="sty-results-copy">Chọn nhu cầu hoặc khám phá Style DNA để cá nhân hóa Match %.</p></div>
     <div class="sty-results" id="sty-results" aria-live="polite"></div>
   </section>
@@ -166,6 +234,12 @@
 </div>
 <div class="sty-toast" id="sty-toast" role="status" aria-live="polite"></div>
 
+<details class="sty-seo-support">
+  <summary>
+    <span>Tìm hiểu thêm về app phối đồ</span>
+    <small>Hướng dẫn · phong cách · FAQ</small>
+  </summary>
+  <div class="sty-seo-support-body">
 <section aria-labelledby="app-phoi-do-la-gi" class="builder-content">
 <div class="builder-content-head">
 <p class="builder-kicker">// APP PHỐI ĐỒ ONLINE</p>
@@ -222,7 +296,55 @@
 </div>
 </section>
 </section><h2 class="builder-faq-title" id="faq-app-phoi-do">Câu Hỏi Thường Gặp Về App Phối Đồ</h2><section aria-labelledby="faq-app-phoi-do" class="builder-faq">
-<details><summary>App phối đồ là gì?</summary><p>App phối đồ là công cụ giúp bạn thu hẹp lựa chọn outfit theo gu và nhu cầu mặc. Apocalypse Closet dùng Style DNA từ lựa chọn A/B cùng các tiêu chí như dịp mặc, quần/váy, giày và độ layer để xếp hạng Look phù hợp.</p></details><details><summary>App phối đồ Apocalypse Closet có miễn phí không?</summary><p>Có. Style Discovery và Outfit Recommender hiện được dùng miễn phí trực tiếp trên website Apocalypse Closet.</p></details><details><summary>Tôi có cần tải app về điện thoại không?</summary><p>Không. Đây là app phối đồ online chạy trực tiếp trên trình duyệt. Bạn có thể làm Style Discovery và nhận Outfit Match ngay trên web.</p></details><details><summary>Tool có phải AI outfit generator không?</summary><p>Chưa. Phiên bản hiện tại là Style Discovery + recommendation engine dùng dữ liệu 136 Look của Apocalypse Closet, thay vì tạo ảnh hoặc món đồ mới bằng AI.</p></details><details><summary>Tôi có thể tạo outfit khác với cùng bộ lọc không?</summary><p>Có. Bạn có thể thay đổi dịp mặc, quần/váy, giày hoặc độ layer rồi bấm “Phối cho tôi” để xếp hạng lại Look.</p></details><details><summary>Kết quả của app phối đồ được chọn như thế nào?</summary><p>Mỗi Look được chấm điểm theo Style DNA và các tiêu chí bạn chọn. Match % cho biết mức độ phù hợp tương đối trong 136 Look hiện có; Look có điểm cao hơn được ưu tiên.</p></details></section></main>
+<details><summary>App phối đồ là gì?</summary><p>App phối đồ là công cụ giúp bạn thu hẹp lựa chọn outfit theo gu và nhu cầu mặc. Apocalypse Closet dùng Style DNA từ lựa chọn A/B cùng các tiêu chí như dịp mặc, quần/váy, giày và độ layer để xếp hạng Look phù hợp.</p></details><details><summary>App phối đồ Apocalypse Closet có miễn phí không?</summary><p>Có. Style Discovery và Outfit Recommender hiện được dùng miễn phí trực tiếp trên website Apocalypse Closet.</p></details><details><summary>Tôi có cần tải app về điện thoại không?</summary><p>Không. Đây là app phối đồ online chạy trực tiếp trên trình duyệt. Bạn có thể làm Style Discovery và nhận Outfit Match ngay trên web.</p></details><details><summary>Tool có phải AI outfit generator không?</summary><p>Chưa. Phiên bản hiện tại là Style Discovery + recommendation engine dùng dữ liệu 136 Look của Apocalypse Closet, thay vì tạo ảnh hoặc món đồ mới bằng AI.</p></details><details><summary>Tôi có thể tạo outfit khác với cùng bộ lọc không?</summary><p>Có. Bạn có thể thay đổi dịp mặc, quần/váy, giày hoặc độ layer rồi bấm “Phối cho tôi” để xếp hạng lại Look.</p></details><details><summary>Kết quả của app phối đồ được chọn như thế nào?</summary><p>Mỗi Look được chấm điểm theo Style DNA và các tiêu chí bạn chọn. Match % cho biết mức độ phù hợp tương đối trong 136 Look hiện có; Look có điểm cao hơn được ưu tiên.</p></details></section>
+  </div>
+</details></main>
 <footer class="ac-site-footer"><div class="ac-footer-grid"><div class="ac-footer-about"><a class="ac-footer-brand" href="/"><img alt="" height="88" src="/Logo-Apocalypse-Closet.webp" width="88"/><img alt="Apocalypse Closet" height="128" src="/wordmark-hd.webp" width="280"/></a><p>Cảm hứng outfit nữ cá tính theo E-Girl, Goth, Dark Feminine, Baddie Streetwear và Punk / Grunge — từ ý tưởng đến Look có thể mặc và mua.</p></div><div><span class="ac-footer-title">Khám phá</span><ul class="ac-footer-links"><li><a href="/app-phoi-do.html">App phối đồ online</a></li><li><a href="/phoi-do-nu-ca-tinh.html">Phối đồ nữ cá tính</a></li><li><a href="/#outfit-grid">136 Look</a></li><li><a href="/blog.html">Blog thời trang</a></li><li><a href="/closet.html">Tủ đồ đã lưu</a></li></ul></div><div><span class="ac-footer-title">Phong cách</span><ul class="ac-footer-links"><li><a href="/style/dark-feminine.html">Dark Feminine</a></li><li><a href="/style/egirl.html">E-Girl / Alt Girl</a></li><li><a href="/style/goth.html">Goth / Gothic</a></li><li><a href="/style/baddie-streetwear.html">Baddie Streetwear</a></li><li><a href="/style/punk.html">Punk / Grunge</a></li></ul></div><div><span class="ac-footer-title">Thông tin</span><ul class="ac-footer-links"><li><a href="/about.html">Giới thiệu</a></li><li><a href="/author.html">Tác giả</a></li><li><a href="/editorial-policy.html">Chính sách biên tập</a></li><li><a href="/privacy.html">Quyền riêng tư</a></li><li><a href="/contact.html">Liên hệ</a></li></ul></div></div><div class="ac-footer-bottom"><span>© 2026 Apocalypse Closet. All rights reserved.</span><span class="ac-affiliate-note">Một số liên kết sản phẩm có thể là liên kết tiếp thị liên kết. Giá mua của bạn không thay đổi.</span></div></footer>
-<script defer="" src="/assets/js/outfit-builder-data.js?v=20260809-v1"></script><script defer="" src="/assets/js/outfit-stylist-v2.js?v=20260817-v2"></script><script defer="" src="/assets/js/site-shell-20260807.js?v=20260809-builder1"></script><script>(()=>{let loaded=false;const load=()=>{if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=window.gtag||function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-452MPHT894');const g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=G-452MPHT894';document.head.appendChild(g);const a=document.createElement('script');a.defer=true;a.src='/assets/js/analytics-enhancements.min.js';document.body.appendChild(a)};['pointerdown','keydown','touchstart'].forEach(ev=>addEventListener(ev,load,{once:true,passive:true}));setTimeout(load,10000)})();</script>
+<script defer="" src="/assets/js/outfit-builder-data.js?v=20260809-v1"></script><script defer="" src="/assets/js/outfit-stylist-v2.js?v=20260817-v2"></script><script defer="" src="/assets/js/site-shell-20260807.js?v=20260809-builder1"></script>
+<script>
+(function(){
+  const app=document.getElementById('sty-app');
+  const quick=document.getElementById('sty-mode-quick');
+  const dna=document.getElementById('sty-mode-dna');
+  const today=document.getElementById('sty-today');
+  const discovery=document.getElementById('sty-discovery');
+  const results=document.getElementById('sty-results-wrap');
+  const heroQuick=document.getElementById('sty-hero-recommend');
+  const heroDna=document.getElementById('sty-hero-discover');
+  const close=document.getElementById('sty-app-close');
+
+  function setMode(mode,scroll){
+    if(!app)return;
+    app.hidden=false;
+    const isDna=mode==='dna';
+    today&&today.classList.toggle('is-active-panel',!isDna);
+    discovery&&discovery.classList.toggle('is-active-panel',isDna);
+    quick&&quick.classList.toggle('is-active',!isDna);
+    dna&&dna.classList.toggle('is-active',isDna);
+    quick&&quick.setAttribute('aria-selected',String(!isDna));
+    dna&&dna.setAttribute('aria-selected',String(isDna));
+    heroQuick&&heroQuick.setAttribute('aria-expanded','true');
+    heroDna&&heroDna.setAttribute('aria-expanded','true');
+    if(scroll) app.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  function showResults(){
+    if(results) results.hidden=false;
+  }
+
+  heroQuick&&heroQuick.addEventListener('click',()=>setMode('quick',true),true);
+  heroDna&&heroDna.addEventListener('click',()=>setMode('dna',true),true);
+  quick&&quick.addEventListener('click',()=>setMode('quick',false));
+  dna&&dna.addEventListener('click',()=>setMode('dna',false));
+  close&&close.addEventListener('click',()=>{
+    app.hidden=true;
+    heroQuick&&heroQuick.setAttribute('aria-expanded','false');
+    heroDna&&heroDna.setAttribute('aria-expanded','false');
+    document.getElementById('sty-hero-title')?.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  document.getElementById('sty-today-submit')?.addEventListener('click',showResults,true);
+  document.getElementById('sty-use-dna')?.addEventListener('click',showResults,true);
+  document.getElementById('sty-regenerate')?.addEventListener('click',showResults,true);
+})();
+</script>
+<script>(()=>{let loaded=false;const load=()=>{if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=window.gtag||function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-452MPHT894');const g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=G-452MPHT894';document.head.appendChild(g);const a=document.createElement('script');a.defer=true;a.src='/assets/js/analytics-enhancements.min.js';document.body.appendChild(a)};['pointerdown','keydown','touchstart'].forEach(ev=>addEventListener(ev,load,{once:true,passive:true}));setTimeout(load,10000)})();</script>
 </body></html>
