@@ -1652,7 +1652,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-e-girl-look-13-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1703,7 +1703,7 @@
     <image:image>
       <image:loc>https://apocalypsecloset.com/images/badgirl-outfits/badgirl-dark-feminine-look-04-full-outfit.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4194,6 +4194,150 @@
       <image:loc>https://apocalypsecloset.com/images/blog-covers/classic-style-la-gi.webp</image:loc>
     </image:image>
     <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/phoi-do-voi-chan-vay-dai-den.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-chan-vay-dai-den.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/kieu-toc-punk-nu.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/kieu-toc-punk-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/goth-nails-mau-nail-phong-cach-goth.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/goth-nails-mau-nail-phong-cach-goth.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/phoi-do-voi-ao-bomber-nu.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-ao-bomber-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/cach-tao-moodboard-thoi-trang.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-tao-moodboard-thoi-trang.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/cach-khu-mui-boots.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-khu-mui-boots.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/kieu-toc-goth-goth-hairstyle-nu.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/kieu-toc-goth-goth-hairstyle-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/vampire-goth-la-gi-vampire-goth-aesthetic.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/vampire-goth-la-gi-vampire-goth-aesthetic.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/phoi-do-voi-quan-jogger-nu.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-jogger-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/ao-khoac-da-nu-mua-o-dau.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/ao-khoac-da-nu-mua-o-dau.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/cach-lam-mem-boots-moi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-lam-mem-boots-moi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/cach-chon-tui-cho-outfit-nu-ca-tinh.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/cach-chon-tui-cho-outfit-nu-ca-tinh.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/phoi-do-voi-quan-ong-loe-nu.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/phoi-do-voi-quan-ong-loe-nu.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/trad-goth-la-gi-traditional-goth-style.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/trad-goth-la-gi-traditional-goth-style.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/femme-fatale-aesthetic-la-gi.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/femme-fatale-aesthetic-la-gi.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://apocalypsecloset.com/blog/nu-goth-la-gi-phong-cach-nu-goth.html</loc>
+    <image:image>
+      <image:loc>https://apocalypsecloset.com/images/blog-covers/nu-goth-la-gi-phong-cach-nu-goth.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

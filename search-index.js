@@ -2046,5 +2046,133 @@ window.searchIndex = [
     "description": "Outfit Dark Feminine #136: Áo trễ vai xám, Quần jean xanh và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo.",
     "image": "/images/badgirl-outfits/outfit-nu-dark-feminine-ao-tre-vai-xam-quan-jean-xanh-136.webp",
     "keywords": "Look #136 Dark Feminine: Áo trễ vai xám + Quần jean xanh Outfit Dark Feminine #136: Áo trễ vai xám, Quần jean xanh và Boot đen mũi nhọn. Xem full look, style phụ và link sản phẩm tham khảo. Dark Feminine Dark Feminine Áo trễ vai xám Quần jean xanh Boot đen mũi nhọn Đi chơi tối Chụp ảnh Màu nổi Tôn eo Quần Boots / Platform"
+  },
+  {
+    "title": "Phối Đồ Với Chân Váy Dài Đen: 10 Công Thức Cá Tính, Dễ Áp Dụng",
+    "url": "/blog/phoi-do-voi-chan-vay-dai-den.html",
+    "type": "Item Guide",
+    "description": "Phối đồ với chân váy dài đen bằng 10 công thức dễ áp dụng; chọn áo, giày, tỷ lệ và layer theo Dark Feminine, Goth, Grunge hoặc casual.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-dai-den.webp",
+    "keywords": "phối đồ với chân váy dài đen, chân váy dài đen phối với áo gì, phối chân váy đen dài, outfit chân váy dài đen"
+  },
+  {
+    "title": "Kiểu Tóc Punk Nữ: 9 Punk Hairstyle Cá Tính, Dễ Áp Dụng",
+    "url": "/blog/kieu-toc-punk-nu.html",
+    "type": "Punk / Grunge",
+    "description": "Punk hair nữ với 9 kiểu tóc cá tính từ shag, wolf cut, mullet đến choppy bob; cách tạo texture, chọn màu, phụ kiện và phối outfit Punk / Grunge.",
+    "image": "/images/blog-covers/kieu-toc-punk-nu.webp",
+    "keywords": "punk hair, punk hairstyle, tóc punk, kiểu tóc punk nữ, punk hair nữ"
+  },
+  {
+    "title": "Goth Nails: 12 Mẫu Nail Phong Cách Goth Dễ Phối Outfit",
+    "url": "/blog/goth-nails-mau-nail-phong-cach-goth.html",
+    "type": "Goth",
+    "description": "Goth nails với 12 mẫu nail đen, đỏ rượu, chrome, lace và gothic nail art; cách chọn form móng, màu, chi tiết và phối với outfit Goth nữ.",
+    "image": "/images/blog-covers/goth-nails-mau-nail-phong-cach-goth.webp",
+    "keywords": "goth nails, nail goth, goth nail art, nail phong cách goth, gothic nails"
+  },
+  {
+    "title": "Phối Đồ Với Áo Bomber Nữ: 9 Công Thức Gọn, Cá Tính, Dễ Mặc",
+    "url": "/blog/phoi-do-voi-ao-bomber-nu.html",
+    "type": "Item Guide",
+    "description": "Phối đồ với áo bomber nữ qua 9 công thức dễ áp dụng: crop top, baby tee, cargo, jeans, váy và boots; kèm cách chọn tỷ lệ để bomber không làm người bị nặng.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-bomber-nu.webp",
+    "keywords": "phối đồ với áo bomber nữ, phối đồ áo bomber nữ, áo bomber nữ mặc với gì, cách phối áo bomber nữ"
+  },
+  {
+    "title": "Cách Tạo Moodboard Thời Trang: Từ Cảm Hứng Đến Outfit Thật",
+    "url": "/blog/cach-tao-moodboard-thoi-trang.html",
+    "type": "Style Guide",
+    "description": "Cách tạo fashion moodboard cho outfit: lọc màu, silhouette, texture, giày và phụ kiện; kèm cách biến moodboard aesthetic thành đồ mặc thật.",
+    "image": "/images/blog-covers/cach-tao-moodboard-thoi-trang.webp",
+    "keywords": "fashion moodboard, moodboard aesthetic, moodboard outfit, cách tạo moodboard thời trang"
+  },
+  {
+    "title": "Cách Khử Mùi Boots: Xử Lý Mùi Giày Mà Không Làm Hỏng Form",
+    "url": "/blog/cach-khu-mui-boots.html",
+    "type": "Care Guide",
+    "description": "Cách khử mùi boots và khử mùi giày: làm khô, vệ sinh lớp trong, xử lý lót và ngăn mùi quay lại mà không dùng nhiệt hoặc chất tẩy mạnh.",
+    "image": "/images/blog-covers/cach-khu-mui-boots.webp",
+    "keywords": "cách khử mùi giày, khử mùi giày, how to remove smell from boots, how to deodorize boots"
+  },
+  {
+    "title": "Kiểu Tóc Goth: 8 Goth Hairstyle Nữ Từ Trad Đến Modern",
+    "url": "/blog/kieu-toc-goth-goth-hairstyle-nu.html",
+    "type": "Goth",
+    "description": "Gợi ý tóc gothic và Goth hairstyle nữ: long layers, trad goth volume, romantic waves, bob, wolf cut, sleek ponytail và cách ghép với makeup/outfit.",
+    "image": "/images/blog-covers/kieu-toc-goth-goth-hairstyle-nu.webp",
+    "keywords": "tóc gothic, goth hair, goth hairstyle, kiểu tóc goth nữ"
+  },
+  {
+    "title": "Vampire Goth Là Gì? Vampire Goth Aesthetic & Cách Phối Outfit",
+    "url": "/blog/vampire-goth-la-gi-vampire-goth-aesthetic.html",
+    "type": "Goth",
+    "description": "Vampire Goth là gì? Giải thích vampire goth aesthetic, bảng màu, texture, corset, velvet, lace và 7 công thức outfit dễ ứng dụng.",
+    "image": "/images/blog-covers/vampire-goth-la-gi-vampire-goth-aesthetic.webp",
+    "keywords": "vampire goth, vampire goth aesthetic, vampire goth outfit, vampire goth style"
+  },
+  {
+    "title": "Phối Đồ Với Quần Jogger Nữ: 8 Công Thức Gọn Và Cá Tính",
+    "url": "/blog/phoi-do-voi-quan-jogger-nu.html",
+    "type": "Item Guide",
+    "description": "Quần jogger nữ phối với áo gì? 8 công thức với crop top, baby tee, bomber, leather jacket, hoodie và cách chọn giày để outfit không luộm thuộm.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-jogger-nu.webp",
+    "keywords": "quần jogger nữ phối với áo gì, phối đồ với quần jogger nữ, phối đồ quần jogger nữ, cách phối quần jogger nữ"
+  },
+  {
+    "title": "Áo Khoác Da Nữ Mua Ở Đâu? Cách Chọn Shop, Form Và Chất Liệu",
+    "url": "/blog/ao-khoac-da-nu-mua-o-dau.html",
+    "type": "Shopping Guide",
+    "description": "Áo khoác da nữ mua ở đâu? Checklist chọn shop áo khoác da nữ, phân biệt form biker/blazer/cropped, chất liệu da PU và cách mua online không hớ.",
+    "image": "/images/blog-covers/ao-khoac-da-nu-mua-o-dau.webp",
+    "keywords": "shop áo khoác da nữ, shop bán áo khoác da nữ, áo khoác da nữ giá rẻ, mua áo khoác da nữ"
+  },
+  {
+    "title": "Cách Làm Mềm Boots Mới: Break In Giày Da Không Làm Hỏng Form",
+    "url": "/blog/cach-lam-mem-boots-moi.html",
+    "type": "Care Guide",
+    "description": "Cách làm mềm giày da và break in boots mới: tăng thời gian mang từ từ, xử lý điểm cọ, chọn tất và phân biệt giày cứng với sai size.",
+    "image": "/images/blog-covers/cach-lam-mem-boots-moi.webp",
+    "keywords": "cách làm mềm giày da, how to break in boots, how to soften leather boots, break in new boots"
+  },
+  {
+    "title": "Cách Chọn Túi Cho Outfit Nữ Cá Tính: Phối Theo Form, Màu Và Style",
+    "url": "/blog/cach-chon-tui-cho-outfit-nu-ca-tinh.html",
+    "type": "Accessory Guide",
+    "description": "Cách phối túi xách với quần áo theo tỷ lệ, form và màu; gợi ý túi cho Dark Feminine, Baddie, E-Girl, Punk/Grunge và Goth.",
+    "image": "/images/blog-covers/cach-chon-tui-cho-outfit-nu-ca-tinh.webp",
+    "keywords": "cách phối túi xách với quần áo, cách chọn túi cho outfit nữ cá tính, phối túi xách"
+  },
+  {
+    "title": "Phối Đồ Với Quần Ống Loe Nữ: 7 Công Thức Dễ Mặc Và Cá Tính",
+    "url": "/blog/phoi-do-voi-quan-ong-loe-nu.html",
+    "type": "Item Guide",
+    "description": "Quần ống loe nữ phối với áo gì? 7 công thức với baby tee, bodysuit, corset, leather jacket; kèm cách chọn form, giày và tỷ lệ cho người thấp.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-ong-loe-nu.webp",
+    "keywords": "quần ống loe nữ phối với áo gì, phối đồ với quần ống loe nữ, phối đồ quần ống loe nữ"
+  },
+  {
+    "title": "Trad Goth Là Gì? Traditional Goth Style Từ Hair, Makeup Đến Outfit",
+    "url": "/blog/trad-goth-la-gi-traditional-goth-style.html",
+    "type": "Goth",
+    "description": "Trad Goth là gì? Giải thích Traditional Goth style, hair, makeup, fishnet, leather, lace, boots và 7 công thức trad goth outfit dễ ứng dụng.",
+    "image": "/images/blog-covers/trad-goth-la-gi-traditional-goth-style.webp",
+    "keywords": "trad goth, traditional goth, trad goth là gì, trad goth outfit"
+  },
+  {
+    "title": "Femme Fatale Aesthetic Là Gì? Style, Outfit Và Cách Mặc Hằng Ngày",
+    "url": "/blog/femme-fatale-aesthetic-la-gi.html",
+    "type": "Dark Feminine",
+    "description": "Femme fatale là gì trong thời trang? Giải thích femme fatale aesthetic, màu sắc, silhouette, 7 công thức outfit và ranh giới với Dark Feminine.",
+    "image": "/images/blog-covers/femme-fatale-aesthetic-la-gi.webp",
+    "keywords": "femme fatale là gì, femme fatale style, femme fatale aesthetic"
+  },
+  {
+    "title": "Nu Goth Là Gì? Phong Cách Nu Goth Và 7 Công Thức Outfit",
+    "url": "/blog/nu-goth-la-gi-phong-cach-nu-goth.html",
+    "type": "Goth",
+    "description": "Nu Goth là gì? Giải thích nu goth fashion, all-black clean silhouette, mesh, platform boots, silver jewelry và 7 nu goth outfit dễ mặc.",
+    "image": "/images/blog-covers/nu-goth-la-gi-phong-cach-nu-goth.webp",
+    "keywords": "nu goth, nu goth fashion, nu goth outfit, nu goth style"
   }
 ];
