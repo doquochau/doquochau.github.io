@@ -1,0 +1,6 @@
+*** Begin Patch
+*** Update File: blog/ao-khoac-da-nu-mua-o-dau.html
+@@
+-<nav aria-label="Đọc tiếp trong cùng cụm" class="internal-link-hub"><h2>Đọc Tiếp Trong Cụm Leather &amp; Alt Fashion</h2><p>Bài này là shopping/buyer guide. Styling intent được giữ ở URL phối đồ.</p><ul><li><a href="../blog/phoi-do-voi-ao-khoac-da-nu.html">Phối Đồ Với Áo Khoác Da Nữ</a></li><li><a href="../blog/cach-bao-quan-do-da-nu.html">Cách Bảo Quản Đồ Da Nữ</a></li><li><a href="../style/punk.html">Punk / Grunge</a></li><li><a href="../style/dark-feminine.html">Dark Feminine</a></li></ul></nav>
++<nav aria-label="Đọc tiếp trong cùng cụm" class="internal-link-hub"><h2>Đọc Tiếp Trong Cụm Leather &amp; Alt Fashion</h2><p>Bài này là shopping/buyer guide. Styling intent được giữ ở URL phối đồ.</p><ul><li><a href="../blog/mua-sam-alt-fashion.html">Mua Sắm Alt Fashion</a></li><li><a href="../blog/phoi-do-voi-ao-khoac-da-nu.html">Phối Đồ Với Áo Khoác Da Nữ</a></li><li><a href="../blog/cach-bao-quan-do-da-nu.html">Cách Bảo Quản Đồ Da Nữ</a></li><li><a href="../style/punk.html">Punk / Grunge</a></li><li><a href="../style/dark-feminine.html">Dark Feminine</a></li></ul></nav>
+*** End Patch
