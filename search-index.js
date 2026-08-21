@@ -1,5 +1,13 @@
 window.searchIndex = [
   {
+    "title": "Phối Đồ Với Quần Parachute Nữ: 8 Công Thức Không Bị Nuốt Dáng",
+    "url": "/blog/phoi-do-voi-quan-parachute-nu.html",
+    "type": "Item Guide",
+    "description": "Quần parachute nữ phối với áo gì? 8 công thức với baby tee, crop top, tank top, áo ôm và cách chọn giày, tỷ lệ cho Baddie, Dark Y2K.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-parachute-nu.webp",
+    "keywords": "quần parachute nữ phối với áo gì, phối đồ với quần parachute nữ, cách phối quần parachute nữ, quần parachute mặc với áo gì, baddie parachute, dark y2k parachute"
+  },
+  {
     "title": "Casual Chic Là Gì? Cách Phối Đồ Nữ Chỉn Chu Mà Không Gồng",
     "url": "/blog/casual-chic-la-gi.html",
     "type": "Style Guide",
