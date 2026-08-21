@@ -1,5 +1,13 @@
 window.searchIndex = [
   {
+    "title": "Quần Baggy Phối Với Áo Gì? 10 Công Thức Cho Nữ Cá Tính",
+    "url": "/blog/quan-baggy-phoi-voi-ao-gi.html",
+    "type": "Item Guide",
+    "description": "Quần baggy phối với áo gì? 10 công thức với baby tee, graphic tee, crop top, corset, áo trễ vai, hoodie và cách phối baggy jean theo Baddie, E-Girl, Punk.",
+    "image": "/images/blog-covers/quan-baggy-phoi-voi-ao-gi.webp",
+    "keywords": "quần baggy phối với áo gì, quần baggy jean nữ phối với áo gì, quần baggy nữ phối với áo gì, cách phối quần baggy nữ, phối đồ với quần baggy nữ, baggy jean nữ, baddie baggy, e-girl baggy"
+  },
+  {
     "title": "Phối Đồ Với Quần Parachute Nữ: 8 Công Thức Không Bị Nuốt Dáng",
     "url": "/blog/phoi-do-voi-quan-parachute-nu.html",
     "type": "Item Guide",
