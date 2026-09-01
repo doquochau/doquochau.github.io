@@ -196,7 +196,7 @@ window.searchIndex = [
     "url": "/blog/quan-baggy-phoi-voi-ao-gi.html",
     "type": "Item Guide",
     "description": "Quần baggy phối với áo gì? Chọn áo theo form quần, tỷ lệ cơ thể, màu denim và style Baddie, E-Girl, Punk/Grunge; kèm gợi ý giày và Look thật.",
-    "image": "/images/blog-covers/quan-baggy-phoi-voi-ao-gi.webp",
+    "image": "/images/blog-covers/quan-baggy-phoi-voi-ao-gi-20260902.webp",
     "keywords": "quần baggy phối với áo gì, quần baggy jean nữ phối với áo gì, quần baggy nữ phối với áo gì, cách phối quần baggy nữ, phối đồ với quần baggy nữ"
   },
   {
@@ -204,7 +204,7 @@ window.searchIndex = [
     "url": "/blog/phoi-do-voi-quan-parachute-nu.html",
     "type": "Item Guide",
     "description": "Quần parachute nữ phối với áo gì? 8 công thức với baby tee, crop top, tank top, áo ôm và cách chọn giày, tỷ lệ cho Baddie, Dark Y2K.",
-    "image": "/images/blog-covers/phoi-do-voi-quan-parachute-nu.webp",
+    "image": "/images/blog-covers/phoi-do-voi-quan-parachute-nu-20260902.webp",
     "keywords": "quần parachute nữ phối với áo gì, phối đồ với quần parachute nữ, cách phối quần parachute nữ, quần parachute mặc với áo gì"
   },
   {
