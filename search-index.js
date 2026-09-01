@@ -1,5 +1,45 @@
 window.searchIndex = [
   {
+    "title": "Item Guide Nữ: Phối Đồ Theo Item",
+    "url": "/blog/phoi-do-theo-item.html",
+    "type": "Item Guide Hub",
+    "description": "Hub phối đồ theo item của Apocalypse Closet: chọn Áo, Quần, Chân váy/Váy hoặc Giày để đi tới guide đúng form, tỷ lệ, layer và style.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-luoi-nu.webp",
+    "keywords": "item guide, phối đồ theo item, item guide nữ: phối đồ theo item"
+  },
+  {
+    "title": "Item Guide Áo Nữ: Chọn Form, Layer Và Cách Phối",
+    "url": "/blog/phoi-do-theo-ao-nu.html",
+    "type": "Item Guide Hub",
+    "description": "Hub áo nữ của Apocalypse Closet: croptop, blazer, gile, denim jacket, mesh top, sơ mi, trễ vai, bomber, áo da, corset và cách phối theo tỷ lệ.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-so-mi-nu.webp",
+    "keywords": "item guide, phối đồ theo item, item guide áo nữ: chọn form, layer và cách phối"
+  },
+  {
+    "title": "Item Guide Quần Nữ: Chọn Form, Cạp Và Cách Phối",
+    "url": "/blog/phoi-do-theo-quan-nu.html",
+    "type": "Item Guide Hub",
+    "description": "Hub quần nữ: jean ống suông, ống rộng, legging, quần tây, parachute, baggy, cargo, jogger, ống loe và cách phối theo tỷ lệ, cạp và footwear.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-jean-ong-suong-nu.webp",
+    "keywords": "item guide, phối đồ theo item, item guide quần nữ: chọn form, cạp và cách phối"
+  },
+  {
+    "title": "Item Guide Chân Váy & Váy Nữ: Chọn Form Và Độ Dài",
+    "url": "/blog/phoi-do-theo-chan-vay-vay-nu.html",
+    "type": "Item Guide Hub",
+    "description": "Hub chân váy và váy nữ: chữ A, da, dài, đuôi cá, denim, midi, xếp ly, xòe, váy ngắn; cách chọn top và giày theo form và tỷ lệ.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-midi.webp",
+    "keywords": "item guide, phối đồ theo item, item guide chân váy & váy nữ: chọn form và độ dài"
+  },
+  {
+    "title": "Item Guide Giày Nữ: Chọn Footwear Theo Outfit",
+    "url": "/blog/phoi-do-theo-giay-nu.html",
+    "type": "Item Guide Hub",
+    "description": "Hub giày nữ cá tính: Mary Jane, combat boots, platform boots, boots da; cách chọn footwear theo tỷ lệ outfit, độ nặng thị giác và hoàn cảnh.",
+    "image": "/images/blog-covers/giay-mary-jane-la-gi.webp",
+    "keywords": "item guide, phối đồ theo item, item guide giày nữ: chọn footwear theo outfit"
+  },
+  {
     "title": "Áo Sơ Mi Nữ Phối Với Quần Gì? Chọn Theo Form, Màu Và Cách Sơ Vin",
     "url": "/blog/phoi-do-voi-ao-so-mi-nu.html",
     "type": "Item Guide",
