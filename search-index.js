@@ -1,11 +1,203 @@
 window.searchIndex = [
   {
-    "title": "Quần Baggy Phối Với Áo Gì? 10 Công Thức Cho Nữ Cá Tính",
+    "title": "Áo Sơ Mi Nữ Phối Với Quần Gì? Chọn Theo Form, Màu Và Cách Sơ Vin",
+    "url": "/blog/phoi-do-voi-ao-so-mi-nu.html",
+    "type": "Item Guide",
+    "description": "Áo sơ mi nữ phối với quần gì? Cách xử lý sơ mi form rộng, sơ mi đen, sơ mi trắng, layer và sơ vin theo Dark Academia, Office Siren, Grunge.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-so-mi-nu.webp",
+    "keywords": "phối đồ với áo sơ mi nữ, áo sơ mi form rộng mặc với quần gì, áo sơ mi đen mặc với quần gì, áo sơ mi trắng phối với quần gì"
+  },
+  {
+    "title": "Áo Lưới Mặc Với Gì? Layer Mesh Top Không Bị Rối Hoặc Quá Hở",
+    "url": "/blog/phoi-do-voi-ao-luoi-nu.html",
+    "type": "Item Guide",
+    "description": "Áo lưới mặc với gì? Cách chọn lớp trong, bottom, outerwear và footwear cho mesh top theo E-Girl, Goth, Punk/Grunge và Dark Feminine.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-luoi-nu.webp",
+    "keywords": "áo lưới mặc với gì, phối đồ với áo lưới nữ, mesh top nữ phối đồ, áo lưới nữ mặc với gì"
+  },
+  {
+    "title": "Outfit Đi Đám Cưới Cho Nữ Cá Tính: Giữ Chất Riêng Mà Vẫn Đúng Dress Code",
+    "url": "/blog/outfit-di-dam-cuoi-nu-ca-tinh.html",
+    "type": "Dress Code Desk",
+    "description": "Gợi ý outfit đi đám cưới cho nữ cá tính theo dress code, venue và thời gian; hướng Dark Feminine, tailoring, midi, boots/Mary Jane không lấn át cô dâu.",
+    "image": "/images/blog-covers/outfit-di-dam-cuoi-nu-ca-tinh.webp",
+    "keywords": "outfit đi đám cưới cho nữ cá tính, phối đồ đi đám cưới nữ cá tính, outfit đám cưới nữ, đồ đi đám cưới nữ cá tính"
+  },
+  {
+    "title": "Quần Cạp Trễ Là Gì? Cách Nhận Biết Low-Rise Và Chọn Fit Không Bị Tuột",
+    "url": "/blog/quan-cap-tre-la-gi.html",
+    "type": "Fashion Basics",
+    "description": "Quần cạp trễ là gì? Phân biệt low-rise với mid/high-rise, đọc rise measurement, chọn fit ở eo-hông và hiểu vì sao cạp trễ gắn với Y2K.",
+    "image": "/images/blog-covers/quan-cap-tre-la-gi.webp",
+    "keywords": "quần cạp trễ là gì, quần cạp trễ nữ, quần jean cạp trễ nữ, low rise là gì, low rise jeans"
+  },
+  {
+    "title": "Quần Tây Ống Suông Phối Với Áo Gì? Từ Office Siren Đến Dark Academia",
+    "url": "/blog/phoi-do-voi-quan-tay-ong-suong-nu.html",
+    "type": "Item Guide",
+    "description": "Quần tây ống suông nữ phối với áo gì, giày gì? Cách đọc ly, cạp, độ rủ và chiều dài gấu để mặc theo Office Siren, Dark Academia và Dark Feminine.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-tay-ong-suong-nu.webp",
+    "keywords": "quần tây ống suông mặc với áo gì đẹp, quần tây ống rộng mặc với áo gì, quần tây ống suông nữ phối đồ, quần tây ống rộng phối với giày gì"
+  },
+  {
+    "title": "Quần Legging Phối Với Áo Gì? Cân Tỷ Lệ Để Không Thành Đồ Tập",
+    "url": "/blog/phoi-do-voi-quan-legging-nu.html",
+    "type": "Item Guide",
+    "description": "Quần legging phối với áo gì, giày gì? Cách chọn độ dài top, jacket, chất vải và footwear để mặc legging theo Baddie, Dark Athleisure và Y2K.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-legging-nu.webp",
+    "keywords": "quần legging phối với áo gì, quần legging mặc với áo gì, phối đồ với quần legging nữ, quần legging phối với giày gì"
+  },
+  {
+    "title": "Chân Váy Midi Phối Với Áo Gì? Chọn Top Và Giày Theo Từng Form",
+    "url": "/blog/phoi-do-voi-chan-vay-midi.html",
+    "type": "Item Guide",
+    "description": "Chân váy midi phối với áo gì, giày gì? Chọn theo A-line, slip, pleated, denim/leather; xử lý gấu giữa bắp chân để không dìm tỷ lệ.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-midi.webp",
+    "keywords": "chân váy midi mặc với áo gì, chân váy midi phối với áo gì, phối đồ với chân váy midi, chân váy midi phối giày gì"
+  },
+  {
+    "title": "Áo Trễ Vai Phối Với Gì? Cân Đường Vai Theo Dark Feminine Và Y2K",
+    "url": "/blog/phoi-do-voi-ao-tre-vai-nu.html",
+    "type": "Item Guide",
+    "description": "Áo trễ vai nữ phối với quần gì, chân váy gì? Cách cân neckline, bra/strap, độ ôm và tỷ lệ theo Dark Feminine, Y2K, Grunge mà vẫn dễ mặc.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-tre-vai-nu.webp",
+    "keywords": "áo trễ vai mặc với quần gì, áo trễ vai phối với chân váy gì, phối đồ với áo trễ vai nữ, áo trễ vai nữ phối với gì"
+  },
+  {
+    "title": "Áo Khoác Jean Nữ Phối Với Gì? Chọn Wash, Form Và Double Denim",
+    "url": "/blog/phoi-do-voi-ao-khoac-jean-nu.html",
+    "type": "Item Guide",
+    "description": "Phối đồ với áo khoác jean nữ theo wash sáng/tối, cropped/oversized, double denim và layer; công thức Grunge, E-Girl, Dark Y2K dễ áp dụng.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-khoac-jean-nu.webp",
+    "keywords": "phối đồ với áo khoác jean nữ, áo khoác jean nữ phối với gì, áo khoác bò nữ mặc với gì, denim jacket nữ phối đồ"
+  },
+  {
+    "title": "Áo Gile Nữ Phối Với Gì? Chọn Layer Theo Form Và Phong Cách",
+    "url": "/blog/phoi-do-voi-ao-gile-nu.html",
+    "type": "Item Guide",
+    "description": "Áo gile nữ phối với gì? Phân biệt sweater vest và waistcoat, chọn áo mặc trong, quần, chân váy, giày theo Dark Academia, Grunge và Office Siren.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-gile-nu.webp",
+    "keywords": "áo gile nữ phối với gì, phối đồ với áo gile nữ, áo gile len nữ phối với gì, áo gile nữ mặc với quần gì"
+  },
+  {
+    "title": "Áo Blazer Đen Nữ Phối Với Gì? 4 Silhouette Không Bị Quá Công Sở",
+    "url": "/blog/phoi-do-voi-ao-blazer-den-nu.html",
+    "type": "Item Guide",
+    "description": "Phối đồ với áo blazer đen nữ theo 4 silhouette: fitted, oversized, cropped và longline; chọn top, quần, váy, giày cho Office Siren, Dark Feminine, Grunge.",
+    "image": "/images/blog-covers/phoi-do-voi-ao-blazer-den-nu.webp",
+    "keywords": "phối đồ với áo blazer đen nữ, áo blazer đen nữ phối với gì, blazer đen nữ mặc với quần gì, blazer đen nữ phối chân váy"
+  },
+  {
+    "title": "Váy Midi Là Gì? Nhận Biết Chiều Dài Và Chọn Form Không Dìm Tỷ Lệ",
+    "url": "/blog/vay-midi-la-gi.html",
+    "type": "Fashion Basics",
+    "description": "Váy midi là gì? Cách nhận biết chiều dài giữa gối và mắt cá, phân biệt midi với mini/maxi và chọn form, giày, tỷ lệ theo style cá nhân.",
+    "image": "/images/blog-covers/vay-midi-la-gi.webp",
+    "keywords": "váy midi là gì, chiều dài váy midi là gì, midi dress là gì, chân váy midi là gì, váy midi dài đến đâu"
+  },
+  {
+    "title": "Quần Jean Ống Suông Phối Với Áo Gì? Phân Biệt Với Ống Rộng Trước Khi Phối",
+    "url": "/blog/phoi-do-voi-quan-jean-ong-suong-nu.html",
+    "type": "Item Guide",
+    "description": "Quần jean ống suông phối với áo gì, giày gì? Cách đọc straight-leg, chọn cạp, độ dài và phân biệt với jean ống rộng để phối Dark Y2K/Baddie.",
+    "image": "/images/blog-covers/phoi-do-voi-quan-jean-ong-suong-nu.webp",
+    "keywords": "quần jean ống suông phối với áo gì, phối đồ quần jean ống suông nữ, quần ống suông mặc với áo gì, quần jean ống suông phối với giày gì"
+  },
+  {
+    "title": "Chân Váy Xòe Phối Với Áo Gì? Cân Độ Bung Và Chuyển Động",
+    "url": "/blog/phoi-do-voi-chan-vay-xoe.html",
+    "type": "Item Guide",
+    "description": "Chân váy xòe phối với áo gì, giày gì? Cách cân full skirt ngắn/dài theo độ bung, cạp và chất liệu; phân biệt rõ với A-line và xếp ly.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-xoe.webp",
+    "keywords": "chân váy xòe phối với áo gì, phối đồ với chân váy xòe, chân váy xòe dài phối với áo gì, chân váy xòe ngắn phối với áo gì"
+  },
+  {
+    "title": "Chân Váy Xếp Ly Phối Với Áo Gì? Chọn Theo Độ Dài Và Độ Rộng Ly",
+    "url": "/blog/phoi-do-voi-chan-vay-xep-ly.html",
+    "type": "Item Guide",
+    "description": "Chân váy xếp ly phối với áo gì, giày gì? Cách cân tỷ lệ cho váy xếp ly ngắn và dài, từ E-Girl, Dark Academia đến Punk/Grunge.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-xep-ly.webp",
+    "keywords": "chân váy xếp ly phối với áo gì, phối đồ với chân váy xếp ly, chân váy xếp ly dài phối với áo gì, chân váy xếp ly ngắn phối với áo gì"
+  },
+  {
+    "title": "Chân Váy Jean Ngắn Phối Với Áo Gì? Giữ Tỷ Lệ Mà Không Bị Basic",
+    "url": "/blog/phoi-do-voi-chan-vay-jean-ngan.html",
+    "type": "Item Guide",
+    "description": "Chân váy jean ngắn phối với áo gì, giày gì? Cách xử lý wash, độ cứng denim, tỷ lệ mini và layer theo Dark Y2K, E-Girl, Grunge và Baddie.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-jean-ngan.webp",
+    "keywords": "chân váy jean ngắn phối với áo gì, chân váy jean ngắn phối đồ, chân váy bò ngắn phối với áo gì, chân váy jean ngắn phối với giày gì"
+  },
+  {
+    "title": "Chân Váy Dài Phối Với Áo Gì? Chọn Theo Form, Chất Liệu Và Gấu Váy",
+    "url": "/blog/phoi-do-voi-chan-vay-dai.html",
+    "type": "Item Guide",
+    "description": "Chân váy dài phối với áo gì, giày gì? Chọn theo form, độ rủ, chất liệu và độ rộng gấu; kèm hướng dẫn riêng cho chân váy dài đen, denim và xếp ly.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-dai.webp",
+    "keywords": "chân váy dài phối với áo gì, phối đồ với chân váy dài, chân váy dài mặc với áo gì, chân váy dài phối với giày gì"
+  },
+  {
+    "title": "Chân Váy Da Phối Với Áo Gì? Cân Độ Bóng, Form Và Footwear",
+    "url": "/blog/phoi-do-voi-chan-vay-da.html",
+    "type": "Item Guide",
+    "description": "Chân váy da phối với áo gì và giày gì? Cách cân leather skirt theo độ bóng, mini/midi, form A-line hoặc ôm để mặc Dark Feminine, Goth và Alt.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-da.webp",
+    "keywords": "chân váy da phối với áo gì, phối đồ với chân váy da, chân váy da phối với giày gì, chân váy da đen phối đồ"
+  },
+  {
+    "title": "Chân Váy Chữ A Phối Với Áo Gì? Cân Eo, Hông Và Độ Dài",
+    "url": "/blog/phoi-do-voi-chan-vay-chu-a.html",
+    "type": "Item Guide",
+    "description": "Chân váy chữ A phối với áo gì và giày gì? Cách đọc độ xòe, cạp và chiều dài để phối mini, midi hoặc dài theo Dark Feminine và Alt Fashion.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-chu-a.webp",
+    "keywords": "chân váy chữ a phối với áo gì, phối đồ với chân váy chữ a, chân váy chữ a ngắn phối với áo gì, chân váy chữ a dài phối với áo gì"
+  },
+  {
+    "title": "Phong Cách Emo Là Gì? Dấu Hiệu Nhận Biết Và Khác Scene, E-Girl, Grunge",
+    "url": "/blog/phong-cach-emo-la-gi.html",
+    "type": "Style Guide",
+    "description": "Phong cách Emo là gì? Nhận biết Emo fashion, bảng màu, item và cách phân biệt Emo với Scene, E-Girl, Grunge để không gom mọi alt look vào một nhóm.",
+    "image": "/images/blog-covers/phong-cach-emo-la-gi.webp",
+    "keywords": "phong cách emo, emo style, emo fashion, emo là gì, emo outfit nữ, emo và scene"
+  },
+  {
+    "title": "Chân Váy Jean Dài Phối Với Áo Gì? Chọn Top, Giày Và Tỷ Lệ Dễ Mặc",
+    "url": "/blog/phoi-do-voi-chan-vay-jean-dai.html",
+    "type": "Item Guide",
+    "description": "Chân váy jean dài phối với áo gì, giày gì? Chọn top theo form váy, độ dài qua gối, tỷ lệ cơ thể và style Dark Y2K, Grunge, Alt.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-jean-dai.webp",
+    "keywords": "chân váy jean dài phối với áo gì, chân váy jean dài mặc với áo gì, chân váy jean dài phối với giày gì, chân váy bò dài phối với áo gì"
+  },
+  {
+    "title": "Chân Váy Đuôi Cá Phối Với Áo Gì? Chọn Top Theo Form Và Tỷ Lệ",
+    "url": "/blog/phoi-do-voi-chan-vay-duoi-ca.html",
+    "type": "Item Guide",
+    "description": "Chân váy đuôi cá phối với áo gì, giày gì? Hướng dẫn chọn top theo điểm ôm, điểm xòe, tỷ lệ cơ thể và Dark Feminine, Coquette.",
+    "image": "/images/blog-covers/phoi-do-voi-chan-vay-duoi-ca.webp",
+    "keywords": "chân váy đuôi cá phối với áo gì, chân váy đuôi cá mặc với áo gì, chân váy đuôi cá phối với giày gì, chân váy đuôi cá hợp với dáng người nào"
+  },
+  {
+    "title": "Giày Mary Jane Là Gì? Nhận Biết Form Giày Và Cách Phối Theo Style",
+    "url": "/blog/giay-mary-jane-la-gi.html",
+    "type": "Fashion Basics",
+    "description": "Giày Mary Jane là gì? Cách nhận biết quai ngang mu, các biến thể flat, block heel, platform và cách phối Mary Jane theo Coquette, Vintage, Goth, Dark Feminine.",
+    "image": "/images/blog-covers/giay-mary-jane-la-gi.webp",
+    "keywords": "giày mary jane là gì, mary jane là gì, giày mary jane, mary jane shoes, cách phối giày mary jane"
+  },
+  {
+    "title": "Croptop Là Gì? Cách Chọn Độ Dài, Form Và Phối Đồ Không Lệch Tỷ Lệ",
+    "url": "/blog/croptop-la-gi.html",
+    "type": "Fashion Basics",
+    "description": "Croptop là gì, crop top khác bra top thế nào? Cách nhận biết độ dài, các form croptop và chọn tỷ lệ trước khi phối với quần, chân váy.",
+    "image": "/images/blog-covers/croptop-la-gi.webp",
+    "keywords": "croptop là gì, crop top là gì, croptop, áo croptop là gì, các loại croptop"
+  },
+  {
+    "title": "Quần Baggy Phối Với Áo Gì? Chọn Áo Theo Form, Tỷ Lệ Và Style",
     "url": "/blog/quan-baggy-phoi-voi-ao-gi.html",
     "type": "Item Guide",
-    "description": "Quần baggy phối với áo gì? 10 công thức với baby tee, graphic tee, crop top, corset, áo trễ vai, hoodie và cách phối baggy jean theo Baddie, E-Girl, Punk.",
+    "description": "Quần baggy phối với áo gì? Chọn áo theo form quần, tỷ lệ cơ thể, màu denim và style Baddie, E-Girl, Punk/Grunge; kèm gợi ý giày và Look thật.",
     "image": "/images/blog-covers/quan-baggy-phoi-voi-ao-gi.webp",
-    "keywords": "quần baggy phối với áo gì, quần baggy jean nữ phối với áo gì, quần baggy nữ phối với áo gì, cách phối quần baggy nữ, phối đồ với quần baggy nữ, baggy jean nữ, baddie baggy, e-girl baggy"
+    "keywords": "quần baggy phối với áo gì, quần baggy jean nữ phối với áo gì, quần baggy nữ phối với áo gì, cách phối quần baggy nữ, phối đồ với quần baggy nữ"
   },
   {
     "title": "Phối Đồ Với Quần Parachute Nữ: 8 Công Thức Không Bị Nuốt Dáng",
@@ -13,7 +205,7 @@ window.searchIndex = [
     "type": "Item Guide",
     "description": "Quần parachute nữ phối với áo gì? 8 công thức với baby tee, crop top, tank top, áo ôm và cách chọn giày, tỷ lệ cho Baddie, Dark Y2K.",
     "image": "/images/blog-covers/phoi-do-voi-quan-parachute-nu.webp",
-    "keywords": "quần parachute nữ phối với áo gì, phối đồ với quần parachute nữ, cách phối quần parachute nữ, quần parachute mặc với áo gì, baddie parachute, dark y2k parachute"
+    "keywords": "quần parachute nữ phối với áo gì, phối đồ với quần parachute nữ, cách phối quần parachute nữ, quần parachute mặc với áo gì"
   },
   {
     "title": "Casual Chic Là Gì? Cách Phối Đồ Nữ Chỉn Chu Mà Không Gồng",
