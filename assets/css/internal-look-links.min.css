@@ -9,3 +9,12 @@
 .related-outfit-copy strong{display:block;font-family:'Space Mono',monospace;font-size:11px;line-height:1.55;color:#f0ece4}
 .related-outfit-copy small{display:block;margin-top:6px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#999}
 @media(max-width:720px){.related-outfit-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.related-outfit-card:last-child:nth-child(odd){grid-column:1/-1}.related-outfit-copy{padding:10px}.related-outfit-copy strong{font-size:10px}}
+
+/* AC-EVIDENCE-V1 — item-specific editorial evidence blocks */
+.ac-look-evidence{margin:46px 0;padding:26px 24px;border:1px solid #292929;background:#0d0d0d}
+.ac-look-evidence>h2{margin-top:0}.ac-look-evidence>p{color:#c8c4bc;line-height:1.8}
+.ac-look-evidence h3{margin:26px 0 14px;font-family:'Oswald',sans-serif;font-size:20px;line-height:1.25;text-transform:uppercase;letter-spacing:.035em;color:#f0ece4}
+.ac-evidence-scope{padding:14px 16px;border-left:3px solid #666;background:#111;color:#aaa!important;font-size:12px}
+.ac-look-analysis{margin:16px 0 0;padding-left:20px}.ac-look-analysis li{margin:10px 0;color:#c8c4bc;line-height:1.75}.ac-look-analysis a{color:#f0ece4}
+.ac-evidence-note{margin:18px 0 8px;padding:18px 20px;border:1px dashed #3a3a3a;background:#0c0c0c}.ac-evidence-note h3{margin:0 0 12px;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.035em}.ac-evidence-note li{margin:8px 0;line-height:1.7}
+@media(max-width:720px){.ac-look-evidence{margin:36px 0;padding:20px 16px}.ac-look-evidence h3{font-size:18px}.ac-evidence-note{padding:16px}}
