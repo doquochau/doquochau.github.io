@@ -40,6 +40,14 @@ window.searchIndex = [
     "keywords": "item guide, phối đồ theo item, item guide giày nữ: chọn footwear theo outfit"
   },
   {
+    "title": "Bad Girl Outfit Ideas — 112 Pinterest Looks",
+    "url": "/bad-girl-outfits.html",
+    "type": "Baddie Streetwear",
+    "description": "112 Bad Girl outfit ideas trong Pinterest moodboard theo Baddie, E-Girl, Goth, Dark Feminine và Punk / Grunge; mở từng Pin gốc để lưu inspiration.",
+    "image": "/images/badgirl-outfits/badgirl-baddie-streetwear-look-27-full-outfit.webp",
+    "keywords": "bad girl outfit ideas, badgirl outfit, baddie outfit, pinterest moodboard, bad girl looks"
+  },
+  {
     "title": "Áo Sơ Mi Nữ Phối Với Quần Gì? Chọn Theo Form, Màu Và Cách Sơ Vin",
     "url": "/blog/phoi-do-voi-ao-so-mi-nu.html",
     "type": "Item Guide",

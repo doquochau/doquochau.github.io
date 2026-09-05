@@ -737,7 +737,7 @@ window.addEventListener('load', function () {
   window.setTimeout(function () {
     var cards = grid.querySelectorAll('.outfit-card');
     if (!cards.length && !grid.textContent.trim()) {
-      grid.innerHTML = '<p class="ac-filter-empty">Không tải được dữ liệu outfit. Hãy kiểm tra file outfits.js rồi tải lại trang.</p>';
+      grid.innerHTML = '<p class="ac-filter-empty">Không tải được dữ liệu outfit. Hãy kiểm tra gói dữ liệu outfit của phong cách này rồi tải lại trang.</p>';
     }
   }, 1200);
 }, { once: true });
